@@ -1,0 +1,38 @@
+sudo: false
+language: node_js
+env:
+  matrix:
+  - NODE=6
+  - NODE=5
+  - NODE=4
+  - BROWSER=chrome
+  - BROWSER=firefox
+  - BROWSER=safari
+  - BROWSER=android
+  - BROWSER=iphone
+  global:
+  - secure: yfHFpCv7SYjeHAsTdmvZJ16aUAPkNJyGv0TLMUjCjLs7dNkR0ppPnFUoWIbx20SSCO7947ycB+irmSJ7EHrgRoFRjMTW/QtqiOBdsqSrzS+O9bE4KlFnWbYoDZ2CyFbC8tgBHlQ7+bLO1U+YdaipS9wf9RN4phOstOfQUTdNL75CWL77oEIHKnv3yFN645I28HRFXna2/0d1F4w4BlkmQ3nEC+EtnL6AFhV/E5jkFG5QJa6fRDX/02mjzgYvZwB6jTRGtz0qkcPsX9jAIvfZKIneWOiCqsrhFbNuXFzAzeEcOF0TFTQeRLjE2Qs8E1ux6gWU/D5zZSrYA/2stE92Bge/CPBZ/L0qjAuGDrxdKM7HoVry4r7/gS95A723NbCqAp7aMWMWO96an4/r1lktxThJrB749AOsutkupQCzz6XP1u2sx/XjFgqPuDqBWjI99Y3rbKP4q5HlDvMP/kW31Z1Iue4t9ikqyeqSfS4oLSV0wXTpMaw7qCZp3fYW0RNpAp9o89zllCTrBvd1ThxuftaS0QQtze5WFaLzuaJsjZITl866x7uT/Zyzq2TT5UBb2AivXp3n00WPuxclCB+4CDGLs7CV/grhx1PV84xw9Ycb0L/8Mko/BoU149VNGQUdyfeExntPi4aBk5r6BaOLBolNf52ACGQsyh3NDUPU9fo=
+  - secure: zOih5v3S7qhPXzXlswT8Nx2oqnLRvah0uFJXARc6nKeVSk1aI1zpef/y3u3RXLXISH5I2n9DlnFJRfiILZyjHYVIBwS6IwuJ5fK7xWnx3VPB7W6/RDxh1o2UjBKKXcUi53gyGTWaLBUDxN6F9G2SZ5uHPbLn89XzHanOrMb+x8JuKWuRjG2Z6fEMXtDODAkLvn19bcckwU8rwbBRCaZmijP1adEi/B6NtSvcGrWInWRvHgi5/UFTI5bG4B+WGSxwgW2nTzgKSuWqHByTCMJulA4HZHK7PKv6ZqcmKxQ3/1pXhRziVVqceNGyXax0D1fyat9bUcmHCKGpWeGdOlp4GM2szZmSbisVX69Ok488eEOi/+vHBg4X3ZXoxVmfdyW9RMkS7Gk3J490wjzT1iaARlHOyGTFpQ7ogb3Wfcb/ex6F+VyYUCnVV9es2m51l6P/joU3AJtwozRvu/DiPgJH1iKLwKptyCFsVwY4NG4U6PN3q4UYWPnmAEnSF3IDKKoxe2BYrtWjHkYChyDjZk8fK1DXYiC/zDQ6fNPXjEKhfbtDG7H4VyiQG2Dx6CK2QrsW3SoQlZJbGxn9MASir49LfqnJtXmsejKq1L58cVDzu96/X+KmFGNFGZrrPYlcsYxaLvR+f0ZuAIq9iH6x/uKoGfoK6N/202SDEutMu16IQ7U=
+addons:
+  apt:
+    packages:
+    - build-essential
+    - clang
+    - libdbus-glib-1-dev
+    - libgtk2.0-dev
+    - libnotify-dev
+    - libgnome-keyring-dev
+    - libgconf2-dev
+    - libasound2-dev
+    - libcap-dev
+    - libcups2-dev
+    - libxtst-dev
+    - libxss1
+    - libnss3-dev
+    - gcc-multilib
+    - g++-multilib
+    - xvfb
+install: true
+script: ./test/travis.sh
+notifications:
+  email: false

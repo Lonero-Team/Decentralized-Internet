@@ -1,0 +1,5 @@
+module.exports = require('./lib/lightNode.js')
+module.exports.LightNode = require('./lib/lightNode.js')
+module.exports.RpcClient = require('./lib/rpc.js')
+module.exports.RpcClient.METHODS = require('./lib/methods.js')
+Object.assign(module.exports, require('./lib/verify.js'))
