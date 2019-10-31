@@ -9,10 +9,12 @@ Also special thanks to:
 [The Lonero Dev Team](https://github.com/lonero-team)
    
  * May need some updates in Seed Migration for some of the org repos
-
-  ![Website](https://img.shields.io/website?url=http%3A%2F%2Flonero.org)
-
+ 
 Papers worth checking out:
 [Lonero Whitepaper (Original)](https://www.academia.edu/37041064/Lonero_Whitepaper_v1)  | [CrowdCoin Scientific Whitepaper](https://www.academia.edu/37832290/CrowdCoin_Scientific_Whitepaper)
 
 This NPM library/package is being mantained by the folks [here](starkdrones.org/home/os)
+
+```
+npm i decentralized-internet
+```
