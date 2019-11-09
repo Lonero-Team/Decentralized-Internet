@@ -1,6 +1,6 @@
 {
   "name": "decentralized-internet",
-  "version": "1.0.6",
+  "version": "1.0.9",
   "description": "An NPM library of programs to create decentralized web and distributed computing projects",
   "main": "index.js",
   "scripts": {
