@@ -1,5 +1,5 @@
 # Decentralized Internet
-![npm](https://img.shields.io/npm/dt/decentralized-internet) | ![Discord](https://img.shields.io/discord/639489591664967700) | ![Gitter](https://img.shields.io/gitter/room/Decentralized-Internet/community)
+![npm](https://img.shields.io/npm/dt/decentralized-internet) | [![Discord](https://img.shields.io/discord/639489591664967700)](https://discord.gg/buTafPc) | [![Gitter](https://img.shields.io/gitter/room/Decentralized-Internet/community)](https://gitter.im/Decentralized-Internet/community?source=orgpage) | [![Read the Docs](https://img.shields.io/readthedocs/lonero)](https://lonero.readthedocs.io/en/latest/)
 
 This NPM library is a collection of the following repos made for the purpose of building decentralized web projects:
 
