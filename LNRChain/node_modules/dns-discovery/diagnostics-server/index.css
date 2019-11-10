@@ -1,0 +1,52 @@
+html {
+  font-family: sans-serif;
+}
+
+h3 {
+  font-weight: normal;
+}
+
+td {
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+#nav {
+  font-size: 19px;
+  border-bottom: 1px solid gray;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+#nav a {
+  color: gray;
+  margin-right: 10px;
+}
+#nav a:not(.active):hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+#nav a.active {
+  color: black;
+  text-decoration: underline;
+}
+
+#views > div {
+  display: none;
+}
+#views > div.active {
+  display: block;
+}
+
+.collapsable {
+  display: none;
+}
+.collapsable.open {
+  display: block;
+}
+.toggle-collapsable {
+  color: blue;
+  cursor: pointer;
+}
+.toggle-collapsable:hover {
+  text-decoration: underline;
+}

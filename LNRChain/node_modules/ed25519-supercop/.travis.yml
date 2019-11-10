@@ -1,0 +1,37 @@
+sudo: false
+language: node_js
+node_js:
+- node
+addons:
+  apt:
+    sources:
+    - ubuntu-toolchain-r-test
+    packages:
+    - g++-4.8
+    - gcc-4.8-multilib
+    - g++-4.8-multilib
+    - gcc-multilib
+    - g++-multilib
+os:
+- osx
+- linux
+before_deploy:
+- ARCHIVE_NAME="${TRAVIS_TAG:-latest}-$TRAVIS_OS_NAME-`uname -m`.tar"
+- npm run prebuild
+- if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then ARCH=ia32 npm run prebuild; fi
+- tar --create --verbose --file="$ARCHIVE_NAME" --directory "$TRAVIS_BUILD_DIR/prebuilds"
+  .
+install:
+  - npm run vendor
+  - npm install
+deploy:
+  provider: releases
+  draft: false
+  prerelease: true
+  file: "$ARCHIVE_NAME"
+  skip_cleanup: true
+  on:
+    tags: true
+    node: node
+  api_key:
+    secure: c08mFkC7ZQFTDnLua0Sau6TlHBwmwfjOC98Uh1JZe2K4CeHQo1XzsISzR2gYg/ANqAZLJrs1DxnegbTQtIci7QT5/F7q9vq/8RU9VeNM7FuNk4NvEspLXRn/oGndKMDjHe/UZdpvsyxKQ5CkEUFyOgNCftt5ybCptY7tC0sCn4q9e2/oL70lRUaqCEpLxVcovW4I79rn91j9klkwca1ZrQj+afiGD+fgap4rFG6q2Ooxk5+oNOfx1zvuSNgctmWfmuwwtP2vgJlyog/dGFRIR5lL8JaeGkRdFUytkB4YFpHpvpMWTm5mlxxXv1lDHXYUc9HiFhScc5kDFKM1mM0pIZ2EZ0V146UqX004R6uWwlu2NBNBeHVH8ca0qwhEmWp++9+bLM6mU/kDDnM8+HnBh5JkcvfKxg51SoX6HGgVxbVODF0C1L8sEEgs8E6L3TqjBfLU/OYAApdao/i+8HGwsgy+U5D81h2H/QplrrpqTwXjfUdDB6BYwZH521FMH2f/XkHYajp+RlVV7ZJKDwYWt8+JpVnnVpYO480sKCb4WFJoSPpgGS3llVpQ1oSPZ5wscDLTr7RkPDbe1LYlay6TU3Sf/X1p/lfZMNJg2wwSJgrD+1W6QTgxpU2560q64uU0b4JSHPPw2o/E18QXruOJ0RV0GxWwhh1Ic9MIybVJ914=
