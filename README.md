@@ -15,6 +15,11 @@ Papers worth checking out:
 
 This NPM library/package is being mantained by the folks [here](starkdrones.org/home/os)
 
+#### Install via NPM:
 ```
 npm i decentralized-internet
+```
+#### Install via APM:
+```
+apm install decentralized-internet
 ```
