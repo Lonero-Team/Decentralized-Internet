@@ -15,15 +15,11 @@ Papers worth checking out:
 
 This NPM library/package is being mantained by the folks [here](starkdrones.org/home/os)
 
-#### Install via NPM:
-```
-npm i decentralized-internet
-```
-#### Install via APM:
-```
-apm install decentralized-internet
-```
-#### Install via YARN:
-```
-yarn add decentralized-internet
-```
+#### Installation Methods
+Install via NPM: `npm i decentralized-internet`
+
+Install via APM: `apm install decentralized-internet`
+
+Install via YARN: `yarn add decentralized-internet`
+
+Install via SNAP: `sudo snap install decentralized-internet --edge`
