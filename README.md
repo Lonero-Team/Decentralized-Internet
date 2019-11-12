@@ -23,3 +23,7 @@ npm i decentralized-internet
 ```
 apm install decentralized-internet
 ```
+#### Install via YARN:
+```
+yarn add decentralized-internet
+```
