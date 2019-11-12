@@ -35,6 +35,7 @@
   ],
   "author": "Andrew Magdy Kamal, The Lonero Dev Team",
   "license": "MIT",
+  "private": false,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Lonero-Team/Decentralized-Internet.git"
