@@ -1,0 +1,12 @@
+name: decentralized-internet
+version: git
+summary: Decentralized NPM Packages
+description: |
+  An NPM Library of software for a decentralized web
+confinement: devmode
+base: core18
+
+parts:
+  decentralized-internet:
+    plugin: nodejs
+    source: .
