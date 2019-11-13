@@ -23,3 +23,4 @@ Install via APM: `apm install decentralized-internet`
 Install via YARN: `yarn add decentralized-internet`
 
 Install via SNAP: `sudo snap install decentralized-internet --edge`
+###### App to add GitHub metrics tracking to select repos [here](https://github.com/apps/decentralized-internet)
