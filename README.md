@@ -24,3 +24,4 @@ Install via YARN: `yarn add decentralized-internet`
 
 Install via SNAP: `sudo snap install decentralized-internet --edge`
 ###### App to add GitHub metrics tracking to select repos [here](https://github.com/apps/decentralized-internet)
+###### See original compatibility status update [here](https://www.minds.com/newsfeed/1040672641569824768?referrer=LoneroLNR)
