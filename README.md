@@ -1,8 +1,7 @@
 # Decentralized Internet
-![npm](https://img.shields.io/npm/dt/decentralized-internet) | [![Discord](https://img.shields.io/discord/639489591664967700)](https://discord.gg/buTafPc) | [![Gitter](https://img.shields.io/gitter/room/Decentralized-Internet/community)](https://gitter.im/Decentralized-Internet/community?source=orgpage) | [![Read the Docs](https://img.shields.io/readthedocs/lonero)](https://lonero.readthedocs.io/en/latest/)
+![npm](https://img.shields.io/npm/dt/decentralized-internet?label=NPM%20Downloads) | ![Crates.io](https://img.shields.io/crates/d/decentralized-internet?label=crates.io%20Downloads) | [![Discord](https://img.shields.io/discord/639489591664967700)](https://discord.gg/buTafPc) | [![Gitter](https://img.shields.io/gitter/room/Decentralized-Internet/community)](https://gitter.im/Decentralized-Internet/community?source=orgpage) | [![Read the Docs](https://img.shields.io/readthedocs/lonero)](https://lonero.readthedocs.io/en/latest/)
 
-This NPM library is a collection of the following repos made for the purpose of building decentralized web projects:
-
+The NPM library is a collection of the following repos made for the purpose of building decentralized web projects:
 [lotion](https://github.com/nomic-io/lotion) | [bitcoin-peg](https://www.npmjs.com/package/bitcoin-peg) | [clusterpost](https://github.com/juanprietob/clusterpost) | [gridbee-framework](https://github.com/BME-IK/gridbee-framework) | [Reinvent-the-Internet](https://github.com/Mentors4EDU/Reinvent-the-Internet)
 
 Also special thanks to:
