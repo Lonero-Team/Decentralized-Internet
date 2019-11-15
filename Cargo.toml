@@ -1,0 +1,30 @@
+[package]
+name = "decentralized-internet"
+version = "0.1.1"
+authors = ["Andrew Kamal"]
+readme = "README.md"
+description = "A library to create decentralized and grid computing applications via Rust"
+license = "MIT"
+keywords = ["data", "cryptocurrency", "asynchronous", "algorithms", "computing"]
+categories = ["development-tools"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+fs = "0.0.5"
+io = "0.0.2"
+env = "0.0.0"
+log = "0.4.0"
+rand = "0.7.2"
+time = "0.1.42"
+rayon = "1.2.0"
+chrono = "0.4.9"
+tokio = "0.1.22"
+thread = "0.0.1"
+worker = "1.0.0"
+futures = "0.3.1"
+num_cpus = "1.11.1"
+env_logger = "0.7.1"
+process_lock = "0.1.0"
+streaming-harness = "0.1.1"
