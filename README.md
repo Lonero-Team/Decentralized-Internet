@@ -15,6 +15,34 @@ Papers worth checking out:
 
 This NPM library/package is being mantained by the folks [here](starkdrones.org/home/os)
 
+
+#### Lotion Sample (State Machines):
+* From original [Lotion](https://lotionjs.com/) [repo](https://github.com/nomic-io/lotion) (shown on installation page for demo purposes)
+
+```
+// app.js
+let lotion = require('lotion')
+let app = lotion({
+	initialState: {
+		count: 0
+	}
+})
+function transactionHandler(state, transaction) {
+	if (state.count === transaction.nonce) {
+		state.count++
+	}
+}
+let connect = require('lotion-connect')
+app.use(transactionHandler)
+app.start().then(appInfo => console.log(appInfo.GCI))
+```
+
+#### ccxml Device Connection Sample Code:
+- xml taken from TI's IDE in device config for driver
+```
+<connection XML_version="1.2" id="TI MSP430 USB1">
+```
+
 #### Installation Methods
 Install via NPM: `npm i decentralized-internet`
 
