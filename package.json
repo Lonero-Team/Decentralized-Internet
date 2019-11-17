@@ -11,11 +11,13 @@
   },
   "bundleDependencies": false,
   "dependencies": {
-    "bitcoin-protocol": "^4.0.1",
-    "bitcoin-util": "^2.0.0",
-    "lotion": "^0.4.26",
+    "async": "^3.1.0",
     "coins": "^4.5.0",
-    "websocket-stream": "^3.3.0"
+    "lotion": "^0.4.26",
+    "tendermint": "^4.0.8",
+    "bitcoin-util": "^2.0.0",
+    "websocket-stream": "^3.3.0",
+    "bitcoin-protocol": "^4.0.1"
   },
   "keywords": [
     "Web",
