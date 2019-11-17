@@ -35,7 +35,6 @@ let connect = require('lotion-connect')
 app.use(transactionHandler)
 app.start().then(appInfo => console.log(appInfo.GCI))
 ```
-
 #### ccxml Device Connection Sample Code:
 - xml taken from TI's IDE in device config for driver
 ```
