@@ -53,4 +53,4 @@ Install via SNAP: `sudo snap install decentralized-internet --edge`
 ###### App to add GitHub metrics tracking to select repos [here](https://github.com/apps/decentralized-internet) 
 ###### [Potential BitBucket Marketplace App](https://bitbucket.org/gamer456148/decentralized-internet/src/master/)
 ###### See original compatibility status update [here](https://www.minds.com/newsfeed/1040672641569824768?referrer=LoneroLNR)
-***** See NPM updates
+***** See NPM v-updates
