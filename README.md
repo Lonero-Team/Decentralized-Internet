@@ -15,7 +15,6 @@ Papers worth checking out:
 
 This NPM library/package is being mantained by the folks [here](starkdrones.org/home/os)
 
-
 #### Lotion Sample (State Machines):
 * From original [Lotion](https://lotionjs.com/) [repo](https://github.com/nomic-io/lotion) (shown on installation page for demo purposes)
 
