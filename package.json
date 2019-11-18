@@ -19,6 +19,10 @@
     "websocket-stream": "^3.3.0",
     "bitcoin-protocol": "^4.0.1"
   },
+  "devDependencies": {
+    "hash.js": "^1.1.7",
+    "typescript": "^3.1.2"
+  },
   "keywords": [
     "Web",
     "P2P",
