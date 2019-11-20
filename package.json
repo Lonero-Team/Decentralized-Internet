@@ -25,6 +25,7 @@
     "easy-bigchain": "^1.0.1",
     "bigchaindb-driver": "^4.1.1"
   },
+  "homepage": "starkdrones.org",
   "keywords": [
     "Web",
     "P2P",
@@ -42,7 +43,7 @@
     "Parallel Processing"
   ],
   "author": "Andrew Magdy Kamal, The Lonero Dev Team",
-  "license": "MIT",
+  "license": "zlib or MIT",
   "private": false,
   "repository": {
     "type": "git",
