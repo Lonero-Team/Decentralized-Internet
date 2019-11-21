@@ -20,6 +20,7 @@
     "bitcoin-protocol": "^4.0.1"
   },
   "devDependencies": {
+    "bcrypt": "^3.0.7",
     "hash.js": "^1.1.7",
     "typescript": "^3.1.2",
     "easy-bigchain": "^1.0.1",
