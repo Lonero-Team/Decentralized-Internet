@@ -9,6 +9,10 @@
   },
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
+    "Deno": ">= 0.22.0",
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0",
+    "yarn": "^0.13.0"
   },
   "bundleDependencies": false,
   "dependencies": {
@@ -26,12 +30,6 @@
     "typescript": "^3.1.2",
     "easy-bigchain": "^1.0.1",
     "bigchaindb-driver": "^4.1.1"
-  },
-  "engines": {
-    "Deno": ">= 0.22.0",
-    "node": ">= 6.0.0",
-    "npm": ">= 3.0.0",
-    "yarn": "^0.13.0"
   },
   "homepage": "http://bit.ly/lonero_os",
   "keywords": [
