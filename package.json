@@ -1,10 +1,10 @@
 {
   "name": "decentralized-internet",
-  "version": "3.4.0",
+  "version": "1.6.4",
   "description": "An NPM library of programs to create decentralized web and distributed computing projects",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
   "bugs": "https://github.com/Lonero-Team/Decentralized-Internet/issues"
   },
   "engines": {
