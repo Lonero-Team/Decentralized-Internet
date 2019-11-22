@@ -8,7 +8,7 @@
   "bugs": "https://github.com/Lonero-Team/Decentralized-Internet/issues"
   },
   "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+    "atom": ">=1.0.0 <2.0.0",
     "Deno": ">= 0.22.0",
     "node": ">= 6.0.0",
     "npm": ">= 3.0.0",
