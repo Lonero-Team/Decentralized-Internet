@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-  "bugs": "https://github.com/Lonero-Team/Decentralized-Internet/issues"
+  "bugs": "https://github.com/Lonero-Team/Decentralized-Internet/issues",
   "contact-dev": "https://minds.com/gamer456148"  
   },
   "engines": {
