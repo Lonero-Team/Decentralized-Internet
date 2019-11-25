@@ -1,0 +1,14 @@
+ ---
+template
+  name: "Decentralized Internet"
+  description: "Initialize Decentralized Internet Repo."
+  header: '![](toolchain.svg)'
+  icon: icon.svg
+  required:
+   - sample-build
+   - sample-repo
+  info:
+    git url: >-
+      [https://github.com/Lonero-Team/Decentralized-Internet/)
+    git branch: >-
+      [master](https://github.com/Lonero-Team/Decentralized-Internet/tree/master)
