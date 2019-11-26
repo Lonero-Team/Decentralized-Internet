@@ -17,22 +17,56 @@
     "npm": ">= 3.0.0",
     "yarn": "^0.13.0"
   },
+  "scripts": {
+    "build": "ember build",
+    "lint:hbs": "ember-template-lint .",
+    "lint:js": "eslint .",
+    "start": "ember serve",
+    "test": "ember test",
+    "test:all": "ember try:each"
+  },
   "bundleDependencies": false,
-  "dependencies": {
+    "dependencies": {
     "async": "^3.1.0",
     "coins": "^4.5.0",
     "lotion": "^0.4.26",
     "tendermint": "^4.0.8",
     "bitcoin-util": "^2.0.0",
     "websocket-stream": "^3.3.0",
-    "bitcoin-protocol": "^4.0.1"
+    "bitcoin-protocol": "^4.0.1",
+    "ember-cli-babel": "^7.11.1",
+    "ember-cli-htmlbars": "^4.0.5"
   },
   "devDependencies": {
     "bcrypt": "^3.0.7",
     "hash.js": "^1.1.7",
+    "ember-try": "^1.2.1",
+    "loader.js": "^4.7.0",
+    "qunit-dom": "^0.9.0",
     "typescript": "^3.1.2",
+    "ember-cli": "~3.14.0",
+    "ember-qunit": "^4.5.1",
+    "ember-source": "~3.14.1",
     "easy-bigchain": "^1.0.1",
-    "bigchaindb-driver": "^4.1.1"
+    "ember-cli-sri": "^2.1.1",
+    "babel-eslint": "^10.0.3",
+    "ember-resolver": "^5.3.0",
+    "ember-cli-eslint": "^5.1.0",
+    "ember-cli-uglify": "^3.0.0",
+    "ember-auto-import": "^1.5.2",
+    "bigchaindb-driver": "^4.1.1",
+    "broccoli-asset-rev": "^3.0.0",
+    "eslint-plugin-ember": "^7.1.0",
+    "eslint-plugin-node": "^10.0.0",
+    "ember-load-initializers": "^2.1.0",
+    "@ember/optional-features": "^1.0.0",
+    "ember-source-channel-url": "^2.0.1",
+    "ember-cli-dependency-checker": "^3.1.0",
+    "ember-cli-inject-live-reload": "^2.0.1",
+    "ember-cli-template-lint": "^1.0.0-beta.3",
+    "ember-maybe-import-regenerator": "^0.1.6",
+    "ember-export-application-global": "^2.0.0",
+    "ember-disable-prototype-extensions": "^1.1.3"
   },
   "homepage": "http://bit.ly/lonero_os",
   "keywords": [
@@ -45,6 +79,7 @@
     "Internet",
     "Protocols",
     "Blockchain",
+    "ember-addon",
     "Distributed",
     "Decentralized",
     "Cryptocurrency",
@@ -60,6 +95,9 @@
   },
   "bugs": {
     "url": "https://github.com/Lonero-Team/Decentralized-Internet/issues"
+},
+  "ember-addon": {
+    "configPath": "config/ember-try.js"
   },
   "homepage": "https://github.com/Lonero-Team/Decentralized-Internet#readme"
 }
