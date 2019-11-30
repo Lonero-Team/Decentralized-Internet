@@ -18,7 +18,7 @@ This project was created in order to support a new internet. One that is more op
 ##### Some People Worth Checking Out:
 [Cryptonote Foundation](https://cryptonotefoundation.org/) | [P2P Foundation](https://p2pfoundation.net/) | [Cosmos Network](https://tendermint.com/)
 
-☐ Join Lonero's [Sub-Reddit](reddit.com/r/lonero)
-☐ Upvote us via [ProductHunt](https://www.producthunt.com/posts/lonero-protocol-v1) 
+☐ Join Lonero's [Sub-Reddit](reddit.com/r/lonero)  
+☐ Upvote us via [ProductHunt](https://www.producthunt.com/posts/lonero-protocol-v1)  
 ___
 Last Updated: 11/30/2019
