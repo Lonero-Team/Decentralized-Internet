@@ -4,7 +4,7 @@
 
 [![LNRLogo](http://img.youtube.com/vi/ZeSfj7ETkpw/0.jpg)](http://www.youtube.com/watch?v=ZeSfj7ETkpw "Lonero Logo Reveal")
 
-Visit [Lonero](lonero.org)  | [Stats Counter](https://www.lonero.org/#1575006761747-394c2f7a-8642_) | Join our [Telegram](https://t.me/lonero) | Follow Lonero via [Minds](https://www.minds.com/loneroLNR/)  
+Visit [Lonero](https://www.lonero.org/)  | [Stats Counter](https://www.lonero.org/#1575006761747-394c2f7a-8642_) | Join our [Telegram](https://t.me/lonero) | Follow Lonero via [Minds](https://www.minds.com/loneroLNR/)  
 ##### About Lonero:
 Lonero is a newly emerging cryptocurrency that aims to be the future of digital cash. The problem with current privacy coins, alt coins, and emerging cryptocurrencies relies mainly on stability, security, and an unknown future. We aim to fix many of these stability issues, be extremely decentralized, and have technology that actively supports the community. We are utilizing some of the most advanced technological protocols in order to do so. This includes our consensus protocols that support less barriers amongst ASIC vs. Non-ASIC systems, along with the Cryptonote foundation’s widely trusted ring signature protocols, multiple layers of security, and a utilization of “Proof of Work” and “Proof of Space” mining. Among the technology we are also integrating a Decentralized Autonomous Organization or DAO, bounty programs, and a mathematical proof that allows further decentralization. We believe that mining rewards shouldn’t merely be limited to hardware specifications but also to total mathematical knowledge, so we provide a fair market game to everyone involved.
 
@@ -18,7 +18,7 @@ This project was created in order to support a new internet. One that is more op
 ##### Some People Worth Checking Out:
 [Cryptonote Foundation](https://cryptonotefoundation.org/) | [P2P Foundation](https://p2pfoundation.net/) | [Cosmos Network](https://tendermint.com/)
 
-☐ Join Lonero's [Sub-Reddit](reddit.com/r/lonero)  
+☐ Join Lonero's [Sub-Reddit](https://www.reddit.com/r/Lonero/)  
 ☐ Upvote us via [ProductHunt](https://www.producthunt.com/posts/lonero-protocol-v1)  
 ___
-Last Updated: 11/30/2019
+Last Updated: 12/04/2019
