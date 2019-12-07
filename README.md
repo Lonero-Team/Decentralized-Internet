@@ -43,16 +43,12 @@ app.start().then(appInfo => console.log(appInfo.GCI))
 ```
 
 #### Installation Methods
-Install via NPM: `npm i decentralized-internet`
-
-Install via YARN: `yarn add decentralized-internet`
-
-Install via APM: `apm install decentralized-internet`
-
-Ember Installation: `ember install decentralized-internet`
-
-Install via SNAP: `sudo snap install decentralized-internet --edge`
-
+Install via NPM: `npm i decentralized-internet`  
+Install via YARN: `yarn add decentralized-internet`  
+Install via APM: `apm install decentralized-internet`  
+Ember Installation:  `ember install decentralized-internet`  
+Install via SNAP: `sudo snap install decentralized-internet --edge`  
+Install via Docker: `docker pull gamer456148/decentralized-internet`  
 ##### Arch Linux Installation Instructions:
 ```
 git clone https://aur.archlinux.org/snapd.git
@@ -61,7 +57,15 @@ makepkg -si
 sudo systemctl enable --now snapd.socket
 sudo ln -s /var/lib/snapd/snap /snap
 sudo snap install decentralized-internet --edge
+```  
+##### Install via Dart:
+Add to your pubspec.yaml file:
 ```
+dependencies:
+  decentralized_internet: ^3.4.1
+```
+Run: `pub get`
+
 ###### App to add GitHub metrics tracking to select repos [here](https://github.com/apps/decentralized-internet) 
 ###### [Potential BitBucket Marketplace App](https://bitbucket.org/gamer456148/decentralized-internet/src/master/)
 ###### See original compatibility status update [here](https://www.minds.com/newsfeed/1040672641569824768?referrer=LoneroLNR)
