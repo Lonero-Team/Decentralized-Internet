@@ -1,0 +1,9 @@
+name: decentralized_internet
+author: The Lonero Team <andrew@etherstone.org>
+version: 3.4.1
+description: >-
+  A library to build distributed web and computing projects.
+homepage: https://www.starkdrones.org/home/os
+documentation: https://lonero.readthedocs.io
+environment:
+  sdk: '>=2.0.0 <3.0.0'
