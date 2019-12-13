@@ -1,6 +1,6 @@
 [package]
 name = "decentralized-internet"
-version = "0.2.1"
+version = "0.2.2"
 authors = ["Andrew Kamal"]
 readme = "README.md"
 description = "A library to create decentralized and grid computing applications via Rust"
