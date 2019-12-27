@@ -41,12 +41,12 @@ app.start().then(appInfo => console.log(appInfo.GCI))
 ```
 <connection XML_version="1.2" id="TI MSP430 USB1">
 ```
-
 #### Installation Methods
 Install via NPM: `npm i decentralized-internet`  
 Install via YARN: `yarn add decentralized-internet`  
 Install via APM: `apm install decentralized-internet`  
 Ember Installation:  `ember install decentralized-internet`  
+Install via VS Code: `ext install Lonero.decentralized-internet`  
 Install via SNAP: `sudo snap install decentralized-internet --edge`  
 Install via Docker: `docker pull gamer456148/decentralized-internet`  
 ##### Arch Linux Installation Instructions:
