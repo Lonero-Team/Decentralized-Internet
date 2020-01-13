@@ -44,7 +44,7 @@ app.start().then(appInfo => console.log(appInfo.GCI))
 ```
 #### Installation Methods
 Install via NPM: `npm i decentralized-internet`  
-Install via DUB: `dub add decentralized-internet`
+Install via DUB: `dub add decentralized-internet`  
 Install via YARN: `yarn add decentralized-internet`  
 Install via PIP: `pip install decentralized-internet`  
 Install via APM: `apm install decentralized-internet`  
