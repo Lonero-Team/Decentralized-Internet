@@ -68,7 +68,15 @@ dependencies:
   decentralized_internet: ^3.4.1
 ```
 Run: `pub get`
-
+##### Use this Module via Puppet:
+Add this to your Puppetfile as a declaration:  
+`mod 'gamer456148-decentralized_internet', '0.1.0'`  
+Next run the command:  
+`bolt puppetfile install`  
+Instead of the above, you can also try adding:  
+`mod 'gamer456148-decentralized_internet', '0.1.0'`  
+This mod line is for those who use r10k or Code Manager  
+Learn more [here](https://puppet.com/docs/pe/2019.2/managing_puppet_code.html)
 ###### App to add GitHub metrics tracking to select repos [here](https://github.com/apps/decentralized-internet) 
 ###### [Potential BitBucket Marketplace App](https://bitbucket.org/gamer456148/decentralized-internet/src/master/)
 ###### See original compatibility status update [here](https://www.minds.com/newsfeed/1040672641569824768?referrer=LoneroLNR)
