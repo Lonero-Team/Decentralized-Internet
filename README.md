@@ -74,8 +74,7 @@ Run: `pub get`
 ###### See original compatibility status update [here](https://www.minds.com/newsfeed/1040672641569824768?referrer=LoneroLNR)
 ***** See NPM v.Updates
 
-###### Latest Git Release Package [here](https://github.com/Lonero-Team/Decentralized-Internet/tree/3.4)
-
+###### Latest Git Release Package [here](https://github.com/Lonero-Team/Decentralized-Internet/tree/v3.4.5)
 
 ## License
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FLonero-Team%2FDecentralized-Internet.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FLonero-Team%2FDecentralized-Internet?ref=badge_large)
