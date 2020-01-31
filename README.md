@@ -70,11 +70,11 @@ dependencies:
 Run: `pub get`
 ##### Use this Module via Puppet:
 Add this to your Puppetfile as a declaration:  
-`mod 'gamer456148-decentralized_internet', '0.5.2'`  
+`mod 'gamer456148-decentralized_internet', '0.5.4'`  
 Next run the command:  
 `bolt puppetfile install`  
 Instead of the above, you can also try adding:  
-`mod 'gamer456148-decentralized_internet', '0.5.2'`  
+`mod 'gamer456148-decentralized_internet', '0.5.4'`  
 This mod line is for those who use r10k or Code Manager  
 Learn more [here](https://puppet.com/docs/pe/2019.2/managing_puppet_code.html)
 ###### App to add GitHub metrics tracking to select repos [here](https://github.com/apps/decentralized-internet) 
@@ -82,7 +82,7 @@ Learn more [here](https://puppet.com/docs/pe/2019.2/managing_puppet_code.html)
 ###### See original compatibility status update [here](https://www.minds.com/newsfeed/1040672641569824768?referrer=LoneroLNR)
 ***** See NPM v.Updates
 
-###### Latest Git Release Package [here](https://github.com/Lonero-Team/Decentralized-Internet/tree/v3.4.5)
+###### Latest Git Release Package [here](https://github.com/Lonero-Team/Decentralized-Internet/releases/tag/v3.6.9)
 
 ## License
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FLonero-Team%2FDecentralized-Internet.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FLonero-Team%2FDecentralized-Internet?ref=badge_large)
