@@ -46,7 +46,8 @@ app.start().then(appInfo => console.log(appInfo.GCI))
 Install via NPM: `npm i decentralized-internet`  
 Install via DUB: `dub add decentralized-internet`  
 Install via YARN: `yarn add decentralized-internet`  
-Install via PIP: `pip install decentralized-internet`  
+Install via PIP: `pip install decentralized-internet`
+Install via GEM: `gem install decentralized-internet`
 Install via APM: `apm install decentralized-internet`  
 Ember Installation:  `ember install decentralized-internet`  
 Install via VS Code: `ext install Lonero.decentralized-internet`  
@@ -70,11 +71,11 @@ dependencies:
 Run: `pub get`
 ##### Use this Module via Puppet:
 Add this to your Puppetfile as a declaration:  
-`mod 'gamer456148-decentralized_internet', '0.6.1'`  
+`mod 'gamer456148-decentralized_internet', '0.7.0'`  
 Next run the command:  
 `bolt puppetfile install`  
 Instead of the above, you can also try adding:  
-`mod 'gamer456148-decentralized_internet', '0.6.1'`  
+`mod 'gamer456148-decentralized_internet', '0.7.0'`  
 This mod line is for those who use r10k or Code Manager  
 Learn more [here](https://puppet.com/docs/pe/2019.2/managing_puppet_code.html)
 ###### App to add GitHub metrics tracking to select repos [here](https://github.com/apps/decentralized-internet) 
