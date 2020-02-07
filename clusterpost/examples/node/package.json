@@ -1,0 +1,19 @@
+{
+  "name": "examplesclusterpost",
+  "version": "1.0.0",
+  "description": "Use examples for clusterpost",
+  "main": "createNewJob.js",
+  "dependencies" : {
+    "bluebird": "^3.3.0",
+    "request": "^2.69.0",
+    "underscore": "^1.8.3"
+    },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "examples"
+  ],
+  "author": "juanprietob@gmail.com",
+  "license": "Apache-2.0"
+}

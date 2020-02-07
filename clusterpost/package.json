@@ -1,0 +1,38 @@
+{
+  "name": "clusterpost",
+  "version": "1.0.1",
+  "description": "Suite to run a server, post job documents and run tasks in remote computing grids",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc",
+    "example": "examples",
+    "test": "test"
+  },
+  "scripts": {
+    "install": "napa",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=production node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanprietob/clusterpost.git"
+  },
+  "keywords": [
+    "Cluster",
+    "computing",
+    "REST",
+    "tasks",
+    "execution"
+  ],
+  "author": "juanprietob@gmail.com",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/juanprietob/clusterpost/issues"
+  },
+  "homepage": "https://github.com/juanprietob/clusterpost#readme",
+  "dependencies": {
+    "clusterpost-server": "file:src/clusterpost-server",
+    "couch-update-views": "file:src/couch-update-views",
+    "joi": "^10.6.0"
+  }
+}

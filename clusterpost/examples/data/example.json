@@ -1,0 +1,27 @@
+{
+    "executable": "convert",
+    "parameters": [
+        {
+            "flag": "",
+            "name": "pic.jpg"
+        },
+        {
+            "flag": "",
+            "name": "pic.eps"
+        }
+    ],
+    "inputs": [
+        {
+            "name": "pic.jpg"
+        }
+    ],
+    "outputs": [
+        {
+            "type": "file",
+            "name": "pic.eps"
+        }
+    ],
+    "type": "job",
+    "userEmail": "juanprietob@gmail.com",
+    "executionserver" : "testserver"
+}
