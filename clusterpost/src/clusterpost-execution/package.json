@@ -1,0 +1,37 @@
+{
+  "name": "clusterpost-execution",
+  "version": "2.2.1",
+  "description": "Download data from the data provider to the local disk. Submit tasks to the job manager. Check if the task has finished and upload the results back to the data provider",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node postinstall.js"
+  },
+  "keywords": [
+    "Cluster",
+    "submit",
+    "job",
+    "data transfer"
+  ],
+  "author": "juanprietob@gmail.com",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@hapi/joi": "^15.0.3",
+    "bluebird": "^3.3.0",
+    "clusterpost-lib": "^1.1.0",
+    "clusterpost-model": "^1.10.0",
+    "minimist": "^1.2.0",
+    "node-crontab": "0.0.8",
+    "node-targz": "0.0.3",
+    "underscore": "^1.8.3",
+    "xml2js": "^0.4.17"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/juanprietob/clusterpost.git"
+  },
+  "bugs": {
+    "url": "https://github.com/juanprietob/clusterpost/issues"
+  },
+  "homepage": "https://github.com/juanprietob/clusterpost#readme"
+}

@@ -1,0 +1,28 @@
+# Copyright BigchainDB GmbH and BigchainDB contributors
+# SPDX-License-Identifier: (Apache-2.0 AND CC-BY-4.0)
+# Code is Apache-2.0 and docs are CC-BY-4.0
+
+name: bigchaindb
+version: git
+summary: The blockchain database
+description: |
+  With high throughput, low latency, powerful query functionality,
+  decentralized control, immutable data storage and built-in asset
+  support, BigchainDB is like a database with blockchain
+  characteristics.
+
+# grade must be 'stable' to release into candidate/stable channels
+grade: devel
+# strict confinement requires https://github.com/snapcore/snapd/pull/2749
+confinement: devmode
+
+apps:
+  bigchaindb:
+    command: bigchaindb
+    plugs: [network, network-bind]
+
+parts:
+  bigchaindb:
+    source: .
+    plugin: python
+    build-packages: [g++, libffi-dev]

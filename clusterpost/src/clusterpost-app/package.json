@@ -1,0 +1,30 @@
+{
+  "name": "clusterpost-app",
+  "version": "1.3.0",
+  "description": "Performs tasks in your desktop. Retrieve finished jobs. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab -v 6000 test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/juanprietob/clusterpost.git"
+  },
+  "keywords": [
+    "cluster",
+    "job",
+    "scheduler"
+  ],
+  "author": "juanprietob@gmail.com",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/juanprietob/clusterpost/issues"
+  },
+  "homepage": "https://github.com/juanprietob/clusterpost#readme",
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "clusterpost-lib": "file:../clusterpost-lib",
+    "minimist": "^1.2.0",
+    "underscore": "^1.9.1"
+  }
+}

@@ -1,0 +1,15 @@
+{
+    "_id": "_design/user",
+    "language": "javascript",
+    "views": {
+        "hash": {
+            "map": "function(doc) {\n\tif(doc.type === \"user\"){\n\t\temit(doc.email, doc.password);\n\t}\n}"
+        },
+        "info": {
+            "map": "function(doc) {\n\tif(doc.type === \"user\"){\n\t\tvar tempdoc = {};\n\t\tObject.keys(doc).forEach(function(key){\n\t\t\tif(key !== \"password\"){\n\t\t\t\ttempdoc[key] = doc[key];\n\t\t\t}\n\t\t});\n\t\temit(doc.email, tempdoc);\n\t}\n}"
+        },
+        "scopes": {
+            "map": "function(doc) {\n\tif(doc.type === \"scopes\"){\n\t\temit(doc._id, doc.scopes);\n\t}\n}"
+        }
+    }
+}

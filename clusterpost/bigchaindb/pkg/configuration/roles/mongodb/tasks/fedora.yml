@@ -1,0 +1,23 @@
+# Copyright BigchainDB GmbH and BigchainDB contributors
+# SPDX-License-Identifier: (Apache-2.0 AND CC-BY-4.0)
+# Code is Apache-2.0 and docs are CC-BY-4.0
+
+---
+- name: Add MongoDB Repo | dnf
+  yum_repository:
+    name: "{{ mongodb_package }}"
+    gpgcheck: yes
+    gpgkey: https://www.mongodb.org/static/pgp/server-{{ mongo_version }}.asc
+    baseurl: "{{ mongodb_dnf_base_url }}"
+    file: "{{ mongodb_package }}"
+    description: "MongoDB Repo"
+    enabled: yes
+  tags: [mongodb]
+
+- name: Install MongoDB | dnf
+  dnf:
+    name: "{{ item }}"
+    state: present
+  with_items:
+    - "{{ mongodb_package }}"
+  tags: [mongodb]

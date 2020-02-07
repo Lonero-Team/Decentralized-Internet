@@ -1,0 +1,51 @@
+{
+  "name": "clusterpost-server",
+  "version": "2.3.2",
+  "description": "Server side application using REST api. Create/post 'job' document describing task and input data, run tasks on remote computing grids and retrive outputs. All process is done automatically.",
+  "main": "index.js",
+  "dependencies": {
+    "@hapi/boom": "^7.4.2",
+    "@hapi/good": "^8.2.0",
+    "@hapi/good-console": "^8.1.0",
+    "@hapi/good-squeeze": "^5.2.0",
+    "@hapi/h2o2": "^8.3.0",
+    "@hapi/hapi": "^18.3.1",
+    "@hapi/inert": "^5.2.0",
+    "@hapi/vision": "^5.5.2",
+    "@juanprietob/hapi-auth-jwt": "github:juanprietob/hapi-auth-jwt#master",
+    "bcrypt": "^3.0.6",
+    "bluebird": "^3.5.4",
+    "clusterpost-model": "^1.9.0",
+    "clusterpost-provider": "^4.1.1",
+    "clusterpost-static": "^1.0.0",
+    "couch-provider": "2.1.4",
+    "couch-update-views": "1.0.5",
+    "hapi-jwt-couch": "^4.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "lout": "^11.2.3",
+    "node-crontab": "0.0.8",
+    "nodemailer": "^4.0.1",
+    "request": "^2.88.0",
+    "underscore": "^1.9.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node ./checkConfiguration.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/juanprietob/clusterpost.git"
+  },
+  "keywords": [
+    "cluster",
+    "computing",
+    "REST"
+  ],
+  "author": "juanprietob@gmail.com",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/juanprietob/clusterpost/issues"
+  },
+  "homepage": "https://github.com/juanprietob/clusterpost#readme"
+}

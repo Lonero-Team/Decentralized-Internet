@@ -1,0 +1,216 @@
+<uib-tabset active="activeTab">
+	<uib-tab heading="Jobs" index="0">
+		<div class="panel panel-default" style="overflow:scroll">
+			<div class="panel-body">
+				<table st-table="jobs.displayedJobs" st-safe-src="jobs.data" class="table table-striped" on-filter="jobs.onFilter">
+						<thead>
+						<tr>
+							<th colspan="6"><input st-search="" class="form-control" placeholder="Global search ..." type="text"/></th>							
+							<th colspan="4">Number of jobs per page 
+								<select class="form-control" ng-model="itemsByPage" ng-options="option.value for option in numJobsInPage track by option.id"></select>
+							</th>
+							<th>
+								<button type="button" ng-click="jobs.showScopes=!jobs.showScopes" class="btn btn-info" title="Show scopes controls">
+									<span class="glyphicon glyphicon-user"></span>
+								</button>
+							</th>
+						</tr>
+						<tr>
+							<th st-sort="_id"> Detail </th>
+							<th st-sort="name"> Name </th>
+							<th st-sort="userEmail">User email</th>
+							<th st-sort="timestamp" st-sort-default="reverse">Timestamp</th>
+							<th st-sort="jobsstatus.status">Job status</th>
+							<th st-sort="row.executable"> Executable </th>							
+							<th st-sort="scope" ng-if="jobs.showScopes">Scope</th>
+							<th st-sort="executionserver">Execution server</th>
+							<th st-sort="jobstatus.jobid">Job Id</th>
+							<th ng-if="downloadCallback">Download</th>							
+							<th>Update</th>
+							<th>Run</th>
+							<th>Force run</th>
+							<th>Kill</th>
+							<th>Delete</th>
+						</tr>
+						<tr>
+							<th>
+								<input st-search="_id" placeholder="search for id" class="input-sm form-control" type="search"/>
+							</th>
+							<th>
+								<input st-search="name" placeholder="search for name" class="input-sm form-control" type="search"/>
+							</th>
+							<th>
+								<input st-search="userEmail" placeholder="search for userEmail" class="input-sm form-control" type="search"/>
+							</th>
+							<th>
+								<input st-search="timestamp" placeholder="search for timestamp" class="input-sm form-control" type="search"/>
+							</th>
+							<th> 
+								<select class="form-control" st-search="jobstatus.status">
+			                    	<option value="">All</option>
+			                    	<option ng-repeat="st in jobs.status">{{st}}</option>
+			                	</select>
+							</th>
+							<th >
+								<select class="form-control" st-search="executable">
+			                    	<option value="">All</option>
+			                    	<option ng-repeat="ex in jobs.executables">{{ex}}</option>
+			                	</select>
+							</th>							
+							<th ng-if="jobs.showScopes">
+								<select class="form-control" ng-options="sc as sc for sc in clusterScopes" ng-model="jobs.selectedScope"></select>
+								<button type="button" ng-click="addJobsScope()" class="btn btn-xs btn-success">
+									<span class="glyphicon glyphicon-plus"></span>
+								</button>
+								<button type="button" ng-click="removeJobsScope()" class="btn btn-xs btn-danger">
+									<span class="glyphicon glyphicon-remove"></span>
+								</button>
+							</th>
+							<th colspan="2">
+								<input st-search="executionserver" placeholder="search for execution server" class="input-sm form-control" type="search"/>
+							</th>
+							
+							<th ng-if="downloadCallback">
+								<button type="button" ng-click="downloadAll()" class="btn btn-sm btn-success">
+								<i class="glyphicon glyphicon-download">
+									</i>
+								</button>
+							</th>
+							<th>
+								<button type="button" ng-click="updateAllJobs()" class="btn btn-sm btn-info">
+								<i class="glyphicon glyphicon-refresh">
+									</i>
+								</button>
+							</th>
+							<th>
+								<button type="button" ng-click="runAllJobs()" class="btn btn-sm btn-success">
+								<i class="glyphicon glyphicon-play">
+									</i>
+								</button>
+							</th>
+							<th>
+							</th>
+							<th>
+								<button type="button" ng-click="killAllJobs()" class="btn btn-sm btn-warning">
+									<i class="glyphicon glyphicon-remove-circle">
+									</i>
+								</button>
+							</th>
+							<th>
+								<button type="button" ng-click="deleteAllJobs()" class="btn btn-sm btn-danger">
+								<i class="glyphicon glyphicon-trash">
+									</i>
+								</button>
+							</th>
+
+						</tr>
+						</thead>
+						<tbody>
+						<tr ng-repeat="row in jobs.displayedJobs">
+
+							<td><button class="btn btn-info" ng-click="showJobDetail(row)" title="{{row._id}}"><span class="glyphicon glyphicon-eye-open"></span></td>
+							<td><button class="btn btn-success" ng-if="jobCallback" ng-click="jobCallback(row)"><span class="glyphicon glyphicon-eye-open"> {{row.name}}</span></button><div ng-if="!jobCallback">{{row.name}}</div></td>
+							<td>{{row.userEmail}}</td>
+							<td>{{row.timestamp}}</td>
+							<td>{{row.jobstatus.status}}</td>
+							<td>{{row.executable}}</td>
+							<td ng-if="jobs.showScopes">
+								<button ng-repeat="sc in row.scope" type="button" ng-click="removeJobScope(row, sc)" class="btn btn-xs btn-danger">
+									{{sc}}
+									<span class="glyphicon glyphicon-remove"></span>
+								</button>
+								<button type="button" ng-click="addJobScope(row)" class="btn btn-xs btn-success">
+									<span class="glyphicon glyphicon-plus"></span>
+								</button>
+							</td>
+							<td><select class="form-control" ng-model="row.executionserver" ng-options="es.name as es.name for es in executionservers" ng-change="saveJob(row)"></select></td>
+							<td>{{row.jobstatus.jobid}}</td>
+
+							<td ng-if="downloadCallback">
+								<button type="button" ng-click="downloadJob(row)" class="btn btn-sm btn-success">
+									<span class="glyphicon glyphicon-download"></span>
+								</button>
+							</td>
+							<td>
+								<button type="button" ng-click="updateStatus(row)" class="btn btn-sm btn-info">
+									<i class="glyphicon glyphicon-refresh">
+									</i>
+								</button>
+							</td>
+							<td>
+								<button type="button" ng-click="runJob(row,forceRunJob)" class="btn btn-sm btn-success">
+								<i class="glyphicon glyphicon-play">
+									</i>
+								</button>
+							</td>
+							<td>
+								<input type="checkbox" ng-model="forceRunJob"/>
+							</td>
+							<td>
+								<button type="button" ng-click="killJob(row)" class="btn btn-sm btn-warning">
+									<i class="glyphicon glyphicon-remove-circle">
+									</i>
+								</button>
+							</td>
+							<td>
+								<button type="button" ng-click="deleteJob(row)" class="btn btn-sm btn-danger">
+									<i class="glyphicon glyphicon-trash">
+									</i>
+								</button>
+							</td>
+						</tr>
+						</tbody>
+						<tfoot>
+						<tr>
+							<td colspan="10" class="text-center">
+								<div st-pagination="" st-items-by-page="itemsByPage.value" st-displayed-pages="7"></div>
+							</td>
+						</tr>
+					</tfoot>
+				</table>
+			</div>
+		</div>
+	</uib-tab>
+	<uib-tab heading="Job detail" index="1">
+		<div class="panel panel-default">
+
+			<div class="panel-body">
+
+				<div class="col-md-12">
+		  			<div class="button-group">
+				  		<button type="button" ng-click="jobs.edit.show=!jobs.edit.show" class="btn btn-default">
+							<span class="glyphicon glyphicon-pencil"></span>
+						</button>
+						<button type="button" ng-click="saveJobEdit()" class="btn btn-default">
+							<span class="glyphicon glyphicon-floppy-save"></span>
+						</button>
+					</div>
+				</div>
+				
+				<div class="col-md-12">
+					<div class="col-md-6 alert alert-info" role="alert">
+						<p style="white-space: pre; overflow: auto;">
+							{{jobs.selectedJob.stdout}}
+						</p>
+					</div>
+					<div class="col-md-6 alert alert-warning" role="alert">
+						<p style="white-space: pre; overflow: auto;">
+					  		{{jobs.selectedJob.stderr}}
+					  	</p>
+					</div>
+				</div>
+
+				<div class="col-md-12 alert alert-danger" role="alert" ng-if="jobs.edit.showerror">
+					{{jobs.edit.error}}
+				</div>
+
+		  		<div class="col-md-12">		  			
+	  				<textarea class="form-control" rows="100" ng-model="jobs.edit.jobtext" ng-if="jobs.edit.show"></textarea>					
+		  			<json-formatter json="jobs.selectedJob.job" open="4" ng-if="!jobs.edit.show"></json-formatter>
+		  		</div>
+			  	
+		  	</div>
+		</div>
+	</uib-tab>
+</uib-tabset>
+ 

@@ -1,0 +1,25 @@
+# Copyright BigchainDB GmbH and BigchainDB contributors
+# SPDX-License-Identifier: (Apache-2.0 AND CC-BY-4.0)
+# Code is Apache-2.0 and docs are CC-BY-4.0
+
+---
+- name: Install dependencies | dnf
+  dnf:
+    name: "{{ item }}"
+    state: present
+  with_items:
+    - wget
+    - unzip
+    - libselinux-python
+    - policycoreutils-python
+    - nginx
+    - jq
+  tags: [tendermint]
+
+- name: Allow nginx to host public key
+  seport:
+    ports: 9986
+    proto: tcp
+    setype: http_port_t
+    state: present
+  tags: [tendermint]

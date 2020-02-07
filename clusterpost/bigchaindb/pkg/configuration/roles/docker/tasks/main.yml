@@ -1,0 +1,78 @@
+# Copyright BigchainDB GmbH and BigchainDB contributors
+# SPDX-License-Identifier: (Apache-2.0 AND CC-BY-4.0)
+# Code is Apache-2.0 and docs are CC-BY-4.0
+
+---
+- import_tasks: debian.yml
+  when: distribution_name == "debian" or distribution_name == "ubuntu"
+
+- import_tasks: centos.yml
+  when: distribution_name == "centos" or distribution_name == "red hat enterprise linux"
+
+- import_tasks: fedora.yml
+  when: distribution_name == "fedora"
+
+- import_tasks: macos.yml
+  when: distribution_name == 'macosx'
+
+- name: Create Docker group
+  group:
+    name: docker
+    state: present
+  register: group_result
+  tags: [docker]
+
+- name: Add USER to docker group
+  user:
+    append: yes
+    name: "{{ item }}"
+    state: present
+    group: docker
+  with_items:
+    - "{{ ansible_hostname }}"
+    - "{{ distribution_name }}"
+    - "vagrant"
+  tags: [docker]
+
+- name: Start docker service | systemd
+  systemd:
+    name: docker
+    enabled: yes
+    state: started
+  when: (distribution_name != 'macosx') and distribution_name != 'debian'
+  tags: [docker]
+
+- name: Start docker service | init
+  service:
+    name: docker
+    state: started
+    enabled: yes
+  when: distribution_name == 'debian'
+  tags: [docker]
+
+- name: Install docker-py
+  pip:
+    name: docker-py
+    state: latest
+  tags: [docker]
+
+- name: Check if BigchainDB Docker network exists
+  shell: docker inspect "{{ bigchaindb_docker_net }}"
+  register: network_ls
+  ignore_errors: True
+  tags: [docker]
+
+
+- name: Create BigchainDB Docker network
+  shell: docker network create "{{ bigchaindb_docker_net }}" --attachable
+  register: docker_net_create
+  when: (stack_type|lower == "docker" or stack_type == "cloud") and network_ls.rc != 0 and action|lower == 'start'
+  failed_when: "'FAILED' in docker_net_create.stderr or docker_net_create.rc != 0"
+  tags: [docker]
+
+- name: Delete BigchainDB Docker network
+  shell: docker network rm "{{ bigchaindb_docker_net }}"
+  register: docker_net_delete
+  failed_when: "'FAILED' in docker_net_delete.stderr or docker_net_delete.rc != 0"
+  when: (stack_type|lower == "docker" or stack_type == "cloud") and network_ls.rc != 0 and action|lower == 'stop'
+  tags: [docker]

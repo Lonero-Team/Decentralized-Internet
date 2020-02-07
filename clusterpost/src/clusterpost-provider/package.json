@@ -1,0 +1,38 @@
+{
+  "name": "clusterpost-provider",
+  "version": "4.2.0",
+  "description": "Transfer job description and data to couchdb. Submit task to the computing grid",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cluster",
+    "computing"
+  ],
+  "author": "juanprietob@gmail.com",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@hapi/joi": "^15.0.3",
+    "bluebird": "^3.3.0",
+    "boom": "^3.1.2",
+    "clusterpost-model": "^1.10.0",
+    "couch-provider": "^2.1.0",
+    "couch-update-views": "^1.0.8",
+    "find-process": "^1.1.1",
+    "joi": "^14.3.1",
+    "linkedlist": "^1.0.1",
+    "node-crontab": "0.0.8",
+    "node-targz": "^0.2.0",
+    "request": "^2.69.0",
+    "underscore": "^1.8.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/juanprietob/clusterpost.git"
+  },
+  "bugs": {
+    "url": "https://github.com/juanprietob/clusterpost/issues"
+  },
+  "homepage": "https://github.com/juanprietob/clusterpost#readme"
+}

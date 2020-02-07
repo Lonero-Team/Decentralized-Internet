@@ -1,0 +1,41 @@
+{
+  "name": "clusterpost-list",
+  "version": "2.4.5",
+  "description": "List jobs running in clusterpost",
+  "main": "clusterpost-list.module.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/NIRALUser/clusterpost.git"
+  },
+  "keywords": [
+    "clusterpost",
+    "list",
+    "front-end"
+  ],
+  "author": "juanprietob@gmail.com",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/NIRALUser/clusterpost/issues"
+  },
+  "homepage": "https://github.com/NIRALUser/clusterpost#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-angular-templates": "^1.1.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-cssmin": "^1.0.2",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-ng-annotate": "^2.0.2"
+  },
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-bootstrap": "^0.12.2",
+    "angular-route": "^1.5.8",
+    "angular-smart-table": "^2.1.8",
+    "jsonformatter": "^0.6.0",
+    "underscore": "^1.8.3"
+  }
+}

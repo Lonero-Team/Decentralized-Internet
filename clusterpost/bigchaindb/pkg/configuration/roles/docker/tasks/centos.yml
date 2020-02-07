@@ -1,0 +1,70 @@
+# Copyright BigchainDB GmbH and BigchainDB contributors
+# SPDX-License-Identifier: (Apache-2.0 AND CC-BY-4.0)
+# Code is Apache-2.0 and docs are CC-BY-4.0
+
+---
+- name: Uninstall older versions of Docker | CentOS
+  yum:
+    name: "{{ item }}"
+    state: absent
+  with_items:
+    - docker
+    - docker-common
+    - docker-engine
+    - docker-selinux
+  when: uninstall_old_version
+  tags: [docker]
+
+- name: Check if EPEL repo is already configured.
+  stat: path={{ epel_repofile_path }}
+  register: epel_repofile_result
+  tags: [docker]
+
+- name: Install EPEL repo.
+  yum:
+    name: "{{ epel_repo_url }}"
+    state: present
+  register: result
+  until: 'result.rc == 0'
+  retries: 5
+  delay: 10
+  when: not epel_repofile_result.stat.exists
+  tags: [docker]
+
+- name: Import EPEL GPG key.
+  rpm_key:
+    key: "{{ epel_repo_gpg_key_url }}"
+    state: present
+  when: not epel_repofile_result.stat.exists
+  ignore_errors: "{{ ansible_check_mode }}"
+  tags: [docker]
+
+- name: Setup Pre-reqs | CentOS
+  yum:
+    name: "{{ item }}"
+    state: present
+    update_cache: yes
+  with_items:
+    - yum-utils
+    - device-mapper-persistent-data
+    - lvm2
+    - python-pip
+  tags: [docker]
+
+- name: Add Docker Repo | CentOS
+  yum_repository:
+    name: "{{ docker_pkg }}"
+    gpgcheck: yes
+    gpgkey: https://download.docker.com/linux/centos/gpg
+    baseurl: "{{ docker_yum_repo }}"
+    file: "{{ docker_pkg }}"
+    description: "Docker Repo"
+    enabled: yes
+  tags: [docker]
+
+- name: Install Docker | CentOS
+  yum:
+    name: "{{ docker_pkg }}"
+    state: present
+    update_cache: yes
+  tags: [docker]

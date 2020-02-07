@@ -1,0 +1,47 @@
+# Copyright BigchainDB GmbH and BigchainDB contributors
+# SPDX-License-Identifier: (Apache-2.0 AND CC-BY-4.0)
+# Code is Apache-2.0 and docs are CC-BY-4.0
+
+---
+dependencies_deb:
+  - g++
+  - libffi-dev
+  - build-essential
+  - libssl-dev
+
+dependencies_yum:
+  - gcc-c++
+  - "@Development Tools"
+  - libffi-devel
+  - openssl-devel
+
+dependencies_dnf:
+  - gcc-c++
+  - redhat-rpm-config
+  - "@Development Tools"
+  - libffi-devel
+  - openssl-devel
+
+# Host configuration
+distribution_name: "{{ ansible_distribution|lower }}"
+distribution_codename: "{{ ansible_distribution_release|lower }}"
+distribution_major: "{{ ansible_distribution_major_version }}"
+
+directories:
+  - /data
+
+backend_db: localmongodb #[localmongodb]
+
+bigchaindb_server_bind: "0.0.0.0:9984"
+
+# Docker configuration
+bigchaindb_image_name: "bigchaindb/bigchaindb"
+bigchaindb_image_tag: "develop"
+bigchaindb_docker_name: "bigchaindb"
+mongodb_docker_name: "mongodb"
+tendermint_docker_name: "tendermint"
+bigchaindb_default_server_port: 9984
+bigchaindb_default_ws_port: 9985
+bigchaindb_tendermint_port: 26657
+tendermint_abci_port: 45558
+bigchaindb_docker_net: "bigchaindb_docker_net"

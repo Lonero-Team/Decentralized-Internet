@@ -1,0 +1,29 @@
+{
+  "name": "clusterpost-auth",
+  "version": "2.1.0",
+  "description": "Login and authenticate users for the clusterpost application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cluster",
+    "computing",
+    "login"
+  ],
+  "author": "juanprietob@gmail.com",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "bluebird": "^3.5.4",
+    "boom": "^3.1.2",
+    "hapi-jwt-couch": "^2.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/juanprietob/clusterpost.git"
+  },
+  "bugs": {
+    "url": "https://github.com/juanprietob/clusterpost/issues"
+  },
+  "homepage": "https://github.com/juanprietob/clusterpost#readme"
+}

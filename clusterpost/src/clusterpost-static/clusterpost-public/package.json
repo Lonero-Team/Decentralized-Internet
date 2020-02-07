@@ -1,0 +1,28 @@
+{
+  "name": "clusterpost-public",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bootstrap": "^4.3.1",
+    "clusterpost-list-react": "file:../../clusterpost-list-react",
+    "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.8",
+    "react-dom": "^16.8.6",
+    "react-feather": "^1.1.6",
+    "react-jwt-auth": "file:../../react-jwt-auth",
+    "react-redux": "^7.0.3",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "^1.1.4",
+    "redux": "^4.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "PUBLIC_URL=/public/ react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  }
+}

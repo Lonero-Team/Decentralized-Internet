@@ -1,0 +1,5 @@
+{
+	"uri": "https://localhost:8180",
+	"engine" : "engine_unix", 
+	"storagedir" : "./clusterpost_storage"
+}

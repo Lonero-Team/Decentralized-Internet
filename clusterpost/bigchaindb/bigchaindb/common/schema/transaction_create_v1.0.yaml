@@ -1,0 +1,34 @@
+# Copyright BigchainDB GmbH and BigchainDB contributors
+# SPDX-License-Identifier: (Apache-2.0 AND CC-BY-4.0)
+# Code is Apache-2.0 and docs are CC-BY-4.0
+
+---
+"$schema": "http://json-schema.org/draft-04/schema#"
+type: object
+title: Transaction Schema - CREATE/GENESIS specific constraints
+required:
+- asset
+- inputs
+properties:
+  asset:
+    additionalProperties: false
+    properties:
+      data:
+        anyOf:
+        - type: object
+          additionalProperties: true
+        - type: 'null'
+    required:
+    - data
+  inputs:
+    type: array
+    title: "Transaction inputs"
+    maxItems: 1
+    minItems: 1
+    items:
+      type: "object"
+      required:
+      - fulfills
+      properties:
+        fulfills:
+            type: "null"

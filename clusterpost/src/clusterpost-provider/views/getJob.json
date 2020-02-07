@@ -1,0 +1,13 @@
+{
+    "_id": "_design/getJob",
+    "language": "javascript",
+    "views": {
+        "status": {
+            "map": "function(doc) {\n\tif(doc.type === 'job' && doc.jobstatus && doc.jobstatus.status){\n\t\t  emit(doc._id, doc.jobstatus);\n\t}\n}"
+        },
+        "count": {
+            "map": "function(doc) {\n\tif(doc.type === 'job' && doc.jobstatus && doc.jobstatus.status){\n\t\t  emit(doc.jobstatus.status, 1);\n\t}\n}",
+            "reduce": "_sum"
+        }
+    }
+}

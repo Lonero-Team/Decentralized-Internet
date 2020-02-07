@@ -1,0 +1,54 @@
+# Copyright BigchainDB GmbH and BigchainDB contributors
+# SPDX-License-Identifier: (Apache-2.0 AND CC-BY-4.0)
+# Code is Apache-2.0 and docs are CC-BY-4.0
+
+---
+- name: Check if EPEL repo is already configured.
+  stat: path={{ epel_repofile_path }}
+  register: epel_repofile_result
+  tags: [mongodb]
+
+- name: Install EPEL repo.
+  yum:
+    name: "{{ epel_repo_url }}"
+    state: present
+  register: result
+  until: 'result.rc == 0'
+  retries: 5
+  delay: 10
+  when: not epel_repofile_result.stat.exists
+  tags: [mongodb]
+
+- name: Import EPEL GPG key.
+  rpm_key:
+    key: "{{ epel_repo_gpg_key_url }}"
+    state: present
+  when: not epel_repofile_result.stat.exists
+  ignore_errors: "{{ ansible_check_mode }}"
+  tags: [mongodb]
+
+- name: Add MongoDB Repo | yum
+  yum_repository:
+    name: "{{ mongodb_package }}-{{ mongo_version }}"
+    gpgcheck: yes
+    gpgkey: https://www.mongodb.org/static/pgp/server-{{ mongo_version }}.asc
+    baseurl: "{{ mongodb_yum_base_url }}"
+    file: "{{ mongodb_package }}"
+    description: "MongoDB Repo"
+    enabled: yes
+  tags: [mongodb]
+
+- name: Install MongoDB | yum
+  yum:
+    name: "{{ mongodb_package }}"
+    state: present
+    update_cache: yes
+  tags: [mongodb]
+
+- name: Install pip | yum
+  yum:
+    name: python-pip
+    state: present
+    update_cache: yes
+  tags: [mongodb]
+  

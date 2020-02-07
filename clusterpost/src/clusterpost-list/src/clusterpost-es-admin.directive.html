@@ -1,0 +1,39 @@
+<uib-tabset active="activeTab">
+	<uib-tab heading="Execution server tokens" index="0">
+		<div class="panel panel-default">
+			<div class="panel-body" style="overflow:scroll">
+				<table st-table="displayedTokens" st-safe-src="tokens" class="table table-striped">
+					<thead>
+						<tr>
+							<th colspan="2"><input st-search="name" class="form-control" placeholder="Global search ..." type="text"/></th>							
+						</tr>
+						<tr>
+							<th st-sort="name">Execution server name</th>
+							<th>Download</th>							
+						</tr>
+					</thead>
+					<tbody>
+						<tr ng-repeat="row in displayedTokens">
+							<td>{{row.executionserver}}</td>
+							<td><button type="button" class="btn btn-info" ng-click="downloadToken(row)"><span class="glyphicon glyphicon-download" aria-hidden="true"></span></button></td>
+						</tr>
+					</tbody>
+					<tfoot>
+						<tr>
+							<td colspan="10" class="text-center">
+								<div st-pagination="" st-items-by-page="itemsByPage.value" st-displayed-pages="7"></div>
+							</td>
+						</tr>
+					</tfoot>
+				</table>
+			</div>
+		</div>
+ 	</uib-tab>
+ 	<uib-tab heading="Users" index="1">
+ 		<div class="panel panel-default">
+			<div class="panel-body" style="overflow:scroll">
+ 				<users user-scopes="['admin', 'clusterpost', 'default']"></users>
+ 			</div>
+ 		</div>
+ 	</uib-tab>
+</uib-tabset>

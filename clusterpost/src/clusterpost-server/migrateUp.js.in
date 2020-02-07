@@ -1,0 +1,49 @@
+var cuv = require('couch-update-views');
+var Promise = require('bluebird');
+
+var env = process.env.NODE_ENV;
+
+if(!env) throw 'Please set NODE_ENV variable.';
+
+
+const getConfigFile = function () {
+  try {
+    // Try to load the user's personal configuration file
+    return require(process.cwd() + '/conf.my.' + env + '.json');
+  } catch (e) {
+    // Else, read the default configuration file
+    return require(process.cwd() + '/conf.' + env + '.json');
+  }
+}
+
+var conf = getConfigFile();
+
+var couchprovider = conf.plugins['couch-provider'];
+
+//migration of clusterpost-provider
+var views = path.join('./', 'node_modules', 'clusterpost-provider', 'views');
+var allupdate = [];
+
+Object.keys(couchprovider).forEach(function(key){
+  if(key!=='default' && key!==='namespace'){
+      var couchdb = couchprovider[key].hostname + '/' + couchprovider[key].database;
+
+      allupdate.push(cuv.migrateUp(couchdb, views));
+
+  }
+});
+
+
+//Migration of userdb
+var userdb = var couchprovider = conf.plugins['clusterpost-auth'].userdb;
+allupdate.push(cuv.migrateUp(userdb.hostname + '/' + userdb.database, path.join('./', 'node_modules', 'clusterpost-auth', 'views')));
+
+Promise.all(allupdate)
+.then(function(res){
+    console.log(res);
+    process.exit(0);
+})
+.catch(function(err){
+    console.log(error);
+    process.exit(1);
+});

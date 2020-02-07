@@ -1,0 +1,35 @@
+{
+  "name": "clusterpost-lib",
+  "version": "2.4.0",
+  "description": "Library implementing the API of clusterpost-server application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/juanprietob/clusterpost.git"
+  },
+  "keywords": [
+    "clusterpost",
+    "library",
+    "implementation",
+    "API"
+  ],
+  "author": "juanprietob@gmail.com",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/juanprietob/clusterpost/issues"
+  },
+  "homepage": "https://github.com/juanprietob/clusterpost#readme",
+  "dependencies": {
+    "@hapi/joi": "^15.0.3",
+    "bluebird": "^3.4.1",
+    "clusterpost-model": "^1.1.3",
+    "hapi-jwt-couch-lib": "^1.1.0",
+    "jsonwebtoken": "^7.4.0",
+    "prompt": "^1.0.0",
+    "request": "^2.73.0",
+    "underscore": "^1.8.3"
+  }
+}

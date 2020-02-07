@@ -1,0 +1,35 @@
+# Copyright BigchainDB GmbH and BigchainDB contributors
+# SPDX-License-Identifier: (Apache-2.0 AND CC-BY-4.0)
+# Code is Apache-2.0 and docs are CC-BY-4.0
+
+###########################################################
+# This section file desribes a k8s pvc for mongodb dbPath #
+###########################################################
+kind: PersistentVolumeClaim
+apiVersion: v1
+metadata:
+  name: mongo-db-claim
+  annotations:
+    volume.beta.kubernetes.io/storage-class: slow-db
+spec:
+  accessModes:
+  - ReadWriteOnce
+  resources:
+    requests:
+      storage: 20Gi
+---
+#############################################################
+# This YAML section desribes a k8s pvc for mongodb configDB #
+#############################################################
+kind: PersistentVolumeClaim
+apiVersion: v1
+metadata:
+  name: mongo-configdb-claim
+  annotations:
+    volume.beta.kubernetes.io/storage-class: slow-configdb
+spec:
+  accessModes:
+  - ReadWriteOnce
+  resources:
+    requests:
+      storage: 1Gi

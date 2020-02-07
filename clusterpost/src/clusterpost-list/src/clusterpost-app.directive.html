@@ -1,0 +1,164 @@
+<uib-tabset active="activeTab">
+	<uib-tab heading="List" index="0">
+		<div class="panel panel-default">
+			<div class="panel-body" style="overflow:scroll">
+
+				<div class="input-group" ng-if="appUser.user.scope.indexOf('admin') != -1">
+					<select class="form-control" ng-options="user.email for user in appUser.allUsers" ng-model="appUser.selectedUser" ng-change="appUser.userChange()"></select>
+				</div>
+				<br>
+				<table st-table="jobs.displayedJobs" st-safe-src="jobs.data" class="table table-striped" on-filter="jobs.onFilter">
+						<thead>
+						<tr>
+							<th colspan="6"><input st-search="" class="form-control" placeholder="Global search ..." type="text"/></th>
+							<th colspan="5">Number of jobs per page 
+								<select class="form-control" ng-model="itemsByPage" ng-options="option.value for option in numJobsInPage track by option.id"></select>
+							</th>
+						</tr>
+						<tr>
+							<th st-sort="name">Detail</th>
+							<th st-sort="name">Job name</th>
+							<th st-sort="userEmail">User email</th>
+							<th st-sort="timestamp">Timestamp</th>
+							<th st-sort="jobsstatus.status">Job status</th>
+							<th st-sort="executable"> Executable </th>
+							<th st-sort="jobstatus.jobid">Job Id</th>
+							<th st-sort="executionserver">Execution server</th>
+							<th>Download</th>
+							<th>Update</th>
+							<th>Run</th>
+							<th>Force run</th>
+							<th>Kill</th>
+							<th>Delete</th>
+						</tr>
+						<tr>
+							<th colspan="2">
+								<input st-search="name" placeholder="search for name" class="input-sm form-control" type="search"/>
+							</th>
+							<th>
+								<input st-search="userEmail" placeholder="search for userEmail" class="input-sm form-control" type="search"/>
+							</th>
+							<th>
+								<input st-search="timestamp" placeholder="search for timestamp" class="input-sm form-control" type="search"/>
+							</th>
+							<th> 
+								<select class="form-control" st-search="jobstatus.status">
+			                    	<option value="">All</option>
+			                    	<option ng-repeat="st in jobs.status">{{st}}</option>
+			                	</select>
+							</th>
+							<th colspan="2">
+								<select class="form-control" st-search="executable">
+			                    	<option value="">All</option>
+			                    	<option ng-repeat="ex in jobs.executables">{{ex}}</option>
+			                	</select>
+							</th>
+							<th>
+								<input st-search="executionserver" placeholder="search for execution server" class="input-sm form-control" type="search"/>
+							</th>
+							<th>
+								<button type="button" ng-click="downloadAllJobs()" class="btn btn-sm btn-success">
+									<span class="glyphicon glyphicon-download"></span>
+								</button>
+							</th>
+							<th>
+								<button type="button" ng-click="updateAllJobs()" class="btn btn-sm btn-info">
+								<i class="glyphicon glyphicon-refresh">
+									</i>
+								</button>
+							</th>
+							<th>
+								<button type="button" ng-click="runAllJobs()" class="btn btn-sm btn-success">
+								<i class="glyphicon glyphicon-play">
+									</i>
+								</button>
+							</th>
+							<th>
+							</th>
+							<th>
+								<button type="button" ng-click="killAllJobs()" class="btn btn-sm btn-warning">
+									<i class="glyphicon glyphicon-remove-circle">
+									</i>
+								</button>
+							</th>
+							<th>
+								<button type="button" ng-click="deleteAllJobs()" class="btn btn-sm btn-danger">
+								<i class="glyphicon glyphicon-trash">
+									</i>
+								</button>
+							</th>
+
+						</tr>
+						</thead>
+						<tbody>
+						<tr ng-repeat="row in jobs.displayedJobs">
+							<td><button class="btn btn-info" ng-click="showJobDetail(row)"><span class="glyphicon glyphicon-eye-open"></span></button></td>
+							<td><button class="btn btn-default" ng-click="jobAppCallback(row)">{{getJobName(row)}}</button></td>
+							<td>{{row.userEmail}}</td>
+							<td>{{row.timestamp}}</td>
+							<td>{{row.jobstatus.status}}</td>
+							<td>{{row.executable}}</td>
+							<td>{{row.jobstatus.jobid}}</td>
+							<td><select class="form-control" ng-model="row.executionserver" ng-options="es.name as es.name for es in executionservers" ng-change="saveJob(row)"></select></td>
+							<td>
+								<button type="button" ng-click="downloadJob(row)" class="btn btn-sm btn-success">
+									<span class="glyphicon glyphicon-download"></span>
+								</button>
+							</td>
+							<td>
+								<button type="button" ng-click="updateStatus(row)" class="btn btn-sm btn-info">
+									<i class="glyphicon glyphicon-refresh">
+									</i>
+								</button>
+							</td>
+							<td>
+								<button type="button" ng-click="runJob(row,forceRunJob)" class="btn btn-sm btn-success">
+								<i class="glyphicon glyphicon-play">
+									</i>
+								</button>
+							</td>
+							<td>
+								<input type="checkbox" ng-model="forceRunJob"/>
+							</td>
+							<td>
+								<button type="button" ng-click="killJob(row)" class="btn btn-sm btn-warning">
+									<i class="glyphicon glyphicon-remove-circle">
+									</i>
+								</button>
+							</td>
+							<td>
+								<button type="button" ng-click="deleteJob(row)" class="btn btn-sm btn-danger">
+									<i class="glyphicon glyphicon-trash">
+									</i>
+								</button>
+							</td>
+						</tr>
+						</tbody>
+						<tfoot>
+						<tr>
+							<td colspan="10" class="text-center">
+								<div st-pagination="" st-items-by-page="itemsByPage.value" st-displayed-pages="7"></div>
+							</td>
+						</tr>
+					</tfoot>
+				</table>
+			</div>
+		</div>
+ 	</uib-tab>
+	<uib-tab heading="Job detail" index="1">
+		<div class="panel panel-default">
+			<!-- <div class="panel-heading">
+				<h3 class="panel-title">Probabilistic tractography with FSL tools</h3>
+			</div> -->
+			<div class="panel-body">
+				<div class="col-md-12">
+					<div class="col-md-6 alert alert-info" role="alert" ng-bind-html="jobs.selectedJob.stdout"></div>
+					<div class="col-md-6 alert alert-warning" role="alert" ng-bind-html="jobs.selectedJob.stderr"></div>
+				</div>
+				<div class="col-md-12">
+		  			<json-formatter json="jobs.selectedJob.job" open="4"></json-formatter>
+		  		</div>
+		  	</div>
+		</div>
+	</uib-tab>
+</uib-tabset>

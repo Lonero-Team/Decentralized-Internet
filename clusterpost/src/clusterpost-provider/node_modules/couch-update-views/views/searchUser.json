@@ -1,0 +1,9 @@
+{
+    "_id": "_design/searchUser",
+    "language": "javascript",
+    "views": {
+        "email": {
+            "map": "function(doc) {\n\tif(doc.type === \"user\"){\n\t\temit(doc.email, doc.name);\n\t}\n}"
+        }
+    }
+}

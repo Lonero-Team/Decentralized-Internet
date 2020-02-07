@@ -1,0 +1,34 @@
+# Copyright BigchainDB GmbH and BigchainDB contributors
+# SPDX-License-Identifier: (Apache-2.0 AND CC-BY-4.0)
+# Code is Apache-2.0 and docs are CC-BY-4.0
+
+codecov:
+  branch: master     # the branch to show by default
+
+coverage:
+  precision: 2
+  round: down
+  range: "70...100"
+
+  status:
+    project:
+      default:
+        target: auto
+        if_no_uploads: error
+
+    patch:
+      default:
+        target: "80%"
+        if_no_uploads: error
+
+  ignore:          # files and folders that will be removed during processing
+    - "docs/*"
+    - "tests/*"
+    - "bigchaindb/version.py"
+    - "k8s/*"
+
+comment:
+  # @stevepeak (from codecov.io) suggested we change 'suggestions' to 'uncovered'
+  # in the following line. Thanks Steve!
+  layout: "header, diff, changes, sunburst, uncovered"
+  behavior: default

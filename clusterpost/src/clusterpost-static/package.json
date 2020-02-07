@@ -1,0 +1,12 @@
+{
+  "name": "clusterpost-static",
+  "version": "1.0.0",
+  "description": "Public route for clusterpost-static",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab -v test.js"
+  },
+  "author": "juanprietob@gmail.com",
+  "license": "Apache-2.0",
+  "dependencies": {}
+}

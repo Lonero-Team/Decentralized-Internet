@@ -1,0 +1,27 @@
+{
+  "name": "clusterpost-model",
+  "version": "1.10.0",
+  "description": "Containt the Joi descriptions of the clusterpost server application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Joi",
+    "clusterpost"
+  ],
+  "dependencies": {
+    "@hapi/joi": "^15.0.3"
+  },
+  "devDependencies": {},
+  "author": "juanprietob@gmail.com",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/juanprietob/clusterpost.git"
+  },
+  "bugs": {
+    "url": "https://github.com/juanprietob/clusterpost/issues"
+  },
+  "homepage": "https://github.com/juanprietob/clusterpost#readme"
+}

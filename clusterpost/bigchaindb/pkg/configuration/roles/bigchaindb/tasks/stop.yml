@@ -1,0 +1,38 @@
+# Copyright BigchainDB GmbH and BigchainDB contributors
+# SPDX-License-Identifier: (Apache-2.0 AND CC-BY-4.0)
+# Code is Apache-2.0 and docs are CC-BY-4.0
+
+---
+- name: Stopping BigchainDB Docker
+  docker_container:
+    name: "{{ bigchaindb_docker_name }}{{ item }}"
+    image: "{{ bigchaindb_image_name }}:{{ bigchaindb_image_tag }}"
+    keep_volumes: no
+    state: absent
+    force_kill: yes
+  with_sequence: start=1 end="{{ stack_size|int }}" stride=1
+  when: stack_type|lower == "docker" or stack_type|lower == "cloud"
+  tags: [bigchaindb]
+
+- name: Get Running BigchainDB Process(es)
+  shell: "ps aux | grep \"[b]igchaindb\" | awk '{print $2}'"
+  register: bdb_ps
+  ignore_errors: yes
+  when: stack_type|lower == "local"
+  tags: [bigchaindb]
+
+- name: Kill BigchainDB Process(es)
+  shell: "kill -9 {{ item }}"
+  with_items: "{{ bdb_ps.stdout_lines }}"
+  when: stack_type|lower == "local" and bdb_ps.stdout_lines|length > 0
+  tags: [bigchaindb]
+
+- name: Kill auxiliary BigchainDB Process(es)
+  shell: "pkill {{ item }}"
+  with_items:
+    - logging_server
+    - ws
+    - gunicorn
+  ignore_errors: yes
+  when: stack_type|lower == "local"
+  tags: [bigchaindb]

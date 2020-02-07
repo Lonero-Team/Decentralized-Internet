@@ -1,0 +1,39 @@
+{
+  "name": "couch-provider",
+  "version": "2.3.1",
+  "description": "Provide the implementation for different request methos to couchdb server. It implements, POST, GET, DELETE, PUT methods for documents and views",
+  "main": "index.js",
+  "dependencies": {
+    "@hapi/joi": "^15.0.3",
+    "bluebird": "^3.3.0",
+    "concat-stream": "^1.6.2",
+    "mkdirp": "^0.5.1",
+    "request": "^2.88.0",
+    "underscore": "^1.8.3"
+  },
+  "scripts": {
+    "test": "lab -v test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/juanprietob/clusterpost.git"
+  },
+  "keywords": [
+    "Couchdb",
+    "fs",
+    "file system",
+    "attachment",
+    "Hapi",
+    "server",
+    "interface"
+  ],
+  "author": "juanprietob@gmail.com",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/juanprietob/clusterpost/issues"
+  },
+  "homepage": "https://github.com/juanprietob/clusterpost#readme",
+  "devDependencies": {
+    "lab": "^10.9.0"
+  }
+}
