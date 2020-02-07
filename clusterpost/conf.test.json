@@ -1,0 +1,48 @@
+{
+	"host": "localhost",
+	"port": 8180,
+	"plugins": {
+		"vision": {},
+		"inert": {},
+		"lout": {},
+		"h2o2": {},
+		"hapi-auth-jwt": {},
+		"clusterpost-auth": {
+			"privateKey": "someRandomKey",
+			"saltRounds": 10,
+			"algorithm": { 
+				"algorithm": "HS256"
+			},
+			"algorithms": { 
+				"algorithms": [ "HS256" ] 
+			},
+			"mailer": {
+				"nodemailer": "nodemailer-stub-transport",
+				"from": "clusterpost server <clusterpost@gmail.com>",
+				"message": "Hello @USERNAME@,<br>Somebody asked me to send you a link to reset your password, hopefully it was you.<br>Follow this <a href='@SERVER@/public/#/login/reset?token=@TOKEN@'>link</a> to reset your password.<br>The link will expire in 30 minutes.<br>Bye."
+			},
+			"userdb" : {
+				"hostname": "http://localhost:5984",
+				"database": "clusterjobs"
+			}
+		},
+		"couch-provider": {
+			"default" : "clusterjobs",
+			"clusterjobs" : {
+				"hostname": "http://localhost:5984",
+				"database": "clusterjobs"
+			},
+			"namespace": "clusterprovider"
+		},
+		"clusterpost-provider": {
+			"executionservers" : {
+				"testserver" : {
+					"hostname" : "localhost", 
+					"user" : "cluster",
+					"identityfile" : "/home/.ssh/someKey",
+					"sourcedir" : "/home/cluster/source/clusterpost-execution/"			
+				}
+			}
+		}
+	}
+}
