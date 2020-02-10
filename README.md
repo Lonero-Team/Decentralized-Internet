@@ -47,14 +47,25 @@ Install via NPM: `npm i decentralized-internet`
 Install via DUB: `dub add decentralized-internet`  
 Install via YARN: `yarn add decentralized-internet`  
 Install via PIP: `pip install decentralized-internet`  
-Install via GEM: `gem install decentralized-internet`  
 Install via APM: `apm install decentralized-internet`  
+Install via GEM: `gem install decentralized-internet`  
 Ember Installation:  `ember install decentralized-internet`  
 Install via VS Code: `ext install Lonero.decentralized-internet`  
+Install through Leiningen/Boot: `[decentralized-internet "0.1.0"]`  
 Install via SNAP: `sudo snap install decentralized-internet --edge`  
 Install via Docker: `docker pull gamer456148/decentralized-internet`  
+Use Clojure CLI/deps.edn: `decentralized-internet {:mvn/version "0.1.0"}`  
+Use Gradle:`Compile 'decentralized-internet:decentralized-internet:0.1.0'`  
 ##### Export Components: 
 `bit export decentralized-internet.lonero_decentralized-internet`  
+##### Add via Maven
+```
+<dependency>
+  <groupId>decentralized-internet</groupId>
+  <artifactId>decentralized-internet</artifactId>
+  <version>0.1.0</version>
+</dependency>
+```  
 ##### Arch Linux Installation Instructions:
 ```
 git clone https://aur.archlinux.org/snapd.git
@@ -73,11 +84,11 @@ dependencies:
 Run: `pub get`
 ##### Use this Module via Puppet:
 Add this to your Puppetfile as a declaration:  
-`mod 'gamer456148-decentralized_internet', '0.8.3'`  
+`mod 'gamer456148-decentralized_internet', '0.9.0'`  
 Next run the command:  
 `bolt puppetfile install`  
 Instead of the above, you can also try adding:  
-`mod 'gamer456148-decentralized_internet', '0.8.3'`  
+`mod 'gamer456148-decentralized_internet', '0.9.0'`  
 This mod line is for those who use r10k or Code Manager  
 Learn more [here](https://puppet.com/docs/pe/2019.2/managing_puppet_code.html)
 ###### App to add GitHub metrics tracking to select repos [here](https://github.com/apps/decentralized-internet) 
