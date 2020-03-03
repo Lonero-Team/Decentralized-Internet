@@ -98,6 +98,10 @@ Learn more [here](https://puppet.com/docs/pe/2019.2/managing_puppet_code.html)
 ###### See original compatibility status update [here](https://www.minds.com/newsfeed/1040672641569824768?referrer=LoneroLNR)
 ***** See NPM v.Updates
 
+#### For Mac Users:
+[![MAC](https://jaywcjlove.github.io/sb/download/macos.svg)](https://github.com/Lonero-Team/Decentralized-Internet/releases/download/v1.0_mac/Decentralized-Internet.dmg)
+##### Sketch Plugin: `wget https://git.io/Jv2pk`
+
 ###### Latest Git Release Package [here](https://github.com/Lonero-Team/Decentralized-Internet/releases/tag/v3.6.9)  
 [![GitPod](https://jaywcjlove.github.io/sb/open/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Lonero-Team/Decentralized-Internet)  
 ## License
