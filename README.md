@@ -1,5 +1,4 @@
 # Decentralized Internet
-[![GitPod](https://jaywcjlove.github.io/sb/open/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Lonero-Team/Decentralized-Internet)  
 ![npm](https://img.shields.io/npm/dt/decentralized-internet?label=NPM%20Downloads) [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FLonero-Team%2FDecentralized-Internet.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FLonero-Team%2FDecentralized-Internet?ref=badge_shield)
 | ![Crates.io](https://img.shields.io/crates/d/decentralized-internet?label=crates.io%20Downloads) | [![Discord](https://img.shields.io/discord/639489591664967700)](https://discord.gg/buTafPc) | [![Gitter](https://img.shields.io/gitter/room/Decentralized-Internet/community)](https://gitter.im/Decentralized-Internet/community?source=orgpage) | [![Read the Docs](https://img.shields.io/readthedocs/lonero)](https://lonero.readthedocs.io/en/latest/)
 
@@ -99,7 +98,7 @@ Learn more [here](https://puppet.com/docs/pe/2019.2/managing_puppet_code.html)
 ###### See original compatibility status update [here](https://www.minds.com/newsfeed/1040672641569824768?referrer=LoneroLNR)
 ***** See NPM v.Updates
 
-###### Latest Git Release Package [here](https://github.com/Lonero-Team/Decentralized-Internet/releases/tag/v3.6.9)
-
+###### Latest Git Release Package [here](https://github.com/Lonero-Team/Decentralized-Internet/releases/tag/v3.6.9)  
+[![GitPod](https://jaywcjlove.github.io/sb/open/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Lonero-Team/Decentralized-Internet)  
 ## License
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FLonero-Team%2FDecentralized-Internet.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FLonero-Team%2FDecentralized-Internet?ref=badge_large)
