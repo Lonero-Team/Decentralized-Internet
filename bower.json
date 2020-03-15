@@ -1,0 +1,30 @@
+{
+  "name": "decentralized-internet",
+  "description": "An NPM library of programs to create decentralized web and distributed computing projects",
+  "main": "index.js",
+  "authors": [
+    "Andrew Magdy Kamal",
+    "The Lonero Dev Team"
+  ],
+  "license": "zlib or MIT",
+  "keywords": [
+    "Web",
+    "P2P",
+    "IOT",
+    "Peer",
+    "Crypto",
+    "Mining",
+    "Internet",
+    "Protocols",
+    "Blockchain",
+    "ember-addon",
+    "Distributed",
+    "Decentralized",
+    "Cryptocurrency",
+    "Grid",
+    "Computing",
+    "Parallel",
+    "Processing"
+  ],
+  "homepage": ""
+}
