@@ -56,6 +56,7 @@ Install via VS Code: `ext install Lonero.decentralized-internet`
 Install through Leiningen/Boot: `[decentralized-internet "0.1.0"]`  
 Install via SNAP: `sudo snap install decentralized-internet --edge`  
 Install via Docker: `docker pull gamer456148/decentralized-internet`  
+Install via Bower: `bower install Lonero-Team/Decentralized-Internet`  
 Use Clojure CLI/deps.edn: `decentralized-internet {:mvn/version "0.1.0"}`  
 Use Gradle:`Compile 'decentralized-internet:decentralized-internet:0.1.0'`  
 Use wget: `sudo wget -O decentralized-internet.tar.gz "https://git.io/JvR7b"`  
@@ -90,11 +91,11 @@ dependencies:
 Run: `pub get`
 ##### Use this Module via Puppet:
 Add this to your Puppetfile as a declaration:  
-`mod 'gamer456148-decentralized_internet', '2.0.2'`  
+`mod 'gamer456148-decentralized_internet', '2.0.4'`  
 Next run the command:  
 `bolt puppetfile install`  
 Instead of the above, you can also try adding:  
-`mod 'gamer456148-decentralized_internet', '2.0.2'`  
+`mod 'gamer456148-decentralized_internet', '2.0.4'`  
 This mod line is for those who use r10k or Code Manager  
 Learn more [here](https://puppet.com/docs/pe/2019.2/managing_puppet_code.html)
 ###### App to add GitHub metrics tracking to select repos [here](https://github.com/apps/decentralized-internet) 
