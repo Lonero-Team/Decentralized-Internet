@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "ember test",
-    "grunt-test": "grunt test",
     "lint:js": "eslint .",
     "build": "ember build",
+    "grunt-test": "grunt test",
     "ember-start": "ember serve",
     "test:all": "ember try:each",
     "watch": "skpm-build --watch",
