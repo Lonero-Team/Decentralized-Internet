@@ -1,0 +1,6 @@
+name = "DecentralizedInternet"
+uuid = "c64ce7d0-6970-11ea-3334-dbbabb1ea5a5"
+authors = ["Andrew Kamal <andrew@etherstone.org>"]
+version = "0.1.0"
+[compat]
+julia = "1.0"
