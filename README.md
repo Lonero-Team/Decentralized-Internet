@@ -89,13 +89,19 @@ dependencies:
   decentralized_internet: ^3.4.1
 ```
 Run: `pub get`
+
+##### Install via Cordova:
+`cordova plugin add https://github.com/Lonero-Team/Decentralized-Internet.git`  
+Or `cordova plugin searchcordova-plugin-decentralized-internet`  
+Or `cordova plugin add cordova-plugin-decentralized-internet`
+
 ##### Use this Module via Puppet:
 Add this to your Puppetfile as a declaration:  
-`mod 'gamer456148-decentralized_internet', '3.1.1'`  
+`mod 'gamer456148-decentralized_internet', '4.0.1'`  
 Next run the command:  
 `bolt puppetfile install`  
 Instead of the above, you can also try adding:  
-`mod 'gamer456148-decentralized_internet', '3.1.1'`  
+`mod 'gamer456148-decentralized_internet', '4.0.1'`  
 This mod line is for those who use r10k or Code Manager  
 Learn more [here](https://puppet.com/docs/pe/2019.2/managing_puppet_code.html)
 ###### App to add GitHub metrics tracking to select repos [here](https://github.com/apps/decentralized-internet) 
