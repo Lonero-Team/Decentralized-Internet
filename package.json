@@ -1,37 +1,35 @@
 {
   "name": "decentralized-internet",
-  "version": "4.3.5",
+  "version": "4.6.9",
+  "author": "Andrew Magdy Kamal, The Lonero Dev Team",
+  "license": "zlib or MIT",
+  "homepage": "http://bit.ly/lonero_os",
   "description": "An NPM library of programs to create decentralized web and distributed computing projects",
   "main": "index.js",
-  "scripts": {
-    "test": "ember test",
-    "lint:js": "eslint .",
-    "build": "ember build",
-    "grunt-test": "grunt test",
-    "ember-start": "ember serve",
-    "test:all": "ember try:each",
-    "watch": "skpm-build --watch",
-    "start": "skpm-build --watch --run",
-    "lint:hbs": "ember-template-lint .",
-    "postinstall": "npm run build && skpm-link"
-  },
-  "bugs": "https://github.com/Lonero-Team/Decentralized-Internet/issues",
-  "contact-dev": "https://minds.com/gamer456148"  
-  },
-  "engines": {
-    "atom": ">=1.0.0 <2.0.0",
-    "qportal": ">= 1.0.0",
-    "yarn": ">= 0.13.0",
-    "Deno": ">= 0.22.0",
-    "sketch": ">=49.0",
-    "vscode": "^1.0.0",
-    "iojs": ">= 1.0.0",
-    "node": ">= 6.0.0",
-    "npm": ">= 3.0.0"
-
-  },
+  "keywords": [
+    "Web",
+    "P2P",
+    "IOT",
+    "Peer",
+    "Crypto",
+    "Mining",
+    "Internet",
+    "Protocols",
+    "Blockchain",
+    "gruntplugin",
+    "ember-addon",
+    "Distributed",
+    "cordova-ios",
+    "Decentralized",
+    "Cryptocurrency",
+    "Grid Computing",
+    "cordova-android",
+    "cordova-windows",
+    "ecosystem:cordova",
+    "Parallel Processing"
+  ],
   "bundleDependencies": false,
-    "dependencies": {
+  "dependencies": {
     "async": "^3.1.0",
     "coins": "^4.5.0",
     "lotion": "^0.4.26",
@@ -77,37 +75,45 @@
     "ember-export-application-global": "^2.0.0",
     "ember-disable-prototype-extensions": "^1.1.3"
   },
-  "homepage": "http://bit.ly/lonero_os",
-   "keywords": [
-    "Web",
-    "P2P",
-    "IOT",
-    "Peer",
-    "Crypto",
-    "Mining",
-    "Internet",
-    "Protocols",
-    "Blockchain",
-    "gruntplugin",
-    "ember-addon",
-    "Distributed",
-    "Decentralized",
-    "Cryptocurrency",
-    "Grid Computing",
-    "Parallel Processing"
-  ],
-  "author": "Andrew Magdy Kamal, The Lonero Dev Team",
-  "license": "zlib or MIT",
-  "private": false,
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Lonero-Team/Decentralized-Internet.git"
+  "scripts": {
+    "test": "ember test",
+    "lint:js": "eslint .",
+    "build": "ember build",
+    "grunt-test": "grunt test",
+    "ember-start": "ember serve",
+    "test:all": "ember try:each",
+    "watch": "skpm-build --watch",
+    "start": "skpm-build --watch --run",
+    "lint:hbs": "ember-template-lint .",
+    "postinstall": "npm run build && skpm-link"
   },
-  "bugs": {
-    "url": "https://github.com/Lonero-Team/Decentralized-Internet/issues"
-},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0",
+    "qportal": ">= 1.0.0",
+    "yarn": ">= 0.13.0",
+    "Deno": ">= 0.22.0",
+    "sketch": ">=49.0",
+    "vscode": "^1.0.0",
+    "iojs": ">= 1.0.0",
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0",
+    "cordovaDependencies": {
+      "1.0.0": {
+        "cordova-android": "<3.0.0"
+      },
+      "2.1.0": {
+        "cordova-android": ">4.0.0"
+      }
+    },
+    "bit": {
+      "env": {},
+      "componentsDefaultDirectory": "components/{name}",
+      "packageManager": "npm"
+    },
+    "private": false
+  },
   "ember-addon": {
     "configPath": "config/ember-try.js"
   },
-  "homepage": "https://github.com/Lonero-Team/Decentralized-Internet#readme"
+  "contact-dev": "https://minds.com/gamer456148"
 }
