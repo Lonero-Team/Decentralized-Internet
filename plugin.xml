@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="cordova-plugin-decentralized-internet" version="0.2.3">
+    <name>Decentralized-Internet</name>
+    <description>Cordova Decentralized Internet Plugin</description>
+    <license>MIT</license>
+    <keywords>cordova,decentralized-internet</keywords>
+    <js-module src="index.js" name="index">
+        <clobbers target="index" />
+    </js-module>
+    <platform name="android">
+        <config-file target="config.xml" parent="/*">
+            <feature name="Device">
+                <param name="android-package" value="org.apache.cordova.decentralizedinternet"/>
+            </feature>
+        </config-file>
+        <config-file target="AndroidManifest.xml" parent="application">
+    </platform>
+</plugin>
+
