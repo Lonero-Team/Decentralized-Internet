@@ -1,0 +1,17 @@
+{
+	"manifest_version": 1,
+
+	"name": "Decentralized Internet",
+	"description": "Decentralized Internet SDK Interface Add-on",
+	"version": "1.0",
+	"background": {
+		"scripts": ["background.js"]
+	},
+
+	"permissions": ["tabs"],
+	"browser_action": {
+		"default_icon": "images/icon.png",
+		"default_title": "Welcome to the Decentralized Net!"
+	}
+}
+
