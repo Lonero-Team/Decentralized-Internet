@@ -52,10 +52,10 @@ Install via GEM: `gem install decentralized-internet`
 Install via PNPM: `pnpm install decentralized-internet`  
 Ember Installation:  `ember install decentralized-internet`  
 Install via Spack: `./spack install decentralized-internet`  
-Raco Installation:: `raco pkg install decentralized-internet` 
+Raco Installation:: `raco pkg install decentralized-internet`  
 Install w/ Meteor: `meteor add startup:decentralized-internet`  
 Install via VS Code: `ext install Lonero.decentralized-internet`  
-Install through Leiningen/Boot: `[decentralized-internet "0.1.0"]` 
+Install through Leiningen/Boot: `[decentralized-internet "0.1.0"]`  
 Other Meteor Method: `meteor npm install decentralized-internet`  
 Install via SNAP: `sudo snap install decentralized-internet --edge`  
 Install via Docker: `docker pull gamer456148/decentralized-internet`  
