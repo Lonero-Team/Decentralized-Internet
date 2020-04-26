@@ -56,7 +56,7 @@ Raco Installation:: `raco pkg install decentralized-internet`
 Install w/ Meteor: `meteor add startup:decentralized-internet`  
 Install via VS Code: `ext install Lonero.decentralized-internet`  
 Install through Leiningen/Boot: `[decentralized-internet "0.1.0"]` 
-Other Meteor Method: `meteor npm install decentralized-internet`
+Other Meteor Method: `meteor npm install decentralized-internet`  
 Install via SNAP: `sudo snap install decentralized-internet --edge`  
 Install via Docker: `docker pull gamer456148/decentralized-internet`  
 Install via Bower: `bower install Lonero-Team/Decentralized-Internet`  
