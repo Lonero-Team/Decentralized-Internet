@@ -43,6 +43,7 @@ app.start().then(appInfo => console.log(appInfo.GCI))
 <connection XML_version="1.2" id="TI MSP430 USB1">
 ```
 #### Installation Methods
+Use Julia: `Pkg.add("DecentralizedInternet")`  
 Install via NPM: `npm i decentralized-internet`  
 Install via DUB: `dub add decentralized-internet`  
 Install via YARN: `yarn add decentralized-internet`  
@@ -101,11 +102,11 @@ Or `cordova plugin add cordova-plugin-decentralized-internet`
 
 ##### Use this Module via Puppet:
 Add this to your Puppetfile as a declaration:  
-`mod 'gamer456148-decentralized_internet', '4.2.1'`  
+`mod 'gamer456148-decentralized_internet', '4.3.1'`  
 Next run the command:  
 `bolt puppetfile install`  
 Instead of the above, you can also try adding:  
-`mod 'gamer456148-decentralized_internet', '4.2.1'`  
+`mod 'gamer456148-decentralized_internet', '4.3.1'`  
 This mod line is for those who use r10k or Code Manager  
 Learn more [here](https://puppet.com/docs/pe/2019.2/managing_puppet_code.html)
 ###### App to add GitHub metrics tracking to select repos [here](https://github.com/apps/decentralized-internet) 
