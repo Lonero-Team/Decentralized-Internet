@@ -1,0 +1,8 @@
+{
+  "serviceInterval": "5s",
+  "ringSizes": {
+    "algorithm": "fibonacci",
+    "iterations": 3
+  },
+  "timeout": "60m"
+}

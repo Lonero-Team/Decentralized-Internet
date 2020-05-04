@@ -1,0 +1,32 @@
+{
+  "inputs": {
+    "ttn": {
+        "protocol": "mqtt",
+        "host": "eu.thethings.network",
+        "user": "abc",
+        "password": "xyz"
+    }
+  },
+  "data": [
+    "temperature",
+    "humidity",
+    "motion",
+    "light",
+    "battery"
+  ],
+  "metadata": [
+    "location",
+    "contact",
+    "room",
+    "installation_date"
+  ],
+  "outputs": {
+    "mqtt": false,
+    "rest": {
+      "disable": {
+        "metadata":["contact", "installation_date"],
+        "data": ["battery"]
+      }
+    }
+  }
+}

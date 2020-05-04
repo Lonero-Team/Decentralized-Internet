@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>constructor.js - Documentation</title>
+    
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav >
+    
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="EcomCart.html">EcomCart</a><ul class='methods'><li data-type='method'><a href="EcomCart.html#addItem">addItem</a></li><li data-type='method'><a href="EcomCart.html#addProduct">addProduct</a></li><li data-type='method'><a href="EcomCart.html#clear">clear</a></li><li data-type='method'><a href="EcomCart.html#increaseItemQnt">increaseItemQnt</a></li><li data-type='method'><a href="EcomCart.html#removeItem">removeItem</a></li><li data-type='method'><a href="EcomCart.html#reset">reset</a></li><li data-type='method'><a href="EcomCart.html#save">save</a></li></ul></li></ul><h3>Modules</h3><ul><li><a href="module-@ecomplus_shopping-cart.html">@ecomplus/shopping-cart</a></li></ul><h3>Events</h3><ul><li><a href="EcomCart.html#event:addItem">addItem</a></li><li><a href="EcomCart.html#event:change">change</a></li><li><a href="EcomCart.html#event:clear">clear</a></li><li><a href="EcomCart.html#event:increaseItemQnt">increaseItemQnt</a></li><li><a href="EcomCart.html#event:removeItem">removeItem</a></li><li><a href="EcomCart.html#event:reset">reset</a></li><li><a href="EcomCart.html#event:save">save</a></li></ul><h3>Global</h3><ul><li><a href="global.html#ecomCart">ecomCart</a></li></ul>
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">constructor.js</h1>
+    
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>import { $ecomConfig, randomObjectId } from '@ecomplus/utils'
+import * as EventEmitter from 'eventemitter3'
+
+import addItem from './methods/add-item'
+import addPoduct from './methods/add-product'
+import increaseItemQnt from './methods/increase-item-qnt'
+import removeItem from './methods/remove-item'
+import save from './methods/save'
+import clear from './methods/clear'
+import reset from './methods/reset'
+
+const defaultStorage = typeof window === 'object' &amp;&amp; window.localStorage
+
+/**
+ * Construct a new shopping cart instance object.
+ * @constructor
+ * @param {number} [storeId=$ecomConfig.get('store_id')] - Preset Store ID number
+ * @param {string|null} [storageKey] - Item key to persist cart data
+ * @param {object} [localStorage=window.localStorage] -
+ * [Local Storage interface]{@link https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage}
+ *
+ * @example
+
+// Default instance
+const ecomCart = new EcomCart()
+
+ * @example
+
+// Defining Store ID other than the configured on `$ecomConfig`
+const storeId = 2000
+const customEcomCart = new EcomCart(storeId)
+
+ */
+
+const EcomCart = function (storeId, storageKey = 'ecomShoppingCart', localStorage = defaultStorage) {
+  const ecomCart = this
+
+  /**
+   * Construct a new shopping cart instance object.
+   * @memberof EcomCart
+   * @type {function}
+   * @see EcomCart
+   */
+  ecomCart.Constructor = EcomCart
+
+  /**
+   * Respective Store ID number.
+   * @memberof EcomCart
+   * @type {number}
+   */
+  ecomCart.storeId = storeId || $ecomConfig.get('store_id')
+
+  /**
+   * Item key to handle persistent JSON {@link EcomCart#data}
+   * with [localStorage]{@link EcomCart#localStorage}.
+   * @memberof EcomCart
+   * @type {string|null}
+   */
+  ecomCart.storageKey = storageKey
+
+  /**
+   * [Storage interface]{@link https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage}.
+   * @memberof EcomCart
+   * @type {object}
+   */
+  ecomCart.localStorage = localStorage
+
+  /**
+   * Shopping cart data following
+   * {@link https://developers.e-com.plus/docs/api/#/store/carts/carts E-Com Plus cart object model}.
+   * @memberof EcomCart
+   * @type {object}
+   * @property {string} _id - Cart object ID
+   * @property {array&lt;object>} items - List of cart items
+   * @property {number} subtotal - Cart subtotal value
+   */
+  ecomCart.data = {
+    items: [],
+    subtotal: 0
+  }
+
+  const emitter = new EventEmitter()
+  ;['on', 'off', 'once'].forEach(method => {
+    ecomCart[method] = (ev, fn) => {
+      emitter[method](ev, fn)
+    }
+  })
+
+  const methodsMiddleware = (method, args = [], emitChange = true) => {
+    const result = method(ecomCart, emitter, args)
+    if (result &amp;&amp; emitChange) {
+      const { data } = ecomCart
+
+      /**
+       * @event EcomCart#change
+       * @type {object}
+       * @property {object} data - Shopping cart data
+       * @example ecomCart.on('change', ({ data }) => { console.log(data.items) })
+       */
+      emitter.emit('change', { data })
+    }
+    return result
+  }
+
+  this.addItem = (newItem, canSave) => {
+    return methodsMiddleware(addItem, [newItem, canSave])
+  }
+
+  this.addProduct = (product, variationId, quantity, canSave) => {
+    return methodsMiddleware(addPoduct, [product, variationId, quantity, canSave])
+  }
+
+  this.increaseItemQnt = (itemId, quantity, canSave) => {
+    return methodsMiddleware(increaseItemQnt, [itemId, quantity, canSave])
+  }
+
+  this.removeItem = (itemId, canSave) => {
+    return methodsMiddleware(removeItem, [itemId, canSave])
+  }
+
+  this.clear = (canSave) => {
+    return methodsMiddleware(clear, [canSave])
+  }
+
+  this.reset = (canSave) => {
+    return methodsMiddleware(reset, [canSave])
+  }
+
+  this.save = (canFixSubtotal) => {
+    return methodsMiddleware(save, [canFixSubtotal], false)
+  }
+
+  if (localStorage &amp;&amp; storageKey) {
+    const json = localStorage.getItem(storageKey)
+    if (json) {
+      let data
+      try {
+        data = JSON.parse(json)
+      } catch (e) {
+        // ignore invalid JSON
+      }
+      if (data &amp;&amp; Array.isArray(data.items)) {
+        ecomCart.data = data
+      }
+    }
+  }
+
+  if (!ecomCart.data._id) {
+    ecomCart.data._id = randomObjectId()
+  }
+}
+
+export default EcomCart
+</code></pre>
+        </article>
+    </section>
+
+
+
+
+    
+    
+</div>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.3</a> on Sat Jan 25 2020 19:06:58 GMT-0300 (Brasilia Standard Time) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+
+
+</body>
+</html>

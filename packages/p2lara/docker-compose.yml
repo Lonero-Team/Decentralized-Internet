@@ -1,0 +1,32 @@
+version: '3.2'
+services:
+  dingjs:
+    build: .
+    container_name: dingjs
+    ports:
+      - 3000:3000
+      - 1883:1883
+    volumes:
+      - ./:/app
+      - /app/node_modules
+    command: 'npm run dev'
+    depends_on:
+      - bigchaindb
+  influxdb:
+    image: 'influxdb'
+    container_name: 'influxdb'
+    ports:
+      - 8086:8086
+    volumes:
+      - influxdb-data:/var/lib/influxdb
+  bigchaindb:
+    image: 'bigchain'
+    container_name: 'bigchaindb'
+    volumes:
+          - bigchaindb-data:/data/db
+    ports:
+        - 27017:27017
+    
+volumes:
+  influxdb-data:
+  bigchaindb-data:

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>Home - Documentation</title>
+    
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav >
+    
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="EcomCart.html">EcomCart</a><ul class='methods'><li data-type='method'><a href="EcomCart.html#addItem">addItem</a></li><li data-type='method'><a href="EcomCart.html#addProduct">addProduct</a></li><li data-type='method'><a href="EcomCart.html#clear">clear</a></li><li data-type='method'><a href="EcomCart.html#increaseItemQnt">increaseItemQnt</a></li><li data-type='method'><a href="EcomCart.html#removeItem">removeItem</a></li><li data-type='method'><a href="EcomCart.html#reset">reset</a></li><li data-type='method'><a href="EcomCart.html#save">save</a></li></ul></li></ul><h3>Modules</h3><ul><li><a href="module-@ecomplus_shopping-cart.html">@ecomplus/shopping-cart</a></li></ul><h3>Events</h3><ul><li><a href="EcomCart.html#event:addItem">addItem</a></li><li><a href="EcomCart.html#event:change">change</a></li><li><a href="EcomCart.html#event:clear">clear</a></li><li><a href="EcomCart.html#event:increaseItemQnt">increaseItemQnt</a></li><li><a href="EcomCart.html#event:removeItem">removeItem</a></li><li><a href="EcomCart.html#event:reset">reset</a></li><li><a href="EcomCart.html#event:save">save</a></li></ul><h3>Global</h3><ul><li><a href="global.html#ecomCart">ecomCart</a></li></ul>
+</nav>
+
+<div id="main">
+    
+
+    
+
+
+
+    
+
+
+    <section class="package">
+        <h3> </h3>		
+    </section>
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    <section class="readme">
+        <article><h1>shopping-cart</h1>
+<p><a href="https://www.codefactor.io/repository/github/ecomclub/shopping-cart"><img src="https://www.codefactor.io/repository/github/ecomclub/shopping-cart/badge" alt="CodeFactor"></a>
+<a href="https://www.npmjs.org/@ecomplus/shopping-cart"><img src="https://img.shields.io/npm/v/@ecomplus/shopping-cart.svg" alt="npm version"></a>
+<a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="license mit"></a></p>
+<p>Simple vanilla JS library to handle shopping cart with
+common methods following
+<a href="https://developers.e-com.plus/docs/api/#/store/carts/carts">E-Com Plus cart object model</a></p>
+<p><a href="https://github.com/ecomclub/shopping-cart/blob/master/CHANGELOG.md">Changelog</a></p>
+<h2>Usage</h2>
+<p>The <code>@ecomplus/shopping-cart</code> package can be used to persist
+and treat shopping cart data on E-Com Plus stores (and not only).</p>
+<p>It's available for both Node.js and browser environments.</p>
+<ul>
+<li><a href="https://developers.e-com.plus/shopping-cart/module-@ecomplus_shopping-cart.html">Get started</a></li>
+<li><a href="https://developers.e-com.plus/shopping-cart/EcomCart.html">Class reference</a></li>
+</ul>
+<h3>Example</h3>
+<pre class="prettyprint source lang-js"><code>import ecomCart from '@ecomplus/shopping-cart'
+
+ecomCart.on('change', ({ data }) => {
+  console.log('Cart was changed!')
+  console.log('Current cart data:', data)
+})
+
+ecomCart.addItem({
+  _id: '12300000000000000000000f',
+  product_id: '123a5432109876543210cdef',
+  sku: 's-MP_2B4',
+  name: 'Mens Pique Polo Shirt',
+  quantity: 4,
+  price: 42.9,
+  keep_item_price: false
+})
+
+ecomCart.increaseItemQnt('12300000000000000000000f', 3)
+</code></pre>
+<h3>Dependencies</h3>
+<p>It requires and <em>may not</em> include:</p>
+<ul>
+<li><code>core-js</code>;</li>
+<li><a href="https://github.com/primus/eventemitter3"><code>eventemitter3</code></a>;</li>
+<li><a href="https://github.com/ecomclub/ecomplus-utils"><code>@ecomplus/utils</code></a>;</li>
+</ul>
+<h4>Node.js</h4>
+<pre class="prettyprint source lang-bash"><code>npm i --save @ecomplus/utils @ecomplus/shopping-cart
+</code></pre>
+<h4>Webpack</h4>
+<pre class="prettyprint source lang-bash"><code>npm i --save core-js @ecomplus/utils @ecomplus/shopping-cart
+</code></pre>
+<h4>CDN</h4>
+<pre class="prettyprint source lang-html"><code>&lt;script src=&quot;https://cdn.jsdelivr.net/npm/@ecomplus/shopping-cart/dist/ecom-cart.var.min.js&quot;>&lt;/script>
+</code></pre>
+<p><code>EventEmitter3</code> and <code>ecomUtils</code> libraries <strong>must be included separately</strong>
+and available on window scope.</p></article>
+    </section>
+
+
+
+
+
+
+    
+    
+</div>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.3</a> on Sat Jan 25 2020 19:06:58 GMT-0300 (Brasilia Standard Time) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+
+
+</body>
+</html>
