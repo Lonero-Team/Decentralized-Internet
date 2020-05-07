@@ -1,6 +1,9 @@
 # This package is under construction and not yet in a production ready environment
 
 # p2talk  
+
+p2talk is an implementation of the original old school p2p protocol with the decentralized internet as an optional sync host for the backend
+
 ---  
 # p2p
 

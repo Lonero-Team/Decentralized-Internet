@@ -1,5 +1,8 @@
 # This package is under construction and not yet in a production ready environment
 
+# p2shop
+Ecom plus shopping cart library w/ Decentralized Internet SDK
+
 # shopping-cart
 
 [![license mit](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
