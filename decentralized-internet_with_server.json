@@ -1,0 +1,8 @@
+
+{
+    "author_name": "The Lonero Foundation",
+    "extension_name": "decentralized-internet",
+    "project_short_description": "A JupyterLab extension for the Decentralized Internet SDK.",
+    "has_server_extension": "y",
+    "repository": "https://github.com/Lonero-Team/Decentralized-Internet"
+}
