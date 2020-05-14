@@ -40,18 +40,18 @@
     "snyk": "^1.320.3"
   },
   "devDependencies": {
-    "@types/expect": "^1.20.4",
-    "@types/express": "^4.16.1",
-    "@types/mocha": "^5.2.6",
-    "@types/node": "^11.13.4",
-    "concurrently": "^4.1.0",
-    "mocha": "^6.1.2",
-    "nodemon": "^2.0.3",
-    "ts-mocha": "^6.0.0",
-    "ts-node": "^8.0.3",
-    "tslint": "^5.13.1",
-    "typescript": "^3.3.3333",
-    "vuepress": "^0.14.10"
+    "@types/expect": "1.20.4",
+    "@types/express": "4.17.6",
+    "@types/mocha": "5.2.6",
+    "@types/node": "11.13.4",
+    "concurrently": "4.1.0",
+    "mocha": "6.1.2",
+    "nodemon": "2.0.3",
+    "ts-mocha": "6.0.0",
+    "ts-node": "8.10.1",
+    "tslint": "5.15.0",
+    "typescript": "3.4.2",
+    "vuepress": "0.14.10"
   },
   "snyk": true
 }
