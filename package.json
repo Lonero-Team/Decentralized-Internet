@@ -58,7 +58,7 @@
     "bcrypt": "3.0.8",
     "hash.js": "1.1.7", 
     "loader.js": "4.7.0",
-    "qunit-dom": "0.9.2",
+    "qunit-dom": "1.2.0",
     "ember-try": "1.4.0",
     "ember-cli": "3.18.0",
     "typescript": "3.9.2",
