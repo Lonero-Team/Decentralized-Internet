@@ -54,3 +54,7 @@ patch:
         patched: '2020-05-14T07:12:47.192Z'
     - decentralized-internet > ember-cli-babel > broccoli-babel-transpiler > workerpool > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
         patched: '2020-05-14T07:12:47.192Z'
+    - decentralized-internet > ember-cli-babel > broccoli-babel-transpiler > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-14T19:38:49.096Z'
+    - decentralized-internet > ember-cli-babel > broccoli-babel-transpiler > workerpool > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-14T19:38:49.096Z'
