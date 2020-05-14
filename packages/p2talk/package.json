@@ -9,7 +9,7 @@
     "eventemitter2": "0.4.14",
     "express": "4.13.3",
     "decentralized-internet": "^4.9.6",
-    "flaschenpost": "0.10.1",
+    "flaschenpost": "4.0.12",
     "lodash": "3.10.1",
     "parse-duration": "0.1.1",
     "processenv": "0.1.0",
