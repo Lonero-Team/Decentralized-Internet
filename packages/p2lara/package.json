@@ -2,7 +2,6 @@
   "name": "p2lara",
   "version": "1.0.0",
   "description": "Decentralized LoraWan network based off of Ding.js",
-  "main": "index.js",
   "main": "dist/src/index.js",
   "scripts": {
     "test": "ts-mocha -p ./tsconfig.json test/*.ts",
@@ -14,7 +13,9 @@
     "dev": "concurrently -k -p \"[{name}]\" -n \"TypeScript, Node\" -c \"yello.bold, cyan.bold\" \"npm run watch-ts\" \"npm run watch-node\"",
     "start": "npm run dev",
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "keywords": [
     "Decentralized",
@@ -35,7 +36,8 @@
     "influx": "^5.0.7",
     "mosca": "^2.8.3",
     "mqtt": "^2.18.8",
-    "ttn": "^2.3.2"
+    "ttn": "^2.3.2",
+    "snyk": "^1.320.3"
   },
   "devDependencies": {
     "@types/expect": "^1.20.4",
@@ -50,6 +52,6 @@
     "tslint": "^5.13.1",
     "typescript": "^3.3.3333",
     "vuepress": "^0.14.10"
-  }
-  
+  },
+  "snyk": true
 }
