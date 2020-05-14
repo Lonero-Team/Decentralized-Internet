@@ -15,7 +15,7 @@
     "processenv": "0.1.0",
     "random-int": "1.0.0",
     "request": "2.65.0",
-    "require-all": "1.1.0",
+    "require-all": "3.0.0",
     "sha1": "1.1.1",
     "string.prototype.padleft": "2.0.0",
     "timer2": "0.2.3",
