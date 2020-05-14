@@ -46,6 +46,44 @@ patch:
         patched: '2020-05-14T06:12:57.449Z'
     - couch-update-views > request > hawk > cryptiles > boom > hoek:
         patched: '2020-05-14T06:12:57.449Z'
+    - boom > hoek:
+        patched: '2020-05-14T07:16:14.768Z'
+    - request > hawk > hoek:
+        patched: '2020-05-14T07:16:14.768Z'
+    - couch-update-views > joi > hoek:
+        patched: '2020-05-14T07:16:14.768Z'
+    - couch-update-views > lab > hoek:
+        patched: '2020-05-14T07:16:14.768Z'
+    - request > hawk > boom > hoek:
+        patched: '2020-05-14T07:16:14.768Z'
+    - request > hawk > sntp > hoek:
+        patched: '2020-05-14T07:16:14.768Z'
+    - couch-provider > request > hawk > hoek:
+        patched: '2020-05-14T07:16:14.768Z'
+    - couch-update-views > request > hawk > hoek:
+        patched: '2020-05-14T07:16:14.768Z'
+    - couch-update-views > joi > topo > hoek:
+        patched: '2020-05-14T07:16:14.768Z'
+    - couch-update-views > lab > bossy > hoek:
+        patched: '2020-05-14T07:16:14.768Z'
+    - couch-provider > request > hawk > boom > hoek:
+        patched: '2020-05-14T07:16:14.768Z'
+    - couch-update-views > request > hawk > boom > hoek:
+        patched: '2020-05-14T07:16:14.768Z'
+    - request > hawk > cryptiles > boom > hoek:
+        patched: '2020-05-14T07:16:14.768Z'
+    - couch-provider > request > hawk > sntp > hoek:
+        patched: '2020-05-14T07:16:14.768Z'
+    - couch-update-views > request > hawk > sntp > hoek:
+        patched: '2020-05-14T07:16:14.768Z'
+    - couch-update-views > lab > bossy > joi > hoek:
+        patched: '2020-05-14T07:16:14.768Z'
+    - couch-provider > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-05-14T07:16:14.768Z'
+    - couch-update-views > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-05-14T07:16:14.768Z'
+    - couch-update-views > lab > bossy > joi > topo > hoek:
+        patched: '2020-05-14T07:16:14.768Z'
   SNYK-JS-LODASH-567746:
     - couch-update-views > lab > eslint > lodash:
         patched: '2020-05-14T06:12:57.449Z'
