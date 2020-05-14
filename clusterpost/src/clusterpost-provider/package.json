@@ -4,7 +4,9 @@
   "description": "Transfer job description and data to couchdb. Submit task to the computing grid",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "keywords": [
     "cluster",
@@ -13,7 +15,7 @@
   "author": "juanprietob@gmail.com",
   "license": "Apache-2.0",
   "dependencies": {
-    "@hapi/joi": "^15.0.3",
+    "@hapi/joi": "^15.1.1",
     "bluebird": "^3.3.0",
     "boom": "^3.1.2",
     "clusterpost-model": "^1.10.0",
@@ -24,8 +26,9 @@
     "linkedlist": "^1.0.1",
     "node-crontab": "0.0.8",
     "node-targz": "^0.2.0",
-    "request": "^2.69.0",
-    "underscore": "^1.8.3"
+    "request": "^2.82.0",
+    "underscore": "^1.8.3",
+    "snyk": "^1.320.3"
   },
   "repository": {
     "type": "git",
@@ -34,5 +37,6 @@
   "bugs": {
     "url": "https://github.com/juanprietob/clusterpost/issues"
   },
-  "homepage": "https://github.com/juanprietob/clusterpost#readme"
+  "homepage": "https://github.com/juanprietob/clusterpost#readme",
+  "snyk": true
 }
