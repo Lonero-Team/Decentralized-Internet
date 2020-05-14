@@ -34,6 +34,6 @@
   },
   "homepage": "https://github.com/juanprietob/clusterpost#readme",
   "devDependencies": {
-    "lab": "^10.9.0"
+    "lab": "10.9.0"
   }
 }

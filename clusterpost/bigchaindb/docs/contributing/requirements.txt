@@ -1,5 +1,5 @@
-Sphinx~=1.0
-recommonmark>=0.4.0
-sphinx-rtd-theme>=0.1.9
+Sphinx==1.8.5
+recommonmark==0.6.0
+sphinx-rtd-theme==0.4.3
 wget
-packaging~=18.0
+packaging==18.0
