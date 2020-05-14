@@ -24,6 +24,8 @@ patch:
         patched: '2020-05-14T06:16:52.575Z'
     - request > hawk > sntp > hoek:
         patched: '2020-05-14T06:16:52.575Z'
+    - lab > code > hoek:
+        patched: '2020-05-14T06:20:28.157Z'
   SNYK-JS-LODASH-567746:
     - lab > eslint > lodash:
         patched: '2020-05-14T06:16:52.575Z'
