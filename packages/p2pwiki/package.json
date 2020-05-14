@@ -4,7 +4,10 @@
   "description": "Decentralized federated wiki server",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "migrate": "node scripts/wiki-migrate.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "keywords": [
     "p2p",
@@ -69,18 +72,16 @@
     "wiki-plugin-video": "^0.2.9",
     "wiki-security-friends": "^0.2.2",
     "wiki-security-passportjs": "^0.4.2",
-    "wiki-server": "^0.17.0"
+    "wiki-server": "^0.17.0",
+    "snyk": "^1.320.3"
   },
   "devDependencies": {
     "grunt": "^1.0.4",
     "grunt-git-authors": "^3.2.0",
     "grunt-retire": "^1.0.8"
   },
-  "scripts": {
-    "start": "node index.js",
-    "migrate": "node scripts/wiki-migrate.js"
-  },
   "engines": {
     "node": ">=10.10.0"
-  }
+  },
+  "snyk": true
 }
