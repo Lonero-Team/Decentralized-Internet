@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "lab -v test.js",
-    "postinstall": "node postinstall.js"
+    "postinstall": "node postinstall.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -28,7 +30,9 @@
   "dependencies": {
     "bluebird": "^3.4.0",
     "joi": "^9.0.0-3",
-    "lab": "^10.7.1",
-    "request": "^2.72.0"
-  }
+    "lab": "^14.3.4",
+    "request": "^2.82.0",
+    "snyk": "^1.320.3"
+  },
+  "snyk": true
 }
