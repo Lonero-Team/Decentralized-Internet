@@ -22,3 +22,57 @@ patch:
         patched: '2020-05-14T06:24:06.255Z'
     - wiki-server > express-hbs > lodash:
         patched: '2020-05-14T06:24:06.255Z'
+    - decentralized-internet > wiki-server > lodash:
+        patched: '2020-05-14T06:47:52.987Z'
+    - decentralized-internet > ember-cli-babel > @babel/core > lodash:
+        patched: '2020-05-14T06:47:52.987Z'
+    - decentralized-internet > wiki-server > async > lodash:
+        patched: '2020-05-14T06:47:52.987Z'
+    - decentralized-internet > wiki-server > express-hbs > lodash:
+        patched: '2020-05-14T06:47:52.987Z'
+    - decentralized-internet > ember-cli-babel > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2020-05-14T06:47:52.987Z'
+    - decentralized-internet > ember-cli-babel > broccoli-babel-transpiler > @babel/core > lodash:
+        patched: '2020-05-14T06:47:52.987Z'
+    - decentralized-internet > ember-cli-babel > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
+        patched: '2020-05-14T06:47:52.987Z'
+    - decentralized-internet > ember-cli-babel > broccoli-babel-transpiler > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2020-05-14T06:47:52.987Z'
+    - decentralized-internet > ember-cli-babel > broccoli-babel-transpiler > workerpool > @babel/core > lodash:
+        patched: '2020-05-14T06:47:52.987Z'
+    - decentralized-internet > ember-cli-htmlbars > broccoli-persistent-filter > async-promise-queue > async > lodash:
+        patched: '2020-05-14T06:47:52.987Z'
+    - decentralized-internet > ember-cli-babel > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2020-05-14T06:47:52.987Z'
+    - decentralized-internet > ember-cli-babel > broccoli-babel-transpiler > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2020-05-14T06:47:52.987Z'
+    - decentralized-internet > ember-cli-babel > broccoli-babel-transpiler > workerpool > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2020-05-14T06:47:52.987Z'
+    - decentralized-internet > ember-cli-babel > broccoli-babel-transpiler > broccoli-persistent-filter > async-promise-queue > async > lodash:
+        patched: '2020-05-14T06:47:52.987Z'
+    - decentralized-internet > ember-cli-babel > @babel/preset-env > @babel/preset-modules > @babel/plugin-transform-dotall-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2020-05-14T06:47:52.987Z'
+    - decentralized-internet > ember-cli-babel > broccoli-babel-transpiler > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2020-05-14T06:47:52.987Z'
+    - decentralized-internet > ember-cli-babel > broccoli-babel-transpiler > workerpool > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2020-05-14T06:47:52.987Z'
+    - decentralized-internet > ember-cli-babel > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-14T06:47:52.987Z'
+    - decentralized-internet > ember-cli-babel > broccoli-babel-transpiler > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-14T06:47:52.987Z'
+    - decentralized-internet > ember-cli-babel > broccoli-babel-transpiler > workerpool > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2020-05-14T06:47:52.987Z'
+    - decentralized-internet > ember-cli-babel > broccoli-babel-transpiler > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-14T06:47:52.987Z'
+    - decentralized-internet > ember-cli-babel > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-14T06:47:52.987Z'
+    - decentralized-internet > ember-cli-babel > broccoli-babel-transpiler > workerpool > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-14T06:47:52.987Z'
+    - decentralized-internet > ember-cli-babel > broccoli-babel-transpiler > workerpool > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-14T06:47:52.987Z'
+    - decentralized-internet > ember-cli-babel > broccoli-babel-transpiler > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2020-05-14T06:47:52.987Z'
+    - decentralized-internet > ember-cli-babel > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2020-05-14T06:47:52.987Z'
+    - decentralized-internet > ember-cli-babel > broccoli-babel-transpiler > workerpool > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2020-05-14T06:47:52.987Z'
