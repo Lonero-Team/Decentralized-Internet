@@ -13,7 +13,7 @@
     "lodash": "3.10.1",
     "parse-duration": "0.1.1",
     "processenv": "0.1.0",
-    "random-int": "1.0.0",
+    "random-int": "2.0.1",
     "request": "2.65.0",
     "require-all": "3.0.0",
     "sha1": "1.1.1",
