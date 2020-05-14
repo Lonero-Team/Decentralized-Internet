@@ -1,0 +1,73 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - couch-update-views > lab > eslint > debug:
+        patched: '2020-05-14T06:12:57.449Z'
+  'npm:extend:20180424':
+    - request > extend:
+        patched: '2020-05-14T06:12:57.449Z'
+    - couch-provider > request > extend:
+        patched: '2020-05-14T06:12:57.449Z'
+    - couch-update-views > request > extend:
+        patched: '2020-05-14T06:12:57.449Z'
+  'npm:hoek:20180212':
+    - boom > hoek:
+        patched: '2020-05-14T06:12:57.449Z'
+    - couch-update-views > joi > hoek:
+        patched: '2020-05-14T06:12:57.449Z'
+    - couch-update-views > lab > hoek:
+        patched: '2020-05-14T06:12:57.449Z'
+    - couch-update-views > joi > topo > hoek:
+        patched: '2020-05-14T06:12:57.449Z'
+    - couch-update-views > lab > bossy > hoek:
+        patched: '2020-05-14T06:12:57.449Z'
+    - couch-update-views > lab > bossy > joi > hoek:
+        patched: '2020-05-14T06:12:57.449Z'
+    - couch-update-views > lab > bossy > joi > topo > hoek:
+        patched: '2020-05-14T06:12:57.449Z'
+    - couch-provider > request > hawk > hoek:
+        patched: '2020-05-14T06:12:57.449Z'
+    - couch-update-views > request > hawk > hoek:
+        patched: '2020-05-14T06:12:57.449Z'
+    - couch-provider > request > hawk > boom > hoek:
+        patched: '2020-05-14T06:12:57.449Z'
+    - couch-update-views > request > hawk > boom > hoek:
+        patched: '2020-05-14T06:12:57.449Z'
+    - couch-provider > request > hawk > sntp > hoek:
+        patched: '2020-05-14T06:12:57.449Z'
+    - couch-update-views > request > hawk > sntp > hoek:
+        patched: '2020-05-14T06:12:57.449Z'
+    - couch-provider > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-05-14T06:12:57.449Z'
+    - couch-update-views > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-05-14T06:12:57.449Z'
+  SNYK-JS-LODASH-567746:
+    - couch-update-views > lab > eslint > lodash:
+        patched: '2020-05-14T06:12:57.449Z'
+    - couch-update-views > lab > eslint > inquirer > lodash:
+        patched: '2020-05-14T06:12:57.449Z'
+    - couch-update-views > lab > eslint > table > lodash:
+        patched: '2020-05-14T06:12:57.449Z'
+  'npm:moment:20170905':
+    - couch-update-views > joi > moment:
+        patched: '2020-05-14T06:12:57.449Z'
+  'npm:ms:20170412':
+    - couch-update-views > lab > eslint > debug > ms:
+        patched: '2020-05-14T06:12:57.449Z'
+  'npm:stringstream:20180511':
+    - request > stringstream:
+        patched: '2020-05-14T06:12:57.449Z'
+    - couch-provider > request > stringstream:
+        patched: '2020-05-14T06:12:57.449Z'
+    - couch-update-views > request > stringstream:
+        patched: '2020-05-14T06:12:57.449Z'
+  'npm:tough-cookie:20170905':
+    - request > tough-cookie:
+        patched: '2020-05-14T06:12:57.449Z'
+    - couch-provider > request > tough-cookie:
+        patched: '2020-05-14T06:12:57.449Z'
+    - couch-update-views > request > tough-cookie:
+        patched: '2020-05-14T06:12:57.449Z'
