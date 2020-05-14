@@ -42,7 +42,7 @@
     "websocket-stream": "^3.3.0",
     "ember-cli-babel": "^7.11.1",
     "bitcoin-protocol": "^4.0.1",
-    "ember-cli-htmlbars": "^4.0.5",
+    "ember-cli-htmlbars": "^5.1.2",
     "@jupyterlab/notebook": "^1.0.0"
   },
   "husky": {
