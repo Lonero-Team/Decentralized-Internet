@@ -37,7 +37,7 @@
     "mosca": "^2.8.3",
     "mqtt": "^2.18.8",
     "ttn": "^2.3.2",
-    "snyk": "^1.320.3"
+    "snyk": "^1.321.0"
   },
   "devDependencies": {
     "@types/expect": "1.20.4",
