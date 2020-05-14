@@ -39,21 +39,21 @@
     "snyk": "^1.320.3"
   },
   "devDependencies": {
-    "@babel/core": "^7.8.3",
-    "@babel/preset-env": "^7.8.3",
-    "@commitlint/cli": "^8.3.5",
-    "@commitlint/config-conventional": "^8.3.4",
-    "@ecomplus/utils": "^1.2.8",
-    "babel-loader": "^8.0.6",
-    "core-js": "^3.6.1",
-    "docdash": "^1.1.1",
-    "husky": "^3.1.0",
-    "jsdoc": "^3.6.3",
-    "standard": "^14.3.1",
-    "standard-version": "^7.1.0",
-    "webpack": "^4.41.5",
-    "webpack-cli": "^3.3.10",
-    "webpack-dev-server": "^3.10.1"
+    "@babel/core": "7.8.3",
+    "@babel/preset-env": "7.8.3",
+    "@commitlint/cli": "8.3.5",
+    "@commitlint/config-conventional": "8.3.4",
+    "@ecomplus/utils": "1.2.8",
+    "babel-loader": "8.0.6",
+    "core-js": "3.6.1",
+    "docdash": "1.1.1",
+    "husky": "3.1.0",
+    "jsdoc": "3.6.3",
+    "standard": "14.3.4",
+    "standard-version": "7.1.0",
+    "webpack": "4.41.5",
+    "webpack-cli": "3.3.10",
+    "webpack-dev-server": "3.10.1"
   },
   "husky": {
     "hooks": {
