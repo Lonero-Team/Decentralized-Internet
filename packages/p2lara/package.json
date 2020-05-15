@@ -40,7 +40,7 @@
     "snyk": "^1.321.0"
   },
   "devDependencies": {
-    "@types/expect": "1.20.4",
+    "@types/expect": "24.3.0",
     "@types/express": "4.17.6",
     "@types/mocha": "5.2.7",
     "@types/node": "11.15.12",
