@@ -4,7 +4,7 @@
   "description": "Decentralized Internet p2p module [GSM Alternative]",
   "main": "lib/p2p.js",
   "dependencies": {
-    "body-parser": "1.14.1",
+    "body-parser": "1.19.0",
     "defekt": "0.0.2",
     "eventemitter2": "0.4.14",
     "express": "4.13.3",
