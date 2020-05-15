@@ -51,6 +51,7 @@ Install via PIP: `pip install decentralized-internet`
 Install via APM: `apm install decentralized-internet`  
 Install via GEM: `gem install decentralized-internet`  
 Install via PNPM: `pnpm install decentralized-internet`  
+Install via CNPM: `cnpm install decentralized-internet`  
 Ember Installation:  `ember install decentralized-internet`  
 Install via Spack: `./spack install decentralized-internet`  
 Raco Installation:: `raco pkg install decentralized-internet`  
@@ -102,11 +103,11 @@ Or `cordova plugin add cordova-plugin-decentralized-internet`
 
 ##### Use this Module via Puppet:
 Add this to your Puppetfile as a declaration:  
-`mod 'gamer456148-decentralized_internet', '5.0.0'`  
+`mod 'gamer456148-decentralized_internet', '5.1.1'`  
 Next run the command:  
 `bolt puppetfile install`  
 Instead of the above, you can also try adding:  
-`mod 'gamer456148-decentralized_internet', '5.0.0'`  
+`mod 'gamer456148-decentralized_internet', '5.1.1'`  
 This mod line is for those who use r10k or Code Manager  
 Learn more [here](https://puppet.com/docs/pe/2019.2/managing_puppet_code.html)
 ###### App to add GitHub metrics tracking to select repos [here](https://github.com/apps/decentralized-internet) 
