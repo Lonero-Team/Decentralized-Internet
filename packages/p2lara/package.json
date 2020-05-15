@@ -47,7 +47,7 @@
     "concurrently": "4.1.2",
     "mocha": "6.2.3",
     "nodemon": "2.0.4",
-    "ts-mocha": "6.0.0",
+    "ts-mocha": "7.0.0",
     "ts-node": "8.10.1",
     "tslint": "5.20.1",
     "typescript": "3.9.2",
