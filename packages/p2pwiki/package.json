@@ -1,13 +1,11 @@
 {
   "name": "p2pwiki",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Decentralized federated wiki server",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "migrate": "node scripts/wiki-migrate.js",
-    "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect"
+    "migrate": "node scripts/wiki-migrate.js"
   },
   "keywords": [
     "p2p",

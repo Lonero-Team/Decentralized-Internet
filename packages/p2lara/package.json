@@ -1,6 +1,6 @@
 {
   "name": "p2lara",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Decentralized LoraWan network based off of Ding.js",
   "main": "dist/src/index.js",
   "scripts": {
@@ -13,9 +13,7 @@
     "dev": "concurrently -k -p \"[{name}]\" -n \"TypeScript, Node\" -c \"yello.bold, cyan.bold\" \"npm run watch-ts\" \"npm run watch-node\"",
     "start": "npm run dev",
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
-    "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect"
+    "docs:build": "vuepress build docs"
   },
   "keywords": [
     "Decentralized",
