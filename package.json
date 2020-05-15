@@ -37,7 +37,7 @@
     "async": "^3.1.0",
     "coins": "^4.5.0",
     "lotion": "^0.4.26",
-    "tendermint": "^4.0.8",
+    "tendermint": "^5.0.2",
     "bitcoin-util": "^2.0.0",
     "websocket-stream": "^3.3.0",
     "ember-cli-babel": "^7.11.1",
