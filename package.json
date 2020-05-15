@@ -31,7 +31,7 @@
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/decentralized-internet"
-    },  
+  },
   "bundleDependencies": false,
   "dependencies": {
     "async": "^3.1.0",
@@ -56,7 +56,7 @@
     "husky": "3.1.0",
     "lerna": "3.21.0",
     "bcrypt": "4.0.1",
-    "hash.js": "1.1.7", 
+    "hash.js": "1.1.7",
     "loader.js": "4.7.0",
     "qunit-dom": "1.2.0",
     "ember-try": "1.4.0",
@@ -84,7 +84,7 @@
     "ember-cli-dependency-checker": "3.2.0",
     "ember-cli-inject-live-reload": "2.0.2",
     "ember-maybe-import-regenerator": "0.1.6",
-    "ember-cli-template-lint": "1.0.0",
+    "ember-cli-template-lint": "2.0.2",
     "ember-export-application-global": "2.0.1",
     "ember-disable-prototype-extensions": "1.1.3"
   },
