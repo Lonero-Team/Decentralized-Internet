@@ -6,7 +6,7 @@
   "dependencies": {
     "body-parser": "1.19.0",
     "defekt": "0.2.0",
-    "eventemitter2": "0.4.14",
+    "eventemitter2": "6.4.0",
     "express": "4.16.0",
     "decentralized-internet": "^4.9.6",
     "flaschenpost": "4.0.12",
