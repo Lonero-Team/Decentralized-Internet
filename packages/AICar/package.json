@@ -1,0 +1,20 @@
+{
+  "name": "aicar",
+  "version": "1.0.0",
+  "description": "Unofficial Tesla REST API + Distributed Computing",
+  "main": "index.js",
+  "dependencies": {
+    "decentralized-internet": "^4.9.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tesla",
+    "blockchain",
+    "decentralized",
+    "internet"
+  ],
+  "author": "Andrew Magdy Kamal",
+  "license": "MIT"
+}

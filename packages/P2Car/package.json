@@ -1,0 +1,20 @@
+{
+  "name": "p2car",
+  "version": "1.0.0",
+  "description": "Distributed Computing datastore w/ CommaAI Autopilot",
+  "main": "index.js",
+  "dependencies": {
+    "decentralized-internet": "^4.9.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "CommaAI",
+    "blockchain",
+    "decentralized",
+    "internet"
+  ],
+  "author": "Andrew Magdy Kamal",
+  "license": "MIT"
+}
