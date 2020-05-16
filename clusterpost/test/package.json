@@ -4,19 +4,22 @@
   "description": "Test the API of clusterpost",
   "main": "test.js",
   "dependencies": {
-    "@hapi/joi": "^15.0.3",
+    "@hapi/joi": "^15.1.1",
     "bluebird": "^3.5.4",
     "joi": "^14.3.1",
     "lab": "^18.0.2",
     "request": "^2.88.0",
-    "underscore": "^1.9.1"
+    "underscore": "^1.9.1",
+    "snyk": "^1.321.0"
   },
   "scripts": {
     "test": "lab -v -m 120000 test.js",
     "testes": "lab -v -m 120000 tokensTest.js",
     "testcmd": "lab -v -m 120000 createJobsTest.js",
     "testdtoken": "lab -v -m 120000 downloadTokenTest.js",
-    "testundef": "lab -v -m 120000 undefinedTest.js"
+    "testundef": "lab -v -m 120000 undefinedTest.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "keywords": [
     "test"
@@ -25,5 +28,6 @@
   "license": "Apache-2.0",
   "devDependencies": {
     "prompt": "^1.0.0"
-  }
+  },
+  "snyk": true
 }
