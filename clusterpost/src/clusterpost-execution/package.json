@@ -18,7 +18,7 @@
   "dependencies": {
     "@hapi/joi": "^15.0.3",
     "bluebird": "^3.3.0",
-    "clusterpost-lib": "^1.1.0",
+    "clusterpost-lib": "^2.0.0",
     "clusterpost-model": "^1.10.0",
     "minimist": "^1.2.0",
     "node-crontab": "0.0.8",
