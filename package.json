@@ -53,7 +53,7 @@
   },
   "devDependencies": {
     "grunt": "1.1.0",
-    "husky": "3.1.0",
+    "husky": "4.2.5",
     "lerna": "3.21.0",
     "bcrypt": "4.0.1",
     "hash.js": "1.1.7",
