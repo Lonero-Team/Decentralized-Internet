@@ -74,7 +74,7 @@
     "snyk": "^1.320.3"
   },
   "devDependencies": {
-    "grunt": "1.0.4",
+    "grunt": "1.1.0",
     "grunt-git-authors": "3.2.0",
     "grunt-retire": "1.0.9"
   },
