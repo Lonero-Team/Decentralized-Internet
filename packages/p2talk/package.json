@@ -28,7 +28,7 @@
     "comparejs": "4.0.1",
     "crew": "0.9.1",
     "freeport": "1.0.5",
-    "grunt": "0.4.5",
+    "grunt": "1.1.0",
     "knockat": "4.0.4",
     "nock": "12.0.3",
     "supertest": "4.0.2",
