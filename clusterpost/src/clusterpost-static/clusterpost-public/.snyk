@@ -971,6 +971,10 @@ patch:
         patched: '2020-05-14T06:43:59.845Z'
     - clusterpost-list-react > react-d3-library > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
         patched: '2020-05-14T06:43:59.845Z'
+    - react-bootstrap > @restart/hooks > lodash:
+        patched: '2020-05-15T20:41:14.404Z'
+    - react-bootstrap > react-overlays > @restart/hooks > lodash:
+        patched: '2020-05-15T20:41:14.404Z'
   SNYK-JS-LODASH-450202:
     - clusterpost-list-react > recharts > lodash:
         patched: '2020-05-14T06:57:28.971Z'
