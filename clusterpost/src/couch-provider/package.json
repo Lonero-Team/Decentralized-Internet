@@ -6,7 +6,7 @@
   "dependencies": {
     "@hapi/joi": "^15.0.3",
     "bluebird": "^3.3.0",
-    "concat-stream": "^1.6.2",
+    "concat-stream": "^2.0.0",
     "mkdirp": "^0.5.1",
     "request": "^2.88.0",
     "underscore": "^1.8.3"
