@@ -10,7 +10,7 @@
     "express": "4.16.0",
     "decentralized-internet": "^4.9.6",
     "flaschenpost": "4.0.12",
-    "lodash": "3.10.1",
+    "lodash": "4.17.12",
     "parse-duration": "0.4.4",
     "processenv": "0.1.1",
     "random-int": "2.0.1",
@@ -19,7 +19,8 @@
     "sha1": "1.1.1",
     "string.prototype.padleft": "2.0.0",
     "timer2": "1.0.0",
-    "uuidv4": "6.0.8"
+    "uuidv4": "6.0.8",
+    "snyk": "^1.321.0"
   },
   "devDependencies": {
     "assertthat": "5.1.1",
@@ -34,7 +35,9 @@
     "tourism": "0.21.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "keywords": [
     "Decentralized",
@@ -49,5 +52,6 @@
     "Modules"
   ],
   "author": "The Lonero Foundation",
-  "license": "MIT"
+  "license": "MIT",
+  "snyk": true
 }
