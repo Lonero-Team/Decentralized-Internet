@@ -23,9 +23,9 @@
   },
   "homepage": "https://github.com/juanprietob/clusterpost#readme",
   "devDependencies": {
-    "hapi": "16.6.2",
+    "hapi": "16.7.0",
     "hapi-auth-jwt": "4.0.0",
-    "lab": "14.3.1"
+    "lab": "14.3.4"
   },
   "dependencies": {
     "@hapi/joi": "^15.0.3",
