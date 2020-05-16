@@ -4,6 +4,7 @@
   "description": "Unofficial Tesla REST API + Distributed Computing",
   "main": "index.js",
   "dependencies": {
+    "teslams": "^1.3.0",
     "decentralized-internet": "^4.9.6"
   },
   "scripts": {

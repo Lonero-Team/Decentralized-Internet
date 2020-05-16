@@ -4,6 +4,7 @@
   "description": "Distributed Computing datastore w/ CommaAI Autopilot",
   "main": "index.js",
   "dependencies": {
+    "@commaai/comma-api": "^1.3.3",
     "decentralized-internet": "^4.9.6"
   },
   "scripts": {

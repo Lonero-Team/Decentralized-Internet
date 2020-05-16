@@ -4,6 +4,8 @@
   "description": "OpenStack and Distributed Computing datastore",
   "main": "index.js",
   "dependencies": {
+    "pkgcloud": "^2.2.0",
+    "openstack-wrapper": "^2.2.0",
     "decentralized-internet": "^4.9.6"
   },
   "scripts": {
