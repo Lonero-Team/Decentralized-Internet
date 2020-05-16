@@ -54,7 +54,7 @@
     "rollup-plugin-node-resolve": "5.2.0",
     "rollup-plugin-peer-deps-external": "2.2.2",
     "rollup-plugin-postcss": "1.6.3",
-    "rollup-plugin-url": "1.4.0"
+    "rollup-plugin-url": "3.0.1"
   },
   "files": [
     "dist"
