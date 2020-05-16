@@ -10,3 +10,10 @@ patch:
         patched: '2020-05-16T05:09:17.864Z'
     - lab > eslint > table > lodash:
         patched: '2020-05-16T05:09:17.864Z'
+  SNYK-JS-LODASH-450202:
+    - lab > eslint > lodash:
+        patched: '2020-05-16T05:13:28.393Z'
+    - lab > eslint > inquirer > lodash:
+        patched: '2020-05-16T05:13:28.393Z'
+    - lab > eslint > table > lodash:
+        patched: '2020-05-16T05:13:28.393Z'
