@@ -28,7 +28,7 @@
     "grunt-contrib-concat": "1.0.1",
     "grunt-contrib-cssmin": "3.0.0",
     "grunt-contrib-uglify": "2.3.0",
-    "grunt-ng-annotate": "2.0.2"
+    "grunt-ng-annotate": "4.0.0"
   },
   "dependencies": {
     "angular": "^1.5.8",
