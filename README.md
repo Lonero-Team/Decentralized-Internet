@@ -20,100 +20,10 @@ This NPM library/package is being mantained by the folks [here](starkdrones.org/
 <img src="https://cdn.hackaday.io/images/1385851589324799605.png" width="512">
 </p>
 
-#### Lotion Sample (State Machines):
-* From original [Lotion](https://lotionjs.com/) [repo](https://github.com/nomic-io/lotion) (shown on installation page for demo purposes)  
+[![UsageHeader](https://raw.githubusercontent.com/Mentors4EDU/Images/master/UsageGuideHead.png)](https://lonero.readthedocs.io/en/latest/Decentralized%20Internet%20Docs/Critical%20Components.html)
 
-```
-// app.js
-let lotion = require('lotion')
-let app = lotion({
-	initialState: {
-		count: 0
-	}
-})
-function transactionHandler(state, transaction) {
-	if (state.count === transaction.nonce) {
-		state.count++
-	}
-}
-let connect = require('lotion-connect')
-app.use(transactionHandler)
-app.start().then(appInfo => console.log(appInfo.GCI))
-```
+[![InstallHeader](https://raw.githubusercontent.com/Mentors4EDU/Images/master/Installation-head.png)](https://lonero.readthedocs.io/en/latest/Decentralized%20Internet%20Docs/Main%20Installation%20Methods.html)
 
-#### ccxml Device Connection Sample Code:
-- xml taken from TI's IDE in device config for driver
-```
-<connection XML_version="1.2" id="TI MSP430 USB1">
-```  
-#### Installation Methods
-Use Julia: `Pkg.add("DecentralizedInternet")`  
-Install via NPM: `npm i decentralized-internet`  
-Install via DUB: `dub add decentralized-internet`  
-Install via YARN: `yarn add decentralized-internet`  
-Install via PIP: `pip install decentralized-internet`  
-Install via APM: `apm install decentralized-internet`  
-Install via GEM: `gem install decentralized-internet`  
-Install via PNPM: `pnpm install decentralized-internet`  
-Install via CNPM: `cnpm install decentralized-internet`  
-Ember Installation:  `ember install decentralized-internet`  
-Install via Spack: `./spack install decentralized-internet`  
-Raco Installation:: `raco pkg install decentralized-internet`  
-Install w/ Meteor: `meteor add startup:decentralized-internet`  
-Install via VS Code: `ext install Lonero.decentralized-internet`  
-Install through Leiningen/Boot: `[decentralized-internet "0.1.0"]`  
-Other Meteor Method: `meteor npm install decentralized-internet`  
-Install via SNAP: `sudo snap install decentralized-internet --edge`  
-Install via Docker: `docker pull gamer456148/decentralized-internet`  
-Install via Bower: `bower install Lonero-Team/Decentralized-Internet`  
-Use Clojure CLI/deps.edn: `decentralized-internet {:mvn/version "0.1.0"}`  
-Use Gradle:`Compile 'decentralized-internet:decentralized-internet:0.1.0'`  
-SourceForge: `git clone git://git.code.sf.net/p/decentralized-internet/git`  
-Use wget: `sudo wget -O decentralized-internet.tar.gz "https://git.io/JvR7b"`  
-##### Export Components: 
-`bit export decentralized-internet.lonero_decentralized-internet`  
-##### Add via Maven
-```
-<dependency>
-  <groupId>decentralized-internet</groupId>
-  <artifactId>decentralized-internet</artifactId>
-  <version>0.1.0</version>
-</dependency>
-```  
-##### Sysget Users:
-`sysget install decentralized-internet`  
-*Pick either option: 4, 14, 15, 18 or 20*  
-##### Arch Linux Installation Instructions:  
-```
-git clone https://aur.archlinux.org/snapd.git
-cd snapd
-makepkg -si
-sudo systemctl enable --now snapd.socket
-sudo ln -s /var/lib/snapd/snap /snap
-sudo snap install decentralized-internet --edge
-```  
-##### Install via Dart:
-Add to your pubspec.yaml file:
-```
-dependencies:
-  decentralized_internet: ^3.4.1
-```
-Run: `pub get`
-
-##### Install via Cordova:
-`cordova plugin add https://github.com/Lonero-Team/Decentralized-Internet.git`  
-Or `cordova plugin searchcordova-plugin-decentralized-internet`  
-Or `cordova plugin add cordova-plugin-decentralized-internet`
-
-##### Use this Module via Puppet:
-Add this to your Puppetfile as a declaration:  
-`mod 'gamer456148-decentralized_internet', '5.1.1'`  
-Next run the command:  
-`bolt puppetfile install`  
-Instead of the above, you can also try adding:  
-`mod 'gamer456148-decentralized_internet', '5.1.1'`  
-This mod line is for those who use r10k or Code Manager  
-Learn more [here](https://puppet.com/docs/pe/2019.2/managing_puppet_code.html)
 ###### App to add GitHub metrics tracking to select repos [here](https://github.com/apps/decentralized-internet) 
 ###### [Potential BitBucket Marketplace App](https://bitbucket.org/gamer456148/decentralized-internet/src/master/)
 ###### See original compatibility status update [here](https://www.minds.com/newsfeed/1040672641569824768?referrer=LoneroLNR)
