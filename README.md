@@ -27,10 +27,8 @@ This NPM library/package is being mantained by the folks [here](starkdrones.org/
 [![InstallHeader](https://raw.githubusercontent.com/Mentors4EDU/Images/master/Installation-head.png)](https://lonero.readthedocs.io/en/latest/Decentralized%20Internet%20Docs/Main%20Installation%20Methods.html)
 
 ---
-###### App to add GitHub metrics tracking to select repos [here](https://github.com/apps/decentralized-internet) 
-###### [Potential BitBucket Marketplace App](https://bitbucket.org/gamer456148/decentralized-internet/src/master/)
-###### See original compatibility status update [here](https://www.minds.com/newsfeed/1040672641569824768?referrer=LoneroLNR)
-***** See NPM v.Updates
+###### App to add GitHub metrics tracking to select repos [here](https://github.com/apps/decentralized-internet) | [BitBucket](https://bitbucket.org/gamer456148/decentralized-internet/src/master/)
+###### See original compatibility status update [here](https://www.minds.com/newsfeed/1040672641569824768?referrer=LoneroLNR) | *See [NPM v.](https://www.npmjs.com/package/decentralized-internet?activeTab=versions)Updates*
 
 #### For Mac Users:
 [![MAC](https://jaywcjlove.github.io/sb/download/macos.svg)](https://github.com/Lonero-Team/Decentralized-Internet/releases/download/v1.0_mac/Decentralized-Internet.dmg)
