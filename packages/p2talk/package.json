@@ -8,7 +8,7 @@
     "defekt": "5.0.1",
     "eventemitter2": "6.4.0",
     "express": "4.17.1",
-    "decentralized-internet": "^4.9.6",
+    "decentralized-internet": "^5.0.0",
     "flaschenpost": "4.0.12",
     "lodash": "4.17.15",
     "parse-duration": "0.4.4",
