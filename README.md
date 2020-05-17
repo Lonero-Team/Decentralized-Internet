@@ -17,7 +17,7 @@ Papers worth checking out:
 This NPM library/package is being mantained by the folks [here](starkdrones.org/home/os)
 
 #### Lotion Sample (State Machines):
-* From original [Lotion](https://lotionjs.com/) [repo](https://github.com/nomic-io/lotion) (shown on installation page for demo purposes)
+* From original [Lotion](https://lotionjs.com/) [repo](https://github.com/nomic-io/lotion) (shown on installation page for demo purposes)  
 
 ```
 // app.js
@@ -41,7 +41,7 @@ app.start().then(appInfo => console.log(appInfo.GCI))
 - xml taken from TI's IDE in device config for driver
 ```
 <connection XML_version="1.2" id="TI MSP430 USB1">
-```
+```  
 #### Installation Methods
 Use Julia: `Pkg.add("DecentralizedInternet")`  
 Install via NPM: `npm i decentralized-internet`  
@@ -79,7 +79,7 @@ Use wget: `sudo wget -O decentralized-internet.tar.gz "https://git.io/JvR7b"`
 ##### Sysget Users:
 `sysget install decentralized-internet`  
 *Pick either option: 4, 14, 15, 18 or 20*  
-##### Arch Linux Installation Instructions:
+##### Arch Linux Installation Instructions:  
 ```
 git clone https://aur.archlinux.org/snapd.git
 cd snapd
