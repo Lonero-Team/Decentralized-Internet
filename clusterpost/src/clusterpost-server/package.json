@@ -13,7 +13,7 @@
     "@hapi/inert": "^5.2.1",
     "@hapi/vision": "^5.5.3",
     "@juanprietob/hapi-auth-jwt": "github:juanprietob/hapi-auth-jwt#master",
-    "bcrypt": "^3.0.6",
+    "bcrypt": "^4.0.0",
     "bluebird": "^3.5.4",
     "clusterpost-model": "^1.9.0",
     "clusterpost-provider": "^4.1.1",
