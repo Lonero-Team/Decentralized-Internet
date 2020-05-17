@@ -35,7 +35,7 @@
     "bcrypt": "^4.0.0",
     "couch-provider": "^2.1.2",
     "couch-update-views": "^1.0.5",
-    "jsonwebtoken": "^7.4.3",
+    "jsonwebtoken": "^8.0.0",
     "nodemailer": "^2.3.2",
     "underscore": "^1.8.3"
   }

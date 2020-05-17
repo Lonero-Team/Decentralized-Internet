@@ -27,7 +27,7 @@
     "bluebird": "^3.4.1",
     "clusterpost-model": "^1.1.3",
     "hapi-jwt-couch-lib": "^1.1.0",
-    "jsonwebtoken": "^7.4.0",
+    "jsonwebtoken": "^8.0.0",
     "prompt": "^1.0.0",
     "request": "^2.73.0",
     "underscore": "^1.8.3"
