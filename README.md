@@ -24,6 +24,7 @@ This NPM library/package is being mantained by the folks [here](starkdrones.org/
 
 [![InstallHeader](https://raw.githubusercontent.com/Mentors4EDU/Images/master/Installation-head.png)](https://lonero.readthedocs.io/en/latest/Decentralized%20Internet%20Docs/Main%20Installation%20Methods.html)
 
+---
 ###### App to add GitHub metrics tracking to select repos [here](https://github.com/apps/decentralized-internet) 
 ###### [Potential BitBucket Marketplace App](https://bitbucket.org/gamer456148/decentralized-internet/src/master/)
 ###### See original compatibility status update [here](https://www.minds.com/newsfeed/1040672641569824768?referrer=LoneroLNR)
@@ -35,5 +36,6 @@ This NPM library/package is being mantained by the folks [here](starkdrones.org/
 
 ###### Latest Git Release Package [here](https://github.com/Lonero-Team/Decentralized-Internet/releases/tag/v3.6.9)  
 [![GitPod](https://jaywcjlove.github.io/sb/open/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Lonero-Team/Decentralized-Internet)  
+
 ## License
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FLonero-Team%2FDecentralized-Internet.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FLonero-Team%2FDecentralized-Internet?ref=badge_large)
