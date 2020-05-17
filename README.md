@@ -16,7 +16,7 @@ Papers worth checking out:
 
 This NPM library/package is being mantained by the folks [here](starkdrones.org/home/os)
 
-> This project was created in order to support a new internet. One that is more open, free, and censorship-resistant in comparison to the old internet. An internet that eventually wouldn't need to rely on telecom towers, an outdated grid, or all these other "old school" forms of tech. We believe P2P compatibility is an important part of the future of the net. Grid Computing also plays a role in having a better means of transferring information in a speedy, more cost-efficient and reliable manner.
+This project was created in order to support a new internet. One that is more open, free, and censorship-resistant in comparison to the old internet. An internet that eventually wouldn't need to rely on telecom towers, an outdated grid, or all these other "old school" forms of tech. We believe P2P compatibility is an important part of the future of the net. Grid Computing also plays a role in having a better means of transferring information in a speedy, more cost-efficient and reliable manner.
 
 <p align="center">
 <img src="https://cdn.hackaday.io/images/1385851589324799605.png" width="512">
