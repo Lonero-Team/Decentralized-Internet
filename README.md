@@ -2,8 +2,6 @@
 ![npm](https://img.shields.io/npm/dt/decentralized-internet?label=NPM%20Downloads) [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FLonero-Team%2FDecentralized-Internet.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FLonero-Team%2FDecentralized-Internet?ref=badge_shield)
 | ![Crates.io](https://img.shields.io/crates/d/decentralized-internet?label=crates.io%20Downloads) | [![Discord](https://img.shields.io/discord/639489591664967700)](https://discord.gg/buTafPc) | [![Gitter](https://img.shields.io/gitter/room/Decentralized-Internet/community)](https://gitter.im/Decentralized-Internet/community?source=orgpage) | [![Read the Docs](https://img.shields.io/readthedocs/lonero)](https://lonero.readthedocs.io/en/latest/)
 
-This project was created in order to support a new internet. One that is more open, free, and censorship-resistant in comparison to the old internet. An internet that eventually wouldn't need to rely on telecom towers, an outdated grid, or all these other "old school" forms of tech. We believe P2P compatibility is an important part of the future of the net. Grid Computing also plays a role in having a better means of transferring information in a speedy, more cost-efficient and reliable manner.
-
 The NPM library is a collection of the following repos made for the purpose of building decentralized web projects:
 
 [lotion](https://github.com/nomic-io/lotion) | [bitcoin-peg](https://www.npmjs.com/package/bitcoin-peg) | [clusterpost](https://github.com/juanprietob/clusterpost) | [gridbee-framework](https://github.com/BME-IK/gridbee-framework) | [Reinvent-the-Internet](https://github.com/Mentors4EDU/Reinvent-the-Internet)
@@ -17,6 +15,8 @@ Papers worth checking out:
 [Lonero Whitepaper (Original)](https://www.academia.edu/37041064/Lonero_Whitepaper_v1)  | [CrowdCoin Scientific Whitepaper](https://www.academia.edu/37832290/CrowdCoin_Scientific_Whitepaper)
 
 This NPM library/package is being mantained by the folks [here](starkdrones.org/home/os)
+
+This project was created in order to support a new internet. One that is more open, free, and censorship-resistant in comparison to the old internet. An internet that eventually wouldn't need to rely on telecom towers, an outdated grid, or all these other "old school" forms of tech. We believe P2P compatibility is an important part of the future of the net. Grid Computing also plays a role in having a better means of transferring information in a speedy, more cost-efficient and reliable manner.
 
 <p align="center">
 <img src="https://cdn.hackaday.io/images/1385851589324799605.png" width="512">
