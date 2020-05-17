@@ -16,7 +16,7 @@
   "dependencies": {
     "bluebird": "^3.5.4",
     "boom": "^3.1.2",
-    "hapi-jwt-couch": "^2.0.1"
+    "hapi-jwt-couch": "^4.0.0"
   },
   "repository": {
     "type": "git",
