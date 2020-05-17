@@ -15,9 +15,9 @@
   "author": "juanprietob@gmail.com",
   "license": "Apache-2.0",
   "dependencies": {
-    "@hapi/joi": "^15.1.1",
+    "@hapi/joi": "^17.0.0",
     "bluebird": "^3.3.0",
-    "boom": "^3.1.2",
+    "boom": "^7.0.0",
     "clusterpost-model": "^1.10.0",
     "couch-provider": "^3.0.0",
     "couch-update-views": "^1.0.8",

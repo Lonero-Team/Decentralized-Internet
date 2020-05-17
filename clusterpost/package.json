@@ -33,6 +33,6 @@
   "dependencies": {
     "clusterpost-server": "file:src/clusterpost-server",
     "couch-update-views": "file:src/couch-update-views",
-    "joi": "^10.6.0"
+    "joi": "^14.0.0"
   }
 }
