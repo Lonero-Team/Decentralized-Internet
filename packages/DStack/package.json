@@ -6,7 +6,7 @@
   "dependencies": {
     "pkgcloud": "^2.2.0",
     "openstack-wrapper": "^2.2.0",
-    "decentralized-internet": "^4.9.6"
+    "decentralized-internet": "^5.0.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

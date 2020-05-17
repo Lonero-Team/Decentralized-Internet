@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "eventemitter3": "^4.0.0",
-    "decentralized-internet": "^4.9.6",
+    "decentralized-internet": "^5.0.0",
     "snyk": "^1.321.0"
   },
   "devDependencies": {

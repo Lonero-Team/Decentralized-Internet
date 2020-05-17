@@ -26,7 +26,7 @@
     "optimist": "0.6",
     "socket.io": "^2.2.0",
     "wiki-client": "^0.20.0",
-    "decentralized-internet": "^4.9.6",
+    "decentralized-internet": "^5.0.0",
     "wiki-plugin-activity": "^0.4.4",
     "wiki-plugin-assets": "^0.2.4",
     "wiki-plugin-audio": "^0.1.8",

@@ -28,7 +28,7 @@
   "author": "The Lonero Foundation",
   "license": "Apache-2.0 or MIT",
   "dependencies": {
-    "decentralized-internet": "^4.9.6",
+    "decentralized-internet": "^5.0.0",
     "@types/mosca": "^2.8.1",
     "express": "^4.16.4",
     "influx": "^5.0.7",
