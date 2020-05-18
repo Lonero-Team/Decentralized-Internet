@@ -24,7 +24,7 @@
     "jsonwebtoken": "^8.5.1",
     "lout": "^11.2.3",
     "node-crontab": "0.0.8",
-    "nodemailer": "^4.0.1",
+    "nodemailer": "^6.0.0",
     "request": "^2.88.0",
     "underscore": "^1.9.1",
     "snyk": "^1.320.3"
