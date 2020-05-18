@@ -29,8 +29,8 @@
   "homepage": "https://github.com/juanprietob/clusterpost#readme",
   "dependencies": {
     "bluebird": "^3.4.0",
-    "joi": "^9.0.0-3",
-    "lab": "^14.3.4",
+    "joi": "^14.0.0",
+    "lab": "^18.0.0",
     "request": "^2.82.0",
     "snyk": "^1.320.3"
   },

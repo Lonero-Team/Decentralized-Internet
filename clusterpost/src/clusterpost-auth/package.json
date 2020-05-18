@@ -15,7 +15,7 @@
   "license": "Apache-2.0",
   "dependencies": {
     "bluebird": "^3.5.4",
-    "boom": "^3.1.2",
+    "boom": "^7.0.0",
     "hapi-jwt-couch": "^4.0.0"
   },
   "repository": {

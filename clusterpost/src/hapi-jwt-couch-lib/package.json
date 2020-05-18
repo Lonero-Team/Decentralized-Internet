@@ -23,12 +23,12 @@
   },
   "homepage": "https://github.com/juanprietob/clusterpost#readme",
   "devDependencies": {
-    "hapi": "16.7.0",
+    "hapi": "18.1.0",
     "hapi-auth-jwt": "4.0.0",
-    "lab": "14.3.4"
+    "lab": "18.0.2"
   },
   "dependencies": {
-    "@hapi/joi": "^15.0.3",
+    "@hapi/joi": "^17.0.0",
     "bluebird": "^3.5.1",
     "jsonwebtoken": "^8.0.1",
     "prompt": "^1.0.0",
