@@ -11,7 +11,7 @@
     "clusterpost"
   ],
   "dependencies": {
-    "@hapi/joi": "^15.0.3"
+    "@hapi/joi": "^17.0.0"
   },
   "devDependencies": {},
   "author": "juanprietob@gmail.com",
