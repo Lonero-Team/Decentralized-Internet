@@ -64,7 +64,7 @@
     "d3": "^5.9.2",
     "query-string": "^6.5.0",
     "react-d3-library": "^1.1.8",
-    "react-feather": "^1.1.6",
+    "react-feather": "^2.0.0",
     "react-json-view": "^1.19.1",
     "recharts": "^1.6.2",
     "underscore": "^1.9.1"
