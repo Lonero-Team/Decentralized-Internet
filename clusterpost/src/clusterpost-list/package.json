@@ -31,7 +31,7 @@
     "grunt-ng-annotate": "4.0.0"
   },
   "dependencies": {
-    "angular": "^1.5.8",
+    "angular": "^1.7.9",
     "angular-bootstrap": "^0.12.2",
     "angular-route": "^1.5.8",
     "angular-smart-table": "^2.1.8",
