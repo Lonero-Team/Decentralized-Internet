@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "migrate": "node scripts/wiki-migrate.js"
+    "migrate": "node scripts/wiki-migrate.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "keywords": [
     "p2p",
@@ -71,7 +73,7 @@
     "wiki-security-friends": "^0.2.2",
     "wiki-security-passportjs": "^0.4.2",
     "wiki-server": "^0.17.0",
-    "snyk": "^1.320.3"
+    "snyk": "^1.323.0"
   },
   "devDependencies": {
     "grunt": "1.1.0",
