@@ -17,9 +17,10 @@
     "test:watch": "react-scripts test --env=jsdom",
     "build": "rollup -c",
     "start": "rollup -c -w",
-    "prepare": "npm run build",
+    "prepare": "npm run snyk-protect && npm run build",
     "predeploy": "cd example && npm install && npm run build",
-    "deploy": "gh-pages -d example/build"
+    "deploy": "gh-pages -d example/build",
+    "snyk-protect": "snyk protect"
   },
   "peerDependencies": {
     "prop-types": "^15.5.4",
@@ -67,6 +68,8 @@
     "react-feather": "^2.0.0",
     "react-json-view": "^1.19.1",
     "recharts": "^1.6.2",
-    "underscore": "^1.9.1"
-  }
+    "underscore": "^1.9.1",
+    "snyk": "^1.323.0"
+  },
+  "snyk": true
 }
