@@ -27,3 +27,22 @@ patch:
         patched: '2020-05-14T06:28:41.514Z'
     - hapi-jwt-couch > couch-update-views > lab > eslint > table > lodash:
         patched: '2020-05-14T06:28:41.514Z'
+  SNYK-JS-LODASH-450202:
+    - couch-update-views > lab > eslint > lodash:
+        patched: '2020-05-20T11:29:18.183Z'
+    - couch-update-views > lab > eslint > inquirer > lodash:
+        patched: '2020-05-20T11:29:18.183Z'
+    - couch-update-views > lab > eslint > table > lodash:
+        patched: '2020-05-20T11:29:18.183Z'
+    - clusterpost-provider > couch-update-views > lab > eslint > lodash:
+        patched: '2020-05-20T11:29:18.183Z'
+    - hapi-jwt-couch > couch-update-views > lab > eslint > lodash:
+        patched: '2020-05-20T11:29:18.183Z'
+    - clusterpost-provider > couch-update-views > lab > eslint > inquirer > lodash:
+        patched: '2020-05-20T11:29:18.183Z'
+    - hapi-jwt-couch > couch-update-views > lab > eslint > inquirer > lodash:
+        patched: '2020-05-20T11:29:18.183Z'
+    - clusterpost-provider > couch-update-views > lab > eslint > table > lodash:
+        patched: '2020-05-20T11:29:18.183Z'
+    - hapi-jwt-couch > couch-update-views > lab > eslint > table > lodash:
+        patched: '2020-05-20T11:29:18.183Z'
