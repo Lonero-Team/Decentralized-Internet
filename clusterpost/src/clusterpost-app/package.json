@@ -4,7 +4,9 @@
   "description": "Performs tasks in your desktop. Retrieve finished jobs. ",
   "main": "index.js",
   "scripts": {
-    "test": "lab -v 6000 test.js"
+    "test": "lab -v 6000 test.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -25,6 +27,8 @@
     "bluebird": "^3.4.7",
     "clusterpost-lib": "file:../clusterpost-lib",
     "minimist": "^1.2.0",
-    "underscore": "^1.9.1"
-  }
+    "underscore": "^1.9.1",
+    "snyk": "^1.323.0"
+  },
+  "snyk": true
 }
