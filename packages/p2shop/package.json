@@ -11,7 +11,9 @@
     "build": "NODE_ENV=production webpack",
     "serve": "webpack-dev-server",
     "doc": "rm -rf ./docs/*; jsdoc ./src -r ./README.md -d ./docs -t ./node_modules/docdash",
-    "release": "rm -rf ./dist; npm ddp && npm run build && standard-version"
+    "release": "rm -rf ./dist; npm ddp && npm run build && standard-version",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "keywords": [
     "ecommerce",
@@ -34,7 +36,7 @@
   "dependencies": {
     "eventemitter3": "^4.0.0",
     "decentralized-internet": "^5.0.0",
-    "snyk": "^1.321.0"
+    "snyk": "^1.323.0"
   },
   "devDependencies": {
     "@babel/core": "7.9.6",
