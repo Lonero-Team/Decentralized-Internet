@@ -4,7 +4,9 @@
   "description": "Login and authenticate users for the clusterpost application",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "keywords": [
     "cluster",
@@ -16,7 +18,8 @@
   "dependencies": {
     "bluebird": "^3.5.4",
     "boom": "^7.0.0",
-    "hapi-jwt-couch": "^4.0.0"
+    "hapi-jwt-couch": "^4.0.0",
+    "snyk": "^1.323.0"
   },
   "repository": {
     "type": "git",
@@ -25,5 +28,6 @@
   "bugs": {
     "url": "https://github.com/juanprietob/clusterpost/issues"
   },
-  "homepage": "https://github.com/juanprietob/clusterpost#readme"
+  "homepage": "https://github.com/juanprietob/clusterpost#readme",
+  "snyk": true
 }
