@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "node postinstall.js"
+    "postinstall": "node postinstall.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "keywords": [
     "Cluster",
@@ -24,7 +26,8 @@
     "node-crontab": "0.0.8",
     "node-targz": "0.2.0",
     "underscore": "^1.8.3",
-    "xml2js": "^0.4.17"
+    "xml2js": "^0.4.17",
+    "snyk": "^1.323.1"
   },
   "repository": {
     "type": "git",
@@ -33,5 +36,6 @@
   "bugs": {
     "url": "https://github.com/juanprietob/clusterpost/issues"
   },
-  "homepage": "https://github.com/juanprietob/clusterpost#readme"
+  "homepage": "https://github.com/juanprietob/clusterpost#readme",
+  "snyk": true
 }
