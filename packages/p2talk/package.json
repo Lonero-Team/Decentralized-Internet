@@ -19,7 +19,7 @@
     "sha1": "1.1.1",
     "string.prototype.padleft": "2.0.0",
     "timer2": "1.0.0",
-    "uuidv4": "6.0.8",
+    "uuidv4": "6.0.9",
     "snyk": "^1.321.0"
   },
   "devDependencies": {
