@@ -845,3 +845,10 @@ patch:
         patched: '2020-05-14T23:38:46.766Z'
     - mosca > ascoltatori > kafka-node > lodash:
         patched: '2020-05-14T23:38:46.766Z'
+  SNYK-JS-LODASH-450202:
+    - mosca > amqp > lodash:
+        patched: '2020-05-22T10:28:24.458Z'
+    - mosca > ascoltatori > amqp > lodash:
+        patched: '2020-05-22T10:28:24.458Z'
+    - mosca > ascoltatori > ioredis > lodash:
+        patched: '2020-05-22T10:28:24.458Z'
