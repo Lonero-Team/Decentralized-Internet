@@ -26,6 +26,14 @@ patch:
         patched: '2020-05-14T06:16:52.575Z'
     - lab > code > hoek:
         patched: '2020-05-14T06:20:28.157Z'
+    - request > hawk > hoek:
+        patched: '2020-05-22T10:38:58.545Z'
+    - request > hawk > boom > hoek:
+        patched: '2020-05-22T10:38:58.545Z'
+    - request > hawk > sntp > hoek:
+        patched: '2020-05-22T10:38:58.545Z'
+    - request > hawk > cryptiles > boom > hoek:
+        patched: '2020-05-22T10:38:58.545Z'
   SNYK-JS-LODASH-567746:
     - lab > eslint > lodash:
         patched: '2020-05-14T06:16:52.575Z'
