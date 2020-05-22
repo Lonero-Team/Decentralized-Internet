@@ -2,6 +2,23 @@
 ![npm](https://img.shields.io/npm/dt/decentralized-internet?label=NPM%20Downloads) [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FLonero-Team%2FDecentralized-Internet.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FLonero-Team%2FDecentralized-Internet?ref=badge_shield)
 | ![Crates.io](https://img.shields.io/crates/d/decentralized-internet?label=crates.io%20Downloads) | [![Discord](https://img.shields.io/discord/639489591664967700)](https://discord.gg/buTafPc) | [![Gitter](https://img.shields.io/gitter/room/Decentralized-Internet/community)](https://gitter.im/Decentralized-Internet/community?source=orgpage) | [![Read the Docs](https://img.shields.io/readthedocs/lonero)](https://lonero.readthedocs.io/en/latest/)
 
+## Why? 🙋
+Currently, the internet as it stands is monopolized primarily towards central authorities, and relies heavily on outdate infastructure such as Telecom towers, routing systems, switches, etc. It is about time for an upgrade.
+
+## What? 😕
+This repo is for an SDK and library for building decentralized web and distributed computing projects. Currently, we are trying to make a pipeline for a P2P Data transfer and syndication protocol. Currently, the main distribution method for this software is through **NPM**, and we have developed extensions, plugins, and capability for multiple other platforms as well.
+
+## Features 📋
+Currently this can be utilized to:
+- Build an offline centered network
+- Setup your own blockchain infrastructure
+- Setup services and micro-applications running on parallel processing instances
+- Create a cryptocurrency sidechain utilizing Lotion or Tendermint consensus protocols
+
+<p align="center">
+<img src="https://cdn.hackaday.io/images/1385851589324799605.png" width="512">
+</p>
+
 The NPM library is a collection of the following repos made for the purpose of building decentralized web projects:
 
 [lotion](https://github.com/nomic-io/lotion) | [bitcoin-peg](https://www.npmjs.com/package/bitcoin-peg) | [clusterpost](https://github.com/juanprietob/clusterpost) | [gridbee-framework](https://github.com/BME-IK/gridbee-framework) | [Reinvent-the-Internet](https://github.com/Mentors4EDU/Reinvent-the-Internet)
@@ -17,10 +34,6 @@ Papers worth checking out:
 This NPM library/package is being mantained by the folks [here](starkdrones.org/home/os)
 
 This project was created in order to support a new internet. One that is more open, free, and censorship-resistant in comparison to the old internet. An internet that eventually wouldn't need to rely on telecom towers, an outdated grid, or all these other "old school" forms of tech. We believe P2P compatibility is an important part of the future of the net. Grid Computing also plays a role in having a better means of transferring information in a speedy, more cost-efficient and reliable manner.
-
-<p align="center">
-<img src="https://cdn.hackaday.io/images/1385851589324799605.png" width="512">
-</p>
 
 [![UsageHeader](https://raw.githubusercontent.com/Mentors4EDU/Images/master/UsageGuideHead.png)](https://lonero.readthedocs.io/en/latest/Decentralized%20Internet%20Docs/Critical%20Components.html)
 
