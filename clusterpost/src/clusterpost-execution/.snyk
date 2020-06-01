@@ -8,3 +8,33 @@ patch:
         patched: '2020-05-21T02:55:28.924Z'
     - clusterpost-lib > jsonwebtoken > joi > topo > hoek:
         patched: '2020-05-21T02:55:28.924Z'
+    - clusterpost-lib > joi > topo > hoek:
+        patched: '2020-06-01T08:41:09.146Z'
+    - clusterpost-lib > request > hawk > hoek:
+        patched: '2020-06-01T08:41:09.146Z'
+    - clusterpost-lib > request > hawk > boom > hoek:
+        patched: '2020-06-01T08:41:09.146Z'
+    - clusterpost-lib > request > hawk > sntp > hoek:
+        patched: '2020-06-01T08:41:09.146Z'
+    - clusterpost-lib > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-06-01T08:41:09.146Z'
+  'npm:extend:20180424':
+    - clusterpost-lib > request > extend:
+        patched: '2020-06-01T08:41:09.146Z'
+  'npm:moment:20161019':
+    - clusterpost-lib > joi > moment:
+        patched: '2020-06-01T08:41:09.146Z'
+    - clusterpost-lib > jsonwebtoken > joi > moment:
+        patched: '2020-06-01T08:41:09.146Z'
+  'npm:qs:20170213':
+    - clusterpost-lib > request > qs:
+        patched: '2020-06-01T08:41:09.146Z'
+  'npm:stringstream:20180511':
+    - clusterpost-lib > request > stringstream:
+        patched: '2020-06-01T08:41:09.146Z'
+  'npm:tough-cookie:20170905':
+    - clusterpost-lib > request > tough-cookie:
+        patched: '2020-06-01T08:41:09.146Z'
+  'npm:tunnel-agent:20170305':
+    - clusterpost-lib > request > tunnel-agent:
+        patched: '2020-06-01T08:41:09.146Z'

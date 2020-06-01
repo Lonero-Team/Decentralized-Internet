@@ -18,16 +18,16 @@
   "author": "juanprietob@gmail.com",
   "license": "Apache-2.0",
   "dependencies": {
-    "@hapi/joi": "^17.0.0",
+    "@hapi/joi": "^15.1.1",
     "bluebird": "^3.3.0",
     "clusterpost-lib": "^2.0.0",
-    "clusterpost-model": "^1.10.0",
-    "minimist": "^1.2.0",
+    "clusterpost-model": "^1.8.1",
+    "minimist": "^1.2.3",
     "node-crontab": "0.0.8",
     "node-targz": "0.2.0",
     "underscore": "^1.8.3",
     "xml2js": "^0.4.17",
-    "snyk": "^1.323.1"
+    "snyk": "^1.333.0"
   },
   "repository": {
     "type": "git",
