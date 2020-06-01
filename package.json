@@ -1,6 +1,6 @@
 {
   "name": "decentralized-internet",
-  "version": "5.2.9",
+  "version": "5.3.1",
   "author": "Andrew Magdy Kamal, The Lonero Dev Team",
   "license": "zlib or MIT",
   "homepage": "http://bit.ly/lonero_os",
@@ -34,6 +34,7 @@
   },
   "bundleDependencies": false,
   "dependencies": {
+    "pm2": "*",
     "async": "^3.1.0",
     "coins": "^4.5.0",
     "lotion": "^0.4.26",
@@ -43,8 +44,7 @@
     "ember-cli-babel": "^7.11.1",
     "bitcoin-protocol": "^4.0.1",
     "ember-cli-htmlbars": "^5.1.2",
-    "@jupyterlab/notebook": "^2.1.2",
-    "snyk": "^1.329.0"
+    "@jupyterlab/notebook": "^2.1.2"
   },
   "husky": {
     "hooks": {
@@ -53,11 +53,14 @@
     }
   },
   "devDependencies": {
+    "minify": "*",
+    "minimist": "*",
     "grunt": "1.1.0",
     "husky": "4.2.5",
     "lerna": "3.22.0",
     "bcrypt": "4.0.1",
     "hash.js": "1.1.7",
+    "snyk": "^1.329.0",
     "loader.js": "4.7.0",
     "qunit-dom": "1.2.0",
     "ember-try": "1.4.0",
@@ -99,9 +102,7 @@
     "watch": "skpm-build --watch",
     "start": "skpm-build --watch --run",
     "lint:hbs": "ember-template-lint .",
-    "postinstall": "npm run build && skpm-link",
-    "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect"
+    "postinstall": "npm run build && skpm-link"
   },
   "engines": {
     "atom": ">=1.0.0 <2.0.0",
