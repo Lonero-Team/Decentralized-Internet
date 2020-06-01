@@ -4,7 +4,9 @@
   "description": "Serves a local filesystem using a route ",
   "main": "index.js",
   "scripts": {
-    "test": "lab -v test.js"
+    "test": "lab -v test.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "keywords": [
     "Filesystem",
@@ -14,6 +16,8 @@
   "license": "Apache-2.0",
   "dependencies": {
     "boom": "^7.0.0",
-    "underscore": "^1.8.3"
-  }
+    "underscore": "^1.8.3",
+    "snyk": "^1.333.0"
+  },
+  "snyk": true
 }
