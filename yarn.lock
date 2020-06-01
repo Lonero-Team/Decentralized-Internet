@@ -13319,9 +13319,9 @@ minimist-options@^4.0.2:
     is-plain-obj "^1.1.0"
 
 minimist@*:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.2.tgz#b00a00230a1108c48c169e69a291aafda3aacd63"
-  integrity sha512-rIqbOrKb8GJmx/5bc2M0QchhUouMXSpd1RTclXsB41JdL+VtnojfaJR+h7F9k18/4kHUsBFgk80Uk+q569vjPA==
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.3.tgz#3db5c0765545ab8637be71f333a104a965a9ca3f"
+  integrity sha512-+bMdgqjMN/Z77a6NlY/I3U5LlRDbnmaAk6lDveAPKwSpcPM4tKAuYsvYF8xjhOPXhOYGe/73vVLVez5PW+jqhw==
 
 minimist@0.0.8:
   version "0.0.8"
@@ -16833,7 +16833,7 @@ snyk-try-require@1.3.1, snyk-try-require@^1.1.1, snyk-try-require@^1.3.1:
     lru-cache "^4.0.0"
     then-fs "^2.0.0"
 
-snyk@1.333.0:
+snyk@^1.333.0:
   version "1.333.0"
   resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.333.0.tgz#9f75b009e74e044376e5194225c6a3aa9ffa71b9"
   integrity sha512-wkp3+EoaP9PbxXmD2eP5q+oGwCjwThTuZbbUZsRa0GnAfCJ4bDY5hVrdRls7nZbGYqIOD+xHmps2Wx1ucx1gRA==
