@@ -1624,3 +1624,7 @@ patch:
         patched: '2020-05-27T10:52:19.700Z'
     - decentralized-internet > ember-cli-babel > broccoli-babel-transpiler > workerpool > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
         patched: '2020-05-27T10:52:19.700Z'
+    - decentralized-internet > pm2 > @pm2/js-api > async > lodash:
+        patched: '2020-06-01T08:45:30.505Z'
+    - decentralized-internet > pm2 > cli-tableau > mocha > yargs-unparser > lodash:
+        patched: '2020-06-01T08:45:30.505Z'
