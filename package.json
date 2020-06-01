@@ -44,7 +44,8 @@
     "ember-cli-babel": "^7.11.1",
     "bitcoin-protocol": "^4.0.1",
     "ember-cli-htmlbars": "^5.1.2",
-    "@jupyterlab/notebook": "^2.1.2"
+    "@jupyterlab/notebook": "^2.1.2",
+    "snyk": "^1.333.0"
   },
   "husky": {
     "hooks": {
@@ -60,7 +61,6 @@
     "lerna": "3.22.0",
     "bcrypt": "4.0.1",
     "hash.js": "1.1.7",
-    "snyk": "1.333.0",
     "loader.js": "4.7.0",
     "qunit-dom": "1.2.0",
     "ember-try": "1.4.0",
@@ -102,7 +102,9 @@
     "watch": "skpm-build --watch",
     "start": "skpm-build --watch --run",
     "lint:hbs": "ember-template-lint .",
-    "postinstall": "npm run build && skpm-link"
+    "postinstall": "npm run build && skpm-link",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "engines": {
     "atom": ">=1.0.0 <2.0.0",
