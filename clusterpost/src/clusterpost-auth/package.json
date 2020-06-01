@@ -19,7 +19,7 @@
     "bluebird": "^3.5.4",
     "boom": "^7.0.0",
     "hapi-jwt-couch": "^4.0.0",
-    "snyk": "^1.323.0"
+    "snyk": "^1.333.0"
   },
   "repository": {
     "type": "git",
