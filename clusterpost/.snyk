@@ -1,0 +1,137 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - couch-update-views > lab > eslint > debug:
+        patched: '2020-06-01T08:43:11.618Z'
+    - clusterpost-server > clusterpost-provider > couch-update-views > lab > eslint > debug:
+        patched: '2020-06-01T08:43:11.618Z'
+    - clusterpost-server > hapi-jwt-couch > couch-update-views > lab > eslint > debug:
+        patched: '2020-06-01T08:43:11.618Z'
+  'npm:extend:20180424':
+    - couch-update-views > request > extend:
+        patched: '2020-06-01T08:43:11.618Z'
+    - clusterpost-server > clusterpost-provider > couch-update-views > request > extend:
+        patched: '2020-06-01T08:43:11.618Z'
+    - clusterpost-server > hapi-jwt-couch > couch-update-views > request > extend:
+        patched: '2020-06-01T08:43:11.618Z'
+  'npm:hoek:20180212':
+    - couch-update-views > joi > hoek:
+        patched: '2020-06-01T08:43:11.618Z'
+    - couch-update-views > lab > hoek:
+        patched: '2020-06-01T08:43:11.618Z'
+    - couch-update-views > joi > topo > hoek:
+        patched: '2020-06-01T08:43:11.618Z'
+    - couch-update-views > lab > bossy > hoek:
+        patched: '2020-06-01T08:43:11.618Z'
+    - clusterpost-server > clusterpost-provider > couch-update-views > joi > hoek:
+        patched: '2020-06-01T08:43:11.618Z'
+    - clusterpost-server > hapi-jwt-couch > couch-update-views > joi > hoek:
+        patched: '2020-06-01T08:43:11.618Z'
+    - couch-update-views > lab > bossy > joi > hoek:
+        patched: '2020-06-01T08:43:11.618Z'
+    - clusterpost-server > clusterpost-provider > couch-update-views > lab > hoek:
+        patched: '2020-06-01T08:43:11.618Z'
+    - clusterpost-server > hapi-jwt-couch > couch-update-views > lab > hoek:
+        patched: '2020-06-01T08:43:11.618Z'
+    - clusterpost-server > clusterpost-provider > couch-update-views > joi > topo > hoek:
+        patched: '2020-06-01T08:43:11.618Z'
+    - clusterpost-server > hapi-jwt-couch > couch-update-views > joi > topo > hoek:
+        patched: '2020-06-01T08:43:11.618Z'
+    - couch-update-views > lab > bossy > joi > topo > hoek:
+        patched: '2020-06-01T08:43:11.618Z'
+    - clusterpost-server > clusterpost-provider > couch-update-views > lab > bossy > hoek:
+        patched: '2020-06-01T08:43:11.618Z'
+    - clusterpost-server > hapi-jwt-couch > couch-update-views > lab > bossy > hoek:
+        patched: '2020-06-01T08:43:11.618Z'
+    - clusterpost-server > clusterpost-provider > couch-update-views > lab > bossy > joi > hoek:
+        patched: '2020-06-01T08:43:11.618Z'
+    - clusterpost-server > hapi-jwt-couch > couch-update-views > lab > bossy > joi > hoek:
+        patched: '2020-06-01T08:43:11.618Z'
+    - clusterpost-server > clusterpost-provider > couch-update-views > lab > bossy > joi > topo > hoek:
+        patched: '2020-06-01T08:43:11.618Z'
+    - clusterpost-server > hapi-jwt-couch > couch-update-views > lab > bossy > joi > topo > hoek:
+        patched: '2020-06-01T08:43:11.618Z'
+    - couch-update-views > request > hawk > hoek:
+        patched: '2020-06-01T08:43:11.618Z'
+    - couch-update-views > request > hawk > boom > hoek:
+        patched: '2020-06-01T08:43:11.618Z'
+    - couch-update-views > request > hawk > sntp > hoek:
+        patched: '2020-06-01T08:43:11.618Z'
+    - clusterpost-server > hapi-jwt-couch > jsonwebtoken > joi > hoek:
+        patched: '2020-06-01T08:43:11.618Z'
+    - couch-update-views > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-06-01T08:43:11.618Z'
+    - clusterpost-server > clusterpost-provider > couch-update-views > request > hawk > hoek:
+        patched: '2020-06-01T08:43:11.618Z'
+    - clusterpost-server > hapi-jwt-couch > couch-update-views > request > hawk > hoek:
+        patched: '2020-06-01T08:43:11.618Z'
+    - clusterpost-server > hapi-jwt-couch > jsonwebtoken > joi > topo > hoek:
+        patched: '2020-06-01T08:43:11.618Z'
+    - clusterpost-server > clusterpost-provider > couch-update-views > request > hawk > boom > hoek:
+        patched: '2020-06-01T08:43:11.618Z'
+    - clusterpost-server > hapi-jwt-couch > couch-update-views > request > hawk > boom > hoek:
+        patched: '2020-06-01T08:43:11.618Z'
+    - clusterpost-server > clusterpost-provider > couch-update-views > request > hawk > sntp > hoek:
+        patched: '2020-06-01T08:43:11.618Z'
+    - clusterpost-server > hapi-jwt-couch > couch-update-views > request > hawk > sntp > hoek:
+        patched: '2020-06-01T08:43:11.618Z'
+    - clusterpost-server > clusterpost-provider > couch-update-views > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-06-01T08:43:11.618Z'
+    - clusterpost-server > hapi-jwt-couch > couch-update-views > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-06-01T08:43:11.618Z'
+  SNYK-JS-LODASH-567746:
+    - couch-update-views > lab > eslint > lodash:
+        patched: '2020-06-01T08:43:11.618Z'
+    - couch-update-views > lab > eslint > inquirer > lodash:
+        patched: '2020-06-01T08:43:11.618Z'
+    - couch-update-views > lab > eslint > table > lodash:
+        patched: '2020-06-01T08:43:11.618Z'
+    - clusterpost-server > clusterpost-provider > couch-update-views > lab > eslint > lodash:
+        patched: '2020-06-01T08:43:11.618Z'
+    - clusterpost-server > hapi-jwt-couch > couch-update-views > lab > eslint > lodash:
+        patched: '2020-06-01T08:43:11.618Z'
+    - clusterpost-server > clusterpost-provider > couch-update-views > lab > eslint > inquirer > lodash:
+        patched: '2020-06-01T08:43:11.618Z'
+    - clusterpost-server > hapi-jwt-couch > couch-update-views > lab > eslint > inquirer > lodash:
+        patched: '2020-06-01T08:43:11.618Z'
+    - clusterpost-server > clusterpost-provider > couch-update-views > lab > eslint > table > lodash:
+        patched: '2020-06-01T08:43:11.618Z'
+    - clusterpost-server > hapi-jwt-couch > couch-update-views > lab > eslint > table > lodash:
+        patched: '2020-06-01T08:43:11.618Z'
+    - clusterpost-server > couch-update-views > lab > eslint > lodash:
+        patched: '2020-06-01T08:43:11.618Z'
+    - clusterpost-server > couch-update-views > lab > eslint > inquirer > lodash:
+        patched: '2020-06-01T08:43:11.618Z'
+    - clusterpost-server > couch-update-views > lab > eslint > table > lodash:
+        patched: '2020-06-01T08:43:11.618Z'
+  'npm:moment:20170905':
+    - couch-update-views > joi > moment:
+        patched: '2020-06-01T08:43:11.618Z'
+    - clusterpost-server > clusterpost-provider > couch-update-views > joi > moment:
+        patched: '2020-06-01T08:43:11.618Z'
+    - clusterpost-server > hapi-jwt-couch > couch-update-views > joi > moment:
+        patched: '2020-06-01T08:43:11.618Z'
+  'npm:ms:20170412':
+    - couch-update-views > lab > eslint > debug > ms:
+        patched: '2020-06-01T08:43:11.618Z'
+    - clusterpost-server > clusterpost-provider > couch-update-views > lab > eslint > debug > ms:
+        patched: '2020-06-01T08:43:11.618Z'
+    - clusterpost-server > hapi-jwt-couch > couch-update-views > lab > eslint > debug > ms:
+        patched: '2020-06-01T08:43:11.618Z'
+  'npm:stringstream:20180511':
+    - couch-update-views > request > stringstream:
+        patched: '2020-06-01T08:43:11.618Z'
+    - clusterpost-server > clusterpost-provider > couch-update-views > request > stringstream:
+        patched: '2020-06-01T08:43:11.618Z'
+    - clusterpost-server > hapi-jwt-couch > couch-update-views > request > stringstream:
+        patched: '2020-06-01T08:43:11.618Z'
+  'npm:tough-cookie:20170905':
+    - couch-update-views > request > tough-cookie:
+        patched: '2020-06-01T08:43:11.618Z'
+    - clusterpost-server > clusterpost-provider > couch-update-views > request > tough-cookie:
+        patched: '2020-06-01T08:43:11.618Z'
+    - clusterpost-server > hapi-jwt-couch > couch-update-views > request > tough-cookie:
+        patched: '2020-06-01T08:43:11.618Z'
