@@ -8,6 +8,42 @@ patch:
         patched: '2020-05-20T11:43:46.959Z'
     - hapi-jwt-couch > jsonwebtoken > joi > topo > hoek:
         patched: '2020-05-20T11:43:46.959Z'
+    - boom > hoek:
+        patched: '2020-06-01T08:41:33.630Z'
+    - hapi-jwt-couch > boom > hoek:
+        patched: '2020-06-01T08:41:33.630Z'
+    - hapi-jwt-couch > joi > hoek:
+        patched: '2020-06-01T08:41:33.630Z'
+    - hapi-jwt-couch > joi > topo > hoek:
+        patched: '2020-06-01T08:41:33.630Z'
+    - hapi-jwt-couch > couch-update-views > joi > hoek:
+        patched: '2020-06-01T08:41:33.630Z'
+    - hapi-jwt-couch > couch-update-views > lab > hoek:
+        patched: '2020-06-01T08:41:33.630Z'
+    - hapi-jwt-couch > couch-update-views > joi > topo > hoek:
+        patched: '2020-06-01T08:41:33.630Z'
+    - hapi-jwt-couch > couch-update-views > lab > bossy > hoek:
+        patched: '2020-06-01T08:41:33.630Z'
+    - hapi-jwt-couch > couch-update-views > lab > bossy > joi > hoek:
+        patched: '2020-06-01T08:41:33.630Z'
+    - hapi-jwt-couch > couch-update-views > lab > bossy > joi > topo > hoek:
+        patched: '2020-06-01T08:41:33.630Z'
+    - hapi-jwt-couch > couch-provider > request > hawk > hoek:
+        patched: '2020-06-01T08:41:33.630Z'
+    - hapi-jwt-couch > couch-update-views > request > hawk > hoek:
+        patched: '2020-06-01T08:41:33.630Z'
+    - hapi-jwt-couch > couch-provider > request > hawk > boom > hoek:
+        patched: '2020-06-01T08:41:33.630Z'
+    - hapi-jwt-couch > couch-update-views > request > hawk > boom > hoek:
+        patched: '2020-06-01T08:41:33.630Z'
+    - hapi-jwt-couch > couch-provider > request > hawk > sntp > hoek:
+        patched: '2020-06-01T08:41:33.630Z'
+    - hapi-jwt-couch > couch-update-views > request > hawk > sntp > hoek:
+        patched: '2020-06-01T08:41:33.630Z'
+    - hapi-jwt-couch > couch-provider > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-06-01T08:41:33.630Z'
+    - hapi-jwt-couch > couch-update-views > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-06-01T08:41:33.630Z'
   SNYK-JS-LODASH-567746:
     - hapi-jwt-couch > couch-update-views > lab > eslint > lodash:
         patched: '2020-05-20T11:43:46.959Z'
@@ -15,3 +51,33 @@ patch:
         patched: '2020-05-20T11:43:46.959Z'
     - hapi-jwt-couch > couch-update-views > lab > eslint > table > lodash:
         patched: '2020-05-20T11:43:46.959Z'
+  'npm:debug:20170905':
+    - hapi-jwt-couch > couch-update-views > lab > eslint > debug:
+        patched: '2020-06-01T08:41:33.630Z'
+  'npm:extend:20180424':
+    - hapi-jwt-couch > couch-provider > request > extend:
+        patched: '2020-06-01T08:41:33.630Z'
+    - hapi-jwt-couch > couch-update-views > request > extend:
+        patched: '2020-06-01T08:41:33.630Z'
+  'npm:moment:20170905':
+    - hapi-jwt-couch > joi > moment:
+        patched: '2020-06-01T08:41:33.630Z'
+    - hapi-jwt-couch > couch-update-views > joi > moment:
+        patched: '2020-06-01T08:41:33.630Z'
+    - hapi-jwt-couch > jsonwebtoken > joi > moment:
+        patched: '2020-06-01T08:41:33.630Z'
+  'npm:ms:20170412':
+    - hapi-jwt-couch > jsonwebtoken > ms:
+        patched: '2020-06-01T08:41:33.630Z'
+    - hapi-jwt-couch > couch-update-views > lab > eslint > debug > ms:
+        patched: '2020-06-01T08:41:33.630Z'
+  'npm:stringstream:20180511':
+    - hapi-jwt-couch > couch-provider > request > stringstream:
+        patched: '2020-06-01T08:41:33.630Z'
+    - hapi-jwt-couch > couch-update-views > request > stringstream:
+        patched: '2020-06-01T08:41:33.630Z'
+  'npm:tough-cookie:20170905':
+    - hapi-jwt-couch > couch-provider > request > tough-cookie:
+        patched: '2020-06-01T08:41:33.630Z'
+    - hapi-jwt-couch > couch-update-views > request > tough-cookie:
+        patched: '2020-06-01T08:41:33.630Z'
