@@ -32,6 +32,10 @@
     "type": "opencollective",
     "url": "https://opencollective.com/decentralized-internet"
   },
+    "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lonero-Team/Decentralized-Internet.git"
+  },
   "bundleDependencies": false,
   "dependencies": {
     "pm2": "*",
