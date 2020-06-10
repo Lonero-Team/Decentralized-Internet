@@ -20,7 +20,7 @@
     "string.prototype.padleft": "2.0.0",
     "timer2": "1.0.0",
     "uuidv4": "6.1.0",
-    "snyk": "^1.333.0"
+    "snyk": "^1.337.0"
   },
   "devDependencies": {
     "assertthat": "5.1.1",
