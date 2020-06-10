@@ -36,9 +36,7 @@ stages:
       #!/bin/bash
       # Push app
       if ! cf app $CF_APP; then  
-        cf push $CF_APP
-      else
-        OLD_CF_APP=${CF_APP}-OLD-$(date +"%s")
+   e +"%s")
         rollback() {
           set +e  
           if cf app $OLD_CF_APP; then
