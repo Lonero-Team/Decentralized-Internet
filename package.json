@@ -32,7 +32,7 @@
     "type": "opencollective",
     "url": "https://opencollective.com/decentralized-internet"
   },
-    "repository": {
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/Lonero-Team/Decentralized-Internet.git"
   },
@@ -49,7 +49,7 @@
     "bitcoin-protocol": "^4.0.1",
     "ember-cli-htmlbars": "^5.1.2",
     "@jupyterlab/notebook": "^2.1.2",
-    "snyk": "^1.333.0"
+    "snyk": "^1.337.0"
   },
   "husky": {
     "hooks": {
