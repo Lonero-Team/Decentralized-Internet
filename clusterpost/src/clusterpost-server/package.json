@@ -19,7 +19,7 @@
     "clusterpost-provider": "^4.1.1",
     "clusterpost-static": "^1.0.0",
     "couch-provider": "3.0.1",
-    "couch-update-views": "1.0.9",
+    "couch-update-views": "1.0.10",
     "hapi-jwt-couch": "^4.0.0",
     "jsonwebtoken": "^8.5.1",
     "lout": "^11.2.3",
