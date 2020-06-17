@@ -1,4 +1,3 @@
-<script>
 var _rollbarConfig = {
     accessToken: "de4fa827c49146b09f0eb499d6a5ae6c",
     captureUncaught: true,
