@@ -20,7 +20,11 @@ version = {}
 with open('bigchaindb/version.py') as fp:
     exec(fp.read(), version)
 
-
+import pybrake
+notifier = pybrake.Notifier(project_id=277812,
+                            project_key='732a696ab992330e31a41219b39feb37',
+                            environment='production')
+    
 # check if setuptools is up to date
 def check_setuptools_features():
     import pkg_resources
