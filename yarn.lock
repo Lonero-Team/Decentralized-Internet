@@ -16065,9 +16065,9 @@ snyk-try-require@1.3.1, snyk-try-require@^1.1.1, snyk-try-require@^1.3.1:
     then-fs "^2.0.0"
 
 snyk@^1.337.0:
-  version "1.345.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.345.0.tgz#d596d400dbbcbb42c3cca8dfb64bf01bdae2273e"
-  integrity sha512-1iNf0lOmJr8JTiUxwXomulUI6riUZ4LNwY4+WaZR33hzlterWmkqzbKS39NJGVplZZ6ZGuhjd4TSaCHftI+mmw==
+  version "1.346.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.346.0.tgz#c94646a7ca109a329095419542df92d10df9709f"
+  integrity sha512-uwJDC0CRefppngm1J1M+Sja5CVfdmzLYkxGYp3ZYXrzvd912pgzrdYm8ciUL5a8x1/C+2L0iZ09W68daSuObhA==
   dependencies:
     "@snyk/cli-interface" "2.8.0"
     "@snyk/dep-graph" "1.18.3"
