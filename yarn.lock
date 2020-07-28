@@ -1238,10 +1238,10 @@
     "@glimmer/interfaces" "^0.51.1"
     "@simple-dom/interface" "^1.4.0"
 
-"@jupyterlab/apputils@^2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@jupyterlab/apputils/-/apputils-2.2.0.tgz#005d6b4dfd1b805fd968462e95dff0399d9b7dbb"
-  integrity sha512-QiPr3otdgOAI6K1FTR39RZI2AlFaeRhsdwB2W/XO+TIIYTRljmL93WuNixZQjgyVBqVhyMwPLPLtE/zt1diPvQ==
+"@jupyterlab/apputils@^2.2.0", "@jupyterlab/apputils@^2.2.1":
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/apputils/-/apputils-2.2.1.tgz#0f2a972c8215ea6b6e3c5d282a794a44f16c5e59"
+  integrity sha512-JnKHldVu7JOas4ddqEFLzhkd151jVoTHNEu0gee1zmPti0l6Umov7DzqzD7Ar3kORAY3shJITszzJJDcndl+Xg==
   dependencies:
     "@jupyterlab/coreutils" "^4.2.0"
     "@jupyterlab/services" "^5.2.0"
@@ -1275,12 +1275,12 @@
     "@lumino/disposable" "^1.3.5"
     "@lumino/signaling" "^1.3.5"
 
-"@jupyterlab/cells@^2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@jupyterlab/cells/-/cells-2.2.0.tgz#0110d50cc992e04bb1ff90ebc8c0e73f0059bc8f"
-  integrity sha512-Hy/B5JahXKouCNRLTZPEbWryPNh9rhGsO801wG147mPBdVacWWqYafPNFH8LDkXgZcGVJu4TB94+GF6ZlV/oug==
+"@jupyterlab/cells@^2.2.1":
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/cells/-/cells-2.2.1.tgz#a623c354f2bcd129f630cbb93977b7d1505bf9a1"
+  integrity sha512-AAv2EErP9K/OlaqRTl0tRAtYpI2P8Agk2UtjHoiyB1idEuN8Whq7TMxK1ca8Nx5/kNpGkrgfcMBNYrC/6uilbQ==
   dependencies:
-    "@jupyterlab/apputils" "^2.2.0"
+    "@jupyterlab/apputils" "^2.2.1"
     "@jupyterlab/attachments" "^2.2.0"
     "@jupyterlab/codeeditor" "^2.2.0"
     "@jupyterlab/codemirror" "^2.2.0"
@@ -1423,12 +1423,12 @@
     "@lumino/coreutils" "^1.4.2"
 
 "@jupyterlab/notebook@^2.1.2":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@jupyterlab/notebook/-/notebook-2.2.0.tgz#3f240eb17f6a447d43f1374ee6e20432f35cad14"
-  integrity sha512-sFjUjaBWLK4bkZ04czbaSJSqisYel6wyjtQZ43Nv3AEQya0AjW37b++1G0f5TdvE//lJTC4OCGDNTZAVVCbK9g==
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/notebook/-/notebook-2.2.1.tgz#a2f9264f8e7e6603a30445f33b6b87d0e155fa9d"
+  integrity sha512-YOug34iEYgE4PrI1Akc2i9Yjd8X10n4ndSEEcxyMSb2g0xUw2QWFaoXWqnY9T7F+mzoeC3l1h7cWfMgE0OgScA==
   dependencies:
-    "@jupyterlab/apputils" "^2.2.0"
-    "@jupyterlab/cells" "^2.2.0"
+    "@jupyterlab/apputils" "^2.2.1"
+    "@jupyterlab/cells" "^2.2.1"
     "@jupyterlab/codeeditor" "^2.2.0"
     "@jupyterlab/coreutils" "^4.2.0"
     "@jupyterlab/docregistry" "^2.2.0"
