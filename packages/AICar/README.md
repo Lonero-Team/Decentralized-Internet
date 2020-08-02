@@ -6,5 +6,7 @@ Welcome to the AICar repository, currently this package is under construction an
 
 Todo:  
 ☐ Configuration Files  
-☐ Infastructure Setup  
+☐ Infrastructure Setup  
 ☐ Perhaps UMLS are needed
+
+## Under construction
