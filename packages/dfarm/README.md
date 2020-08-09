@@ -8,3 +8,5 @@ Todo:
 - Database host configs
 - Connectivity Setup
 - Data pipelines
+
+# Please work on config.json + deployment.md
