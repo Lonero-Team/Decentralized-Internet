@@ -3,6 +3,9 @@
 # p2shop
 Ecom plus shopping cart library w/ Decentralized Internet SDK
 
+# TODO:
+**Update src/ + config.json**
+
 # shopping-cart
 
 [![license mit](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
