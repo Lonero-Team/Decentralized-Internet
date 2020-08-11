@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.14.1
+version: v1.19.0
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -8277,6 +8277,8 @@ patch:
         patched: '2020-05-22T10:53:07.963Z'
     - react-scripts > jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @jest/environment > @jest/transform > babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
         patched: '2020-05-22T10:53:07.963Z'
+    - react-scripts > jest-environment-jsdom-fourteen > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2020-08-11T21:21:53.050Z'
   SNYK-JS-LODASH-450202:
     - clusterpost-list-react > recharts > lodash:
         patched: '2020-05-14T06:57:28.971Z'
