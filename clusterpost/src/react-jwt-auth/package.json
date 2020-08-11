@@ -47,7 +47,7 @@
     "eslint-plugin-react": "7.20.5",
     "eslint-plugin-standard": "4.0.1",
     "gh-pages": "3.1.0",
-    "react-scripts": "1.1.5",
+    "react-scripts": "3.4.2",
     "rollup": "2.23.1",
     "rollup-plugin-babel": "4.4.0",
     "rollup-plugin-commonjs": "10.1.0",
