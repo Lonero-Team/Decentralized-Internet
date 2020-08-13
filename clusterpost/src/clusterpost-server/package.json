@@ -9,7 +9,7 @@
     "@hapi/good-console": "^9.0.0",
     "@hapi/good-squeeze": "^6.0.0",
     "@hapi/h2o2": "^9.0.0",
-    "@hapi/hapi": "^19.0.0",
+    "@hapi/hapi": "^20.0.0",
     "@hapi/inert": "^6.0.0",
     "@hapi/vision": "^6.0.0",
     "@juanprietob/hapi-auth-jwt": "github:juanprietob/hapi-auth-jwt#master",
