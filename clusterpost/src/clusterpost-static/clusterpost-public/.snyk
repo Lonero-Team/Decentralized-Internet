@@ -8279,6 +8279,8 @@ patch:
         patched: '2020-05-22T10:53:07.963Z'
     - react-scripts > jest-environment-jsdom-fourteen > @jest/environment > @jest/transform > @babel/core > lodash:
         patched: '2020-08-11T21:21:53.050Z'
+    - snyk > snyk-nodejs-lockfile-parser > @yarnpkg/core > lodash:
+        patched: '2020-08-28T21:38:31.597Z'
   SNYK-JS-LODASH-450202:
     - clusterpost-list-react > recharts > lodash:
         patched: '2020-05-14T06:57:28.971Z'
