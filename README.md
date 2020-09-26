@@ -3,7 +3,7 @@
 | ![Crates.io](https://img.shields.io/crates/d/decentralized-internet?label=crates.io%20Downloads) | [![Discord](https://img.shields.io/discord/639489591664967700)](https://discord.gg/buTafPc) | [![Gitter](https://img.shields.io/gitter/room/Decentralized-Internet/community)](https://gitter.im/Decentralized-Internet/community?source=orgpage) | [![Read the Docs](https://img.shields.io/readthedocs/lonero)](https://lonero.readthedocs.io/en/latest/)
 
 ## Why? 🙋
-Currently, the internet as it stands is monopolized primarily towards central authorities, and relies heavily on outdate infastructure such as Telecom towers, routing systems, switches, etc. It is about time for an upgrade.
+Currently, the internet as it stands is monopolized primarily towards central authorities, and relies heavily on outdated infrastructure such as telecom towers, routing systems, switches, etc. It is about time for an upgrade.
 
 ## What? 😕
 This repo is for an SDK and library for building decentralized web and distributed computing projects. Currently, we are trying to make a pipeline for a P2P Data transfer and syndication protocol. Currently, the main distribution method for this software is through **NPM**, and we have developed extensions, plugins, and capability for multiple other platforms as well.
