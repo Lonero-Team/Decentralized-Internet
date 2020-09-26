@@ -1,24 +1,25 @@
 {
-  "name": "dfarm",
-  "version": "1.0.0",
-  "description": "Decentralized Internet connector for Farmbot",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },  
-  "dependencies": {
-    "farmbot-web-frontend":"*",
-    "decentralized-internet": "*",    
-  "keywords": [
-    "Decentralized",
-    "Blockchain",
-    "Farmbot",
-    "Environmental",
-    "Environment",
-    "Green",
-    "Weather",
-    "IOT"
-  ],
-  "author": "Andrew Magdy Kamal, The Lonero Foundation",
-  "license": "MIT"
+	"name": "dfarm",
+	"version": "1.0.0",
+	"description": "Decentralized Internet connector for Farmbot",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"dependencies": {
+		"farmbot-web-frontend": "*",
+		"decentralized-internet": "*",
+		"keywords": [
+			"Decentralized",
+			"Blockchain",
+			"Farmbot",
+			"Environmental",
+			"Environment",
+			"Green",
+			"Weather",
+			"IOT"
+		]
+	},
+	"author": "Andrew Magdy Kamal, The Lonero Foundation",
+	"license": "MIT"
 }
