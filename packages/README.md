@@ -5,9 +5,10 @@ Currently this is under construction as we just started using [Lerna](https://le
 Packages:  
 `npm install aicar`  
 `npm install p2car`  
+`npm install dfarm`  
 `npm install p2talk`  
 `npm install p2lara`  
 `npm install dstack`  
 `npm install p2shop`  
 `npm install p2pwiki`  
-> Updated as of 05/15/2020
+> Updated as of 09/26/2020
