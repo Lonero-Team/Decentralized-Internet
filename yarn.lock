@@ -6353,14 +6353,6 @@ chalk@^4.0.0, chalk@^4.1.0, chalk@~4.1.0:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
 
-chalk@^4.1.0, chalk@~4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.0.tgz#4e14870a618d9e2edd97dd8345fd9d9dc315646a"
-  integrity sha512-qwx12AxXe2Q5xQ43Ac//I6v5aXTipYrSESdOgzrN+9XjgEpyjpKuvSGaN4qE93f7TQTlerQQ8S+EQ0EyDoVL1A==
-  dependencies:
-    ansi-styles "^4.1.0"
-    supports-color "^7.1.0"
-
 chardet@^0.4.0:
   version "0.4.2"
   resolved "https://registry.yarnpkg.com/chardet/-/chardet-0.4.2.tgz#b5473b33dc97c424e5d98dc87d55d4d8a29c8bf2"
@@ -14991,9 +14983,9 @@ pm2-multimeter@^0.1.2:
     charm "~0.1.1"
 
 pm2@*:
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/pm2/-/pm2-4.4.0.tgz#85ad86da2d3c6618881714e885c85a96d77ee379"
-  integrity sha512-uEY3ShP5O5d7VBx4r0QhVjWAgjyhazenIl0fhxyVr+aDMWSa3hpD5RpvkGJMiX8z3nDrBBWCSU7TYth1sdbJkA==
+  version "4.4.1"
+  resolved "https://registry.yarnpkg.com/pm2/-/pm2-4.4.1.tgz#a96bf6d4c75cf97612de5940835e792899845b54"
+  integrity sha512-ece2zqVvSg29tIGdznKqk07IwVaO4mX7zLBMVxbJQMfvxpQUotLLERDW0v/RYMHtzj1bX8MLsDUsmPiIbEszKg==
   dependencies:
     "@pm2/agent" "~1.0.2"
     "@pm2/io" "~4.3.5"
