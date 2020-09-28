@@ -6353,14 +6353,6 @@ chalk@^4.0.0, chalk@^4.1.0, chalk@~4.1.0:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
 
-chalk@^4.1.0, chalk@~4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.0.tgz#4e14870a618d9e2edd97dd8345fd9d9dc315646a"
-  integrity sha512-qwx12AxXe2Q5xQ43Ac//I6v5aXTipYrSESdOgzrN+9XjgEpyjpKuvSGaN4qE93f7TQTlerQQ8S+EQ0EyDoVL1A==
-  dependencies:
-    ansi-styles "^4.1.0"
-    supports-color "^7.1.0"
-
 chardet@^0.4.0:
   version "0.4.2"
   resolved "https://registry.yarnpkg.com/chardet/-/chardet-0.4.2.tgz#b5473b33dc97c424e5d98dc87d55d4d8a29c8bf2"
@@ -8465,12 +8457,7 @@ ember-resolver@8.0.2:
     ember-cli-version-checker "^5.1.1"
     resolve "^1.17.0"
 
-ember-rfc176-data@^0.3.13:
-  version "0.3.13"
-  resolved "https://registry.yarnpkg.com/ember-rfc176-data/-/ember-rfc176-data-0.3.13.tgz#ed1712a26e65fec703655f35410414aa1982cf3b"
-  integrity sha512-m9JbwQlT6PjY7x/T8HslnXP7Sz9bx/pz3FrNfNi2NesJnbNISly0Lix6NV1fhfo46572cpq4jrM+/6yYlMefTQ==
-
-ember-rfc176-data@^0.3.15:
+ember-rfc176-data@^0.3.13, ember-rfc176-data@^0.3.15:
   version "0.3.15"
   resolved "https://registry.yarnpkg.com/ember-rfc176-data/-/ember-rfc176-data-0.3.15.tgz#af3f1da5a0339b6feda380edc2f7190e0f416c2d"
   integrity sha512-GPKa7zRDBblRy0orxTXt5yrpp/Pf5CkuRFSIR8qMFDww0CqCKjCRwdZnWYzCM4kAEfZnXRIDDefe1tBaFw7v7w==
@@ -8891,10 +8878,10 @@ escodegen@^1.11.0:
   optionalDependencies:
     source-map "~0.6.1"
 
-eslint-plugin-ember@9.0.0:
-  version "9.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-ember/-/eslint-plugin-ember-9.0.0.tgz#34a86a31d12bded00f5967b43a54eeb548329dc3"
-  integrity sha512-P83EWqBos5FKQcTJDStWHwb1jfj5Xsrfq5rSB3r1P7dgcm3yTVyEXiTVgq0lBvNWN8vHGlQ6SfnUx8VjHgAxYA==
+eslint-plugin-ember@9.1.1:
+  version "9.1.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-ember/-/eslint-plugin-ember-9.1.1.tgz#b4ecd3c2e26faee685f8e91318257a933b4322e7"
+  integrity sha512-yEOaikB3/i9HnGN31JhP7kenrvXmmK/3b9Pazo4ErM7dpSHZ0GCH7xlN1H7eSmMqwcq0kAB5wcYSjF4hFiqQIA==
   dependencies:
     "@ember-data/rfc395-data" "^0.0.4"
     ember-rfc176-data "^0.3.15"
