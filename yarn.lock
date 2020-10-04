@@ -2967,6 +2967,23 @@
     temp-dir "^2.0.0"
     tslib "^1.9.3"
 
+"@snyk/java-call-graph-builder@^1.14.0":
+  version "1.15.1"
+  resolved "https://registry.yarnpkg.com/@snyk/java-call-graph-builder/-/java-call-graph-builder-1.15.1.tgz#deab3a84102349dcd5785d987f2d58cbd65c8ff5"
+  integrity sha512-9ycMAzc5wc0DPIs/cM9JVyfSN8vvK5xoEDzI/Ds+xQzw+hyZig1XISrTvDC5koGca/TVu+GNytGDeuc3SZ4VJA==
+  dependencies:
+    ci-info "^2.0.0"
+    debug "^4.1.1"
+    glob "^7.1.6"
+    graphlib "^2.1.8"
+    jszip "^3.2.2"
+    needle "^2.3.3"
+    progress "^2.0.3"
+    snyk-config "^3.0.0"
+    source-map-support "^0.5.7"
+    temp-dir "^2.0.0"
+    tslib "^1.9.3"
+
 "@snyk/rpm-parser@^2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@snyk/rpm-parser/-/rpm-parser-2.0.0.tgz#4ded7fa4b0a8efca7699359e4ca7a79bfbe38bc1"
@@ -8286,10 +8303,10 @@ ember-source-channel-url@^2.0.1:
   dependencies:
     got "^8.0.1"
 
-ember-source@3.21.1:
-  version "3.21.1"
-  resolved "https://registry.yarnpkg.com/ember-source/-/ember-source-3.21.1.tgz#e1bfb20a3db91c21415256e5949a32085a2c23ab"
-  integrity sha512-zG3FCd++91/OQgYeMeGJequ1u0uLFK3xeilHYL4CNrwgQAit0vju/s8x7H4fVnVxOxYhsFUXAsTMSsvgqbaqpQ==
+ember-source@3.21.3:
+  version "3.21.3"
+  resolved "https://registry.yarnpkg.com/ember-source/-/ember-source-3.21.3.tgz#c85fae070566468a1e479b1817bc690fe3d03207"
+  integrity sha512-wb9vkm2OLax7D6zo5NqB4/Da78LIsa8t74XGPcHtCg4hv5NhipIIgQEtGgWRgdQAp+vMMeZGwNWxw0Lra8MejA==
   dependencies:
     "@babel/helper-module-imports" "^7.8.3"
     "@babel/plugin-transform-block-scoping" "^7.8.3"
@@ -8670,10 +8687,10 @@ escodegen@^1.11.0:
   optionalDependencies:
     source-map "~0.6.1"
 
-eslint-plugin-ember@9.1.1:
-  version "9.1.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-ember/-/eslint-plugin-ember-9.1.1.tgz#b4ecd3c2e26faee685f8e91318257a933b4322e7"
-  integrity sha512-yEOaikB3/i9HnGN31JhP7kenrvXmmK/3b9Pazo4ErM7dpSHZ0GCH7xlN1H7eSmMqwcq0kAB5wcYSjF4hFiqQIA==
+eslint-plugin-ember@9.2.0:
+  version "9.2.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-ember/-/eslint-plugin-ember-9.2.0.tgz#4bdf00701cb765931da1e2bd4df88e0ec5dfcd68"
+  integrity sha512-m4uFMBMItW6roXgv8feRqRksCKn9hEzDJPJYLo7u9AFNNYjcqZtXmzI986zRNErxmDtHWh4Jve7qgxjWAODDEw==
   dependencies:
     "@ember-data/rfc395-data" "^0.0.4"
     ember-rfc176-data "^0.3.15"
@@ -14641,7 +14658,7 @@ pm2-multimeter@^0.1.2:
   dependencies:
     charm "~0.1.1"
 
-pm2@*:
+pm2@4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/pm2/-/pm2-4.5.0.tgz#5cabba66beed866aa1fb1a7eaa904b06ca9df93d"
   integrity sha512-sXKn0Qsrqj++qgsdGTASEsWfURhM6vSPIqFPwSwk3bK5/QPLxuRmVDW1y82M9wEnlgEjiIryaLhZUp5saLuhPA==
@@ -16457,13 +16474,14 @@ snyk-go-plugin@1.16.2:
     tmp "0.2.1"
     tslib "^1.10.0"
 
-snyk-gradle-plugin@3.6.3:
-  version "3.6.3"
-  resolved "https://registry.yarnpkg.com/snyk-gradle-plugin/-/snyk-gradle-plugin-3.6.3.tgz#484059bcb98469b6a674bbcbdc995eafb5581041"
-  integrity sha512-j/eQSLSsK3DHmvVX2fNig4+ugYrKlCOV8Xvo6OYFkNzhMpdyNFiGWTS1uyP1HH75Gyc78MaLANMgjlSYePukzQ==
+snyk-gradle-plugin@3.7.0:
+  version "3.7.0"
+  resolved "https://registry.yarnpkg.com/snyk-gradle-plugin/-/snyk-gradle-plugin-3.7.0.tgz#db84eeaa349d6c4ec7e27a5ada788e7a53851d4a"
+  integrity sha512-j2HJCX0RCvRsYLvF+MkA5io175QIWh6jVjHNXRYOL6ls0ZOhn0BLLs1Ilm8WkT+jTmaZt+Wnh8wBHDMhKlGcew==
   dependencies:
     "@snyk/cli-interface" "2.9.1"
     "@snyk/dep-graph" "^1.19.4"
+    "@snyk/java-call-graph-builder" "^1.14.0"
     "@types/debug" "^4.1.4"
     chalk "^3.0.0"
     debug "^4.1.1"
@@ -16661,10 +16679,10 @@ snyk-try-require@1.3.1, snyk-try-require@^1.1.1, snyk-try-require@^1.3.1:
     lru-cache "^4.0.0"
     then-fs "^2.0.0"
 
-snyk@^1.337.0:
-  version "1.404.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.404.0.tgz#8aceea1b36aa38e2377acbc996e9fa0244ee5f10"
-  integrity sha512-9PhhvGte85PCSzEaHkrr6L51Xbd+cR066dKz2eiX8wFZEVEkzZd/APPV27uIgCl0CdO9zlwO5Ufx0G6gef1Utg==
+snyk@1.406.0:
+  version "1.406.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.406.0.tgz#f40e116786e655e81a5d1e3064b367d99489de33"
+  integrity sha512-1wJkwXl1pXPF4p7BeXUHAhnF/Yp81bzHuUKWEN5F55Rzdkz60yKeR3NO8y5pzRg8em7Leyf322APlV4DUHeoZA==
   dependencies:
     "@snyk/cli-interface" "2.9.2"
     "@snyk/dep-graph" "1.19.4"
@@ -16691,7 +16709,7 @@ snyk@^1.337.0:
     snyk-cpp-plugin "2.0.0"
     snyk-docker-plugin "3.24.0"
     snyk-go-plugin "1.16.2"
-    snyk-gradle-plugin "3.6.3"
+    snyk-gradle-plugin "3.7.0"
     snyk-module "3.1.0"
     snyk-mvn-plugin "2.19.4"
     snyk-nodejs-lockfile-parser "1.28.1"
