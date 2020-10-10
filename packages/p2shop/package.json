@@ -52,7 +52,7 @@
     "standard": "14.3.4",
     "standard-version": "9.0.0",
     "webpack": "4.44.2",
-    "webpack-cli": "3.3.12",
+    "webpack-cli": "4.0.0",
     "webpack-dev-server": "3.11.0"
   },
   "husky": {
