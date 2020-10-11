@@ -8311,6 +8311,8 @@ patch:
         patched: '2020-09-15T00:04:34.708Z'
     - snyk > snyk-mvn-plugin > @snyk/cli-interface > @snyk/dep-graph > graphlib > lodash:
         patched: '2020-09-15T00:04:34.708Z'
+    - snyk > snyk-docker-plugin > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-10-10T23:38:52.354Z'
   SNYK-JS-LODASH-450202:
     - clusterpost-list-react > recharts > lodash:
         patched: '2020-05-14T06:57:28.971Z'
