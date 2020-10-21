@@ -53,7 +53,7 @@
     "rollup-plugin-commonjs": "10.1.0",
     "rollup-plugin-json": "4.0.0",
     "rollup-plugin-node-resolve": "5.2.0",
-    "rollup-plugin-peer-deps-external": "2.2.3",
+    "rollup-plugin-peer-deps-external": "2.2.4",
     "rollup-plugin-postcss": "3.1.8",
     "rollup-plugin-url": "3.0.1"
   },
