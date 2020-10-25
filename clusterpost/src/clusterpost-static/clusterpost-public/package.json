@@ -13,7 +13,7 @@
     "react-jwt-auth": "file:../../react-jwt-auth",
     "react-redux": "7.2.1",
     "react-router-dom": "5.2.0",
-    "react-scripts": "3.4.4",
+    "react-scripts": "4.0.0",
     "redux": "4.0.5",
     "snyk": "1.420.0"
   },
