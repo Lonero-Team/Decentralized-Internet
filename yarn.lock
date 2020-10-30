@@ -13110,16 +13110,15 @@ min-indent@^1.0.0:
   integrity sha1-z8RcN+nsDY8KDsPdTvf3w6vjklY=
 
 minify@*:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/minify/-/minify-6.0.0.tgz#b7b16e1c39cf17763ed50736d7042073665adb46"
-  integrity sha512-KowQkxrGMJsovq1nK2RkL0eOFy7gI6t+gpTEh3GQ9J+VutzlL/MiXlxXA1OdhddgGaA/AsBkGAYTHDZzSa36cQ==
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/minify/-/minify-6.0.1.tgz#d53413fc2e67b47642269087bc912da60ab6492e"
+  integrity sha512-JMG5VruvghXZ1VnPCffnpESUzrhNPTT/uNogew9CmPdd3zmohSEt8/HhPxpR7CiXnBYWExW2gGoagZxTy9rnLg==
   dependencies:
     clean-css "^4.1.6"
     css-b64-images "~0.2.5"
     debug "^4.1.0"
     html-minifier-terser "^5.1.1"
     terser "^5.3.2"
-    try-catch "^3.0.0"
     try-to-catch "^3.0.0"
 
 minimalistic-assert@^1.0.0, minimalistic-assert@^1.0.1:
@@ -18081,11 +18080,6 @@ trivial-deferred@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/trivial-deferred/-/trivial-deferred-1.0.1.tgz#376d4d29d951d6368a6f7a0ae85c2f4d5e0658f3"
   integrity sha1-N21NKdlR1jaKb3oK6FwvTV4GWPM=
-
-try-catch@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/try-catch/-/try-catch-3.0.0.tgz#7996d8b89895e2e8ae62cbdbeb4fe17470f8131b"
-  integrity sha512-3uAqUnoemzca1ENvZ72EVimR+E8lqBbzwZ9v4CEbLjkaV3Q+FtdmPUt7jRtoSoTiYjyIMxEkf6YgUpe/voJ1ng==
 
 try-to-catch@^3.0.0:
   version "3.0.0"
