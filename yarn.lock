@@ -2889,7 +2889,7 @@
     lodash.invert "^4.3.0"
     lodash.isempty "^4.4.0"
 
-"@snyk/dep-graph@1.19.4", "@snyk/dep-graph@^1.19.3", "@snyk/dep-graph@^1.19.4":
+"@snyk/dep-graph@1.19.4":
   version "1.19.4"
   resolved "https://registry.yarnpkg.com/@snyk/dep-graph/-/dep-graph-1.19.4.tgz#d156c482bfdfba7505f1cf3e8a80b86dd9f45383"
   integrity sha512-h3MMhjVm3BuIruwpDBqnMowKOG9viwr3TJHdIxTHulWKWSsPTTW1AAP3/RaK+UBp1y/Ua9yzeHncKIrzBdT5Nw==
@@ -2899,6 +2899,17 @@
     object-hash "^2.0.3"
     semver "^6.0.0"
     source-map-support "^0.5.19"
+    tslib "^1.13.0"
+
+"@snyk/dep-graph@^1.19.3", "@snyk/dep-graph@^1.19.4", "@snyk/dep-graph@^1.19.5":
+  version "1.20.0"
+  resolved "https://registry.yarnpkg.com/@snyk/dep-graph/-/dep-graph-1.20.0.tgz#258ae85f8a066dc63af4444cfca8b8d092b94bc0"
+  integrity sha512-/TOzXGh+JFgAu8pWdo1oLFKDNfFk99TnSQG2lbEu+vKLI2ZrGAk9oGO0geNogAN7Ib4EDQOEhgb7YwqwL7aA7w==
+  dependencies:
+    graphlib "^2.1.8"
+    lodash.isequal "^4.5.0"
+    object-hash "^2.0.3"
+    semver "^6.0.0"
     tslib "^1.13.0"
 
 "@snyk/docker-registry-v2-client@^1.13.5":
@@ -13010,6 +13021,14 @@ methods@~1.1.2:
   resolved "https://registry.yarnpkg.com/methods/-/methods-1.1.2.tgz#5529a4d67654134edcc5266656835b0f851afcee"
   integrity sha1-VSmk1nZUE07cxSZmVoNbD4Ua/O4=
 
+micromatch@4.0.2, micromatch@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/micromatch/-/micromatch-4.0.2.tgz#4fcb0999bf9fbc2fcbdd212f6d629b9a56c39259"
+  integrity sha512-y7FpHSbMUMoyPbYUSzO6PaZ6FyRnQOpHuKwbo1G+Knck95XVU4QAiKdGEnj5wwoS7PlOgthX/09u5iFJ+aYf5Q==
+  dependencies:
+    braces "^3.0.1"
+    picomatch "^2.0.5"
+
 micromatch@^3.0.4, micromatch@^3.1.10, micromatch@^3.1.4:
   version "3.1.10"
   resolved "https://registry.yarnpkg.com/micromatch/-/micromatch-3.1.10.tgz#70859bc95c9840952f359a068a3fc49f9ecfac23"
@@ -13028,14 +13047,6 @@ micromatch@^3.0.4, micromatch@^3.1.10, micromatch@^3.1.4:
     regex-not "^1.0.0"
     snapdragon "^0.8.1"
     to-regex "^3.0.2"
-
-micromatch@^4.0.2:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/micromatch/-/micromatch-4.0.2.tgz#4fcb0999bf9fbc2fcbdd212f6d629b9a56c39259"
-  integrity sha512-y7FpHSbMUMoyPbYUSzO6PaZ6FyRnQOpHuKwbo1G+Knck95XVU4QAiKdGEnj5wwoS7PlOgthX/09u5iFJ+aYf5Q==
-  dependencies:
-    braces "^3.0.1"
-    picomatch "^2.0.5"
 
 miller-rabin@^4.0.0:
   version "4.0.1"
@@ -16519,10 +16530,10 @@ snyk-cpp-plugin@2.0.0:
     debug "^4.1.1"
     tslib "^2.0.0"
 
-snyk-docker-plugin@4.6.2:
-  version "4.6.2"
-  resolved "https://registry.yarnpkg.com/snyk-docker-plugin/-/snyk-docker-plugin-4.6.2.tgz#5e339092ce52530ac69e66657fedb2867c416a62"
-  integrity sha512-uNZxZWONmPR0BBgZHRzKv/Czdw1PhuMokbRmX7tthX2gFYqEWcE0gou0s/YNBJ7tW4hWsg4ua7tFKsnCnXyXnA==
+snyk-docker-plugin@4.7.0:
+  version "4.7.0"
+  resolved "https://registry.yarnpkg.com/snyk-docker-plugin/-/snyk-docker-plugin-4.7.0.tgz#4472f10b5f30fe98d36bdcfb17893516c6157d43"
+  integrity sha512-u8IFJfOBswBMGYMGalY2XrMr+uMBrNCDxRld8wNJJmGtM2yW7tQXKkCqtF266rFrYJnuqIgHHJb+NQiPBK2Ypw==
   dependencies:
     "@snyk/dep-graph" "^1.19.4"
     "@snyk/rpm-parser" "^2.0.0"
@@ -16684,6 +16695,17 @@ snyk-php-plugin@1.9.2:
     "@snyk/composer-lockfile-parser" "^1.4.1"
     tslib "1.11.1"
 
+snyk-poetry-lockfile-parser@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/snyk-poetry-lockfile-parser/-/snyk-poetry-lockfile-parser-1.1.0.tgz#641fe9542f8131dbce2e855c4f093d0f61da4925"
+  integrity sha512-FTMF6dVl9xOsDBcQT6k4gyoIurO7oZ2i78+rfb4X0W0XH4XYwSXeFw02vQLcWza2eNBvCcFmI0DtXRvQS880SA==
+  dependencies:
+    "@snyk/cli-interface" "^2.9.2"
+    "@snyk/dep-graph" "^1.19.5"
+    debug "^4.2.0"
+    toml "^3.0.0"
+    tslib "^2.0.0"
+
 snyk-policy@1.14.1:
   version "1.14.1"
   resolved "https://registry.yarnpkg.com/snyk-policy/-/snyk-policy-1.14.1.tgz#4e48ea993573aca18e8d883b8c62171b9d35a3e0"
@@ -16699,12 +16721,13 @@ snyk-policy@1.14.1:
     snyk-try-require "^1.3.1"
     then-fs "^2.0.0"
 
-snyk-python-plugin@1.17.1:
-  version "1.17.1"
-  resolved "https://registry.yarnpkg.com/snyk-python-plugin/-/snyk-python-plugin-1.17.1.tgz#303ec2885ef748634d89f22f3099ef1febdc3325"
-  integrity sha512-KKklat9Hfbj4hw2y63LRhgmziYzmyRt+cSuzN5KDmBSAGYck0EAoPDtNpJXjrIs1kPNz28EXnE6NDnadXnOjiQ==
+snyk-python-plugin@1.18.0:
+  version "1.18.0"
+  resolved "https://registry.yarnpkg.com/snyk-python-plugin/-/snyk-python-plugin-1.18.0.tgz#f41c71ce1d792f7929d9976a44f2375bd839414d"
+  integrity sha512-vt07qsO1rHRAjO7wKwaLUJ0uZyvh6Aceafokc88N9mDyRbY2sf4ptIKEZ718wlbSQDLu17uRXiIQ+9jSWwH6Ng==
   dependencies:
     "@snyk/cli-interface" "^2.0.3"
+    snyk-poetry-lockfile-parser "^1.1.0"
     tmp "0.0.33"
 
 snyk-resolve-deps@4.4.0:
@@ -16766,10 +16789,10 @@ snyk-try-require@1.3.1, snyk-try-require@^1.1.1, snyk-try-require@^1.3.1:
     lru-cache "^4.0.0"
     then-fs "^2.0.0"
 
-snyk@1.422.0:
-  version "1.422.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.422.0.tgz#1485d237ecb85f3c2a542995284e2e2ce2269428"
-  integrity sha512-hNvNl6uS85J5Wu7zC80MKfWjabvvX1J7sCjVkxqNe61/Klb1lsCK72AMPqmajmk4INGgWAFLDVJxDMCPrXU51g==
+snyk@1.424.2:
+  version "1.424.2"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.424.2.tgz#f7cc052af21205f5ec210472c52c9c9610511c35"
+  integrity sha512-Urt6rJrPKgWYZ1h3ZyU7z7e7/VLDd9Tbf5hK41qKN6ZcuEdHMUe25rNodwodGLlq2x9fDtRlFODZdZnVsl3sKw==
   dependencies:
     "@snyk/cli-interface" "2.9.2"
     "@snyk/dep-graph" "1.19.4"
@@ -16786,6 +16809,7 @@ snyk@1.422.0:
     graphlib "^2.1.8"
     inquirer "^7.3.3"
     lodash "^4.17.20"
+    micromatch "4.0.2"
     needle "2.5.0"
     open "^7.0.3"
     os-name "^3.0.0"
@@ -16794,7 +16818,7 @@ snyk@1.422.0:
     semver "^6.0.0"
     snyk-config "3.1.1"
     snyk-cpp-plugin "2.0.0"
-    snyk-docker-plugin "4.6.2"
+    snyk-docker-plugin "4.7.0"
     snyk-go-plugin "1.16.2"
     snyk-gradle-plugin "3.10.1"
     snyk-module "3.1.0"
@@ -16803,7 +16827,7 @@ snyk@1.422.0:
     snyk-nuget-plugin "1.19.3"
     snyk-php-plugin "1.9.2"
     snyk-policy "1.14.1"
-    snyk-python-plugin "1.17.1"
+    snyk-python-plugin "1.18.0"
     snyk-resolve "1.0.1"
     snyk-resolve-deps "4.4.0"
     snyk-sbt-plugin "2.11.0"
