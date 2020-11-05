@@ -15,7 +15,7 @@
     "react-router-dom": "5.2.0",
     "react-scripts": "4.0.0",
     "redux": "4.0.5",
-    "snyk": "1.424.2"
+    "snyk": "1.424.4"
   },
   "scripts": {
     "start": "react-scripts start",
