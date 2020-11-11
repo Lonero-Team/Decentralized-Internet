@@ -7897,7 +7897,7 @@ ember-cli-babel-plugin-helpers@^1.0.0, ember-cli-babel-plugin-helpers@^1.1.0, em
   resolved "https://registry.yarnpkg.com/ember-cli-babel-plugin-helpers/-/ember-cli-babel-plugin-helpers-1.1.1.tgz#5016b80cdef37036c4282eef2d863e1d73576879"
   integrity sha512-sKvOiPNHr5F/60NLd7SFzMpYPte/nnGkq/tMIfXejfKHIhaiIkYFqX8Z9UFTKWLLn+V7NOaby6niNPZUdvKCRw==
 
-ember-cli-babel@7.23.0, ember-cli-babel@^7.0.0, ember-cli-babel@^7.1.2, ember-cli-babel@^7.12.0, ember-cli-babel@^7.13.0, ember-cli-babel@^7.19.0, ember-cli-babel@^7.20.5, ember-cli-babel@^7.22.1, ember-cli-babel@^7.7.3:
+ember-cli-babel@7.23.0, ember-cli-babel@^7.0.0, ember-cli-babel@^7.1.2, ember-cli-babel@^7.12.0, ember-cli-babel@^7.13.0, ember-cli-babel@^7.19.0, ember-cli-babel@^7.20.5, ember-cli-babel@^7.22.1, ember-cli-babel@^7.23.0, ember-cli-babel@^7.7.3:
   version "7.23.0"
   resolved "https://registry.yarnpkg.com/ember-cli-babel/-/ember-cli-babel-7.23.0.tgz#ec580aa2c115d0810e454dd5c2fffce238284b92"
   integrity sha512-ix58DlRDAbGITtdJoRUPcAoQwKLYr/x/kIXjU9u1ATyhmuUjqb+0FDXghOWbkNihGiNOqBBR49+LBgK9AeBcNw==
@@ -8327,10 +8327,10 @@ ember-source-channel-url@^2.0.1:
   dependencies:
     got "^8.0.1"
 
-ember-source@3.22.0:
-  version "3.22.0"
-  resolved "https://registry.yarnpkg.com/ember-source/-/ember-source-3.22.0.tgz#aa09db2cc8e4f78de4bf9a12ce9ff499d416adc2"
-  integrity sha512-6F/fWA5et4AMFXm+siCIhpM2XrO8Emwqln71qK67JyUhvD3MJJtvwtBoKq7bzK9I/86LLw13JYm4o6T3d2gXBw==
+ember-source@3.22.1:
+  version "3.22.1"
+  resolved "https://registry.yarnpkg.com/ember-source/-/ember-source-3.22.1.tgz#41ab15534f3936454321698d176fc28221f27b90"
+  integrity sha512-wcevt5CIOQFOv69Cd/EfoyK7+w2PirBJt5ZoTLnVqYliJWktTbF6T2awz6IABNT/Lm+WrDOCEWGtykbQ2k0Kdg==
   dependencies:
     "@babel/helper-module-imports" "^7.8.3"
     "@babel/plugin-transform-block-scoping" "^7.8.3"
@@ -15154,13 +15154,15 @@ quick-temp@^0.1.2, quick-temp@^0.1.3, quick-temp@^0.1.5, quick-temp@^0.1.8:
     rimraf "^2.5.4"
     underscore.string "~3.3.4"
 
-qunit-dom@1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/qunit-dom/-/qunit-dom-1.5.0.tgz#f3e062562c18fb354b7657afd31890d89a24691d"
-  integrity sha512-VTFApYbzcYkL5Zg7XgZMgLgMI9JXEX+lwBS5bFy5hRkIaz9V38q7rN44svxFBNHWs96y3UaFaAYpOEmlQ0j+fw==
+qunit-dom@1.6.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/qunit-dom/-/qunit-dom-1.6.0.tgz#a4bea6a46329d221e4a317d712cb40709107b977"
+  integrity sha512-YwSqcLjQcRI0fUFpaSWwU10KIJPFW5Qh+d3cT5DOgx81dypRuUSiPkKFmBY/CDs/R1KdHRadthkcXg2rqAon8Q==
   dependencies:
     broccoli-funnel "^3.0.3"
     broccoli-merge-trees "^4.2.0"
+    ember-cli-babel "^7.23.0"
+    ember-cli-version-checker "^5.1.1"
 
 qunit@^2.9.3:
   version "2.9.3"
@@ -16666,10 +16668,10 @@ snyk-nodejs-lockfile-parser@1.30.0:
     uuid "^8.3.0"
     yaml "^1.9.2"
 
-snyk-nuget-plugin@1.19.3:
-  version "1.19.3"
-  resolved "https://registry.yarnpkg.com/snyk-nuget-plugin/-/snyk-nuget-plugin-1.19.3.tgz#5b4d9a5a61a543810c98bd4e67b9f6b1d95e3c3a"
-  integrity sha512-KwKoMumwcXVz/DQH80ifXfX7CTnm29bmHJ2fczjCGohxLGb4EKBGQtA3t7K98O7lTISQGgXDxnWIaM9ZXkxPdw==
+snyk-nuget-plugin@1.19.4:
+  version "1.19.4"
+  resolved "https://registry.yarnpkg.com/snyk-nuget-plugin/-/snyk-nuget-plugin-1.19.4.tgz#cd1163a29f8002d54a965eab9e256345c97d4174"
+  integrity sha512-6BvLJc7gpNdfPJSnvpmTL4BrbaOVbXh/9q1FNMs5OVp8NbnZ3l97iM+bpQXWTJHOa3BJBZz7iEg+3suH4AWoWw==
   dependencies:
     debug "^4.1.1"
     dotnet-deps-parser "5.0.0"
@@ -16789,10 +16791,10 @@ snyk-try-require@1.3.1, snyk-try-require@^1.1.1, snyk-try-require@^1.3.1:
     lru-cache "^4.0.0"
     then-fs "^2.0.0"
 
-snyk@1.425.1:
-  version "1.425.1"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.425.1.tgz#7790a77828c6b96205e50e38b30d15419902d0da"
-  integrity sha512-flPZPY853o7M5lRu9nfNOguCcHyJGvWlrkPVE0ZvNiy7O0YApFoMQ9Cqhw2ryUL6ijWAmuOLew2LxUzH4gl+fA==
+snyk@1.425.2:
+  version "1.425.2"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.425.2.tgz#3bbad27ff0231dacd47711086603287dc8a0020c"
+  integrity sha512-HgUEY6v2P/rGXCNQUATbmLNtqhG0iZIdNQE1OyWENH9CBnSoCfPK0wT1Py8UI7WDPFblqZwnb3abS6g4vplFaA==
   dependencies:
     "@snyk/cli-interface" "2.9.2"
     "@snyk/dep-graph" "1.19.4"
@@ -16824,7 +16826,7 @@ snyk@1.425.1:
     snyk-module "3.1.0"
     snyk-mvn-plugin "2.23.0"
     snyk-nodejs-lockfile-parser "1.28.1"
-    snyk-nuget-plugin "1.19.3"
+    snyk-nuget-plugin "1.19.4"
     snyk-php-plugin "1.9.2"
     snyk-policy "1.14.1"
     snyk-python-plugin "1.19.1"
