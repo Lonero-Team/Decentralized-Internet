@@ -28,7 +28,7 @@
     "react-dom": "^15.0.0 || ^16.0.0 || ^17.0.0"
   },
   "devDependencies": {
-    "@svgr/rollup": "5.4.0",
+    "@svgr/rollup": "5.5.0",
     "babel-core": "6.26.3",
     "babel-eslint": "10.1.0",
     "babel-plugin-external-helpers": "6.22.0",
