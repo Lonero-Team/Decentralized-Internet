@@ -2929,6 +2929,24 @@
     temp-dir "^2.0.0"
     tslib "^1.9.3"
 
+"@snyk/java-call-graph-builder@1.16.4":
+  version "1.16.4"
+  resolved "https://registry.yarnpkg.com/@snyk/java-call-graph-builder/-/java-call-graph-builder-1.16.4.tgz#a4fb0176984bd4300ae39ee679b91f9168f8437a"
+  integrity sha512-Ye+KTv2B/ZjusWxs1ycNIKUiOTWIFtUx+IF4W7KPKF5jL0NOUDu63im7vkb32/KbSijuxSx0R4ZANejzBIVSDw==
+  dependencies:
+    ci-info "^2.0.0"
+    debug "^4.1.1"
+    glob "^7.1.6"
+    graphlib "^2.1.8"
+    jszip "^3.2.2"
+    needle "^2.3.3"
+    progress "^2.0.3"
+    snyk-config "^4.0.0-rc.2"
+    source-map-support "^0.5.7"
+    temp-dir "^2.0.0"
+    tmp "^0.2.1"
+    tslib "^1.9.3"
+
 "@snyk/rpm-parser@^2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@snyk/rpm-parser/-/rpm-parser-2.0.0.tgz#4ded7fa4b0a8efca7699359e4ca7a79bfbe38bc1"
@@ -16463,10 +16481,10 @@ snyk-config@4.0.0-rc.2, snyk-config@^4.0.0-rc.2:
     lodash.merge "^4.6.2"
     minimist "^1.2.5"
 
-snyk-cpp-plugin@2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/snyk-cpp-plugin/-/snyk-cpp-plugin-2.1.0.tgz#64ba8b7bb235003c4237eda34086a07727f99175"
-  integrity sha512-TcAlIkHtTvKdPIORxFRr/Ur//ucWK7eFBwlMR4gPeIhKbmEE/PZedBXW2IM8ZUdPIhG53lAP/Eq++1bVFSmZ9g==
+snyk-cpp-plugin@2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/snyk-cpp-plugin/-/snyk-cpp-plugin-2.2.1.tgz#55891511a43a6448e5a7c836a94f66f70fa705eb"
+  integrity sha512-NFwVLMCqKTocY66gcim0ukF6e31VRDJqDapg5sy3vCHqlD1OCNUXSK/aI4VQEEndDrsnFmQepsL5KpEU0dDRIQ==
   dependencies:
     "@snyk/dep-graph" "^1.19.3"
     chalk "^4.1.0"
@@ -16556,13 +16574,13 @@ snyk-module@^2.0.2:
     debug "^3.1.0"
     hosted-git-info "^2.7.1"
 
-snyk-mvn-plugin@2.23.1:
-  version "2.23.1"
-  resolved "https://registry.yarnpkg.com/snyk-mvn-plugin/-/snyk-mvn-plugin-2.23.1.tgz#6a80fbc242e7f92ce3c2d31556957db686449022"
-  integrity sha512-WPEZxCoUyZUs/vvsI3OF9nVQLbED8FlhrLG1HHtSM2JPZs4ashB2HqgM93zG0Vk5kxns3aiZcWL4q6vnZReyFA==
+snyk-mvn-plugin@2.23.3:
+  version "2.23.3"
+  resolved "https://registry.yarnpkg.com/snyk-mvn-plugin/-/snyk-mvn-plugin-2.23.3.tgz#d0ee6730676a86ac153e7bee3478ff8da4efc92b"
+  integrity sha512-18NNc8fsgwj5ZniypmrtX8CMBSK1EeWkIWakV+fTge/99C0oCXg2ZwKlZhNlmPdYiLRXNVX0ypLC27BeedpaOg==
   dependencies:
     "@snyk/cli-interface" "2.9.1"
-    "@snyk/java-call-graph-builder" "1.16.2"
+    "@snyk/java-call-graph-builder" "1.16.4"
     debug "^4.1.1"
     glob "^7.1.6"
     needle "^2.5.0"
@@ -16712,10 +16730,10 @@ snyk-try-require@1.3.1, snyk-try-require@^1.1.1, snyk-try-require@^1.3.1:
     lru-cache "^4.0.0"
     then-fs "^2.0.0"
 
-snyk@1.428.0:
-  version "1.428.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.428.0.tgz#d105e4dd1ba7d916890e51dcecede33349e19ad6"
-  integrity sha512-yV1f28PPVG7sJ0c4GAMO3nhuJMIJNDagYJRQVwA0zLCr5u3UraE0qK2wRxo2j53ICkMBslp0b073EIoaB0lVkA==
+snyk@1.428.2:
+  version "1.428.2"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.428.2.tgz#9558ff1117725949a8e1045da54f1ba7f054bf24"
+  integrity sha512-ef62HyuqejxjWP0z/Ua01hu5eVq2cTnOxpV8G8bcBobOIcwZjMFag1GxNJ/Vw7etwvrsQhyclSKII1b+4upYSw==
   dependencies:
     "@snyk/cli-interface" "2.9.2"
     "@snyk/dep-graph" "1.19.4"
@@ -16740,12 +16758,12 @@ snyk@1.428.0:
     proxy-from-env "^1.0.0"
     semver "^6.0.0"
     snyk-config "4.0.0-rc.2"
-    snyk-cpp-plugin "2.1.0"
+    snyk-cpp-plugin "2.2.1"
     snyk-docker-plugin "4.7.4"
     snyk-go-plugin "1.16.2"
     snyk-gradle-plugin "3.10.2"
     snyk-module "3.1.0"
-    snyk-mvn-plugin "2.23.1"
+    snyk-mvn-plugin "2.23.3"
     snyk-nodejs-lockfile-parser "1.30.1"
     snyk-nuget-plugin "1.19.4"
     snyk-php-plugin "1.9.2"
@@ -18171,10 +18189,10 @@ typescript-memoize@^1.0.0-alpha.3:
   dependencies:
     core-js "2.4.1"
 
-typescript@4.0.5:
-  version "4.0.5"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.0.5.tgz#ae9dddfd1069f1cb5beb3ef3b2170dd7c1332389"
-  integrity sha512-ywmr/VrTVCmNTJ6iV2LwIrfG1P+lv6luD8sUJs+2eI9NLGigaN+nUQc13iHqisq7bra9lnmUSYqbJvegraBOPQ==
+typescript@4.1.2:
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.1.2.tgz#6369ef22516fe5e10304aae5a5c4862db55380e9"
+  integrity sha512-thGloWsGH3SOxv1SoY7QojKi0tc+8FnOmiarEGMbd/lar7QOEd3hvlx3Fp5y6FlDUGl9L+pd4n2e+oToGMmhRQ==
 
 typescript@^3.3.3:
   version "3.9.7"
