@@ -2929,10 +2929,10 @@
     temp-dir "^2.0.0"
     tslib "^1.9.3"
 
-"@snyk/java-call-graph-builder@1.16.4":
-  version "1.16.4"
-  resolved "https://registry.yarnpkg.com/@snyk/java-call-graph-builder/-/java-call-graph-builder-1.16.4.tgz#a4fb0176984bd4300ae39ee679b91f9168f8437a"
-  integrity sha512-Ye+KTv2B/ZjusWxs1ycNIKUiOTWIFtUx+IF4W7KPKF5jL0NOUDu63im7vkb32/KbSijuxSx0R4ZANejzBIVSDw==
+"@snyk/java-call-graph-builder@1.16.5":
+  version "1.16.5"
+  resolved "https://registry.yarnpkg.com/@snyk/java-call-graph-builder/-/java-call-graph-builder-1.16.5.tgz#e57302cc6dc93f1adff7abe1e5eecff26d8a41f4"
+  integrity sha512-6H4hkq/qYljJoH1QnZsTRPMqp9Kt5AOEZYGJAeSHkhJdfUYSLtqwN4WsU6yVR3vWAaDQ8Lllp3m6EL7nstMPZA==
   dependencies:
     ci-info "^2.0.0"
     debug "^4.1.1"
@@ -8305,10 +8305,10 @@ ember-source-channel-url@^2.0.1:
   dependencies:
     got "^8.0.1"
 
-ember-source@3.23.0:
-  version "3.23.0"
-  resolved "https://registry.yarnpkg.com/ember-source/-/ember-source-3.23.0.tgz#f40a92c63c4a36634cae9afdb34aaef95b246739"
-  integrity sha512-y7TqxqqbhnT3ZMMn6IX2/Dbd0bM/bqasys9qrAGdZYJbz3XFhI0Lm3SMPph+d77L+VgLgts7Yz+Kx2slV1ERiw==
+ember-source@3.23.1:
+  version "3.23.1"
+  resolved "https://registry.yarnpkg.com/ember-source/-/ember-source-3.23.1.tgz#6a26bb598ffaf8e4eeba475de30d9d1ce59106d0"
+  integrity sha512-KWeKSF9y0Ohmrnw8CKAs4zwMzzxwrS+AX9pPrQNPKNG0gcJpeREdAXnUWAFZEHZlUPJgZPwaSL2APpZ5tWNQJA==
   dependencies:
     "@babel/helper-module-imports" "^7.8.3"
     "@babel/plugin-transform-block-scoping" "^7.8.3"
@@ -16492,10 +16492,10 @@ snyk-cpp-plugin@2.2.1:
     hosted-git-info "^3.0.7"
     tslib "^2.0.0"
 
-snyk-docker-plugin@4.7.4:
-  version "4.7.4"
-  resolved "https://registry.yarnpkg.com/snyk-docker-plugin/-/snyk-docker-plugin-4.7.4.tgz#adb397ac942df2695d6643230eea31e22276c40a"
-  integrity sha512-tGSuGCJjdhpW8Dpc6pvjISLPku6AOYUdJ8X98+6ntIeVeb974K9CpWeofWZIqTz5vKi+oFK5SbyVU9KDNAyHfQ==
+snyk-docker-plugin@4.9.0:
+  version "4.9.0"
+  resolved "https://registry.yarnpkg.com/snyk-docker-plugin/-/snyk-docker-plugin-4.9.0.tgz#002c68b388c3b21efba214c6a4bf19912fcb93cd"
+  integrity sha512-vjUsat9NdP2kAicQWVuB7vJ0MnJ2e+Y59MzaXdJWkfrSyTnIeuMzTg1vJ8GUrfdG+l5KaYZTUy7p1r1dYbmrZw==
   dependencies:
     "@snyk/dep-graph" "^1.19.4"
     "@snyk/rpm-parser" "^2.0.0"
@@ -16574,13 +16574,13 @@ snyk-module@^2.0.2:
     debug "^3.1.0"
     hosted-git-info "^2.7.1"
 
-snyk-mvn-plugin@2.23.3:
-  version "2.23.3"
-  resolved "https://registry.yarnpkg.com/snyk-mvn-plugin/-/snyk-mvn-plugin-2.23.3.tgz#d0ee6730676a86ac153e7bee3478ff8da4efc92b"
-  integrity sha512-18NNc8fsgwj5ZniypmrtX8CMBSK1EeWkIWakV+fTge/99C0oCXg2ZwKlZhNlmPdYiLRXNVX0ypLC27BeedpaOg==
+snyk-mvn-plugin@2.23.4:
+  version "2.23.4"
+  resolved "https://registry.yarnpkg.com/snyk-mvn-plugin/-/snyk-mvn-plugin-2.23.4.tgz#3f43601058aa51e8a0f9e272a7c186cad4b26950"
+  integrity sha512-1dWqvFu6eo2KsXFDqRF28JFwrdzpc0k+GwpIqv7vF2kHarsMxnLnT/akhjbKzs+xlRTNFvqdKhEQxjdq2nSD1Q==
   dependencies:
     "@snyk/cli-interface" "2.9.1"
-    "@snyk/java-call-graph-builder" "1.16.4"
+    "@snyk/java-call-graph-builder" "1.16.5"
     debug "^4.1.1"
     glob "^7.1.6"
     needle "^2.5.0"
@@ -16730,10 +16730,10 @@ snyk-try-require@1.3.1, snyk-try-require@^1.1.1, snyk-try-require@^1.3.1:
     lru-cache "^4.0.0"
     then-fs "^2.0.0"
 
-snyk@1.428.2:
-  version "1.428.2"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.428.2.tgz#9558ff1117725949a8e1045da54f1ba7f054bf24"
-  integrity sha512-ef62HyuqejxjWP0z/Ua01hu5eVq2cTnOxpV8G8bcBobOIcwZjMFag1GxNJ/Vw7etwvrsQhyclSKII1b+4upYSw==
+snyk@1.430.2:
+  version "1.430.2"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.430.2.tgz#9edd69a9adcaa5db5b8a0465b79783e32095cf17"
+  integrity sha512-EVIwMTcf4FbJ+/j5PoRQgMJdgZfgGaIsN8XorRu0+rXnB1TIAJnjqi1RoVee6j4MEVGMZgxV3H5uN66YRqfCPw==
   dependencies:
     "@snyk/cli-interface" "2.9.2"
     "@snyk/dep-graph" "1.19.4"
@@ -16746,7 +16746,6 @@ snyk@1.428.2:
     configstore "^5.0.1"
     debug "^4.1.1"
     diff "^4.0.1"
-    glob "^7.1.3"
     graphlib "^2.1.8"
     inquirer "^7.3.3"
     lodash "^4.17.20"
@@ -16759,11 +16758,11 @@ snyk@1.428.2:
     semver "^6.0.0"
     snyk-config "4.0.0-rc.2"
     snyk-cpp-plugin "2.2.1"
-    snyk-docker-plugin "4.7.4"
+    snyk-docker-plugin "4.9.0"
     snyk-go-plugin "1.16.2"
     snyk-gradle-plugin "3.10.2"
     snyk-module "3.1.0"
-    snyk-mvn-plugin "2.23.3"
+    snyk-mvn-plugin "2.23.4"
     snyk-nodejs-lockfile-parser "1.30.1"
     snyk-nuget-plugin "1.19.4"
     snyk-php-plugin "1.9.2"
