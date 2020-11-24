@@ -69,7 +69,7 @@
     "react-json-view": "^1.19.1",
     "recharts": "^1.6.2",
     "underscore": "^1.9.1",
-    "snyk": "^1.323.0"
+    "snyk": "^1.425.4"
   },
   "snyk": true
 }
