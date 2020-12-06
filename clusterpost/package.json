@@ -36,7 +36,7 @@
     "clusterpost-server": "file:src/clusterpost-server",
     "couch-update-views": "file:src/couch-update-views",
     "joi": "^17.0.0",
-    "snyk": "^1.431.1"
+    "snyk": "^1.434.2"
   },
   "snyk": true
 }

@@ -143,6 +143,72 @@ patch:
         patched: '2020-11-25T01:33:32.877Z'
     - snyk > snyk-python-plugin > snyk-poetry-lockfile-parser > @snyk/cli-interface > @snyk/dep-graph > graphlib > lodash:
         patched: '2020-11-25T01:33:32.877Z'
+    - couch-update-views > lab > eslint > lodash:
+        patched: '2020-12-06T23:44:07.826Z'
+    - couch-update-views > lab > eslint > inquirer > lodash:
+        patched: '2020-12-06T23:44:07.826Z'
+    - couch-update-views > lab > eslint > table > lodash:
+        patched: '2020-12-06T23:44:07.826Z'
+    - snyk > graphlib > lodash:
+        patched: '2020-12-06T23:44:07.826Z'
+    - snyk > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-12-06T23:44:07.826Z'
+    - snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
+        patched: '2020-12-06T23:44:07.826Z'
+    - snyk > snyk-go-plugin > graphlib > lodash:
+        patched: '2020-12-06T23:44:07.826Z'
+    - clusterpost-server > couch-update-views > lab > eslint > lodash:
+        patched: '2020-12-06T23:44:07.826Z'
+    - snyk > @snyk/cli-interface > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-12-06T23:44:07.826Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-12-06T23:44:07.826Z'
+    - snyk > snyk-cpp-plugin > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-12-06T23:44:07.826Z'
+    - snyk > snyk-docker-plugin > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-12-06T23:44:07.826Z'
+    - snyk > snyk-go-plugin > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-12-06T23:44:07.826Z'
+    - snyk > snyk-gradle-plugin > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-12-06T23:44:07.826Z'
+    - snyk > snyk-docker-plugin > snyk-nodejs-lockfile-parser > graphlib > lodash:
+        patched: '2020-12-06T23:44:07.826Z'
+    - snyk > snyk-gradle-plugin > @snyk/java-call-graph-builder > graphlib > lodash:
+        patched: '2020-12-06T23:44:07.826Z'
+    - snyk > snyk-mvn-plugin > @snyk/java-call-graph-builder > graphlib > lodash:
+        patched: '2020-12-06T23:44:07.826Z'
+    - clusterpost-server > couch-update-views > lab > eslint > inquirer > lodash:
+        patched: '2020-12-06T23:44:07.826Z'
+    - clusterpost-server > couch-update-views > lab > eslint > table > lodash:
+        patched: '2020-12-06T23:44:07.826Z'
+    - clusterpost-server > clusterpost-provider > couch-update-views > lab > eslint > lodash:
+        patched: '2020-12-06T23:44:07.826Z'
+    - clusterpost-server > hapi-jwt-couch > couch-update-views > lab > eslint > lodash:
+        patched: '2020-12-06T23:44:07.826Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/cli-interface > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-12-06T23:44:07.826Z'
+    - snyk > snyk-php-plugin > @snyk/cli-interface > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-12-06T23:44:07.826Z'
+    - snyk > snyk-python-plugin > @snyk/cli-interface > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-12-06T23:44:07.826Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-12-06T23:44:07.826Z'
+    - snyk > snyk-gradle-plugin > @snyk/cli-interface > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-12-06T23:44:07.826Z'
+    - snyk > snyk-mvn-plugin > @snyk/cli-interface > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-12-06T23:44:07.826Z'
+    - snyk > snyk-python-plugin > snyk-poetry-lockfile-parser > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-12-06T23:44:07.826Z'
+    - clusterpost-server > clusterpost-provider > couch-update-views > lab > eslint > inquirer > lodash:
+        patched: '2020-12-06T23:44:07.826Z'
+    - clusterpost-server > hapi-jwt-couch > couch-update-views > lab > eslint > inquirer > lodash:
+        patched: '2020-12-06T23:44:07.826Z'
+    - clusterpost-server > clusterpost-provider > couch-update-views > lab > eslint > table > lodash:
+        patched: '2020-12-06T23:44:07.826Z'
+    - clusterpost-server > hapi-jwt-couch > couch-update-views > lab > eslint > table > lodash:
+        patched: '2020-12-06T23:44:07.826Z'
+    - snyk > snyk-python-plugin > snyk-poetry-lockfile-parser > @snyk/cli-interface > @snyk/dep-graph > graphlib > lodash:
+        patched: '2020-12-06T23:44:07.826Z'
   'npm:moment:20170905':
     - couch-update-views > joi > moment:
         patched: '2020-06-01T08:43:11.618Z'
