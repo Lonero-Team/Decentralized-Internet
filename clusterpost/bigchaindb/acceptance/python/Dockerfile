@@ -1,4 +1,4 @@
-FROM python:3.9.0
+FROM python:3.9.1
 
 RUN mkdir -p /src
 RUN pip install --upgrade \
