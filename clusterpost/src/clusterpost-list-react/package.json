@@ -36,7 +36,7 @@
     "babel-preset-react": "6.24.1",
     "babel-preset-stage-0": "6.24.1",
     "cross-env": "7.0.3",
-    "eslint": "7.15.0",
+    "eslint": "7.16.0",
     "eslint-config-standard": "16.0.2",
     "eslint-config-standard-react": "11.0.1",
     "eslint-plugin-import": "2.22.1",
