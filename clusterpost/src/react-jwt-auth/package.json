@@ -61,7 +61,7 @@
     "dist"
   ],
   "dependencies": {
-    "axios": "^0.21.0",
+    "axios": "^0.21.1",
     "react-feather": "^2.0.0",
     "underscore": "^1.9.1"
   }
