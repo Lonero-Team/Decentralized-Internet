@@ -35,6 +35,11 @@ This NPM library/package is being mantained by the folks [here](starkdrones.org/
 
 This project was created in order to support a new internet. One that is more open, free, and censorship-resistant in comparison to the old internet. An internet that eventually wouldn't need to rely on telecom towers, an outdated grid, or all these other "old school" forms of tech. We believe P2P compatibility is an important part of the future of the net. Grid Computing also plays a role in having a better means of transferring information in a speedy, more cost-efficient and reliable manner.
 
+### Code Contributors
+
+This project exists thanks to all the people who contribute.
+<a href="https://github.com/Lonero-Team/decentralized-internet/graphs/contributors"><img src="https://opencollective.com/decentralized-internet/contributors.svg?width=890&button=false" /></a>
+
 [![UsageHeader](https://raw.githubusercontent.com/Mentors4EDU/Images/master/UsageGuideHead.png)](https://lonero.readthedocs.io/en/latest/Decentralized%20Internet%20Docs/Critical%20Components.html)
 
 [![InstallHeader](https://raw.githubusercontent.com/Mentors4EDU/Images/master/Installation-head.png)](https://lonero.readthedocs.io/en/latest/Decentralized%20Internet%20Docs/Main%20Installation%20Methods.html)
