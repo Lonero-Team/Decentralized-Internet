@@ -1665,7 +1665,7 @@
   dependencies:
     "@lumino/coreutils" "^1.5.3"
 
-"@jupyterlab/notebook@^3.0.0":
+"@jupyterlab/notebook@3.0.2":
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/@jupyterlab/notebook/-/notebook-3.0.2.tgz#88854c3f9b651c50623376069875ee67bab8bb8f"
   integrity sha512-d3WET0E73Kp1b4GuwbTy89SxY2ZdpwazXJ+yus5QeeB5nKqpW1pXUCNzXcBDP28cVZx4mRvlnb5Vy8DOEJXniQ==
@@ -8821,10 +8821,10 @@ escodegen@^1.14.1:
   optionalDependencies:
     source-map "~0.6.1"
 
-eslint-plugin-ember@10.1.1:
-  version "10.1.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-ember/-/eslint-plugin-ember-10.1.1.tgz#27c2dbff2e4236434823b793721a5a9ef0c52e95"
-  integrity sha512-slQIfUS0C9C8uYdud/7EvrD1TX5nPPRFTQ1bXUiIhgfWTr60b4qDF1TUCwUT3fwi57Hwe1tJfNL4dqK7omQsqA==
+eslint-plugin-ember@10.1.2:
+  version "10.1.2"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-ember/-/eslint-plugin-ember-10.1.2.tgz#213910b642ba74c999d1ea01b846e3c85c0c0b1e"
+  integrity sha512-1dImhjajeuMf0Isc5FK8it+zL//NJO6ZXorsgNB2dLLc+Mb5ECD5E6f7B1lYuuD68Oh1Wsbw+V4JLIgCjw5X2g==
   dependencies:
     "@ember-data/rfc395-data" "^0.0.4"
     css-tree "^1.0.0-alpha.39"
