@@ -3,4 +3,4 @@ recommonmark==0.7.1
 sphinx-rtd-theme==0.5.1
 sphinxcontrib-napoleon==0.7
 sphinxcontrib-httpdomain==1.7.0
-packaging==20.8
+packaging==20.9
