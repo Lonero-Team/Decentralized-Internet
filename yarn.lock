@@ -6471,10 +6471,17 @@ clean-css@^3.4.5:
     commander "2.8.x"
     source-map "0.4.x"
 
-clean-css@^4.1.6, clean-css@^4.2.3:
+clean-css@^4.2.3:
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/clean-css/-/clean-css-4.2.3.tgz#507b5de7d97b48ee53d84adb0160ff6216380f78"
   integrity sha512-VcMWDN54ZN/DS+g58HYL5/n4Zrqe8vHJpGA8KdgUXFU4fuP/aHNw8eld9SyEIyabIMJX/0RaY/fplOo5hYLSFA==
+  dependencies:
+    source-map "~0.6.0"
+
+clean-css@^5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/clean-css/-/clean-css-5.0.1.tgz#f84c6ad82c5a8246a680206da8bceef483ccc0b6"
+  integrity sha512-F1zAGOowUCg8yxT0O4UR+nmbMauf3YwbiUS60CPxpzJU7ulpamGzQomFrJSK4w/HqHtMmQKSHJUNue+dQQYQdg==
   dependencies:
     source-map "~0.6.0"
 
@@ -7986,7 +7993,7 @@ email-validator@^2.0.4:
   resolved "https://registry.yarnpkg.com/email-validator/-/email-validator-2.0.4.tgz#b8dfaa5d0dae28f1b03c95881d904d4e40bfe7ed"
   integrity sha512-gYCwo7kh5S3IDyZPLZf6hSS0MnZT8QmJFqYvbqlDZSbwdZlY6QZWxJ4i/6UhITOJ4XzyI647Bm2MXKCLqnJ4nQ==
 
-ember-auto-import@1.10.1, ember-auto-import@^1.10.0:
+ember-auto-import@1.10.1, ember-auto-import@^1.10.1:
   version "1.10.1"
   resolved "https://registry.yarnpkg.com/ember-auto-import/-/ember-auto-import-1.10.1.tgz#6c93a875e494aa0a58b759867d3f20adfd514ae3"
   integrity sha512-7bOWzPELlVwdWDOkB+phDIjg8BNW+/2RiLLQ+Xa/eIvCLT4ABYhHV5wqW5gs5BnXTDVLfE4ddKZdllnGuPGGDQ==
@@ -8025,7 +8032,7 @@ ember-cli-babel-plugin-helpers@^1.0.0, ember-cli-babel-plugin-helpers@^1.1.0, em
   resolved "https://registry.yarnpkg.com/ember-cli-babel-plugin-helpers/-/ember-cli-babel-plugin-helpers-1.1.1.tgz#5016b80cdef37036c4282eef2d863e1d73576879"
   integrity sha512-sKvOiPNHr5F/60NLd7SFzMpYPte/nnGkq/tMIfXejfKHIhaiIkYFqX8Z9UFTKWLLn+V7NOaby6niNPZUdvKCRw==
 
-ember-cli-babel@7.23.1, ember-cli-babel@^7.0.0, ember-cli-babel@^7.13.0, ember-cli-babel@^7.13.2, ember-cli-babel@^7.22.1, ember-cli-babel@^7.23.0:
+ember-cli-babel@7.23.1, ember-cli-babel@^7.0.0, ember-cli-babel@^7.13.0, ember-cli-babel@^7.13.2, ember-cli-babel@^7.22.1, ember-cli-babel@^7.23.0, ember-cli-babel@^7.23.1:
   version "7.23.1"
   resolved "https://registry.yarnpkg.com/ember-cli-babel/-/ember-cli-babel-7.23.1.tgz#d1517228ede08a5d4b045c78a7429728e956b30b"
   integrity sha512-qYggmt3hRs6QJ6cRkww3ahMpyP8IEV2KFrIRO/Z6hu9MkE/8Y28Xd5NjQl6fPV3oLoG0vwuHzhNe3Jr7Wec8zw==
@@ -8384,16 +8391,16 @@ ember-maybe-import-regenerator@0.1.6:
     ember-cli-babel "^6.0.0-beta.4"
     regenerator-runtime "^0.9.5"
 
-ember-qunit@5.1.1:
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/ember-qunit/-/ember-qunit-5.1.1.tgz#cd192e016889cf768ba661b7b91a2896f5274642"
-  integrity sha512-6kWWKPeqGtPu0AwrV3ZyVp2Z9EKykKx6B5pclOHoGcmcUy93UUGG8micicPSO//8pLnnFx4R34RvuKJd/Scifw==
+ember-qunit@5.1.2:
+  version "5.1.2"
+  resolved "https://registry.yarnpkg.com/ember-qunit/-/ember-qunit-5.1.2.tgz#72ce175f5d1c96a40fe810928c4d4a822a2e2c60"
+  integrity sha512-mrnFaUhAJWkJWeRZKajLuuRmKsifRrhAla1sQAfIiuh7OCVY1eqFvSUFzLR7/WgdNwPrUzEOOx39MdVRZBd/7A==
   dependencies:
     broccoli-funnel "^3.0.3"
     broccoli-merge-trees "^3.0.2"
     common-tags "^1.8.0"
-    ember-auto-import "^1.10.0"
-    ember-cli-babel "^7.23.0"
+    ember-auto-import "^1.10.1"
+    ember-cli-babel "^7.23.1"
     ember-cli-test-loader "^3.0.0"
     resolve-package-path "^3.1.0"
     silent-error "^1.1.1"
@@ -13232,11 +13239,11 @@ min-indent@^1.0.0:
   integrity sha1-z8RcN+nsDY8KDsPdTvf3w6vjklY=
 
 minify@*:
-  version "6.0.1"
-  resolved "https://registry.yarnpkg.com/minify/-/minify-6.0.1.tgz#d53413fc2e67b47642269087bc912da60ab6492e"
-  integrity sha512-JMG5VruvghXZ1VnPCffnpESUzrhNPTT/uNogew9CmPdd3zmohSEt8/HhPxpR7CiXnBYWExW2gGoagZxTy9rnLg==
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/minify/-/minify-7.0.0.tgz#501d1585f439d9313fabb6d67c09a1e522f7f776"
+  integrity sha512-vgavF0qIto4WV4xpuaEx6Uo5hWyOh1rr/THg3v3AIwBc86b7ahLOdv5OCnRerQ75kObqo49/1J2CFSv7/fEL1g==
   dependencies:
-    clean-css "^4.1.6"
+    clean-css "^5.0.1"
     css-b64-images "~0.2.5"
     debug "^4.1.0"
     html-minifier-terser "^5.1.1"
@@ -16630,10 +16637,10 @@ snyk-go-plugin@1.16.4:
     tmp "0.2.1"
     tslib "^1.10.0"
 
-snyk-gradle-plugin@3.12.0:
-  version "3.12.0"
-  resolved "https://registry.yarnpkg.com/snyk-gradle-plugin/-/snyk-gradle-plugin-3.12.0.tgz#3721626e0557fd6ea039dfe116df7510b7b45315"
-  integrity sha512-WAmViagNolXsqPO/xmArlnpmisw6j/4xN6FLJ/gl9cDSSrgTh013sZlynkZj0G1v4enkelIMuqfVKXzinthm/Q==
+snyk-gradle-plugin@3.12.2:
+  version "3.12.2"
+  resolved "https://registry.yarnpkg.com/snyk-gradle-plugin/-/snyk-gradle-plugin-3.12.2.tgz#65bd0cf0d1a9ea87d4b0f5e3838958c02ab8361e"
+  integrity sha512-tooWdLxgX6uJnzpfeHQbRy097ZI/p7/kII9ECqEO11dqeZEW8zvVnmzy+93CiyAY9OtsSTjJaDLzMxy+y6odCA==
   dependencies:
     "@snyk/cli-interface" "2.9.1"
     "@snyk/dep-graph" "^1.19.4"
@@ -16826,10 +16833,10 @@ snyk-try-require@1.3.1, snyk-try-require@^1.1.1, snyk-try-require@^1.3.1:
     lru-cache "^4.0.0"
     then-fs "^2.0.0"
 
-snyk@1.440.1:
-  version "1.440.1"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.440.1.tgz#ab88f3c9ad8c1f6418dd70749e26ab1b477fb313"
-  integrity sha512-iesDZawTQrZ513GiG8IpGB9e5VGPELaqGLd/kdbNaU1i1t2xf1InRS9HmfIKjgrcYbqCuqZI3SABTVluskfDnw==
+snyk@1.440.3:
+  version "1.440.3"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.440.3.tgz#99dfa36d4cd37f5ef6089bf73de59c12148fcf24"
+  integrity sha512-Jgt4oineLIk1nQeC732kIwI9G1Bmw93gNBrKYxeVRKqI80eqHwzv+4kODUL7d6t+xDqlwG+FijIBD7gli7eOYA==
   dependencies:
     "@snyk/cli-interface" "2.11.0"
     "@snyk/dep-graph" "1.21.0"
@@ -16857,7 +16864,7 @@ snyk@1.440.1:
     snyk-cpp-plugin "2.2.1"
     snyk-docker-plugin "4.13.1"
     snyk-go-plugin "1.16.4"
-    snyk-gradle-plugin "3.12.0"
+    snyk-gradle-plugin "3.12.2"
     snyk-module "3.1.0"
     snyk-mvn-plugin "2.25.1"
     snyk-nodejs-lockfile-parser "1.30.1"
