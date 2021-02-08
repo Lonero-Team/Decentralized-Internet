@@ -2766,6 +2766,14 @@
   dependencies:
     "@types/node" ">= 8"
 
+"@open-policy-agent/opa-wasm@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@open-policy-agent/opa-wasm/-/opa-wasm-1.2.0.tgz#481b766093f70b00efefbee1e4192f375fd34ca2"
+  integrity sha512-CtUBTnzvDrT0NASa8IuGQTxFGgt2vxbLnMYuTA+uDFxOcA4uK4mGFgrhHJtxUZnWHiwemOvKKSY3BMCo7qiAsQ==
+  dependencies:
+    sprintf-js "^1.1.2"
+    utf8 "^3.0.0"
+
 "@opencensus/core@0.0.9":
   version "0.0.9"
   resolved "https://registry.yarnpkg.com/@opencensus/core/-/core-0.0.9.tgz#b16f775435ee309433e4126af194d37313fc93b3"
@@ -16818,11 +16826,12 @@ snyk-try-require@1.3.1, snyk-try-require@^1.1.1, snyk-try-require@^1.3.1:
     lru-cache "^4.0.0"
     then-fs "^2.0.0"
 
-snyk@1.446.0:
-  version "1.446.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.446.0.tgz#72485d513182856cafe9bbd8f0022e500d82c040"
-  integrity sha512-0GlIOqrkqSiSXsZZgFuf7fZOmqwFZEG7DFfpeKzHm0WoLbkciMeZNXQV7Qf7O0HXCW+0gKvGRGW1fFk54UOpJg==
+snyk@1.447.0:
+  version "1.447.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.447.0.tgz#16331463ba0452df8b64ff7bb3d57c5ddc7e9c57"
+  integrity sha512-ZSI8ZZPBerpejlUbxIv1FYnLEhTg6Fuz3cPMKDa5RcbPXdpiugLsIdExOPjNEHqzDVIjSCkdWgZcnK8ibR8atA==
   dependencies:
+    "@open-policy-agent/opa-wasm" "^1.2.0"
     "@snyk/cli-interface" "2.11.0"
     "@snyk/dep-graph" "1.21.0"
     "@snyk/gemfile" "1.2.0"
@@ -17123,7 +17132,7 @@ split@^1.0.0:
   dependencies:
     through "2"
 
-sprintf-js@1.1.2, sprintf-js@^1.0.3, sprintf-js@^1.1.1:
+sprintf-js@1.1.2, sprintf-js@^1.0.3, sprintf-js@^1.1.1, sprintf-js@^1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/sprintf-js/-/sprintf-js-1.1.2.tgz#da1765262bf8c0f571749f2ad6c26300207ae673"
   integrity sha512-VE0SOVEHCk7Qc8ulkWw3ntAzXuqf7S2lvwQaDLRnUeIEaKNQJzV6BwmLKhOqT61aGhfUMrXeaBk+oDGCzvhcug==
@@ -18588,6 +18597,11 @@ username-sync@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/username-sync/-/username-sync-1.0.2.tgz#0a3697909fb7b5768d29e2921f573acfdd427592"
   integrity sha512-ayNkOJdoNSGNDBE46Nkc+l6IXmeugbzahZLSMkwvgRWv5y5ZqNY2IrzcgmkR4z32sj1W3tM3TuTUMqkqBzO+RA==
+
+utf8@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/utf8/-/utf8-3.0.0.tgz#f052eed1364d696e769ef058b183df88c87f69d1"
+  integrity sha512-E8VjFIQ/TyQgp+TZfS6l8yp/xWppSAHzidGiRrqe4bK4XP9pTRyKFgGJpO3SN7zdX4DeomTrwaseCHovfpFcqQ==
 
 util-deprecate@^1.0.1, util-deprecate@^1.0.2, util-deprecate@~1.0.1:
   version "1.0.2"
