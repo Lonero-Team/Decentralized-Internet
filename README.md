@@ -40,6 +40,10 @@ This project was created in order to support a new internet. One that is more op
 [![InstallHeader](https://raw.githubusercontent.com/Mentors4EDU/Images/master/Installation-head.png)](https://lonero.readthedocs.io/en/latest/Decentralized%20Internet%20Docs/Main%20Installation%20Methods.html)
 
 ---
+
+<details>
+  <summary>Other</summary>
+
 ###### App to add GitHub metrics tracking to select repos [here](https://github.com/apps/decentralized-internet) | [BitBucket](https://bitbucket.org/gamer456148/decentralized-internet/src/master/) | [Learning Lab](https://lab.github.com/Lonero-Team/build-a-dapp/)  
 ###### See original compatibility status update [here](https://www.minds.com/newsfeed/1040672641569824768?referrer=LoneroLNR) | *See [NPM v.](https://www.npmjs.com/package/decentralized-internet?activeTab=versions)Updates*
 
