@@ -7,7 +7,7 @@
     "bootstrap": "4.6.0",
     "clusterpost-list-react": "file:../../clusterpost-list-react",
     "react": "17.0.1",
-    "react-bootstrap": "1.4.3",
+    "react-bootstrap": "1.5.0",
     "react-dom": "17.0.1",
     "react-feather": "2.0.9",
     "react-jwt-auth": "file:../../react-jwt-auth",
