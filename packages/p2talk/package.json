@@ -10,7 +10,7 @@
     "express": "4.17.1",
     "decentralized-internet": "^5.0.0",
     "flaschenpost": "5.0.5",
-    "lodash": "4.17.20",
+    "lodash": "4.17.21",
     "parse-duration": "0.4.4",
     "processenv": "3.0.3",
     "random-int": "2.0.1",
