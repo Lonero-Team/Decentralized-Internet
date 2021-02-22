@@ -47,7 +47,7 @@
     "gh-pages": "3.1.0",
     "react": "17.0.1",
     "react-dom": "17.0.1",
-    "react-scripts": "4.0.2",
+    "react-scripts": "4.0.3",
     "rollup": "2.39.0",
     "rollup-plugin-babel": "4.4.0",
     "rollup-plugin-commonjs": "10.1.0",
