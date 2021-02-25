@@ -4620,6 +4620,13 @@ babel-plugin-ember-modules-api-polyfill@^3.3.0:
   dependencies:
     ember-rfc176-data "^0.3.16"
 
+babel-plugin-ember-modules-api-polyfill@^3.4.0:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-ember-modules-api-polyfill/-/babel-plugin-ember-modules-api-polyfill-3.4.0.tgz#3f5e0457e135f8a29b3a8b6910806bb5b524649e"
+  integrity sha512-nVu/LqbZBAup1zLij6xGvQwVLWVk4XYu2fl4vIOUR3S6ukdonMLhKAb0d4QXSzH30Pd7OczVTlPffWbiwahdJw==
+  dependencies:
+    ember-rfc176-data "^0.3.16"
+
 babel-plugin-filter-imports@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-filter-imports/-/babel-plugin-filter-imports-4.0.0.tgz#068f8da15236a96a9602c36dc6f4a6eeca70a4f4"
@@ -4628,10 +4635,12 @@ babel-plugin-filter-imports@^4.0.0:
     "@babel/types" "^7.7.2"
     lodash "^4.17.15"
 
-babel-plugin-htmlbars-inline-precompile@^4.2.1:
-  version "4.2.1"
-  resolved "https://registry.yarnpkg.com/babel-plugin-htmlbars-inline-precompile/-/babel-plugin-htmlbars-inline-precompile-4.2.1.tgz#9a367f8d7ecb9fb2c2e886edfe285caf7cb9766d"
-  integrity sha512-MCJXk+1R0YjlF/F52eDbhJTpsnqRVYsPYVP9d0jEu7E46AcRPEWDL5tfSweiQWHLKG017BIedATb91KcIoT3zA==
+babel-plugin-htmlbars-inline-precompile@^4.4.1:
+  version "4.4.3"
+  resolved "https://registry.yarnpkg.com/babel-plugin-htmlbars-inline-precompile/-/babel-plugin-htmlbars-inline-precompile-4.4.3.tgz#e45a6386786583009e2d7c8bd2dc5ec51132c041"
+  integrity sha512-tJQP1cdJ/ISX5++s+7xKfy6MAZ9CYV2i78zHQ8zCrPVxAmstUWQeOkxglRMqvCoP6G0frvRSZgz+W26GyknoXw==
+  dependencies:
+    babel-plugin-ember-modules-api-polyfill "^3.4.0"
 
 babel-plugin-module-resolver@^3.2.0:
   version "3.2.0"
@@ -8315,13 +8324,13 @@ ember-cli-get-component-path-option@^1.0.0:
   resolved "https://registry.yarnpkg.com/ember-cli-get-component-path-option/-/ember-cli-get-component-path-option-1.0.0.tgz#0d7b595559e2f9050abed804f1d8eff1b08bc771"
   integrity sha1-DXtZVVni+QUKvtgE8djv8bCLx3E=
 
-ember-cli-htmlbars@5.3.2:
-  version "5.3.2"
-  resolved "https://registry.yarnpkg.com/ember-cli-htmlbars/-/ember-cli-htmlbars-5.3.2.tgz#d0e1a4ccd2e7c6f91be51ea0cc1ef7650a9b67e7"
-  integrity sha512-S/spDVzBxkdMhnjiT6gG9xqpM9sT0Z7HskWSvSIAAW1sQsKPOCfRYp/1CqJ3+V5aX8ct0j5aHsdRanQYyHya2w==
+ember-cli-htmlbars@5.4.0:
+  version "5.4.0"
+  resolved "https://registry.yarnpkg.com/ember-cli-htmlbars/-/ember-cli-htmlbars-5.4.0.tgz#1eabd0a2a6b9e8877c2e79d3ab3a0627fde90ddc"
+  integrity sha512-AOThrNG+G6SejHvvfYja72PgpQ5lKJHVEhXyFpuwUPGGeXxqTDzpfh/UYnok/esVBIuM/eJW6qpTHMuZQcPNQg==
   dependencies:
     "@ember/edition-utils" "^1.2.0"
-    babel-plugin-htmlbars-inline-precompile "^4.2.1"
+    babel-plugin-htmlbars-inline-precompile "^4.4.1"
     broccoli-debug "^0.6.5"
     broccoli-persistent-filter "^3.1.2"
     broccoli-plugin "^4.0.3"
@@ -16924,10 +16933,10 @@ snyk-cpp-plugin@2.2.1:
     hosted-git-info "^3.0.7"
     tslib "^2.0.0"
 
-snyk-docker-plugin@4.17.2:
-  version "4.17.2"
-  resolved "https://registry.yarnpkg.com/snyk-docker-plugin/-/snyk-docker-plugin-4.17.2.tgz#e22c7633311a1b17b89d125d0af638e1fa5c5167"
-  integrity sha512-fOz1KYM6Xs40pBhuXTMmVQmb+ySnxSRWJLJSIrVgOuJ3Ot05v1O2MCzZHwQzyVPGSaHpIxKFGvA09dOBjd76qQ==
+snyk-docker-plugin@4.17.3:
+  version "4.17.3"
+  resolved "https://registry.yarnpkg.com/snyk-docker-plugin/-/snyk-docker-plugin-4.17.3.tgz#669f5705b52e9754a1777ac3d4b75628cb0ca8ac"
+  integrity sha512-Egqkad3YTP41Dlu19/3A2gQfqf4nxa7C36USQGSXIC5JodPvptObiSLmyQssjxVJ7iCRpw6IxytZVf412KKJCg==
   dependencies:
     "@snyk/dep-graph" "^1.21.0"
     "@snyk/rpm-parser" "^2.0.0"
@@ -17061,10 +17070,10 @@ snyk-php-plugin@1.9.2:
     "@snyk/composer-lockfile-parser" "^1.4.1"
     tslib "1.11.1"
 
-snyk-poetry-lockfile-parser@^1.1.5:
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/snyk-poetry-lockfile-parser/-/snyk-poetry-lockfile-parser-1.1.5.tgz#bd0ebc9b1dd3bde33e27e5b64bea22e25e7aee5d"
-  integrity sha512-HR5XjWyueRZc0mWlcXD+OidyDnZ83tgAqJN+n7DGxqTv1z00eogkTxsW2DwNvXevF7ItoBaN80t14oicNQ8GlA==
+snyk-poetry-lockfile-parser@^1.1.6:
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/snyk-poetry-lockfile-parser/-/snyk-poetry-lockfile-parser-1.1.6.tgz#bab5a279c103cbcca8eb86ab87717b115592881e"
+  integrity sha512-MoekbWOZPj9umfukjk2bd2o3eRj0OyO+58sxq9crMtHmTlze4h0/Uj4+fb0JFPBOtBO3c2zwbA+dvFQmpKoOTA==
   dependencies:
     "@snyk/cli-interface" "^2.9.2"
     "@snyk/dep-graph" "^1.23.0"
@@ -17087,13 +17096,13 @@ snyk-policy@1.14.1:
     snyk-try-require "^1.3.1"
     then-fs "^2.0.0"
 
-snyk-python-plugin@1.19.4:
-  version "1.19.4"
-  resolved "https://registry.yarnpkg.com/snyk-python-plugin/-/snyk-python-plugin-1.19.4.tgz#03b70c12c0adfd5104839e0d9d9ba7083271e905"
-  integrity sha512-d1c/QKb3Il3xF1HY0IYoqQ+16+i0Ex5ai+J4KqOMbcKFvNcfkiOSPpCsrgSNJtBa50srbRleUrILdorALxaV2w==
+snyk-python-plugin@1.19.5:
+  version "1.19.5"
+  resolved "https://registry.yarnpkg.com/snyk-python-plugin/-/snyk-python-plugin-1.19.5.tgz#1b04756039b98994ce15fe89a1853000ba002c33"
+  integrity sha512-wgfhloo6PZ8V+6eIUU7pLcVfHx4yo5LQPPQX6rLfTSZ6p9uRYazIvw/NoUmIjb8Qrn9GdD3zUJY9/83TyTgKLw==
   dependencies:
     "@snyk/cli-interface" "^2.0.3"
-    snyk-poetry-lockfile-parser "^1.1.5"
+    snyk-poetry-lockfile-parser "^1.1.6"
     tmp "0.0.33"
 
 snyk-resolve-deps@4.7.2:
@@ -17153,10 +17162,10 @@ snyk-try-require@1.3.1, snyk-try-require@^1.1.1, snyk-try-require@^1.3.1:
     lru-cache "^4.0.0"
     then-fs "^2.0.0"
 
-snyk@1.458.0:
-  version "1.458.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.458.0.tgz#33db237bdad2e58632252165c9da7e4a50602a65"
-  integrity sha512-w/ZCb8rOyFDn09OmoyuLDQcmW63rSfbVsXINM+bvT9UJ4ML4JRWA2qKURcaMy9RnkXEK3gPYstly7ezb9iF82g==
+snyk@1.460.0:
+  version "1.460.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.460.0.tgz#2f28694704b996773ff94a0b4c8e71318eb82ced"
+  integrity sha512-dSJ4KIJY/b6msLEFkMb9i5x49DJPZ/c27cp3B8g0/PQi4f1GpytpwXPQepN1W+jrPmBIz3sT7b4k6E9ZVlhjkw==
   dependencies:
     "@open-policy-agent/opa-wasm" "^1.2.0"
     "@snyk/cli-interface" "2.11.0"
@@ -17199,7 +17208,7 @@ snyk@1.458.0:
     semver "^6.0.0"
     snyk-config "4.0.0-rc.2"
     snyk-cpp-plugin "2.2.1"
-    snyk-docker-plugin "4.17.2"
+    snyk-docker-plugin "4.17.3"
     snyk-go-plugin "1.16.5"
     snyk-gradle-plugin "3.13.0"
     snyk-module "3.1.0"
@@ -17208,7 +17217,7 @@ snyk@1.458.0:
     snyk-nuget-plugin "1.21.0"
     snyk-php-plugin "1.9.2"
     snyk-policy "1.14.1"
-    snyk-python-plugin "1.19.4"
+    snyk-python-plugin "1.19.5"
     snyk-resolve "1.0.1"
     snyk-resolve-deps "4.7.2"
     snyk-sbt-plugin "2.11.0"
@@ -18638,10 +18647,10 @@ typescript-memoize@^1.0.0-alpha.3:
   dependencies:
     core-js "2.4.1"
 
-typescript@4.1.5:
-  version "4.1.5"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.1.5.tgz#123a3b214aaff3be32926f0d8f1f6e704eb89a72"
-  integrity sha512-6OSu9PTIzmn9TCDiovULTnET6BgXtDYL4Gg4szY+cGsc3JP1dQL8qvE8kShTRx1NIw4Q9IBHlwODjkjWEtMUyA==
+typescript@4.2.2:
+  version "4.2.2"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.2.2.tgz#1450f020618f872db0ea17317d16d8da8ddb8c4c"
+  integrity sha512-tbb+NVrLfnsJy3M59lsDgrzWIflR4d4TIUjz+heUnHZwdF7YsrMTKoRERiIvI2lvBG95dfpLxB21WZhys1bgaQ==
 
 typescript@^3.3.3:
   version "3.9.7"
