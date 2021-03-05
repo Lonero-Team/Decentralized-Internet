@@ -69,7 +69,7 @@
     "qunit-dom": "1.6.0",
     "ember-try": "1.4.0",
     "ember-cli": "3.25.1",
-    "typescript": "4.2.2",
+    "typescript": "4.2.3",
     "ember-qunit": "5.1.3",
     "easy-bigchain": "1.0.1",
     "ember-cli-sri": "2.1.1",
