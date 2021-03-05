@@ -17342,10 +17342,10 @@ snyk-try-require@^2.0.0:
     lodash.clonedeep "^4.3.0"
     lru-cache "^5.1.1"
 
-snyk@1.471.0:
-  version "1.471.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.471.0.tgz#cb9ab0cfe8e75d3c9e1ef4137195eaf7b8be66e9"
-  integrity sha512-DJxCsZEgYDjFWeL9MfKJSvtZ/0H8rFp6eoBvD9Zp+N6NTtCO6ftEpIj5k2WfEv5hCvOKPuQMAsNq6dnwK6dUYw==
+snyk@1.473.0:
+  version "1.473.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.473.0.tgz#8a8e29574cc994e004837289af4257e086bd29bc"
+  integrity sha512-UJuevb0qgRda13uhGKttzbKmK8f9GALG30LYsVDrvcx4i9NuWjPE8QuRGz1pQYze6UPVvIPSidyhBLNlOU446w==
   dependencies:
     "@open-policy-agent/opa-wasm" "^1.2.0"
     "@snyk/cli-interface" "2.11.0"
