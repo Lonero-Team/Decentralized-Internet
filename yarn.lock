@@ -5083,10 +5083,10 @@ big.js@^5.2.2:
   resolved "https://registry.yarnpkg.com/big.js/-/big.js-5.2.2.tgz#65f0af382f578bcdc742bd9c281e9cb2d7768328"
   integrity sha512-vyL2OymJxmarO8gxMr0mhChsO9QGwhynfuu4+MHTAW6czfq9humCB7rKpUjDd9YUiDPU4mzpyupFSvOClAwbmQ==
 
-bigchaindb-driver@4.2.1, bigchaindb-driver@^4.1.0:
-  version "4.2.1"
-  resolved "https://registry.yarnpkg.com/bigchaindb-driver/-/bigchaindb-driver-4.2.1.tgz#54c250526e72eba7500343d00f7ffd4c0b860afd"
-  integrity sha512-TaUEQqOZsbtZJ7pxUnCAP8dTBdvThvJuoTWdcHborTkJInJ4rTkrnBeTtUDwYAvORqn75gYxoiNWdBPOx1MPLA==
+bigchaindb-driver@4.2.2, bigchaindb-driver@^4.1.0:
+  version "4.2.2"
+  resolved "https://registry.yarnpkg.com/bigchaindb-driver/-/bigchaindb-driver-4.2.2.tgz#8d87ed68a1d3fa99d83cdc71c3033a7b618dfc31"
+  integrity sha512-qof+2qj3zyoqGobU85aSxXP036QF3uomBYxHSlHyMoC+8ByQGdFP5y4ReK15N84C03CG9g4Y/9XKd7GyiY3Lkw==
   dependencies:
     "@babel/runtime-corejs3" "^7.13.9"
     browser-resolve "^1.11.3"
@@ -5094,7 +5094,7 @@ bigchaindb-driver@4.2.1, bigchaindb-driver@^4.1.0:
     buffer "^6.0.3"
     clone "^2.1.2"
     core-js "^3.9.1"
-    crypto-conditions "2.1.1"
+    crypto-conditions "2.1.2"
     decamelize "^5.0.0"
     es6-promise "^4.2.8"
     fetch-ponyfill "^7.1.0"
@@ -7307,10 +7307,10 @@ crypto-browserify@^3.11.0:
     randombytes "^2.0.0"
     randomfill "^1.0.3"
 
-crypto-conditions@2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/crypto-conditions/-/crypto-conditions-2.1.1.tgz#653ed570d7696eaf328bf046741f3bec2b31ac40"
-  integrity sha512-rznsEkMkm29L0x5fknopA6tuNvhvLzHj0R5ZaUv1MKs7o0Gj9yMb5zJiyQ6PAs5m6LUwzSHPcfWmHmnD6exrNQ==
+crypto-conditions@2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/crypto-conditions/-/crypto-conditions-2.1.2.tgz#89b07df34aba03a164c75d60e99c0014447f0196"
+  integrity sha512-BzFv7h1SJK+JeucmJ+6nkXTq1ep06R118Og8UiULeoSLkmDkrCt/RaQwdNhEyt68DxuLUKaYCVV1y6VQ+mfYPw==
   dependencies:
     asn1.js "5.4.1"
     tweetnacl "^1.0.3"
