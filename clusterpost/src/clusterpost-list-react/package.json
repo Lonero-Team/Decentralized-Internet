@@ -63,7 +63,7 @@
   "dependencies": {
     "axios": "^0.21.1",
     "d3": "^6.0.0",
-    "query-string": "^6.5.0",
+    "query-string": "^7.0.0",
     "react-d3-library": "^1.1.8",
     "react-feather": "^2.0.0",
     "react-json-view": "^1.19.1",
