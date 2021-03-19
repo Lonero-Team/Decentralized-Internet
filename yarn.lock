@@ -8304,10 +8304,10 @@ ember-cli-get-component-path-option@^1.0.0:
   resolved "https://registry.yarnpkg.com/ember-cli-get-component-path-option/-/ember-cli-get-component-path-option-1.0.0.tgz#0d7b595559e2f9050abed804f1d8eff1b08bc771"
   integrity sha1-DXtZVVni+QUKvtgE8djv8bCLx3E=
 
-ember-cli-htmlbars@5.7.0:
-  version "5.7.0"
-  resolved "https://registry.yarnpkg.com/ember-cli-htmlbars/-/ember-cli-htmlbars-5.7.0.tgz#ca10ab2716d7ee7ba08c6514868c69b46b7cc10d"
-  integrity sha512-Cda9caL1hgd7tOFH7ab1h8WXe9WxChmv766tMb6yunQuzaHLhn/E3NrNJB6TpqosfQH8nIo8TzqWTPRwJbRq2w==
+ember-cli-htmlbars@5.7.1:
+  version "5.7.1"
+  resolved "https://registry.yarnpkg.com/ember-cli-htmlbars/-/ember-cli-htmlbars-5.7.1.tgz#eb5b88c7d9083bc27665fb5447a9b7503b32ce4f"
+  integrity sha512-9laCgL4tSy48orNoQgQKEHp93MaqAs9ZOl7or5q+8iyGGJHW6sVXIYrVv5/5O9HfV6Ts8/pW1rSoaeKyLUE+oA==
   dependencies:
     "@ember/edition-utils" "^1.2.0"
     babel-plugin-htmlbars-inline-precompile "^5.0.0"
@@ -17137,10 +17137,10 @@ snyk-try-require@^2.0.0:
     lodash.clonedeep "^4.3.0"
     lru-cache "^5.1.1"
 
-snyk@1.500.0:
-  version "1.500.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.500.0.tgz#e03b0a7b7b7bb097a4f2e545fac99a7c17fba93b"
-  integrity sha512-Vay1yOafOeaI6i1Z+Kb39jEzBW7HhLxD2ZYacC+UVzhC454QoiUjBFmmH31JBMiehOyHEbPsxWd8tMbACl/Vbg==
+snyk@1.501.0:
+  version "1.501.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.501.0.tgz#1b0602d3b63c4e227e09d1a2f285ea35a7b348e0"
+  integrity sha512-AskXVDCFGRhb0nwIJJ9xJbFDYVjUDYzMq2Z0g4GNxzCUYeVkcHPOnpxMdAMnaeNEToLyqVOEzRbD7bvd7/+lzQ==
   dependencies:
     "@open-policy-agent/opa-wasm" "^1.2.0"
     "@snyk/cli-interface" "2.11.0"
