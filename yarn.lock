@@ -1574,17 +1574,17 @@
     "@lumino/disposable" "^1.4.3"
     "@lumino/signaling" "^1.4.3"
 
-"@jupyterlab/cells@^3.0.6":
-  version "3.0.6"
-  resolved "https://registry.yarnpkg.com/@jupyterlab/cells/-/cells-3.0.6.tgz#c716f0a22079954256060777d5e56364946ab443"
-  integrity sha512-PfhX5aaMCVJGA9IhzUX4G2lqKgWeS8DA+iuyhTJdzhN9GfZ4rSNKmqh+1rWMebKh8b15ncTGq5tjYXjT/QRZ3w==
+"@jupyterlab/cells@^3.0.7":
+  version "3.0.7"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/cells/-/cells-3.0.7.tgz#6af35d08fe0ec472ab28cc629457b5700b708ead"
+  integrity sha512-Ob3ZIdst/2WMDyBxSVddnwnJ6nelFI7MwrYB1Vb6faXqK1LuZLFbWE6/902Kdpol/x+Sp3MqIHA3ca4ePeu0XA==
   dependencies:
     "@jupyterlab/apputils" "^3.0.5"
     "@jupyterlab/attachments" "^3.0.6"
     "@jupyterlab/codeeditor" "^3.0.5"
     "@jupyterlab/codemirror" "^3.0.5"
     "@jupyterlab/coreutils" "^5.0.3"
-    "@jupyterlab/filebrowser" "^3.0.6"
+    "@jupyterlab/filebrowser" "^3.0.7"
     "@jupyterlab/nbformat" "^3.0.3"
     "@jupyterlab/observables" "^4.0.3"
     "@jupyterlab/outputarea" "^3.0.6"
@@ -1652,14 +1652,14 @@
     path-browserify "^1.0.0"
     url-parse "~1.4.7"
 
-"@jupyterlab/docmanager@^3.0.6":
-  version "3.0.6"
-  resolved "https://registry.yarnpkg.com/@jupyterlab/docmanager/-/docmanager-3.0.6.tgz#3858805d28eade30716603f1960c020d1e542b9c"
-  integrity sha512-98/4neCQ5pMLwFkiVOdKnaogmNFiHNl4ibLH3+1af235z/PabywbqKa8sf9RIIN9H8V2H8I+V9L0jU4KG14ZTw==
+"@jupyterlab/docmanager@^3.0.7":
+  version "3.0.7"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/docmanager/-/docmanager-3.0.7.tgz#3d004ad7946d316edd60d152fba0784926689344"
+  integrity sha512-YXaKWV5AlsTT6Vlgu1V8GxrckjdxyvIY128YzSQH7aYD3m/+nOBgkr65zg/DW4Zd11IrJQF53/3bIMbmcBjXyg==
   dependencies:
     "@jupyterlab/apputils" "^3.0.5"
     "@jupyterlab/coreutils" "^5.0.3"
-    "@jupyterlab/docregistry" "^3.0.6"
+    "@jupyterlab/docregistry" "^3.0.7"
     "@jupyterlab/services" "^6.0.5"
     "@jupyterlab/statusbar" "^3.0.5"
     "@jupyterlab/translation" "^3.0.5"
@@ -1672,10 +1672,10 @@
     "@lumino/widgets" "^1.16.1"
     react "^17.0.1"
 
-"@jupyterlab/docregistry@^3.0.6":
-  version "3.0.6"
-  resolved "https://registry.yarnpkg.com/@jupyterlab/docregistry/-/docregistry-3.0.6.tgz#07f5480435c1a8510b2397d4bdf9168aea2371fb"
-  integrity sha512-e4LEXudcgVWJsuzRnz4zg+lAd0gjsvShAQQQomT8ZYWv6wPTC2ci/6LPKQY9MyeVSw+9JEHIj8650BjmRc7oLA==
+"@jupyterlab/docregistry@^3.0.7":
+  version "3.0.7"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/docregistry/-/docregistry-3.0.7.tgz#fe18d9294e22a580a3f5f712975865649c49b672"
+  integrity sha512-BkyYZjARHw4FF+dtSSOdYxdILtw3PiQSRGQdKmhrN+/jsTK28Kl9U2Cz0sBkar9ZIG70tj8wjIe2xNj8kazInA==
   dependencies:
     "@jupyterlab/apputils" "^3.0.5"
     "@jupyterlab/codeeditor" "^3.0.5"
@@ -1694,15 +1694,15 @@
     "@lumino/signaling" "^1.4.3"
     "@lumino/widgets" "^1.16.1"
 
-"@jupyterlab/filebrowser@^3.0.6":
-  version "3.0.6"
-  resolved "https://registry.yarnpkg.com/@jupyterlab/filebrowser/-/filebrowser-3.0.6.tgz#66cebfbe97292c9a05842b2efb534c3d4c7e5856"
-  integrity sha512-26H3XKtnmH8g2tRgAyoIWaL6FISIXkzzjk6rbPxCeKsdgwwv0fS8Eec9V2SjZoFGPjdYj/jnBhAdO57ZeVKWng==
+"@jupyterlab/filebrowser@^3.0.7":
+  version "3.0.7"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/filebrowser/-/filebrowser-3.0.7.tgz#11d09ef29629dfb2e45464788e03d2b6634c6521"
+  integrity sha512-mfJV9kVrCe+aOCtq0Y8szUgBDCILd4mavleoYm8CjP4XuRjwmomN/U/pDTDCuaW9AbUa9PR5WujGui6ZndwxyQ==
   dependencies:
     "@jupyterlab/apputils" "^3.0.5"
     "@jupyterlab/coreutils" "^5.0.3"
-    "@jupyterlab/docmanager" "^3.0.6"
-    "@jupyterlab/docregistry" "^3.0.6"
+    "@jupyterlab/docmanager" "^3.0.7"
+    "@jupyterlab/docregistry" "^3.0.7"
     "@jupyterlab/services" "^6.0.5"
     "@jupyterlab/statedb" "^3.0.3"
     "@jupyterlab/statusbar" "^3.0.5"
@@ -1727,16 +1727,16 @@
   dependencies:
     "@lumino/coreutils" "^1.5.3"
 
-"@jupyterlab/notebook@3.0.6":
-  version "3.0.6"
-  resolved "https://registry.yarnpkg.com/@jupyterlab/notebook/-/notebook-3.0.6.tgz#fe49d4b09b66237df4045d2ea0adc90a8708a142"
-  integrity sha512-kO9oOFp+VZEnWvGYnmRATXMNmABh3dGdSrCdAOOU7OP09NU6W4VVIjFHYajm++iLTwB1Mejabm8p3ykmA4jyMA==
+"@jupyterlab/notebook@3.0.7":
+  version "3.0.7"
+  resolved "https://registry.yarnpkg.com/@jupyterlab/notebook/-/notebook-3.0.7.tgz#742e3282963d34732e2b9c824613fed8a34bd62a"
+  integrity sha512-Xs9v48QmXbclgNZYrjghB/drZupX3ZEXi//VOvhzpli2asfiB6O7wIcnqGq4q5oP02a8IjQeE29SKQckmCnVBg==
   dependencies:
     "@jupyterlab/apputils" "^3.0.5"
-    "@jupyterlab/cells" "^3.0.6"
+    "@jupyterlab/cells" "^3.0.7"
     "@jupyterlab/codeeditor" "^3.0.5"
     "@jupyterlab/coreutils" "^5.0.3"
-    "@jupyterlab/docregistry" "^3.0.6"
+    "@jupyterlab/docregistry" "^3.0.7"
     "@jupyterlab/nbformat" "^3.0.3"
     "@jupyterlab/observables" "^4.0.3"
     "@jupyterlab/rendermime" "^3.0.6"
@@ -8226,10 +8226,10 @@ ember-cli-babel-plugin-helpers@^1.0.0, ember-cli-babel-plugin-helpers@^1.1.1:
   resolved "https://registry.yarnpkg.com/ember-cli-babel-plugin-helpers/-/ember-cli-babel-plugin-helpers-1.1.1.tgz#5016b80cdef37036c4282eef2d863e1d73576879"
   integrity sha512-sKvOiPNHr5F/60NLd7SFzMpYPte/nnGkq/tMIfXejfKHIhaiIkYFqX8Z9UFTKWLLn+V7NOaby6niNPZUdvKCRw==
 
-ember-cli-babel@7.26.1, ember-cli-babel@^7.0.0, ember-cli-babel@^7.13.0, ember-cli-babel@^7.13.2, ember-cli-babel@^7.22.1, ember-cli-babel@^7.23.0, ember-cli-babel@^7.23.1:
-  version "7.26.1"
-  resolved "https://registry.yarnpkg.com/ember-cli-babel/-/ember-cli-babel-7.26.1.tgz#d3f06bd9aec8aac9197c5ff4d0b87ff1e4f0d62a"
-  integrity sha512-WEWP3hJSe9CWL22gEWQ+Y3uKMGk1vLoIREUQfJNKrgUUh3l49bnfAamh3ywcAQz31IgzvkLPO8ZTXO4rxnuP4Q==
+ember-cli-babel@7.26.2, ember-cli-babel@^7.0.0, ember-cli-babel@^7.13.0, ember-cli-babel@^7.13.2, ember-cli-babel@^7.22.1, ember-cli-babel@^7.23.0, ember-cli-babel@^7.23.1:
+  version "7.26.2"
+  resolved "https://registry.yarnpkg.com/ember-cli-babel/-/ember-cli-babel-7.26.2.tgz#497985e741ffcc08f89f98c9464509e91cdb2809"
+  integrity sha512-bSSlFbUBfLwaabGpLgoLkOKMIdDRWu3cPBNrN2UQXfzlPei3nZblDatSzPbCZ7O5faJHRi13ra3Q4odnCoBtTg==
   dependencies:
     "@babel/core" "^7.12.0"
     "@babel/helper-compilation-targets" "^7.12.0"
