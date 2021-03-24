@@ -27,7 +27,7 @@
     "nodemailer": "^6.4.16",
     "request": "^2.88.0",
     "underscore": "^1.9.1",
-    "snyk": "^1.425.4"
+    "snyk": "^1.465.0"
   },
   "devDependencies": {},
   "scripts": {
