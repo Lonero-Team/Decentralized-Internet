@@ -12,7 +12,7 @@
     "flaschenpost": "5.0.14",
     "lodash": "4.17.21",
     "parse-duration": "1.0.0",
-    "processenv": "3.0.3",
+    "processenv": "3.0.4",
     "random-int": "2.0.1",
     "request": "2.88.2",
     "require-all": "3.0.0",
