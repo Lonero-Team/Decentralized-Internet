@@ -36,6 +36,6 @@
     "angular-route": "^1.5.8",
     "angular-smart-table": "^2.1.8",
     "jsonformatter": "^0.7.0",
-    "underscore": "^1.8.3"
+    "underscore": "^1.12.1"
   }
 }
