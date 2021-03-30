@@ -9,7 +9,7 @@
     "concat-stream": "^2.0.0",
     "mkdirp": "^1.0.0",
     "request": "^2.88.0",
-    "underscore": "^1.8.3"
+    "underscore": "^1.12.1"
   },
   "scripts": {
     "test": "lab -v test.js"
