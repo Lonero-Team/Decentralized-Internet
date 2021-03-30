@@ -68,7 +68,7 @@
     "react-feather": "^2.0.0",
     "react-json-view": "^1.19.1",
     "recharts": "^2.0.0",
-    "underscore": "^1.9.1",
+    "underscore": "^1.12.1",
     "snyk": "^1.465.0"
   },
   "snyk": true
