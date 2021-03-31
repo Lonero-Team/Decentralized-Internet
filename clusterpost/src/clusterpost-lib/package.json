@@ -30,6 +30,6 @@
     "jsonwebtoken": "^8.0.0",
     "prompt": "^1.0.0",
     "request": "^2.73.0",
-    "underscore": "^1.8.3"
+    "underscore": "^1.12.1"
   }
 }
