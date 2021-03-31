@@ -27,7 +27,7 @@
     "bluebird": "^3.4.7",
     "clusterpost-lib": "file:../clusterpost-lib",
     "minimist": "^1.2.0",
-    "underscore": "^1.9.1",
+    "underscore": "^1.12.1",
     "snyk": "^1.465.0"
   },
   "snyk": true
