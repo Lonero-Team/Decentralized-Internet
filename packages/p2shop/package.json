@@ -36,7 +36,7 @@
   "dependencies": {
     "eventemitter3": "^4.0.0",
     "decentralized-internet": "^5.0.0",
-    "snyk": "^1.424.2"
+    "snyk": "^1.526.0"
   },
   "devDependencies": {
     "@babel/core": "7.13.14",
