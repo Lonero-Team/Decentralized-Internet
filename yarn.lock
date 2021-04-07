@@ -3152,10 +3152,10 @@
     micromatch "^4.0.2"
     picomatch "^2.2.1"
 
-"@snyk/fix@1.518.0":
-  version "1.518.0"
-  resolved "https://registry.yarnpkg.com/@snyk/fix/-/fix-1.518.0.tgz#8af97a17da737739b1f31fe2d2129c99fcb574ed"
-  integrity sha512-Cwh0wU8SxZgx1+qRgcGkMctNx9F6UCdUJYcCvKaYJNDEYQwpQat4nsLZsJeODYNx7Byh0ZnPrqakUck4qFrPvA==
+"@snyk/fix@1.526.0":
+  version "1.526.0"
+  resolved "https://registry.yarnpkg.com/@snyk/fix/-/fix-1.526.0.tgz#589bc5e6745b1f81f36cfa46199d98871113e7b7"
+  integrity sha512-+aMUNRhOdoN4YPGxXlN9+NwvKOr/DNBCGgC8DnNSujcJ9Nj1M8oHrnVoTy56/tgbJ8qyw/zwmCKAm383CfURKg==
   dependencies:
     "@snyk/dep-graph" "^1.21.0"
     chalk "4.1.0"
@@ -3273,7 +3273,7 @@
     tslib "^1.9.3"
     xml-js "^1.6.11"
 
-"@snyk/mix-parser@^1.1.0":
+"@snyk/mix-parser@^1.1.1":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@snyk/mix-parser/-/mix-parser-1.1.1.tgz#3493222b4e3d84a6fb56bce5238922a532a81191"
   integrity sha512-KmX4Le+1M01m6kM2UeDColzMZctrSqoMGajqcRHR3dLpCyHE3nzZzPeOWjbUVgjQlTX07oQvq9udSJGZJ/+Gdg==
@@ -3309,13 +3309,13 @@
     tar-stream "^2.1.2"
     tmp "^0.1.0"
 
-"@snyk/snyk-hex-plugin@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@snyk/snyk-hex-plugin/-/snyk-hex-plugin-1.0.0.tgz#617c91b5c19a6ccbb3a9a1a87d9e87b84621bdb3"
-  integrity sha512-ZydVdZ5kDpPDoehQnNHN3wZ6c470k5DPLJtWMoyfzlnCU2+y1rsUEdn4yhttn60RPx3JiLGwmckeDvZw8BqnGQ==
+"@snyk/snyk-hex-plugin@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@snyk/snyk-hex-plugin/-/snyk-hex-plugin-1.0.1.tgz#108b27382af91a7984abe34b1778b71aadd76b62"
+  integrity sha512-z6tmxLOdLlwdTuDI+Di5M44RnkKQU1yS9CKANfJLIxwqg6HP45oxEqwSqIRmHHJoD/xS//09kH1ORgKR9BslKg==
   dependencies:
     "@snyk/dep-graph" "^1.28.0"
-    "@snyk/mix-parser" "^1.1.0"
+    "@snyk/mix-parser" "^1.1.1"
     debug "^4.3.1"
     tslib "^2.0.0"
 
@@ -17649,21 +17649,21 @@ snyk-try-require@^2.0.0:
     lodash.clonedeep "^4.3.0"
     lru-cache "^5.1.1"
 
-snyk@1.526.0:
-  version "1.526.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.526.0.tgz#7aab21c3a25eb56724ffc62667dad13188521360"
-  integrity sha512-HVJFcE/eA0J4uYubQ2t1RYQdXOKfQg4BbeTt8nKQisT92vWASX+BWqhPuiYQNpcUgca7x3V33LYf/bDJtXAbJQ==
+snyk@1.528.0:
+  version "1.528.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.528.0.tgz#083bf40dff76cf9ee499551b549f191964bd94a9"
+  integrity sha512-ejzvipU9WD42M9xpoJljG+Jh1Olb6cHF96wn8PyPvOY7R5NZgQBtHKdBnLYi5xenauFdOgFPnLnxmP65xRbKnw==
   dependencies:
     "@open-policy-agent/opa-wasm" "^1.2.0"
     "@snyk/cli-interface" "2.11.0"
     "@snyk/code-client" "3.4.0"
     "@snyk/dep-graph" "^1.27.1"
-    "@snyk/fix" "1.518.0"
+    "@snyk/fix" "1.526.0"
     "@snyk/gemfile" "1.2.0"
     "@snyk/graphlib" "^2.1.9-patch.3"
     "@snyk/inquirer" "^7.3.3-patch"
     "@snyk/snyk-cocoapods-plugin" "2.5.2"
-    "@snyk/snyk-hex-plugin" "1.0.0"
+    "@snyk/snyk-hex-plugin" "1.0.1"
     abbrev "^1.1.1"
     ansi-escapes "3.2.0"
     chalk "^2.4.2"
