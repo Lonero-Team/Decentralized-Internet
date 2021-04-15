@@ -50,7 +50,7 @@ services:
     command: '.ci/entrypoint.sh'
     restart: always
   tendermint:
-    image: tendermint/tendermint:v0.34.9
+    image: tendermint/tendermint:v0.34.10
     # volumes:
     #   - ./tmdata:/tendermint
     entrypoint: ''
