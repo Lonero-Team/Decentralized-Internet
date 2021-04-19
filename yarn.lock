@@ -3161,10 +3161,10 @@
     micromatch "^4.0.2"
     picomatch "^2.2.1"
 
-"@snyk/fix@1.539.0":
-  version "1.539.0"
-  resolved "https://registry.yarnpkg.com/@snyk/fix/-/fix-1.539.0.tgz#b23c469b21cd6faf355a1e899068e91827e29075"
-  integrity sha512-oZ3BdRgbkyp/3P2DyLsz11n5xbRzvhIySDv9Qg0UWyjByh9SbR70CCqa7VOCXuTCRpFXIZf15GYNpNLBdOJ2Rw==
+"@snyk/fix@1.547.0":
+  version "1.547.0"
+  resolved "https://registry.yarnpkg.com/@snyk/fix/-/fix-1.547.0.tgz#08797c34887eca58c9dfe387042abdbc1937a8ad"
+  integrity sha512-ANTkn8PHsmPelQ8W8aiS+R3JBzUr0fjcHT67eTvr2a0h51qzzgBFEwhd8GH1Wuo0Nmvm3bsKkk5DxkxTtQWPtw==
   dependencies:
     "@snyk/dep-graph" "^1.21.0"
     chalk "4.1.0"
@@ -3318,14 +3318,15 @@
     tar-stream "^2.1.2"
     tmp "^0.1.0"
 
-"@snyk/snyk-hex-plugin@1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@snyk/snyk-hex-plugin/-/snyk-hex-plugin-1.1.1.tgz#7b399852aaf3779f757a2400dcf59adc87f47f0a"
-  integrity sha512-NXgslDo6qSvsKy2cR3Yoo/Z6A3Svae9a96j+0OUnvcZX7i6JeODreqXFD1k0vPM2JnL1G7qcdblPxz7M7ZAZmQ==
+"@snyk/snyk-hex-plugin@1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@snyk/snyk-hex-plugin/-/snyk-hex-plugin-1.1.2.tgz#8e70bf8edf2802466d49afb31265a65a69246dc9"
+  integrity sha512-8zj19XxlBqTfe12CoeVgT0WtRBk0HEjJVO8hYB/AM71XVjucFzQT4/e/hR8mCUSA7i+B/F8X8iGPhs7Uj3J+zA==
   dependencies:
     "@snyk/dep-graph" "^1.28.0"
     "@snyk/mix-parser" "^1.1.1"
     debug "^4.3.1"
+    tmp "^0.0.33"
     tslib "^2.0.0"
     upath "2.0.1"
 
@@ -5741,10 +5742,10 @@ broccoli-concat@^3.2.2:
     lodash.uniq "^4.2.0"
     walk-sync "^0.3.2"
 
-broccoli-concat@^4.2.2, broccoli-concat@^4.2.4:
-  version "4.2.4"
-  resolved "https://registry.yarnpkg.com/broccoli-concat/-/broccoli-concat-4.2.4.tgz#78e359ddc540b999d815355163bf3cfb6bd67322"
-  integrity sha512-NgdBIE57r+U/AslBohQr0mCS7PopIWL8dihMI1CzqffQkisAgqWMuddjYmizqRBQlml7crBFaBeUnPDHhf4/RQ==
+broccoli-concat@^4.2.2, broccoli-concat@^4.2.4, broccoli-concat@^4.2.5:
+  version "4.2.5"
+  resolved "https://registry.yarnpkg.com/broccoli-concat/-/broccoli-concat-4.2.5.tgz#d578f00094048b5fc87195e82fbdbde20d838d29"
+  integrity sha512-dFB5ATPwOyV8S2I7a07HxCoutoq23oY//LhM6Mou86cWUTB174rND5aQLR7Fu8FjFFLxoTbkk7y0VPITJ1IQrw==
   dependencies:
     broccoli-debug "^0.6.5"
     broccoli-kitchen-sink-helpers "^0.3.1"
@@ -8690,10 +8691,10 @@ ember-cli-version-checker@^5.0.1, ember-cli-version-checker@^5.1.1, ember-cli-ve
     semver "^7.3.4"
     silent-error "^1.1.1"
 
-ember-cli@3.26.0:
-  version "3.26.0"
-  resolved "https://registry.yarnpkg.com/ember-cli/-/ember-cli-3.26.0.tgz#19b3b9701df7ab78a23f7d0f44bf26e78f031f71"
-  integrity sha512-zmwUS1i4w7nFIwNjPLNGPlH0lOZjbOfUt51FQsbS8zqRgbbA/oYGAfpiTzJfO3bONjiKy3irEQIqbdBQaXFA7w==
+ember-cli@3.26.1:
+  version "3.26.1"
+  resolved "https://registry.yarnpkg.com/ember-cli/-/ember-cli-3.26.1.tgz#43e924454f1fcff6157863925d0eb33bfa593c24"
+  integrity sha512-jJ0kMob21A/HIqkDNWQMZnnpadjS/xaBlv1RU1NoCUi+3Lqpt9esDT9cK0QCFp9vh4zfU4BEBNYkMN/SiQMaGg==
   dependencies:
     "@babel/core" "^7.12.10"
     "@babel/plugin-transform-modules-amd" "^7.12.1"
@@ -8705,7 +8706,7 @@ ember-cli@3.26.0:
     broccoli-amd-funnel "^2.0.1"
     broccoli-babel-transpiler "^7.8.0"
     broccoli-builder "^0.18.14"
-    broccoli-concat "^4.2.4"
+    broccoli-concat "^4.2.5"
     broccoli-config-loader "^1.0.1"
     broccoli-config-replace "^1.1.2"
     broccoli-debug "^0.6.5"
@@ -17637,22 +17638,22 @@ snyk-try-require@^2.0.0:
     lodash.clonedeep "^4.3.0"
     lru-cache "^5.1.1"
 
-snyk@1.543.0:
-  version "1.543.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.543.0.tgz#c214b9386c3dc4ba780935a780071e5a90525936"
-  integrity sha512-6PiGHbALrZGLrsgPgocxOUjFa8o2lWfoZiYLpFyFXOQmYP5mzV1Y9S6IoANxVXNmPpRTdwJamlWG1v6g0YSYhA==
+snyk@1.551.0:
+  version "1.551.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.551.0.tgz#15234b451f6d2dbb08d55034814caafbea7104f4"
+  integrity sha512-Z2fh6n/EGO/2ILLOeFvJpWAHSZjOtKDACtfK+Xm/ob+SoAOjEPGdGlFt0RmCUV/VGxfP1aRZ8zkxnj573OmPPA==
   dependencies:
     "@open-policy-agent/opa-wasm" "^1.2.0"
     "@snyk/cli-interface" "2.11.0"
     "@snyk/cloud-config-parser" "^1.9.2"
     "@snyk/code-client" "3.4.1"
     "@snyk/dep-graph" "^1.27.1"
-    "@snyk/fix" "1.539.0"
+    "@snyk/fix" "1.547.0"
     "@snyk/gemfile" "1.2.0"
     "@snyk/graphlib" "^2.1.9-patch.3"
     "@snyk/inquirer" "^7.3.3-patch"
     "@snyk/snyk-cocoapods-plugin" "2.5.2"
-    "@snyk/snyk-hex-plugin" "1.1.1"
+    "@snyk/snyk-hex-plugin" "1.1.2"
     abbrev "^1.1.1"
     ansi-escapes "3.2.0"
     chalk "^2.4.2"
