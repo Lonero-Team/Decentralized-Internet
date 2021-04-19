@@ -16,7 +16,7 @@
   "author": "juanprietob@gmail.com",
   "license": "Apache-2.0",
   "dependencies": {
-    "bluebird": "^3.5.4",
+    "bluebird": "^3.7.2",
     "boom": "^7.0.0",
     "hapi-jwt-couch": "^4.0.0",
     "snyk": "^1.518.0"
