@@ -16,7 +16,7 @@
     "bcrypt": "^5.0.0",
     "bluebird": "^3.7.2",
     "clusterpost-model": "^1.9.0",
-    "clusterpost-provider": "^4.1.1",
+    "clusterpost-provider": "^4.7.0",
     "clusterpost-static": "^1.0.0",
     "couch-provider": "3.0.1",
     "couch-update-views": "1.0.10",
