@@ -19,7 +19,7 @@
   "license": "Apache-2.0",
   "dependencies": {
     "@hapi/joi": "^17.0.0",
-    "bluebird": "^3.3.0",
+    "bluebird": "^3.7.2",
     "clusterpost-lib": "^2.0.0",
     "clusterpost-model": "^1.8.1",
     "minimist": "^1.2.3",

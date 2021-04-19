@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/juanprietob/clusterpost#readme",
   "dependencies": {
-    "bluebird": "^3.4.7",
+    "bluebird": "^3.7.2",
     "clusterpost-lib": "file:../clusterpost-lib",
     "minimist": "^1.2.0",
     "underscore": "^1.12.1",
