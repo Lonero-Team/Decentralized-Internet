@@ -3318,10 +3318,10 @@
     tar-stream "^2.1.2"
     tmp "^0.1.0"
 
-"@snyk/snyk-hex-plugin@1.1.2":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@snyk/snyk-hex-plugin/-/snyk-hex-plugin-1.1.2.tgz#8e70bf8edf2802466d49afb31265a65a69246dc9"
-  integrity sha512-8zj19XxlBqTfe12CoeVgT0WtRBk0HEjJVO8hYB/AM71XVjucFzQT4/e/hR8mCUSA7i+B/F8X8iGPhs7Uj3J+zA==
+"@snyk/snyk-hex-plugin@1.1.3":
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/@snyk/snyk-hex-plugin/-/snyk-hex-plugin-1.1.3.tgz#05667d8172936caf91006f4d964066094f53e4d6"
+  integrity sha512-z0RsmWMJ0Vbvxca72jHVKUOMTbdMNw4Ofvu1YkM9RCpxtt9ipM8sBAeS1KkD9gevG4Ik3wHztbOB29Jka0vT9w==
   dependencies:
     "@snyk/dep-graph" "^1.28.0"
     "@snyk/mix-parser" "^1.1.1"
@@ -9252,10 +9252,10 @@ escodegen@^1.14.1, escodegen@^1.8.1:
   optionalDependencies:
     source-map "~0.6.1"
 
-eslint-plugin-ember@10.3.0:
-  version "10.3.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-ember/-/eslint-plugin-ember-10.3.0.tgz#2e53ad334dc7f7f66f6cba890b9c01a64817d1c1"
-  integrity sha512-qmUQ6OYs8trr+4h3DPJz76fBgXBJEragLCD4RHV4bcnKd4vtgmJvFTF+UDlIsiZZVd03r5aYzpuQvVa+oH6JXg==
+eslint-plugin-ember@10.4.0:
+  version "10.4.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-ember/-/eslint-plugin-ember-10.4.0.tgz#b249ab81e9f2e5b719f27f19a682fc4965e83be8"
+  integrity sha512-UjPalE+RgD4s/a3fq3tMFcG6uk+BbtoKxmaqJdzVWDufYNGhzQLeEw6pqc3UgMj+S36bv1om7rbDAPwp3cx2MA==
   dependencies:
     "@ember-data/rfc395-data" "^0.0.4"
     css-tree "^1.0.0-alpha.39"
@@ -17432,10 +17432,10 @@ snyk-go-plugin@1.17.0:
     tmp "0.2.1"
     tslib "^1.10.0"
 
-snyk-gradle-plugin@3.14.0:
-  version "3.14.0"
-  resolved "https://registry.yarnpkg.com/snyk-gradle-plugin/-/snyk-gradle-plugin-3.14.0.tgz#26c9833c97ef50e83b022b2e3077a9056f8674e1"
-  integrity sha512-2A8ifM91TyzSx/U2fYvHXbaCRVsEx60hGFQjbSH9Hl9AokxEzMi2qti7wsObs1jUX2m198D1mdXu4k/Y1jWxXg==
+snyk-gradle-plugin@3.14.2:
+  version "3.14.2"
+  resolved "https://registry.yarnpkg.com/snyk-gradle-plugin/-/snyk-gradle-plugin-3.14.2.tgz#898b051f679e681b6d859f0ca84a500ac028af7d"
+  integrity sha512-l/nivKDZz7e2wymrwP6g2WQD8qgaYeE22SnbZrfIpwGolif81U28A9FsRedwkxKyB/shrM0vGEoD3c3zI8NLBw==
   dependencies:
     "@snyk/cli-interface" "2.11.0"
     "@snyk/dep-graph" "^1.28.0"
@@ -17638,10 +17638,10 @@ snyk-try-require@^2.0.0:
     lodash.clonedeep "^4.3.0"
     lru-cache "^5.1.1"
 
-snyk@1.551.0:
-  version "1.551.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.551.0.tgz#15234b451f6d2dbb08d55034814caafbea7104f4"
-  integrity sha512-Z2fh6n/EGO/2ILLOeFvJpWAHSZjOtKDACtfK+Xm/ob+SoAOjEPGdGlFt0RmCUV/VGxfP1aRZ8zkxnj573OmPPA==
+snyk@1.557.0:
+  version "1.557.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.557.0.tgz#537e06f68483494a1ecedf0d040eef5a9cd16e49"
+  integrity sha512-Rd8PcUVGLkSoGVKfA5qYtZL+9pbnr//vg9iV/sjjW15oZOPN0EefMnexSAqEUoCCqWBId4zdQLJ0pwaMns1uFg==
   dependencies:
     "@open-policy-agent/opa-wasm" "^1.2.0"
     "@snyk/cli-interface" "2.11.0"
@@ -17653,7 +17653,7 @@ snyk@1.551.0:
     "@snyk/graphlib" "^2.1.9-patch.3"
     "@snyk/inquirer" "^7.3.3-patch"
     "@snyk/snyk-cocoapods-plugin" "2.5.2"
-    "@snyk/snyk-hex-plugin" "1.1.2"
+    "@snyk/snyk-hex-plugin" "1.1.3"
     abbrev "^1.1.1"
     ansi-escapes "3.2.0"
     chalk "^2.4.2"
@@ -17693,7 +17693,7 @@ snyk@1.551.0:
     snyk-cpp-plugin "2.2.1"
     snyk-docker-plugin "4.19.3"
     snyk-go-plugin "1.17.0"
-    snyk-gradle-plugin "3.14.0"
+    snyk-gradle-plugin "3.14.2"
     snyk-module "3.1.0"
     snyk-mvn-plugin "2.25.3"
     snyk-nodejs-lockfile-parser "1.32.0"
