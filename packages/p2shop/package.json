@@ -39,7 +39,7 @@
     "snyk": "^1.526.0"
   },
   "devDependencies": {
-    "@babel/core": "7.13.15",
+    "@babel/core": "7.13.16",
     "@babel/preset-env": "7.13.15",
     "@commitlint/cli": "12.1.1",
     "@commitlint/config-conventional": "12.1.1",
