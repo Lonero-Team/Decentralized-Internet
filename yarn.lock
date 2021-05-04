@@ -13784,9 +13784,9 @@ min-indent@^1.0.0:
   integrity sha1-z8RcN+nsDY8KDsPdTvf3w6vjklY=
 
 minify@*:
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/minify/-/minify-7.0.1.tgz#f368afeadcf1cd2525d18c32446112f595e951d0"
-  integrity sha512-U3CjnPKRjPu3DxZX7NsB833r2ijbw9af3fHsaChn6o7BHKvaT/zxYDQ8Q/3W7VFXGDrnkAx6XBx3ggEf5KJm7A==
+  version "7.0.2"
+  resolved "https://registry.yarnpkg.com/minify/-/minify-7.0.2.tgz#8ac33a490c907b581a6cb4970dc656bb6d59ac11"
+  integrity sha512-qWFzieSULBAKTLbTqaXY5OLFbFNuEa1b0M+piLkpgJ6pHrMyvvCw6H7WM5/d+HJIwgUCLMI0uEAAyhawAF6cbA==
   dependencies:
     clean-css "^5.0.1"
     css-b64-images "~0.2.5"
@@ -17349,10 +17349,10 @@ snyk-cpp-plugin@2.2.1:
     hosted-git-info "^3.0.7"
     tslib "^2.0.0"
 
-snyk-docker-plugin@4.20.1:
-  version "4.20.1"
-  resolved "https://registry.yarnpkg.com/snyk-docker-plugin/-/snyk-docker-plugin-4.20.1.tgz#1f9cc5d0cf02055abde63cdfa6e2e20556fdbb57"
-  integrity sha512-qFExaxdu9bNgvkv5TCE/AOyCCOWjjFRuX3Dhf0TWbpj+TtzgpZj2nmi4AG3XiOBn1cQUZ7pCSHoy7bNJeyUBww==
+snyk-docker-plugin@4.20.2:
+  version "4.20.2"
+  resolved "https://registry.yarnpkg.com/snyk-docker-plugin/-/snyk-docker-plugin-4.20.2.tgz#6375eb262ae85cdcbccad5088b1836c686ab6462"
+  integrity sha512-cxRU6lNybAJgOs1RPDTk3fJh7rS0BkXSAw/8/GFGTeJlQ+dNhEnCWni7PKmaZT9phFNOqLQcDd8+oOZZB5UQnw==
   dependencies:
     "@snyk/dep-graph" "^1.28.0"
     "@snyk/rpm-parser" "^2.0.0"
@@ -17599,10 +17599,10 @@ snyk-try-require@^2.0.0:
     lodash.clonedeep "^4.3.0"
     lru-cache "^5.1.1"
 
-snyk@1.576.0:
-  version "1.576.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.576.0.tgz#5d192f634b990436121a71e84dd10a5da614e40b"
-  integrity sha512-HQL0X8BYtOsBBR56sZndZBPCxoJxMt8gsngMbZE4K2veJ+4pDkCKkeXjOJTnrHYUE5F5Z4i7UTUVS1zcEwpkrw==
+snyk@1.580.0:
+  version "1.580.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.580.0.tgz#33dbc91228e83bba6d4aea2c84a9380d6ec6ba72"
+  integrity sha512-cRN9fmCcXHEkcuPbDsBuL2Tb1Gx6gMp4duHh8tcu3gMUdEvRDh6gPRFgKK0JHpOctWm1BTbBADfvNI7HLd4mZQ==
   dependencies:
     "@open-policy-agent/opa-wasm" "^1.2.0"
     "@snyk/cli-interface" "2.11.0"
@@ -17651,7 +17651,7 @@ snyk@1.576.0:
     semver "^6.0.0"
     snyk-config "4.0.0"
     snyk-cpp-plugin "2.2.1"
-    snyk-docker-plugin "4.20.1"
+    snyk-docker-plugin "4.20.2"
     snyk-go-plugin "1.17.0"
     snyk-gradle-plugin "3.14.4"
     snyk-module "3.1.0"
