@@ -8442,10 +8442,10 @@ ember-cli-babel-plugin-helpers@^1.0.0, ember-cli-babel-plugin-helpers@^1.1.1:
   resolved "https://registry.yarnpkg.com/ember-cli-babel-plugin-helpers/-/ember-cli-babel-plugin-helpers-1.1.1.tgz#5016b80cdef37036c4282eef2d863e1d73576879"
   integrity sha512-sKvOiPNHr5F/60NLd7SFzMpYPte/nnGkq/tMIfXejfKHIhaiIkYFqX8Z9UFTKWLLn+V7NOaby6niNPZUdvKCRw==
 
-ember-cli-babel@7.26.4, ember-cli-babel@^7.0.0, ember-cli-babel@^7.13.0, ember-cli-babel@^7.13.2, ember-cli-babel@^7.22.1, ember-cli-babel@^7.23.0, ember-cli-babel@^7.23.1:
-  version "7.26.4"
-  resolved "https://registry.yarnpkg.com/ember-cli-babel/-/ember-cli-babel-7.26.4.tgz#b73d53592c05479814ca1770b3b849d4e01a87f0"
-  integrity sha512-GibwLrBUVj8DxNMnbE5PObEIeznX6ohOdYHoSMmTkCBuXa/I9amRGIjBhNlDbAJj+exVKKZoEGAdrV13gnyftQ==
+ember-cli-babel@7.26.5, ember-cli-babel@^7.0.0, ember-cli-babel@^7.13.0, ember-cli-babel@^7.13.2, ember-cli-babel@^7.22.1, ember-cli-babel@^7.23.0, ember-cli-babel@^7.23.1:
+  version "7.26.5"
+  resolved "https://registry.yarnpkg.com/ember-cli-babel/-/ember-cli-babel-7.26.5.tgz#59904d1d73b5c816167238024d18b85c8b51debc"
+  integrity sha512-XLMk59yNJneItn/hkJn+kHjnnszdfXWo1sP95C0kouSfPtIsUC3a/f/FW6c59D8koPANJOIHiHP3zUpTpKsnTA==
   dependencies:
     "@babel/core" "^7.12.0"
     "@babel/helper-compilation-targets" "^7.12.0"
@@ -12952,11 +12952,6 @@ lodash.difference@^4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/lodash.difference/-/lodash.difference-4.5.0.tgz#9ccb4e505d486b91651345772885a2df27fd017c"
   integrity sha1-nMtOUF1Ia5FlE0V3KIWi3yf9AXw=
-
-lodash.endswith@^4.2.1:
-  version "4.2.1"
-  resolved "https://registry.yarnpkg.com/lodash.endswith/-/lodash.endswith-4.2.1.tgz#fed59ac1738ed3e236edd7064ec456448b37bc09"
-  integrity sha1-/tWawXOO0+I27dcGTsRWRIs3vAk=
 
 lodash.escape@^4.0.1:
   version "4.0.1"
@@ -17599,10 +17594,10 @@ snyk-try-require@^2.0.0:
     lodash.clonedeep "^4.3.0"
     lru-cache "^5.1.1"
 
-snyk@1.580.0:
-  version "1.580.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.580.0.tgz#33dbc91228e83bba6d4aea2c84a9380d6ec6ba72"
-  integrity sha512-cRN9fmCcXHEkcuPbDsBuL2Tb1Gx6gMp4duHh8tcu3gMUdEvRDh6gPRFgKK0JHpOctWm1BTbBADfvNI7HLd4mZQ==
+snyk@1.583.0:
+  version "1.583.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.583.0.tgz#ec16010aae7a7861baffa8951d7f3365d77c3c63"
+  integrity sha512-EMhNxF7mXJxwg6QM5udJ5Bsi1ZE/XJo2BMVpSiIYMFudds+GbP3WB8Bnj4oUepdCknTE45yVZZwZ0MsuVXwE7g==
   dependencies:
     "@open-policy-agent/opa-wasm" "^1.2.0"
     "@snyk/cli-interface" "2.11.0"
@@ -17626,7 +17621,6 @@ snyk@1.580.0:
     lodash.assign "^4.2.0"
     lodash.camelcase "^4.3.0"
     lodash.clonedeep "^4.5.0"
-    lodash.endswith "^4.2.1"
     lodash.flatten "^4.4.0"
     lodash.flattendeep "^4.4.0"
     lodash.get "^4.4.2"
