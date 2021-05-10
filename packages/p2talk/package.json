@@ -25,7 +25,7 @@
   "devDependencies": {
     "assertthat": "6.0.0",
     "async": "3.2.0",
-    "comparejs": "4.0.7",
+    "comparejs": "4.0.8",
     "crew": "0.9.1",
     "freeport": "1.0.5",
     "grunt": "1.4.0",
