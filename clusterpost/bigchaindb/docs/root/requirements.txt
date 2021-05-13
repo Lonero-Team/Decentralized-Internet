@@ -4,3 +4,4 @@ sphinx-rtd-theme==0.5.2
 sphinxcontrib-napoleon==0.7
 sphinxcontrib-httpdomain==1.7.0
 packaging==20.9
+pygments>=2.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
