@@ -78,7 +78,7 @@
     "ember-resolver": "8.0.2",
     "ember-cli-eslint": "5.1.0",
     "ember-cli-uglify": "3.0.0",
-    "ember-auto-import": "1.11.3",
+    "ember-auto-import": "2.0.0",
     "bigchaindb-driver": "4.2.2",
     "broccoli-asset-rev": "3.0.0",
     "grunt-contrib-clean": "2.0.0",
