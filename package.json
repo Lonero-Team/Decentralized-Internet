@@ -49,7 +49,7 @@
     "bitcoin-protocol": "^4.0.1",
     "ember-cli-htmlbars": "5.7.1",
     "@jupyterlab/notebook": "3.0.10",
-    "snyk": "1.594.0"
+    "snyk": "1.595.0"
   },
   "husky": {
     "hooks": {
@@ -74,16 +74,16 @@
     "easy-bigchain": "1.0.1",
     "ember-cli-sri": "2.1.1",
     "babel-eslint": "10.1.0",
-    "ember-source": "3.27.0",
+    "ember-source": "3.27.1",
     "ember-resolver": "8.0.2",
     "ember-cli-eslint": "5.1.0",
     "ember-cli-uglify": "3.0.0",
-    "ember-auto-import": "1.11.3",
+    "ember-auto-import": "2.0.0",
     "bigchaindb-driver": "4.2.2",
     "broccoli-asset-rev": "3.0.0",
     "grunt-contrib-clean": "2.0.0",
     "eslint-plugin-node": "11.1.0",
-    "eslint-plugin-ember": "10.4.1",
+    "eslint-plugin-ember": "10.4.2",
     "grunt-contrib-jshint": "3.0.0",
     "grunt-contrib-nodeunit": "3.0.0",
     "ember-load-initializers": "2.1.2",
