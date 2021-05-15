@@ -48,7 +48,7 @@
     "core-js": "3.12.1",
     "docdash": "1.2.0",
     "husky": "6.0.0",
-    "jsdoc": "3.6.6",
+    "jsdoc": "3.6.7",
     "standard": "16.0.3",
     "standard-version": "9.3.0",
     "webpack": "5.37.0",
