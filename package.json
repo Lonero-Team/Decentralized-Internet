@@ -45,7 +45,7 @@
     "tendermint": "^5.0.2",
     "bitcoin-util": "^2.0.0",
     "websocket-stream": "^5.5.2",
-    "ember-cli-babel": "7.26.5",
+    "ember-cli-babel": "7.26.6",
     "bitcoin-protocol": "^4.0.1",
     "ember-cli-htmlbars": "5.7.1",
     "@jupyterlab/notebook": "3.0.11",
