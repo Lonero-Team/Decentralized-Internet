@@ -1484,10 +1484,10 @@
     "@glimmer/interfaces" "^0.51.1"
     "@simple-dom/interface" "^1.4.0"
 
-"@glimmer/vm-babel-plugins@0.78.2":
-  version "0.78.2"
-  resolved "https://registry.yarnpkg.com/@glimmer/vm-babel-plugins/-/vm-babel-plugins-0.78.2.tgz#b530a19f54da385c7099a22cf348e9062d186838"
-  integrity sha512-GSEf16h6OCtKx7PsSvD21cLXZuVc6swW2rSOAvfLeZco1DEWMRgYTwkCkColydKZcQ3gvwbPBeYwTC2K6tlnjg==
+"@glimmer/vm-babel-plugins@0.79.2":
+  version "0.79.2"
+  resolved "https://registry.yarnpkg.com/@glimmer/vm-babel-plugins/-/vm-babel-plugins-0.79.2.tgz#8fa4af60c5089977690ee501c7b358c90b8d6bc5"
+  integrity sha512-c5XQQwM8iogT1mdE/U2+UuGsiFmhP4d53lgXOAq1DQ2/AMFlAXa5djMVETDUlncvLLlo6S3Iaj/FvpqTxwqn2g==
   dependencies:
     babel-plugin-debug-macros "^0.3.4"
 
@@ -8986,16 +8986,16 @@ ember-source-channel-url@^1.0.1:
   dependencies:
     got "^8.0.1"
 
-ember-source@3.27.1:
-  version "3.27.1"
-  resolved "https://registry.yarnpkg.com/ember-source/-/ember-source-3.27.1.tgz#7348d4ff66ce1baf8e25efb2bc70df39b52e88b8"
-  integrity sha512-gBYsWz6eCFWSvdQvteal7LpXmCfUn64cKpZ3OIYeJGuXgl6akg34mCsYltUPdybAxRJzDkJeksTF9WnqqbXmMw==
+ember-source@3.27.2:
+  version "3.27.2"
+  resolved "https://registry.yarnpkg.com/ember-source/-/ember-source-3.27.2.tgz#3ab37191c2079d7e6e69f9c1c679f4c46f164703"
+  integrity sha512-//w9jiikkm9/WRuSBkyO666vtOsbb6P1mFcQGeiQb/MkbpAT29COIQnf8a7YKEPG/G1dgKox9jUPtPhlnaveig==
   dependencies:
     "@babel/helper-module-imports" "^7.8.3"
     "@babel/plugin-transform-block-scoping" "^7.8.3"
     "@babel/plugin-transform-object-assign" "^7.8.3"
     "@ember/edition-utils" "^1.2.0"
-    "@glimmer/vm-babel-plugins" "0.78.2"
+    "@glimmer/vm-babel-plugins" "0.79.2"
     babel-plugin-debug-macros "^0.3.3"
     babel-plugin-filter-imports "^4.0.0"
     broccoli-concat "^4.2.4"
@@ -17984,10 +17984,10 @@ snyk-try-require@^2.0.0:
     lodash.clonedeep "^4.3.0"
     lru-cache "^5.1.1"
 
-snyk@1.612.0:
-  version "1.612.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.612.0.tgz#04802d56676aaa16ba8c766536cdb4d7d7fc7cb4"
-  integrity sha512-zfMR6D7LaykKrXB4Uczq5y1bXOnY7gxfHDHiKl3Vucx/tU0xBUiq2B+KygLADCrzm6v6Mjpw6jJpdf8vxOeCCg==
+snyk@1.613.0:
+  version "1.613.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.613.0.tgz#4cfa618f4d1303dd37a9c0da21452a25789536e6"
+  integrity sha512-HUuZMmiDU3pKAt01Hd1NXF/tJtTjAgSGENo2BvcbKF66Pv1hk1PvxyHbW0UU0rb1CdGrFaCWLirsZgOOCxyKYw==
   dependencies:
     "@open-policy-agent/opa-wasm" "^1.2.0"
     "@snyk/cli-interface" "2.11.0"
