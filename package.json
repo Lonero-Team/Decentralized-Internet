@@ -83,7 +83,7 @@
     "broccoli-asset-rev": "3.0.0",
     "grunt-contrib-clean": "2.0.0",
     "eslint-plugin-node": "11.1.0",
-    "eslint-plugin-ember": "10.4.2",
+    "eslint-plugin-ember": "10.5.0",
     "grunt-contrib-jshint": "3.0.0",
     "grunt-contrib-nodeunit": "3.0.0",
     "ember-load-initializers": "2.1.2",
