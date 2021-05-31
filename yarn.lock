@@ -3074,28 +3074,26 @@
     js-yaml "^3.13.1"
     tslib "^1.10.0"
 
-"@snyk/code-client@3.5.1":
-  version "3.5.1"
-  resolved "https://registry.yarnpkg.com/@snyk/code-client/-/code-client-3.5.1.tgz#d61684ced448de53c4c15b3d9f4b7ab83d7a0483"
-  integrity sha512-hiDIs1tAuObQr8GwebUT1OH1S27odf23HArOHlcz/ddVHaZrRxreF64sflS4urdIxKVK39AYgMpc5M/QD0cgOg==
+"@snyk/code-client@3.7.0":
+  version "3.7.0"
+  resolved "https://registry.yarnpkg.com/@snyk/code-client/-/code-client-3.7.0.tgz#c79684fbb710ca2f2595704eca67560dc9f6d779"
+  integrity sha512-a1uGkSpO4Pr9UucZUVfUR5PVcl1fEA4sXbdZPyzs1AABE7JhMY6FnBYKgQFz2qIkPAPy4M0m18bnGpHq5ZdWNg==
   dependencies:
     "@deepcode/dcignore" "^1.0.2"
     "@snyk/fast-glob" "^3.2.6-patch"
     "@types/flat-cache" "^2.0.0"
     "@types/lodash.chunk" "^4.2.6"
-    "@types/lodash.difference" "^4.5.6"
     "@types/lodash.omit" "^4.5.6"
     "@types/lodash.union" "^4.6.6"
-    "@types/micromatch" "^4.0.1"
+    "@types/multimatch" "^4.0.0"
     "@types/sarif" "^2.1.3"
     "@types/uuid" "^8.3.0"
     axios "^0.21.1"
     ignore "^5.1.8"
     lodash.chunk "^4.2.0"
-    lodash.difference "^4.5.0"
     lodash.omit "^4.5.0"
     lodash.union "^4.6.0"
-    micromatch "^4.0.2"
+    multimatch "^5.0.0"
     queue "^6.0.1"
     uuid "^8.3.2"
 
@@ -3366,11 +3364,6 @@
     "@types/connect" "*"
     "@types/node" "*"
 
-"@types/braces@*":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@types/braces/-/braces-3.0.0.tgz#7da1c0d44ff1c7eb660a36ec078ea61ba7eb42cb"
-  integrity sha512-TbH79tcyi9FHwbyboOKeRachRq63mSuWYXOflsNO9ZyE5ClQ/JaozNKl+aWUq87qPNsXasXxi2AbgfwIJ+8GQw==
-
 "@types/cacheable-request@^6.0.1":
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/@types/cacheable-request/-/cacheable-request-6.0.1.tgz#5d22f3dded1fd3a84c0bbeb5039a7419c2c91976"
@@ -3506,13 +3499,6 @@
   dependencies:
     "@types/lodash" "*"
 
-"@types/lodash.difference@^4.5.6":
-  version "4.5.6"
-  resolved "https://registry.yarnpkg.com/@types/lodash.difference/-/lodash.difference-4.5.6.tgz#41ec5c4e684eeacf543848a9a1b2a4856ccf9853"
-  integrity sha512-wXH53r+uoUCrKhmh7S5Gf6zo3vpsx/zH2R4pvkmDlmopmMTCROAUXDpPMXATGCWkCjE6ik3VZzZUxBgMjZho9Q==
-  dependencies:
-    "@types/lodash" "*"
-
 "@types/lodash.omit@^4.5.6":
   version "4.5.6"
   resolved "https://registry.yarnpkg.com/@types/lodash.omit/-/lodash.omit-4.5.6.tgz#f2a9518259e481a48ff7ec423420fa8fd58933e2"
@@ -3537,13 +3523,6 @@
   resolved "https://registry.yarnpkg.com/@types/long/-/long-4.0.1.tgz#459c65fa1867dafe6a8f322c4c51695663cc55e9"
   integrity sha512-5tXH6Bx/kNGd3MgffdmP4dy2Z+G4eaXw0SE81Tq3BNadtnMR5/ySMzX4SLEzHJzSmPNn4HIdpQsBvXMUykr58w==
 
-"@types/micromatch@^4.0.1":
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/@types/micromatch/-/micromatch-4.0.1.tgz#9381449dd659fc3823fd2a4190ceacc985083bc7"
-  integrity sha512-my6fLBvpY70KattTNzYOK6KU1oR1+UCz9ug/JbcF5UrEmeCt9P7DV2t7L8+t18mMPINqGQCE4O8PLOPbI84gxw==
-  dependencies:
-    "@types/braces" "*"
-
 "@types/mime@*":
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/@types/mime/-/mime-2.0.2.tgz#857a118d8634c84bba7ae14088e4508490cd5da5"
@@ -3558,6 +3537,13 @@
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@types/minimist/-/minimist-1.2.0.tgz#69a23a3ad29caf0097f06eda59b361ee2f0639f6"
   integrity sha1-aaI6OtKcrwCX8G7aWbNh7i8GOfY=
+
+"@types/multimatch@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@types/multimatch/-/multimatch-4.0.0.tgz#e14237ade6cba7b79fe3a1a5d4e9579613cee6b6"
+  integrity sha512-xS26gtqY5QASmfU/6jb5vj7F0D0SctgRGtwXsKSNng1knk/OewjISlkMwGonkMCbZCqSoW3s6nL0sAtTlzbL/g==
+  dependencies:
+    multimatch "*"
 
 "@types/node@*", "@types/node@>= 8", "@types/node@^13.7.0":
   version "13.13.5"
@@ -9389,15 +9375,15 @@ escodegen@^1.14.1, escodegen@^1.8.1:
   optionalDependencies:
     source-map "~0.6.1"
 
-eslint-plugin-ember@10.4.2:
-  version "10.4.2"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-ember/-/eslint-plugin-ember-10.4.2.tgz#b9d7cd36f4a08b18997c23ad6884d2382a7d2ea5"
-  integrity sha512-rOT6e1puS6uWGxr8kPGYSMPordNVTasckuQiaakcjaEGKUtXNjcHtgS8WjmYESIeDFcTCtZvh2w+fHB8tglu4w==
+eslint-plugin-ember@10.5.0:
+  version "10.5.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-ember/-/eslint-plugin-ember-10.5.0.tgz#f2a9e8286dcc026287501bcca4f587af1a7363f5"
+  integrity sha512-i9+zPBgVKH0Goe6/BCY06+Nzjf72vBzWerdtn5YzAXwVbX+O3fZHXKfTwtNS64o/4F+0HyJ356EisD1PuUQGLA==
   dependencies:
     "@ember-data/rfc395-data" "^0.0.4"
     css-tree "^1.0.0-alpha.39"
     ember-rfc176-data "^0.3.15"
-    eslint-utils "^2.1.0"
+    eslint-utils "^3.0.0"
     lodash.kebabcase "^4.1.1"
     requireindex "^1.2.0"
     snake-case "^3.0.3"
@@ -9437,17 +9423,29 @@ eslint-utils@^1.3.1:
   dependencies:
     eslint-visitor-keys "^1.1.0"
 
-eslint-utils@^2.0.0, eslint-utils@^2.1.0:
+eslint-utils@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/eslint-utils/-/eslint-utils-2.1.0.tgz#d2de5e03424e707dc10c74068ddedae708741b27"
   integrity sha512-w94dQYoauyvlDc43XnGB8lU3Zt713vNChgt4EWwhXAP2XkBvndfxF0AgIqKOOasjPIPzj9JqgwkwbCYD0/V3Zg==
   dependencies:
     eslint-visitor-keys "^1.1.0"
 
+eslint-utils@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-utils/-/eslint-utils-3.0.0.tgz#8aebaface7345bb33559db0a1f13a1d2d48c3672"
+  integrity sha512-uuQC43IGctw68pJA1RgbQS8/NP7rch6Cwd4j3ZBtgo4/8Flj4eGE7ZYSZRN3iq5pVUv6GPdW5Z1RFleo84uLDA==
+  dependencies:
+    eslint-visitor-keys "^2.0.0"
+
 eslint-visitor-keys@^1.0.0, eslint-visitor-keys@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-1.1.0.tgz#e2a82cea84ff246ad6fb57f9bde5b46621459ec2"
   integrity sha512-8y9YjtM1JBJU/A9Kc+SbaOV4y29sSWckBwMHa+FGtVj5gN/sbnKDf6xJUl+8g7FAij9LVaP8C24DUiH/f/2Z9A==
+
+eslint-visitor-keys@^2.0.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-2.1.0.tgz#f65328259305927392c938ed44eb0a5c9b2bd303"
+  integrity sha512-0rSmRBzXgDzIsD6mGdJgevzgezI534Cer5L/vyMX0kHzT/jiB43jRhd9YUlMGYLQy2zprNmoT8qasCGtY+QaKw==
 
 eslint@^5.6.0:
   version "5.16.0"
@@ -13225,11 +13223,6 @@ lodash.defaultsdeep@^4.6.0, lodash.defaultsdeep@^4.6.1:
   resolved "https://registry.yarnpkg.com/lodash.defaultsdeep/-/lodash.defaultsdeep-4.6.1.tgz#512e9bd721d272d94e3d3a63653fa17516741ca6"
   integrity sha512-3j8wdDzYuWO3lM3Reg03MuQR957t287Rpcxp1njpEa8oDrikb+FwGdW3n+FELh/A6qib6yPit0j/pv9G/yeAqA==
 
-lodash.difference@^4.5.0:
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/lodash.difference/-/lodash.difference-4.5.0.tgz#9ccb4e505d486b91651345772885a2df27fd017c"
-  integrity sha1-nMtOUF1Ia5FlE0V3KIWi3yf9AXw=
-
 lodash.escape@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/lodash.escape/-/lodash.escape-4.0.1.tgz#c9044690c21e04294beaa517712fded1fa88de98"
@@ -14350,7 +14343,7 @@ multicast-dns@^7.1.1:
     dns-packet "^4.0.0"
     thunky "^1.0.2"
 
-multimatch@^5.0.0:
+multimatch@*, multimatch@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/multimatch/-/multimatch-5.0.0.tgz#932b800963cea7a31a033328fa1e0c3a1874dbe6"
   integrity sha512-ypMKuglUrZUD99Tk2bUQ+xNQj43lPEfAeX2o9cTteAmShXy2VHDJpuwu1o0xqoKCt9jLVAvwyFKdLTPXKAfJyA==
@@ -17834,10 +17827,10 @@ snyk-nodejs-lockfile-parser@1.34.0:
     uuid "^8.3.0"
     yaml "^1.9.2"
 
-snyk-nodejs-lockfile-parser@1.34.2:
-  version "1.34.2"
-  resolved "https://registry.yarnpkg.com/snyk-nodejs-lockfile-parser/-/snyk-nodejs-lockfile-parser-1.34.2.tgz#31328b10c028c57caf538d860175b106c47e5f68"
-  integrity sha512-evLJmX+ZOs5fw0LTVXFkzxfUnI1GcFSBYEXgbD3AbWBpo5Qqsxr33rKlPvbpJ98sOXHfv1vPkY1WloGVTNF84w==
+snyk-nodejs-lockfile-parser@1.35.0:
+  version "1.35.0"
+  resolved "https://registry.yarnpkg.com/snyk-nodejs-lockfile-parser/-/snyk-nodejs-lockfile-parser-1.35.0.tgz#1cdf13abd05dc5e560e513936cb766f6ed6abe97"
+  integrity sha512-fSjer9Ic8cdA2HvInUmhwbAhoLFXIokAzGB1PeGKwr0zzyfo3dSX3ReTMEbkhrEg+h0eES13px/KiiJ0EKRKMg==
   dependencies:
     "@snyk/graphlib" "2.1.9-patch.3"
     "@yarnpkg/core" "^2.4.0"
@@ -17984,15 +17977,15 @@ snyk-try-require@^2.0.0:
     lodash.clonedeep "^4.3.0"
     lru-cache "^5.1.1"
 
-snyk@1.613.0:
-  version "1.613.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.613.0.tgz#4cfa618f4d1303dd37a9c0da21452a25789536e6"
-  integrity sha512-HUuZMmiDU3pKAt01Hd1NXF/tJtTjAgSGENo2BvcbKF66Pv1hk1PvxyHbW0UU0rb1CdGrFaCWLirsZgOOCxyKYw==
+snyk@1.618.0:
+  version "1.618.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.618.0.tgz#111c0a249dd27a3c3ee08b5f5844a75bd51864c8"
+  integrity sha512-N4pTbZQgoZYsammFO65c8SPdmH0bxd3iP0cV6xWsbNeueLqjAJ9pKkT3+tYcIi97HmkXo6Zf1RAliH/Kge/akA==
   dependencies:
     "@open-policy-agent/opa-wasm" "^1.2.0"
     "@snyk/cli-interface" "2.11.0"
     "@snyk/cloud-config-parser" "^1.9.2"
-    "@snyk/code-client" "3.5.1"
+    "@snyk/code-client" "3.7.0"
     "@snyk/dep-graph" "^1.27.1"
     "@snyk/fix" "1.601.0"
     "@snyk/gemfile" "1.2.0"
@@ -18042,7 +18035,7 @@ snyk@1.613.0:
     snyk-gradle-plugin "3.16.0"
     snyk-module "3.1.0"
     snyk-mvn-plugin "2.26.0"
-    snyk-nodejs-lockfile-parser "1.34.2"
+    snyk-nodejs-lockfile-parser "1.35.0"
     snyk-nuget-plugin "1.21.1"
     snyk-php-plugin "1.9.2"
     snyk-policy "1.19.0"
