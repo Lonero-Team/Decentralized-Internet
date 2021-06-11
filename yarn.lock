@@ -15881,10 +15881,10 @@ pm2-sysmonit@^1.2.8:
     systeminformation "^5.7"
     tx2 "~1.0.4"
 
-pm2@5.0.4:
-  version "5.0.4"
-  resolved "https://registry.yarnpkg.com/pm2/-/pm2-5.0.4.tgz#9043a8ea93657c8980dd1cbb1c9f1ac5156233b5"
-  integrity sha512-/g4yCfCgdK0FJR2c92D0ZqmeUzpJ4y1yMU5adcg6qWTBoEfnCL3n84fA96ug5yVHQ1ehSdMTTbZfdVIdCi53rQ==
+pm2@5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/pm2/-/pm2-5.1.0.tgz#96afd4fcfeaf8739eef7f796115d3a014d5aa574"
+  integrity sha512-reJ35NOxM4+g7H0enW47HJsp32CszKkseCojAuUMUkffyXsGDKBMnDqhxAZMZKtHUUjl0cWFEqKehqB0ODH8Kw==
   dependencies:
     "@pm2/agent" "~2.0.0"
     "@pm2/io" "~5.0.0"
