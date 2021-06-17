@@ -3075,10 +3075,10 @@
     js-yaml "^3.13.1"
     tslib "^1.10.0"
 
-"@snyk/code-client@3.8.1":
-  version "3.8.1"
-  resolved "https://registry.yarnpkg.com/@snyk/code-client/-/code-client-3.8.1.tgz#9e109004854ff3a3dd4f0e18a9526e0c4ab8bdaa"
-  integrity sha512-7HrkscxEXC5eVehZ6nip2uIFDbuvCuux0lrj78twaAnVn9uUx/4G7AKZl8JcrESQEN6py80tJzjvPlBybHJ1+g==
+"@snyk/code-client@3.9.0":
+  version "3.9.0"
+  resolved "https://registry.yarnpkg.com/@snyk/code-client/-/code-client-3.9.0.tgz#5cb690327765aa2546c74fa045bf32ac26dd6bd4"
+  integrity sha512-sscrpiODOlQI87B4OFIClnoZmHEHzJ7vULYhikS/R/2KavG4vGPw7Qe2to5rximxR3VFdWQ0wNVFB0RkU2mjPQ==
   dependencies:
     "@deepcode/dcignore" "^1.0.2"
     "@snyk/fast-glob" "^3.2.6-patch"
@@ -18020,15 +18020,15 @@ snyk-try-require@^2.0.0:
     lodash.clonedeep "^4.3.0"
     lru-cache "^5.1.1"
 
-snyk@1.634.0:
-  version "1.634.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.634.0.tgz#4bfd898bfcdc54a4706313129beaf43acdff1237"
-  integrity sha512-8e45mjApX09tOR97e9EO9/yNJRe+E6vY+od9eGXMyR+eeLiluAv8XgwikdnX5wxNkZgkQAQCVv1nukdj8hrTgA==
+snyk@1.638.0:
+  version "1.638.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.638.0.tgz#d511d490ecbf160ccbb3f86cddf9ec16755a6c49"
+  integrity sha512-Uvzpz7G/vUvxinb7DY6kxgGiElDDK/nMCXK7oqgeUNZv8XotcY57lECo3B33N9ei0YWM/EaE7W1Oek17fbbmzA==
   dependencies:
     "@open-policy-agent/opa-wasm" "^1.2.0"
     "@snyk/cli-interface" "2.11.0"
     "@snyk/cloud-config-parser" "^1.9.2"
-    "@snyk/code-client" "3.8.1"
+    "@snyk/code-client" "3.9.0"
     "@snyk/dep-graph" "^1.27.1"
     "@snyk/fix" "1.620.0"
     "@snyk/gemfile" "1.2.0"
@@ -19643,10 +19643,10 @@ typescript-memoize@^1.0.0-alpha.3:
   dependencies:
     core-js "2.4.1"
 
-typescript@4.3.3:
-  version "4.3.3"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.3.3.tgz#5401db69bd3203daf1851a1a74d199cb3112c11a"
-  integrity sha512-rUvLW0WtF7PF2b9yenwWUi9Da9euvDRhmH7BLyBG4DCFfOJ850LGNknmRpp8Z8kXNUPObdZQEfKOiHtXuQHHKA==
+typescript@4.3.4:
+  version "4.3.4"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.3.4.tgz#3f85b986945bcf31071decdd96cf8bfa65f9dcbc"
+  integrity sha512-uauPG7XZn9F/mo+7MrsRjyvbxFpzemRjKEZXS4AK83oP2KKOJPvb+9cO/gmnv8arWZvhnjVOXz7B49m1l0e9Ew==
 
 typescript@^3.7.2:
   version "3.9.9"
