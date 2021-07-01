@@ -61,7 +61,7 @@
     "minify": "*",
     "minimist": "*",
     "grunt": "1.4.1",
-    "husky": "6.0.0",
+    "husky": "7.0.0",
     "lerna": "4.0.0",
     "bcrypt": "5.0.1",
     "hash.js": "1.1.7",
