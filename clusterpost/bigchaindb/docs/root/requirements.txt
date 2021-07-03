@@ -3,5 +3,5 @@ recommonmark==0.7.1
 sphinx-rtd-theme==0.5.2
 sphinxcontrib-napoleon==0.7
 sphinxcontrib-httpdomain==1.7.0
-packaging==20.9
+packaging==21.0
 pygments>=2.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
