@@ -1,4 +1,4 @@
-FROM mhart/alpine-node:16.2.0
+FROM mhart/alpine-node:16.4.2
 MAINTAINER the native web <hello@thenativeweb.io>
 
 ADD package.json /p2p/
