@@ -12,7 +12,7 @@
     "install": "napa",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "NODE_ENV=production node index.js",
-    "snyk-protect": "snyk protect",
+    "snyk-protect": "snyk-protect",
     "prepare": "npm run snyk-protect"
   },
   "repository": {
@@ -36,7 +36,7 @@
     "clusterpost-server": "file:src/clusterpost-server",
     "couch-update-views": "file:src/couch-update-views",
     "joi": "^17.0.0",
-    "snyk": "^1.667.0"
+    "@snyk/protect": "latest"
   },
   "snyk": true
 }
