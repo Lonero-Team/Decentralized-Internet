@@ -6,7 +6,7 @@
   "scripts": {
     "test": "lab -v test.js",
     "postinstall": "node postinstall.js",
-    "snyk-protect": "snyk protect",
+    "snyk-protect": "snyk-protect",
     "prepare": "npm run snyk-protect"
   },
   "repository": {
@@ -32,7 +32,7 @@
     "joi": "^17.0.0",
     "lab": "^18.0.0",
     "request": "^2.88.0",
-    "snyk": "^1.667.0"
+    "@snyk/protect": "latest"
   },
   "snyk": true
 }
