@@ -23,7 +23,7 @@
     "snyk": "^1.337.0"
   },
   "devDependencies": {
-    "assertthat": "6.3.9",
+    "assertthat": "6.3.11",
     "async": "3.2.0",
     "comparejs": "4.0.13",
     "crew": "0.9.1",
