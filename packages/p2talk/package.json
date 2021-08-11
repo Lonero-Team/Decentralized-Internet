@@ -31,7 +31,7 @@
     "grunt": "1.4.1",
     "knockat": "4.0.94",
     "nock": "13.1.1",
-    "supertest": "6.1.4",
+    "supertest": "6.1.5",
     "tourism": "0.21.0"
   },
   "scripts": {
