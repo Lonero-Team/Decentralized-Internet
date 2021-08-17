@@ -1625,6 +1625,11 @@
     "@glimmer/interfaces" "^0.42.2"
     "@glimmer/util" "^0.42.2"
 
+"@iarna/toml@^2.2.5":
+  version "2.2.5"
+  resolved "https://registry.yarnpkg.com/@iarna/toml/-/toml-2.2.5.tgz#b32366c89b43c6f8cefbdefac778b9c828e3ba8c"
+  integrity sha512-trnsAYxU3xnS1gPHPyU961coFyLkh4gAD/0zQ5mymY4yOZ+CYvsPqUbOFSw0aDM4y0tV7tiFxL/1XfXPNC6IPg==
+
 "@jupyterlab/apputils@^3.1.6":
   version "3.1.6"
   resolved "https://registry.yarnpkg.com/@jupyterlab/apputils/-/apputils-3.1.6.tgz#159ca97ac3651e54bf91273f2be181827c48d87b"
@@ -9537,10 +9542,10 @@ escodegen@^1.14.1, escodegen@^1.8.1:
   optionalDependencies:
     source-map "~0.6.1"
 
-eslint-plugin-ember@10.5.1:
-  version "10.5.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-ember/-/eslint-plugin-ember-10.5.1.tgz#3ec65cb562b438c64aa28d772606dbb55705e037"
-  integrity sha512-6cubCQdsybN2DtuXnlkhqi3SemBk4ktjq2k4vcjFG8QLmrpmiS6sDwIZMM/TLI8f9QwZIjmewhwS4zB/77E47w==
+eslint-plugin-ember@10.5.2:
+  version "10.5.2"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-ember/-/eslint-plugin-ember-10.5.2.tgz#4b6112994294beac8a7a64afcec6c5effd30c790"
+  integrity sha512-CCYuBFW6AB9/mKYUDfSriXVEQVrsCfxWEoFIChoFmUW5pdmu7Qd+AsdfNzw+2DX3U94fftKpnRMTMraFdbBWSw==
   dependencies:
     "@ember-data/rfc395-data" "^0.0.4"
     css-tree "^1.0.0-alpha.39"
@@ -17970,10 +17975,10 @@ snyk-nodejs-lockfile-parser@1.36.0:
     tslib "^1.9.3"
     uuid "^8.3.0"
 
-snyk-nuget-plugin@1.22.0:
-  version "1.22.0"
-  resolved "https://registry.yarnpkg.com/snyk-nuget-plugin/-/snyk-nuget-plugin-1.22.0.tgz#05c4aab0ebf1b74cea966503b8c272aee8502d9c"
-  integrity sha512-R0pmcEYeoM3B6BUMUf30jPQgQo8ngHW0gAabyGMnBV3ZDvJ99TCa7McSIjI/3obdT1ERIKKF6bZxuzps4uzVOA==
+snyk-nuget-plugin@1.22.1:
+  version "1.22.1"
+  resolved "https://registry.yarnpkg.com/snyk-nuget-plugin/-/snyk-nuget-plugin-1.22.1.tgz#e50d9316234390e8112bd4ab10f12f517ab813f5"
+  integrity sha512-Z/NAM7DECBTMXSGPQ9Ubc4AJsFw8ioq+UVpDQu3tkbjd83Pp0JODRjH6rElN7PnsvEADfJt8THfyC0ehXxZD/Q==
   dependencies:
     debug "^4.1.1"
     dotnet-deps-parser "5.1.0"
@@ -17998,15 +18003,15 @@ snyk-php-plugin@1.9.2:
     "@snyk/composer-lockfile-parser" "^1.4.1"
     tslib "1.11.1"
 
-snyk-poetry-lockfile-parser@^1.1.6:
-  version "1.1.6"
-  resolved "https://registry.yarnpkg.com/snyk-poetry-lockfile-parser/-/snyk-poetry-lockfile-parser-1.1.6.tgz#bab5a279c103cbcca8eb86ab87717b115592881e"
-  integrity sha512-MoekbWOZPj9umfukjk2bd2o3eRj0OyO+58sxq9crMtHmTlze4h0/Uj4+fb0JFPBOtBO3c2zwbA+dvFQmpKoOTA==
+snyk-poetry-lockfile-parser@^1.1.7:
+  version "1.1.7"
+  resolved "https://registry.yarnpkg.com/snyk-poetry-lockfile-parser/-/snyk-poetry-lockfile-parser-1.1.7.tgz#c7e4af4c1aefe99d51a8a18e73b148906d655bc2"
+  integrity sha512-5waaslW7odDlox3WQMouSh/BjBrKq2rolMox3Ij/Vaju8r/3eWvs7anikzJUzNKwNcLm8AR5u4ftG/hxqDJJgA==
   dependencies:
+    "@iarna/toml" "^2.2.5"
     "@snyk/cli-interface" "^2.9.2"
     "@snyk/dep-graph" "^1.23.0"
     debug "^4.2.0"
-    toml "^3.0.0"
     tslib "^2.0.0"
 
 snyk-policy@1.22.0:
@@ -18024,13 +18029,13 @@ snyk-policy@1.22.0:
     snyk-resolve "^1.1.0"
     snyk-try-require "^2.0.0"
 
-snyk-python-plugin@1.19.11:
-  version "1.19.11"
-  resolved "https://registry.yarnpkg.com/snyk-python-plugin/-/snyk-python-plugin-1.19.11.tgz#4ccb213f218606c386ef943113d0872e69c34f09"
-  integrity sha512-zUKbSbw+wU1FCUDYt+IDjaES0pc1UKBECOqjHSJMxWm9VhstvPtI4KccetwOfne2oUcmaEJJvcEp4s9VTK04XQ==
+snyk-python-plugin@1.20.1:
+  version "1.20.1"
+  resolved "https://registry.yarnpkg.com/snyk-python-plugin/-/snyk-python-plugin-1.20.1.tgz#dcbc4fb4c67ec78d5161f4adb33799e5e24f1745"
+  integrity sha512-BW5e5o59ev9PzwjVYmWWCgQpVIsMwK3rkEh1BYPMNHFbRC9QXvKsZmr9UX+jSo1rOWNy3fUIjh8t9NAK536YPQ==
   dependencies:
     "@snyk/cli-interface" "^2.0.3"
-    snyk-poetry-lockfile-parser "^1.1.6"
+    snyk-poetry-lockfile-parser "^1.1.7"
     tmp "0.2.1"
 
 snyk-resolve-deps@4.7.2:
@@ -18099,10 +18104,10 @@ snyk-try-require@^2.0.0:
     lodash.clonedeep "^4.3.0"
     lru-cache "^5.1.1"
 
-snyk@1.681.0:
-  version "1.681.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.681.0.tgz#ff0300a94deffd5e82d14145a6b97ed9486eb71f"
-  integrity sha512-SzzCytuUzKfTLd54cQw1FN8j/iRmucJ+IsVpVJlHwCUgXxKi1M80d5vaVXsfCWk42L0Gvh4I/YkllJC8QQXqig==
+snyk@1.683.0:
+  version "1.683.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.683.0.tgz#9cd1ce3742c6e4127f4addd5c2b2dff742619b66"
+  integrity sha512-cvdSuSuHyb7ijF68afG/Nbxm4wxnPQQCMjB0SYqTln+W7tMY8wLUr86QaQZIBN2Umb7zgY40gBRDq2R2nYVZGQ==
   dependencies:
     "@open-policy-agent/opa-wasm" "^1.2.0"
     "@snyk/cli-interface" "2.11.0"
@@ -18159,10 +18164,10 @@ snyk@1.681.0:
     snyk-module "3.1.0"
     snyk-mvn-plugin "2.26.2"
     snyk-nodejs-lockfile-parser "1.35.0"
-    snyk-nuget-plugin "1.22.0"
+    snyk-nuget-plugin "1.22.1"
     snyk-php-plugin "1.9.2"
     snyk-policy "1.22.0"
-    snyk-python-plugin "1.19.11"
+    snyk-python-plugin "1.20.1"
     snyk-resolve "1.1.0"
     snyk-resolve-deps "4.7.2"
     snyk-sbt-plugin "2.11.3"
