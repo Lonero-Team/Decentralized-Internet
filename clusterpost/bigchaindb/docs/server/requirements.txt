@@ -2,7 +2,7 @@ Sphinx==4.2.0
 recommonmark==0.7.1
 sphinx-rtd-theme==1.0.0
 sphinxcontrib-napoleon==0.7
-sphinxcontrib-httpdomain==1.7.0
+sphinxcontrib-httpdomain==1.8.0
 pyyaml==5.4.1
 aafigure==0.6
 packaging==21.0
