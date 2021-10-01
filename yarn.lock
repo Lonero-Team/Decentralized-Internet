@@ -12550,9 +12550,9 @@ min-indent@^1.0.0:
   integrity sha1-z8RcN+nsDY8KDsPdTvf3w6vjklY=
 
 minify@*:
-  version "7.2.2"
-  resolved "https://registry.yarnpkg.com/minify/-/minify-7.2.2.tgz#8d0e1bb66ed3b1001975dca3939fb902d5b923ad"
-  integrity sha512-AcgoqXRQX0o/PRrydK8klB5OD09lFjJ/OYVHGxmWmbg/DQP/ETmmPM4aA10NZBiGdlLeUnC9sCgrgJAt0P14mA==
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/minify/-/minify-8.0.0.tgz#08b5231662374fcf467da4c66e4a4b2d2880a60c"
+  integrity sha512-lO36ik7dEmc5FG7Cyl3uhEX12KYFh8tgjntKj/Krt1LDfVEvctf7QuilmdV0lTrYFNR4N6rf5mQvv4sQOCv5Og==
   dependencies:
     clean-css "^5.0.1"
     css-b64-images "~0.2.5"
@@ -12560,6 +12560,7 @@ minify@*:
     find-up "^6.1.0"
     html-minifier-terser "^6.0.2"
     readjson "^2.2.2"
+    simport "^1.2.0"
     terser "^5.3.2"
     try-catch "^3.0.0"
     try-to-catch "^3.0.0"
@@ -15048,7 +15049,7 @@ readdirp@~3.5.0:
   dependencies:
     picomatch "^2.2.1"
 
-readjson@^2.2.2:
+readjson@^2.2.0, readjson@^2.2.2:
   version "2.2.2"
   resolved "https://registry.yarnpkg.com/readjson/-/readjson-2.2.2.tgz#ed940ebdd72b88b383e02db7117402f980158959"
   integrity sha512-PdeC9tsmLWBiL8vMhJvocq+OezQ3HhsH2HrN7YkhfYcTjQSa/iraB15A7Qvt7Xpr0Yd2rDNt6GbFwVQDg3HcAw==
@@ -15914,6 +15915,14 @@ simple-sha1@^2.1.0:
   integrity sha512-TQl9rm4rdKAVmhO++sXAb8TNN0D6JAD5iyI1mqEPNpxUzTRrtm4aOG1pDf/5W/qCFihiaoK6uuL9rvQz1x1VKw==
   dependencies:
     rusha "^0.8.1"
+
+simport@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/simport/-/simport-1.2.0.tgz#7baabdc1787b3dd8d9ef157938442ddff14d6e6b"
+  integrity sha512-85Bm7pKsqiiQ8rmYCaPDdlXZjJvuW6/k/FY8MTtLFMgU7f8S00CgTHfRtWB6KwSb6ek4p9YyG2enG1+yJbl+CA==
+  dependencies:
+    readjson "^2.2.0"
+    try-to-catch "^3.0.0"
 
 slash@^1.0.0:
   version "1.0.0"
