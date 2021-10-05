@@ -12550,9 +12550,9 @@ min-indent@^1.0.0:
   integrity sha1-z8RcN+nsDY8KDsPdTvf3w6vjklY=
 
 minify@*:
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/minify/-/minify-8.0.0.tgz#08b5231662374fcf467da4c66e4a4b2d2880a60c"
-  integrity sha512-lO36ik7dEmc5FG7Cyl3uhEX12KYFh8tgjntKj/Krt1LDfVEvctf7QuilmdV0lTrYFNR4N6rf5mQvv4sQOCv5Og==
+  version "8.0.1"
+  resolved "https://registry.yarnpkg.com/minify/-/minify-8.0.1.tgz#3e16c7bbde13d0c3e153a3f7d3712e006036b24e"
+  integrity sha512-+j8jekFoR/ykHVPJ9ukSRl+z5vfhrWN89ktm+SMlf+f0T/sOfveALF5XePJNnA/n85GE1ktuVBJ28Isg3Feraw==
   dependencies:
     clean-css "^5.0.1"
     css-b64-images "~0.2.5"
@@ -16000,10 +16000,10 @@ snapdragon@^0.8.1:
     source-map-resolve "^0.5.0"
     use "^3.1.0"
 
-snyk@1.729.0:
-  version "1.729.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.729.0.tgz#3e0946b90e4efeccc93b1bca6d063d5e75868e6d"
-  integrity sha512-+JFr+wvJCUJajsaEUF298Z7oJTkIrGQgBeqW6R8ZKOjUzawue8s406ILJ+E/40Jh14QkT00iOLKxr1pjS/CUIw==
+snyk@1.730.0:
+  version "1.730.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.730.0.tgz#d84ba618be1a023b400e3e6a40208213d6c8fa0c"
+  integrity sha512-g5tsuOU8bmNezkobhhhkAT2D0tmWrI1pR4yrU5InFZOLs4Ch9Vz8lnUnfCEVxUftsyXx3dHnSbc+3ncEHnorVw==
 
 socket.io-adapter@~1.1.0:
   version "1.1.2"
