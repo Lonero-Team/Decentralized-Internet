@@ -8287,15 +8287,16 @@ escodegen@^1.14.1, escodegen@^1.8.1:
   optionalDependencies:
     source-map "~0.6.1"
 
-eslint-plugin-ember@10.5.5:
-  version "10.5.5"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-ember/-/eslint-plugin-ember-10.5.5.tgz#fbd292f24ea9ea4d32979d42039dbb878b6cf545"
-  integrity sha512-yuNiGyOT2pRaGcifJo9H5RU5XlHiVUXvNuAlLBXrTQyZtsOYFBsXgEhMCCq4BVV/0Q79SqXG+03ceB1YtoJHEQ==
+eslint-plugin-ember@10.5.6:
+  version "10.5.6"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-ember/-/eslint-plugin-ember-10.5.6.tgz#2f44fc4bfd8b9bfc80d3956c29cd9cc0380fca42"
+  integrity sha512-07R1wxKQ8otuD6k0dEOvahztgsFt2tnGV1V8Uj0d2SX0KsGGrpAIQRiEmlaQ1nd0DpgpszbhOBvsMLV4F/CtIQ==
   dependencies:
     "@ember-data/rfc395-data" "^0.0.4"
     css-tree "^1.0.0-alpha.39"
     ember-rfc176-data "^0.3.15"
     eslint-utils "^3.0.0"
+    estraverse "^5.2.0"
     lodash.kebabcase "^4.1.1"
     requireindex "^1.2.0"
     snake-case "^3.0.3"
@@ -8443,6 +8444,11 @@ estraverse@^4.0.0, estraverse@^4.1.0, estraverse@^4.1.1, estraverse@^4.2.0:
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/estraverse/-/estraverse-4.3.0.tgz#398ad3f3c5a24948be7725e83d11a7de28cdbd1d"
   integrity sha512-39nnKffWz8xN1BU/2c79n9nB9HDzo0niYUqx6xyqUnyoAnQyyWpOTdZEeiCch8BBu515t4wp9ZmgVfVhn9EBpw==
+
+estraverse@^5.2.0:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/estraverse/-/estraverse-5.2.0.tgz#307df42547e6cc7324d3cf03c155d5cdb8c53880"
+  integrity sha512-BxbNGGNm0RyRYvUdHpIwv9IWzeM9XClbOxwoATuFdOE7ZE6wHL+HQ5T8hoPM+zHvmKzzsEqhgy0GrQ5X13afiQ==
 
 esutils@^2.0.2:
   version "2.0.3"
@@ -16040,10 +16046,10 @@ snapdragon@^0.8.1:
     source-map-resolve "^0.5.0"
     use "^3.1.0"
 
-snyk@1.733.0:
-  version "1.733.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.733.0.tgz#e3982dfa0fba0ab1d0b2b84c07b6f109b2b4e0f2"
-  integrity sha512-Mi/wk9tw8ma4P2+2QwgzGDHcIG0Tfj0Wn7cliuUqd7CM8bg+Oryq3g4NcNK6mJZz0VaISF8MCIcIzbqV8v0JYg==
+snyk@1.735.0:
+  version "1.735.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.735.0.tgz#0a7a63158f675a987a95eceea9c2ee719757959a"
+  integrity sha512-Nmlpt5w+mpAIjCOLpHuIvSzSQPkIZjJb0F4hvy3e7MjCBQbpdcnx9FW33X62PQXJuQtcN1Oki+teONkDWAPQwQ==
 
 socket.io-adapter@~1.1.0:
   version "1.1.2"
