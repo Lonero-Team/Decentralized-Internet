@@ -7720,10 +7720,10 @@ ember-cli-version-checker@^5.0.1, ember-cli-version-checker@^5.1.1, ember-cli-ve
     semver "^7.3.4"
     silent-error "^1.1.1"
 
-ember-cli@3.28.1:
-  version "3.28.1"
-  resolved "https://registry.yarnpkg.com/ember-cli/-/ember-cli-3.28.1.tgz#ba32fa6844ac3059bfe9fab355c6f8386dc81fed"
-  integrity sha512-1SgI4RWJor4yyQIZJvz1egPTYeNUwO5cm4YFXfozU1e5iKcIHM8M2UrGCf3GSGyaFptIxMaDBD3o7GJBnrAb1g==
+ember-cli@3.28.2:
+  version "3.28.2"
+  resolved "https://registry.yarnpkg.com/ember-cli/-/ember-cli-3.28.2.tgz#1d23337cab4222828916deef65d7fbc380b55bfa"
+  integrity sha512-TZ6Q3e1OerrLrmEUvSQgV2ubffvydV3gXE1dYnY2WKC7/BEpiN6ymfY0msQfo/Ml0xPDL3vN/9avTVWMeqkWOQ==
   dependencies:
     "@babel/core" "^7.13.8"
     "@babel/plugin-transform-modules-amd" "^7.12.1"
@@ -16046,10 +16046,10 @@ snapdragon@^0.8.1:
     source-map-resolve "^0.5.0"
     use "^3.1.0"
 
-snyk@1.735.0:
-  version "1.735.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.735.0.tgz#0a7a63158f675a987a95eceea9c2ee719757959a"
-  integrity sha512-Nmlpt5w+mpAIjCOLpHuIvSzSQPkIZjJb0F4hvy3e7MjCBQbpdcnx9FW33X62PQXJuQtcN1Oki+teONkDWAPQwQ==
+snyk@1.736.0:
+  version "1.736.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.736.0.tgz#e0b9096793ce2beb9b41a12735da80c24db62aff"
+  integrity sha512-z1sDPgqOkMQ1aHOZxLEs2WWCe/gCTEbYaecZNIZIpJI9GDqyZLiK09TwyjkTw8UFeoYbkj2KccQHCI/EApg7nw==
 
 socket.io-adapter@~1.1.0:
   version "1.1.2"
