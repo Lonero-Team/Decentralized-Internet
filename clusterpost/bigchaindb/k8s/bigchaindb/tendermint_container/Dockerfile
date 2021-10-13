@@ -1,4 +1,4 @@
-FROM tendermint/tendermint:v0.34.13
+FROM tendermint/tendermint:v0.34.14
 LABEL maintainer "devs@bigchaindb.com"
 WORKDIR /
 USER root
