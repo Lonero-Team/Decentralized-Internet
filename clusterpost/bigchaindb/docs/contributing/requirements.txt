@@ -2,5 +2,5 @@ Sphinx==4.2.0
 recommonmark==0.7.1
 sphinx-rtd-theme==1.0.0
 wget
-packaging==21.0
+packaging==21.2
 pygments==2.10.0 # not directly required, pinned by Snyk to avoid a vulnerability
