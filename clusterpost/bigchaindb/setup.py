@@ -80,7 +80,7 @@ install_requires = [
     'pymongo~=3.6',
     'cryptoconditions==0.8.1',
     'python-rapidjson~=0.6.0',
-    'logstats~=0.2.1',
+    'logstats~=0.3.0',
     'flask>=0.10.1',
     'flask-cors~=3.0.0',
     'flask-restful~=0.3.0',
