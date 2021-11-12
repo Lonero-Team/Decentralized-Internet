@@ -89,7 +89,7 @@ install_requires = [
     'jsonschema~=2.5.1',
     'pyyaml>=4.2b1',
     'aiohttp~=3.0',
-    'bigchaindb-abci==0.7.1',
+    'bigchaindb-abci==1.0.7',
     'setproctitle~=1.1.0',
     'packaging~=18.0',
 ]
