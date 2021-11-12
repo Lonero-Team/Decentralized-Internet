@@ -90,7 +90,7 @@ install_requires = [
     'pyyaml>=4.2b1',
     'aiohttp~=3.0',
     'bigchaindb-abci==0.7.1',
-    'setproctitle~=1.1.0',
+    'setproctitle~=1.2.2',
     'packaging~=18.0',
 ]
 
