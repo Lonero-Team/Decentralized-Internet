@@ -86,7 +86,7 @@ install_requires = [
     'flask-restful~=0.3.0',
     'requests>=2.20.0',
     'gunicorn~=19.0',
-    'jsonschema~=2.5.1',
+    'jsonschema~=2.6.0',
     'pyyaml>=4.2b1',
     'aiohttp~=3.0',
     'bigchaindb-abci==0.7.1',
