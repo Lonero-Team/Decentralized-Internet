@@ -79,7 +79,7 @@ install_requires = [
     # TODO Consider not installing the db drivers, or putting them in extras.
     'pymongo~=3.6',
     'cryptoconditions==0.8.1',
-    'python-rapidjson~=0.6.0',
+    'python-rapidjson~=0.9.4',
     'logstats~=0.2.1',
     'flask>=0.10.1',
     'flask-cors~=3.0.0',
