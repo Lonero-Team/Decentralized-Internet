@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.19.0
+version: v1.22.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -10417,6 +10417,122 @@ patch:
         patched: '2020-11-23T19:31:14.405Z'
     - react-jwt-auth > babel-preset-stage-0 > babel-preset-stage-1 > babel-preset-stage-2 > babel-preset-stage-3 > babel-plugin-transform-async-generator-functions > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
         patched: '2020-11-23T19:31:14.405Z'
+    - clusterpost-list-react > eslint > lodash:
+        patched: '2021-12-08T03:08:39.938Z'
+    - clusterpost-list-react > eslint-plugin-import > lodash:
+        patched: '2021-12-08T03:08:39.938Z'
+    - react-jwt-auth > eslint > lodash:
+        patched: '2021-12-08T03:08:39.938Z'
+    - react-jwt-auth > eslint-plugin-import > lodash:
+        patched: '2021-12-08T03:08:39.938Z'
+    - clusterpost-list-react > @svgr/rollup > @babel/core > lodash:
+        patched: '2021-12-08T03:08:39.938Z'
+    - clusterpost-list-react > babel-eslint > @babel/traverse > lodash:
+        patched: '2021-12-08T03:08:39.938Z'
+    - clusterpost-list-react > eslint > inquirer > lodash:
+        patched: '2021-12-08T03:08:39.938Z'
+    - clusterpost-list-react > eslint > table > lodash:
+        patched: '2021-12-08T03:08:39.938Z'
+    - clusterpost-list-react > gh-pages > async > lodash:
+        patched: '2021-12-08T03:08:39.938Z'
+    - clusterpost-list-react > react-scripts > babel-core > lodash:
+        patched: '2021-12-08T03:08:39.938Z'
+    - clusterpost-list-react > react-scripts > eslint > lodash:
+        patched: '2021-12-08T03:08:39.938Z'
+    - clusterpost-list-react > react-scripts > eslint-plugin-flowtype > lodash:
+        patched: '2021-12-08T03:08:39.938Z'
+    - clusterpost-list-react > react-scripts > html-webpack-plugin > lodash:
+        patched: '2021-12-08T03:08:39.938Z'
+    - clusterpost-list-react > react-scripts > webpack-manifest-plugin > lodash:
+        patched: '2021-12-08T03:08:39.938Z'
+    - react-jwt-auth > @svgr/rollup > @babel/core > lodash:
+        patched: '2021-12-08T03:08:39.938Z'
+    - react-jwt-auth > babel-eslint > @babel/traverse > lodash:
+        patched: '2021-12-08T03:08:39.938Z'
+    - react-jwt-auth > eslint > inquirer > lodash:
+        patched: '2021-12-08T03:08:39.938Z'
+    - react-jwt-auth > eslint > table > lodash:
+        patched: '2021-12-08T03:08:39.938Z'
+    - react-jwt-auth > gh-pages > async > lodash:
+        patched: '2021-12-08T03:08:39.938Z'
+    - react-jwt-auth > react-scripts > babel-core > lodash:
+        patched: '2021-12-08T03:08:39.938Z'
+    - react-jwt-auth > react-scripts > eslint > lodash:
+        patched: '2021-12-08T03:08:39.938Z'
+    - react-jwt-auth > react-scripts > eslint-plugin-flowtype > lodash:
+        patched: '2021-12-08T03:08:39.938Z'
+    - react-jwt-auth > react-scripts > html-webpack-plugin > lodash:
+        patched: '2021-12-08T03:08:39.938Z'
+    - react-jwt-auth > react-scripts > webpack-manifest-plugin > lodash:
+        patched: '2021-12-08T03:08:39.938Z'
+    - clusterpost-list-react > @svgr/rollup > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2021-12-08T03:08:39.938Z'
+    - clusterpost-list-react > babel-eslint > @babel/traverse > @babel/generator > lodash:
+        patched: '2021-12-08T03:08:39.938Z'
+    - clusterpost-list-react > react-scripts > eslint > inquirer > lodash:
+        patched: '2021-12-08T03:08:39.938Z'
+    - clusterpost-list-react > react-scripts > eslint > table > lodash:
+        patched: '2021-12-08T03:08:39.938Z'
+    - clusterpost-list-react > react-scripts > webpack-dev-server > http-proxy-middleware > lodash:
+        patched: '2021-12-08T03:08:39.938Z'
+    - react-jwt-auth > @svgr/rollup > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2021-12-08T03:08:39.938Z'
+    - react-jwt-auth > babel-eslint > @babel/traverse > @babel/generator > lodash:
+        patched: '2021-12-08T03:08:39.938Z'
+    - react-jwt-auth > react-scripts > eslint > inquirer > lodash:
+        patched: '2021-12-08T03:08:39.938Z'
+    - react-jwt-auth > react-scripts > eslint > table > lodash:
+        patched: '2021-12-08T03:08:39.938Z'
+    - react-jwt-auth > react-scripts > webpack-dev-server > http-proxy-middleware > lodash:
+        patched: '2021-12-08T03:08:39.938Z'
+    - clusterpost-list-react > @svgr/rollup > @babel/preset-env > @babel/plugin-transform-modules-amd > @babel/helper-module-transforms > lodash:
+        patched: '2021-12-08T03:08:39.938Z'
+    - clusterpost-list-react > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/template > lodash:
+        patched: '2021-12-08T03:08:39.938Z'
+    - react-jwt-auth > @svgr/rollup > @babel/preset-env > @babel/plugin-transform-modules-amd > @babel/helper-module-transforms > lodash:
+        patched: '2021-12-08T03:08:39.938Z'
+    - react-jwt-auth > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/template > lodash:
+        patched: '2021-12-08T03:08:39.938Z'
+    - clusterpost-list-react > @svgr/rollup > @svgr/core > h2x-core > h2x-parse > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2021-12-08T03:08:39.938Z'
+    - react-jwt-auth > @svgr/rollup > @svgr/core > h2x-core > h2x-parse > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2021-12-08T03:08:39.938Z'
+    - clusterpost-list-react > babel-core > lodash:
+        patched: '2021-12-08T03:08:39.938Z'
+    - react-jwt-auth > babel-core > lodash:
+        patched: '2021-12-08T03:08:39.938Z'
+    - clusterpost-list-react > babel-core > babel-types > lodash:
+        patched: '2021-12-08T03:08:39.938Z'
+    - clusterpost-list-react > babel-core > babel-generator > lodash:
+        patched: '2021-12-08T03:08:39.938Z'
+    - clusterpost-list-react > babel-core > babel-traverse > lodash:
+        patched: '2021-12-08T03:08:39.938Z'
+    - clusterpost-list-react > babel-core > babel-template > lodash:
+        patched: '2021-12-08T03:08:39.938Z'
+    - clusterpost-list-react > babel-core > babel-register > lodash:
+        patched: '2021-12-08T03:08:39.938Z'
+    - clusterpost-list-react > babel-preset-env > babel-plugin-transform-es2015-block-scoping > lodash:
+        patched: '2021-12-08T03:08:39.938Z'
+    - react-jwt-auth > babel-core > babel-types > lodash:
+        patched: '2021-12-08T03:08:39.938Z'
+    - react-jwt-auth > babel-core > babel-generator > lodash:
+        patched: '2021-12-08T03:08:39.938Z'
+    - react-jwt-auth > babel-core > babel-traverse > lodash:
+        patched: '2021-12-08T03:08:39.938Z'
+    - react-jwt-auth > babel-core > babel-template > lodash:
+        patched: '2021-12-08T03:08:39.938Z'
+    - react-jwt-auth > babel-core > babel-register > lodash:
+        patched: '2021-12-08T03:08:39.938Z'
+    - react-jwt-auth > babel-preset-env > babel-plugin-transform-es2015-block-scoping > lodash:
+        patched: '2021-12-08T03:08:39.938Z'
+    - clusterpost-list-react > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-define-map > lodash:
+        patched: '2021-12-08T03:08:39.938Z'
+    - clusterpost-list-react > babel-preset-env > babel-plugin-transform-es2015-sticky-regex > babel-helper-regex > lodash:
+        patched: '2021-12-08T03:08:39.938Z'
+    - react-jwt-auth > babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-define-map > lodash:
+        patched: '2021-12-08T03:08:39.938Z'
+    - react-jwt-auth > babel-preset-env > babel-plugin-transform-es2015-sticky-regex > babel-helper-regex > lodash:
+        patched: '2021-12-08T03:08:39.938Z'
   SNYK-JS-LODASH-450202:
     - clusterpost-list-react > recharts > lodash:
         patched: '2020-05-14T06:57:28.971Z'
