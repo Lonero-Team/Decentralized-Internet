@@ -15,14 +15,14 @@
     "react-router-dom": "6.0.2",
     "react-scripts": "4.0.3",
     "redux": "4.1.2",
-    "snyk": "1.786.0"
+    "@snyk/protect": "latest"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "PUBLIC_URL=/public/ react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "snyk-protect": "snyk protect",
+    "snyk-protect": "snyk-protect",
     "prepare": "npm run snyk-protect"
   },
   "eslintConfig": {
