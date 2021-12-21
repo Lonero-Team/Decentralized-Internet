@@ -1195,7 +1195,7 @@
     core-js "^2.6.5"
     regenerator-runtime "^0.13.4"
 
-"@babel/preset-env@^7.10.2", "@babel/preset-env@^7.12.0":
+"@babel/preset-env@^7.10.2", "@babel/preset-env@^7.12.0", "@babel/preset-env@^7.16.5":
   version "7.16.5"
   resolved "https://registry.yarnpkg.com/@babel/preset-env/-/preset-env-7.16.5.tgz#2e94d922f4a890979af04ffeb6a6b4e44ba90847"
   integrity sha512-MiJJW5pwsktG61NDxpZ4oJ1CKxM1ncam9bzRtx9g40/WkLRkxFP6mhpkYV0/DxcciqoiHicx291+eUQrXb/SfQ==
@@ -7555,7 +7555,43 @@ ember-cli-babel-plugin-helpers@^1.0.0, ember-cli-babel-plugin-helpers@^1.1.1:
   resolved "https://registry.yarnpkg.com/ember-cli-babel-plugin-helpers/-/ember-cli-babel-plugin-helpers-1.1.1.tgz#5016b80cdef37036c4282eef2d863e1d73576879"
   integrity sha512-sKvOiPNHr5F/60NLd7SFzMpYPte/nnGkq/tMIfXejfKHIhaiIkYFqX8Z9UFTKWLLn+V7NOaby6niNPZUdvKCRw==
 
-ember-cli-babel@7.26.8, ember-cli-babel@^7.0.0, ember-cli-babel@^7.13.0, ember-cli-babel@^7.13.2, ember-cli-babel@^7.23.0, ember-cli-babel@^7.26.6:
+ember-cli-babel@7.26.10:
+  version "7.26.10"
+  resolved "https://registry.yarnpkg.com/ember-cli-babel/-/ember-cli-babel-7.26.10.tgz#93565bef47b154ec0c1ceafacfd1474a01002ddc"
+  integrity sha512-xWaC0NsqP6M5an0QEjgV5MNqhWLJBYa85454SSNaskXFsGHS+0PPQTbgU1brqIRKBjDSNeAnRzFTafmnW8h7Zw==
+  dependencies:
+    "@babel/core" "^7.12.0"
+    "@babel/helper-compilation-targets" "^7.12.0"
+    "@babel/plugin-proposal-class-properties" "^7.16.5"
+    "@babel/plugin-proposal-decorators" "^7.13.5"
+    "@babel/plugin-proposal-private-methods" "^7.16.5"
+    "@babel/plugin-proposal-private-property-in-object" "^7.16.5"
+    "@babel/plugin-transform-modules-amd" "^7.13.0"
+    "@babel/plugin-transform-runtime" "^7.13.9"
+    "@babel/plugin-transform-typescript" "^7.13.0"
+    "@babel/polyfill" "^7.11.5"
+    "@babel/preset-env" "^7.16.5"
+    "@babel/runtime" "7.12.18"
+    amd-name-resolver "^1.3.1"
+    babel-plugin-debug-macros "^0.3.4"
+    babel-plugin-ember-data-packages-polyfill "^0.1.2"
+    babel-plugin-ember-modules-api-polyfill "^3.5.0"
+    babel-plugin-module-resolver "^3.2.0"
+    broccoli-babel-transpiler "^7.8.0"
+    broccoli-debug "^0.6.4"
+    broccoli-funnel "^2.0.2"
+    broccoli-source "^2.1.2"
+    calculate-cache-key-for-tree "^2.0.0"
+    clone "^2.1.2"
+    ember-cli-babel-plugin-helpers "^1.1.1"
+    ember-cli-version-checker "^4.1.0"
+    ensure-posix-path "^1.0.2"
+    fixturify-project "^1.10.0"
+    resolve-package-path "^3.1.0"
+    rimraf "^3.0.1"
+    semver "^5.5.0"
+
+ember-cli-babel@^7.0.0, ember-cli-babel@^7.13.0, ember-cli-babel@^7.13.2, ember-cli-babel@^7.23.0, ember-cli-babel@^7.26.6:
   version "7.26.8"
   resolved "https://registry.yarnpkg.com/ember-cli-babel/-/ember-cli-babel-7.26.8.tgz#f0a17c0016f3815d13e926fd246b5ed417b89146"
   integrity sha512-PqqR9wzIHziVnktcYSi5OWI/dvJJvscYlWdiIpoWWkXKyWqd5tk9iobDPS1bcRi3y0TtP8nAyLjy8tGyFLiA5Q==
@@ -7764,10 +7800,10 @@ ember-cli-version-checker@^5.0.1, ember-cli-version-checker@^5.1.1, ember-cli-ve
     semver "^7.3.4"
     silent-error "^1.1.1"
 
-ember-cli@3.28.4:
-  version "3.28.4"
-  resolved "https://registry.yarnpkg.com/ember-cli/-/ember-cli-3.28.4.tgz#784cfeaf5319e409edc3e03e5d99bcfcf18f9e53"
-  integrity sha512-bRQpZqx1YctDNR7gb5CXfXYkZtieMh4F6v6bZtu+Da8jWTKoGizG1LXsG/Bhs96USPjlZZsErkSBo6qiGjJlcA==
+ember-cli@4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/ember-cli/-/ember-cli-4.0.1.tgz#2f5fc81a0aa6b3003addb064e00e5e41372bd58b"
+  integrity sha512-5FYStQlpdF1Qn7+iPe3YCpq131Sjey8LTilLb5xp+L+GpGE4b+9/8hzI3dIHh7WQSvoeuR5AAluP9nNq1ENgSw==
   dependencies:
     "@babel/core" "^7.13.8"
     "@babel/plugin-transform-modules-amd" "^7.12.1"
@@ -7857,7 +7893,7 @@ ember-cli@3.28.4:
     tree-sync "^2.1.0"
     uuid "^8.3.2"
     walk-sync "^2.2.0"
-    watch-detector "^1.0.0"
+    watch-detector "^1.0.1"
     workerpool "^6.1.4"
     yam "^1.0.0"
 
@@ -16024,10 +16060,10 @@ snapdragon@^0.8.1:
     source-map-resolve "^0.5.0"
     use "^3.1.0"
 
-snyk@1.793.0:
-  version "1.793.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.793.0.tgz#07562983c2cd70287a1870944283216805bed87d"
-  integrity sha512-9MVNi07ParuDqh6M39RGVTkFCdKUPqgRMNDzOMF7waK+PW2Axo2fotUV5MHfzMFjZpiw8Ipnbc4LiFlneexWNw==
+snyk@1.803.0:
+  version "1.803.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.803.0.tgz#2e3ebd272a1a76ea829fb5632049f469e616cb54"
+  integrity sha512-uYRzFhEokzsrn6QxRnz5H3XJiVe1axcR2FN0St9Ro3o4+U5xfu+EiRWZjI3pZTNBuPz1QxIq1h+ZImr9ntsWiw==
 
 socket.io-adapter@~1.1.0:
   version "1.1.2"
@@ -17888,10 +17924,10 @@ warning@^4.0.2, warning@^4.0.3:
   dependencies:
     loose-envify "^1.0.0"
 
-watch-detector@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/watch-detector/-/watch-detector-1.0.0.tgz#c7b722d8695fee9ab6071e0f38f258e6adb22609"
-  integrity sha512-siywMl3fXK30Tlpu/dUBHhlpxhQmHdguZ8OIb813eU9lrVmmsJa9k0+n1HtJ+7p3SzFCPq2XbmR3GUYpPC3TBA==
+watch-detector@^1.0.0, watch-detector@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/watch-detector/-/watch-detector-1.0.1.tgz#3106a6b489284ec2ecaef0e65cf1b8ec9117296e"
+  integrity sha512-8sJ8rvNfg2ciqCa5IxIdmdxU/vuUe9V/jw+thXbdreELSv3+Cq6k8K42cLEL86W2td1PMmfNCWZuAhrZ/sD4mw==
   dependencies:
     heimdalljs-logger "^0.1.10"
     semver "^6.3.0"
