@@ -3,4 +3,4 @@ recommonmark==0.7.1
 sphinx-rtd-theme==1.0.0
 wget
 packaging==21.3
-pygments==2.11.0 # not directly required, pinned by Snyk to avoid a vulnerability
+pygments==2.11.1 # not directly required, pinned by Snyk to avoid a vulnerability
