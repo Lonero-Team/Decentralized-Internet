@@ -68,7 +68,7 @@
     "loader.js": "4.7.0",
     "qunit-dom": "2.0.0",
     "ember-try": "2.0.0",
-    "ember-cli": "4.0.1",
+    "ember-cli": "4.1.0",
     "typescript": "4.5.4",
     "ember-qunit": "5.1.5",
     "easy-bigchain": "1.0.1",
