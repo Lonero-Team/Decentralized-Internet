@@ -5,7 +5,7 @@
   "main": "lib/p2p.js",
   "dependencies": {
     "body-parser": "1.19.1",
-    "defekt": "8.0.0",
+    "defekt": "8.1.0",
     "eventemitter2": "6.4.5",
     "express": "4.17.2",
     "decentralized-internet": "^5.0.0",
