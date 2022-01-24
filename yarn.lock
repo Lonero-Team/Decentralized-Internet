@@ -347,20 +347,6 @@
   dependencies:
     "@babel/types" "^7.16.7"
 
-"@babel/helper-module-transforms@^7.16.5":
-  version "7.16.5"
-  resolved "https://registry.yarnpkg.com/@babel/helper-module-transforms/-/helper-module-transforms-7.16.5.tgz#530ebf6ea87b500f60840578515adda2af470a29"
-  integrity sha512-CkvMxgV4ZyyioElFwcuWnDCcNIeyqTkCm9BxXZi73RR1ozqlpboqsbGUNvRTflgZtFbbJ1v5Emvm+lkjMYY/LQ==
-  dependencies:
-    "@babel/helper-environment-visitor" "^7.16.5"
-    "@babel/helper-module-imports" "^7.16.0"
-    "@babel/helper-simple-access" "^7.16.0"
-    "@babel/helper-split-export-declaration" "^7.16.0"
-    "@babel/helper-validator-identifier" "^7.15.7"
-    "@babel/template" "^7.16.0"
-    "@babel/traverse" "^7.16.5"
-    "@babel/types" "^7.16.0"
-
 "@babel/helper-module-transforms@^7.16.7":
   version "7.16.7"
   resolved "https://registry.yarnpkg.com/@babel/helper-module-transforms/-/helper-module-transforms-7.16.7.tgz#7665faeb721a01ca5327ddc6bba15a5cb34b6a41"
@@ -478,13 +464,6 @@
     "@babel/helper-optimise-call-expression" "^7.16.7"
     "@babel/traverse" "^7.16.7"
     "@babel/types" "^7.16.7"
-
-"@babel/helper-simple-access@^7.16.0":
-  version "7.16.0"
-  resolved "https://registry.yarnpkg.com/@babel/helper-simple-access/-/helper-simple-access-7.16.0.tgz#21d6a27620e383e37534cf6c10bba019a6f90517"
-  integrity sha512-o1rjBT/gppAqKsYfUdfHq5Rk03lMQrkPHG1OWzHWpLgVXRH4HnMM9Et9CVdIqwkCQlobnGHEJMsgWP/jE1zUiw==
-  dependencies:
-    "@babel/types" "^7.16.0"
 
 "@babel/helper-simple-access@^7.16.7":
   version "7.16.7"
@@ -1085,16 +1064,7 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.16.7"
 
-"@babel/plugin-transform-modules-amd@^7.12.1", "@babel/plugin-transform-modules-amd@^7.13.0":
-  version "7.16.5"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-modules-amd/-/plugin-transform-modules-amd-7.16.5.tgz#92c0a3e83f642cb7e75fada9ab497c12c2616527"
-  integrity sha512-oHI15S/hdJuSCfnwIz+4lm6wu/wBn7oJ8+QrkzPPwSFGXk8kgdI/AIKcbR/XnD1nQVMg/i6eNaXpszbGuwYDRQ==
-  dependencies:
-    "@babel/helper-module-transforms" "^7.16.5"
-    "@babel/helper-plugin-utils" "^7.16.5"
-    babel-plugin-dynamic-import-node "^2.3.3"
-
-"@babel/plugin-transform-modules-amd@^7.16.7":
+"@babel/plugin-transform-modules-amd@^7.12.1", "@babel/plugin-transform-modules-amd@^7.13.0", "@babel/plugin-transform-modules-amd@^7.16.7":
   version "7.16.7"
   resolved "https://registry.yarnpkg.com/@babel/plugin-transform-modules-amd/-/plugin-transform-modules-amd-7.16.7.tgz#b28d323016a7daaae8609781d1f8c9da42b13186"
   integrity sha512-KaaEtgBL7FKYwjJ/teH63oAmE3lP34N3kshz8mm4VMAw7U3PxjVwwUmxEFksbgsNUaO3wId9R2AVQYSEGRa2+g==
@@ -7907,10 +7877,10 @@ ember-cli-version-checker@^5.0.1, ember-cli-version-checker@^5.1.1, ember-cli-ve
     semver "^7.3.4"
     silent-error "^1.1.1"
 
-ember-cli@4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/ember-cli/-/ember-cli-4.1.0.tgz#65d482c25a7f0b93f400f799d92bb28af8527086"
-  integrity sha512-weWNx1bWdcLGCfUTRSN9393yzBkTBcIIhbGW/cOIvwsDjTxkT+RA2XdnpdeHtH4JnIW2JiJSAErCebN5R4wT7w==
+ember-cli@4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/ember-cli/-/ember-cli-4.1.1.tgz#166a15f44b1ec6d4643261a18c3faa1b2cd4a5a2"
+  integrity sha512-QFgV14wYOPIc4h1szQ8OW5evPUn7B8YZDs/dexRmD6x9+Y/2BH8lmWyO6vFopBhgV91w1/mSiNDsef+MSdBLbQ==
   dependencies:
     "@babel/core" "^7.16.0"
     "@babel/plugin-transform-modules-amd" "^7.12.1"
@@ -16242,10 +16212,10 @@ snapdragon@^0.8.1:
     source-map-resolve "^0.5.0"
     use "^3.1.0"
 
-snyk@1.834.0:
-  version "1.834.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.834.0.tgz#58403799358c953f44e53ed8ce733d42c62ca77e"
-  integrity sha512-0XKshpV1azNRxOKwFV+NuR/ukT0OAhsUZI/jSN6O2XIQ5lYWXC8wNgvtpJ4pmhekMjBCj4rH6mxYDo2USWEZ1g==
+snyk@1.836.0:
+  version "1.836.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.836.0.tgz#291d94f9eb7910f292f344eee5b9ca90c9e3c64f"
+  integrity sha512-iPJ4SCAEArquqo1Aq11KbHOWEu0OFauRn/4Acoq+hDqgTYN9IV8i5d6uHPAo3ePV2g24nF0Pb9N0sxIGgp833w==
 
 socket.io-adapter@~1.1.0:
   version "1.1.2"
