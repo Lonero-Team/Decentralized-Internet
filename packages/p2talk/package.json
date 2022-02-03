@@ -30,7 +30,7 @@
     "freeport": "1.0.5",
     "grunt": "1.4.1",
     "knockat": "4.0.99",
-    "nock": "13.2.2",
+    "nock": "13.2.3",
     "supertest": "6.2.2",
     "tourism": "0.21.0"
   },
