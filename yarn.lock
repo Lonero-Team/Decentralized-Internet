@@ -5895,7 +5895,7 @@ chalk@^2.0.0, chalk@^2.0.1, chalk@^2.1.0, chalk@^2.3.0, chalk@^2.4.1, chalk@^2.4
     escape-string-regexp "^1.0.5"
     supports-color "^5.3.0"
 
-chalk@^4.0.0, chalk@^4.1.0, chalk@^4.1.2, chalk@~4.1.0:
+chalk@^4.0.0, chalk@^4.1.0, chalk@^4.1.2, chalk@~4.1.0, chalk@~4.1.2:
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.2.tgz#aac4e2b7734a740867aeb16bf02aad556a1e7a01"
   integrity sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==
@@ -9925,14 +9925,14 @@ grunt-contrib-clean@2.0.0:
     async "^2.6.1"
     rimraf "^2.6.2"
 
-grunt-contrib-jshint@3.1.1:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/grunt-contrib-jshint/-/grunt-contrib-jshint-3.1.1.tgz#8e79ca5cd9b62d5771328b2d7dc0b75a2b76eb59"
-  integrity sha512-EwMY6L91FqTcMlZTVoDeeq/EZL+7MoFyo1rxIea9sxyv73geVggeE37jcUhNbu5hLbxHE82CGIUqitHuR2/q+g==
+grunt-contrib-jshint@3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/grunt-contrib-jshint/-/grunt-contrib-jshint-3.2.0.tgz#d97c125ce6dafef1b0cc766cd87201ae0fb7b408"
+  integrity sha512-pcXWCSZWfoMSvcV4BwH21TUtLtcX0Ms8IGuOPIcLeXK3fud9KclY7iqMKY94jFx8TxZzh028YYtpR+io8DiEaQ==
   dependencies:
-    chalk "^4.1.0"
+    chalk "~4.1.2"
     hooker "^0.2.3"
-    jshint "~2.13.0"
+    jshint "~2.13.4"
 
 grunt-contrib-nodeunit@4.0.0:
   version "4.0.0"
@@ -11412,10 +11412,10 @@ jsesc@~0.5.0:
   resolved "https://registry.yarnpkg.com/jsesc/-/jsesc-0.5.0.tgz#e7dee66e35d6fc16f710fe91d5cf69f70f08911d"
   integrity sha1-597mbjXW/Bb3EP6R1c9p9w8IkR0=
 
-jshint@~2.13.0:
-  version "2.13.1"
-  resolved "https://registry.yarnpkg.com/jshint/-/jshint-2.13.1.tgz#16bbbecdbb4564d3758d9de4f24926f8c7f8f835"
-  integrity sha512-vymzfR3OysF5P774x6zYv0bD4EpH6NWRxpq54wO9mA9RuY49yb1teKSICkLx2Ryx+mfzlVVNNbTBtsRtg78t7g==
+jshint@~2.13.4:
+  version "2.13.4"
+  resolved "https://registry.yarnpkg.com/jshint/-/jshint-2.13.4.tgz#cee025a57c3f393d5455532d9ec7ccb018f890db"
+  integrity sha512-HO3bosL84b2qWqI0q+kpT/OpRJwo0R4ivgmxaO848+bo10rc50SkPnrtwSFXttW0ym4np8jbJvLwk5NziB7jIw==
   dependencies:
     cli "~1.0.0"
     console-browserify "1.1.x"
@@ -11423,7 +11423,6 @@ jshint@~2.13.0:
     htmlparser2 "3.8.x"
     lodash "~4.17.21"
     minimatch "~3.0.2"
-    shelljs "0.3.x"
     strip-json-comments "1.0.x"
 
 json-buffer@3.0.0:
@@ -16023,11 +16022,6 @@ shell-quote@^1.6.1:
   version "1.7.2"
   resolved "https://registry.yarnpkg.com/shell-quote/-/shell-quote-1.7.2.tgz#67a7d02c76c9da24f99d20808fcaded0e0e04be2"
   integrity sha512-mRz/m/JVscCrkMyPqHc/bczi3OQHkLTqXHEFu0zDhK/qfv3UcOA4SVmRCLmos4bhjr9ekVQubj/R7waKapmiQg==
-
-shelljs@0.3.x:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/shelljs/-/shelljs-0.3.0.tgz#3596e6307a781544f591f37da618360f31db57b1"
-  integrity sha1-NZbmMHp4FUT1kfN9phg2DzHbV7E=
 
 shelljs@^0.8.3:
   version "0.8.4"
