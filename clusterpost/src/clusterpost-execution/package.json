@@ -22,7 +22,7 @@
     "bluebird": "^3.7.2",
     "clusterpost-lib": "^2.0.0",
     "clusterpost-model": "^1.8.1",
-    "minimist": "^1.2.0",
+    "minimist": "^1.2.6",
     "node-crontab": "0.0.8",
     "node-targz": "0.2.0",
     "underscore": "^1.12.1",
