@@ -26,7 +26,7 @@
   "dependencies": {
     "bluebird": "^3.7.2",
     "clusterpost-lib": "file:../clusterpost-lib",
-    "minimist": "^1.0.0",
+    "minimist": "^1.2.6",
     "underscore": "^1.12.1",
     "snyk": "^1.685.0"
   },
