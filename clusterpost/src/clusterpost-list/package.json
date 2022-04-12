@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/NIRALUser/clusterpost#readme",
   "devDependencies": {
-    "grunt": "1.5.1",
+    "grunt": "1.5.2",
     "grunt-angular-templates": "1.2.0",
     "grunt-contrib-clean": "2.0.0",
     "grunt-contrib-concat": "2.1.0",
