@@ -10108,10 +10108,10 @@ grunt-legacy-util@~2.0.1:
     underscore.string "~3.3.5"
     which "~2.0.2"
 
-grunt@1.5.1:
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/grunt/-/grunt-1.5.1.tgz#ca7141d7e6d70fad474a0c1d8c3744423c6c7c2c"
-  integrity sha512-Nli2Cu1rSUJOCVypMIY3SHuwUQ7LdyoDJJ9ig7NUSM8jGOdC/BcrjW5i/1/pEaYqn8P4RLpeDmiqEwQ/uVQbOQ==
+grunt@1.5.2:
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/grunt/-/grunt-1.5.2.tgz#46b014e28d17c85baac19d5e891bb3f04923c098"
+  integrity sha512-XCtfaIu72OyDqK24MjWiGC9SwlkuhkS1mrULr1xzuJ2XqAFhP3ZAchZGHJeSCY6mkaOXU4F7SbmmCF7xIVoC9w==
   dependencies:
     dateformat "~3.0.3"
     eventemitter2 "~0.4.13"
@@ -16364,10 +16364,10 @@ snapdragon@^0.8.1:
     source-map-resolve "^0.5.0"
     use "^3.1.0"
 
-snyk@1.900.0:
-  version "1.900.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.900.0.tgz#238df5e213744ef9ebefd4d2c67b9b918b0acdbc"
-  integrity sha512-YtfMjE9hp+ZOGcdfg0qNNdofcwZz99WHShjMOt9pS6uWF3kCwyFExR+jac8j3R5oLWa5wHOUEMNDkBRtoXqzIg==
+snyk@1.902.0:
+  version "1.902.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.902.0.tgz#6d31dcbb6f27e363cef6ab6cf150f74131520222"
+  integrity sha512-Zk+y6O73mrwsIpbSGsmlzEpES7XbT3SOdE158+ksrQRdvP3dc44NbJiAJ2bWcEEMZkmsy0AAJQU2fNj0mlY6ug==
 
 socket.io-adapter@~2.3.3:
   version "2.3.3"
