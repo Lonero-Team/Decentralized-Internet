@@ -24,7 +24,7 @@
   "devDependencies": {
     "grunt": "1.5.2",
     "grunt-angular-templates": "1.2.0",
-    "grunt-contrib-clean": "2.0.0",
+    "grunt-contrib-clean": "2.0.1",
     "grunt-contrib-concat": "2.1.0",
     "grunt-contrib-cssmin": "4.0.0",
     "grunt-contrib-uglify": "5.1.0",
