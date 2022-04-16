@@ -11,7 +11,7 @@
     "react-dom": "18.0.0",
     "react-feather": "2.0.9",
     "react-jwt-auth": "file:../../react-jwt-auth",
-    "react-redux": "7.2.8",
+    "react-redux": "8.0.0",
     "react-router-dom": "6.3.0",
     "react-scripts": "5.0.1",
     "redux": "4.1.2",
