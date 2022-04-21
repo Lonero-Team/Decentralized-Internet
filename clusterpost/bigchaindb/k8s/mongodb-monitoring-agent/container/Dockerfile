@@ -6,7 +6,7 @@
 # More help:
 # https://docs.cloudmanager.mongodb.com/tutorial/install-monitoring-agent-with-deb-package/
 
-FROM ubuntu:focal
+FROM ubuntu:jammy
 LABEL maintainer "devs@bigchaindb.com"
 # Using ARG, one can set DEBIAN_FRONTEND=noninteractive and others
 # just for the duration of the build:
