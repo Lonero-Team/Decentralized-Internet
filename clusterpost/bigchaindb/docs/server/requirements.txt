@@ -6,4 +6,4 @@ sphinxcontrib-httpdomain==1.8.0
 pyyaml==6.0
 aafigure==0.6
 packaging==21.3
-pygments==2.11.2 # not directly required, pinned by Snyk to avoid a vulnerability
+pygments==2.12.0 # not directly required, pinned by Snyk to avoid a vulnerability
