@@ -30,7 +30,7 @@
     "nodemailer-stub-transport": "1.1.0"
   },
   "dependencies": {
-    "@hapi/boom": "^9.0.0",
+    "@hapi/boom": "^10.0.0",
     "@hapi/joi": "^17.0.0",
     "bcrypt": "^5.0.0",
     "couch-provider": "^3.0.0",
