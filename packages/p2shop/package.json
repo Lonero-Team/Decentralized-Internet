@@ -47,7 +47,7 @@
     "babel-loader": "8.2.5",
     "core-js": "3.22.4",
     "docdash": "1.2.0",
-    "husky": "7.0.4",
+    "husky": "8.0.0",
     "jsdoc": "3.6.10",
     "standard": "17.0.0",
     "standard-version": "9.3.2",
