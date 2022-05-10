@@ -60,7 +60,7 @@
   "devDependencies": {
     "minify": "*",
     "minimist": "*",
-    "grunt": "1.5.2",
+    "grunt": "1.5.3",
     "husky": "8.0.1",
     "lerna": "4.0.0",
     "bcrypt": "5.0.1",
