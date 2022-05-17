@@ -1,4 +1,4 @@
-FROM alpine:3.9
+FROM alpine:3.15
 LABEL maintainer "devs@bigchaindb.com"
 
 ARG TM_VERSION=v0.31.5
