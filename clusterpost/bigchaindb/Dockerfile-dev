@@ -1,4 +1,4 @@
-ARG python_version=3.6
+ARG python_version=3.10
 FROM python:${python_version}
 LABEL maintainer "devs@bigchaindb.com"
 
