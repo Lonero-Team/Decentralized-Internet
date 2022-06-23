@@ -1,4 +1,4 @@
-ARG tm_version=v0.31.5
+ARG tm_version=v0.35.7
 FROM tendermint/tendermint:${tm_version}
 LABEL maintainer "devs@bigchaindb.com"
 WORKDIR /
