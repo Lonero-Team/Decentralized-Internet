@@ -8084,10 +8084,10 @@ ember-cli-get-component-path-option@^1.0.0:
   resolved "https://registry.yarnpkg.com/ember-cli-get-component-path-option/-/ember-cli-get-component-path-option-1.0.0.tgz#0d7b595559e2f9050abed804f1d8eff1b08bc771"
   integrity sha1-DXtZVVni+QUKvtgE8djv8bCLx3E=
 
-ember-cli-htmlbars@6.0.1:
-  version "6.0.1"
-  resolved "https://registry.yarnpkg.com/ember-cli-htmlbars/-/ember-cli-htmlbars-6.0.1.tgz#5487831d477e61682bc867fd138808269e5d2152"
-  integrity sha512-IDsl9uty+MXtMfp/BUTEc/Q36EmlHYj8ZdPekcoRa8hmdsigHnK4iokfaB7dJFktlf6luruei+imv7JrJrBQPQ==
+ember-cli-htmlbars@6.1.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/ember-cli-htmlbars/-/ember-cli-htmlbars-6.1.0.tgz#97150c2a6f9a981475599d74817df66f5d816c2b"
+  integrity sha512-kT+MA2JsNLk10HpxAjpB5HHtR0WCoxZEUwLsy/BBww5lXmsrf34QzmTw7SL6DabZVxs+YCb9RhU9KTmFygGxCg==
   dependencies:
     "@ember/edition-utils" "^1.2.0"
     babel-plugin-ember-template-compilation "^1.0.0"
@@ -8099,10 +8099,9 @@ ember-cli-htmlbars@6.0.1:
     fs-tree-diff "^2.0.1"
     hash-for-dep "^1.5.1"
     heimdalljs-logger "^0.1.10"
-    json-stable-stringify "^1.0.1"
+    js-string-escape "^1.0.1"
     semver "^7.3.4"
     silent-error "^1.1.1"
-    strip-bom "^4.0.0"
     walk-sync "^2.2.0"
 
 ember-cli-inject-live-reload@2.1.0:
@@ -16789,10 +16788,10 @@ snapdragon@^0.8.1:
     source-map-resolve "^0.5.0"
     use "^3.1.0"
 
-snyk@1.956.0:
-  version "1.956.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.956.0.tgz#40fc0a434d77e6891964d2fdabbda6a4645259ff"
-  integrity sha512-BgUWLTIqO5CZaazHrJOjLGa9X3cpyEDmTkJh6DFxE/9EELDhykG3oNZaSPyTJZ/c/drE6sqTy8qu8zxm3wBy4A==
+snyk@1.962.0:
+  version "1.962.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.962.0.tgz#b013bd2940414ab99b2015392af73a2d15622b1e"
+  integrity sha512-cyXRTEGjwKCzfITkvRMIrfw1QjRuttfdn3po73UUa5xTwFzJu507Yyqt19/Wu4zL5ap+6inTt9n4RZZu5vDOaA==
 
 socket.io-adapter@~2.3.3:
   version "2.3.3"
