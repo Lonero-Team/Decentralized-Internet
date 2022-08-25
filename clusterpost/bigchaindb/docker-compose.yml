@@ -8,7 +8,7 @@ services:
   # Build: docker-compose build -d bigchaindb
   # Run: docker-compose run -d bdb
   mongodb:
-    image: mongo:5.0
+    image: mongo:6.0
     ports:
       - "27017:27017"
     command: mongod
