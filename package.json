@@ -62,7 +62,7 @@
     "minimist": "*",
     "grunt": "1.5.3",
     "husky": "8.0.1",
-    "lerna": "5.5.1",
+    "lerna": "5.5.2",
     "bcrypt": "5.0.1",
     "hash.js": "1.1.7",
     "loader.js": "4.7.0",
