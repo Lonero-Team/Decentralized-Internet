@@ -17040,10 +17040,10 @@ snapdragon@^0.8.1:
     source-map-resolve "^0.5.0"
     use "^3.1.0"
 
-snyk@1.1008.0:
-  version "1.1008.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.1008.0.tgz#8de67af542001ebd6c6f966f892b114c8f9c66f3"
-  integrity sha512-hCWwShR3t03vBt9TQhEY7fan+dI7iAWAhVMSH2HZ8Pz3+1tgklDcWVEq3GBIAD3ig7i0uqHSyGfGkLXJRAE4QA==
+snyk@1.1012.0:
+  version "1.1012.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.1012.0.tgz#73585f09dfbd1e17470491d5d96bef7125f28190"
+  integrity sha512-qh9XkLzO+TltcQd+WpPUexAgk6t+PB5NyHc+uvHLAMi3NXN9Stpvy+yJDWG/pgD6kTfB/r2cCCCzKUPARyQNtA==
 
 socket.io-adapter@~2.3.3:
   version "2.3.3"
@@ -18480,10 +18480,10 @@ typescript-memoize@^1.0.0-alpha.3, typescript-memoize@^1.0.1:
   resolved "https://registry.yarnpkg.com/typescript-memoize/-/typescript-memoize-1.1.0.tgz#4a8f512d06fc995167c703a3592219901db8bc79"
   integrity sha512-LQPKVXK8QrBBkL/zclE6YgSWn0I8ew5m0Lf+XL00IwMhlotqRLlzHV+BRrljVQIc+NohUAuQP7mg4HQwrx5Xbg==
 
-typescript@4.8.3, "typescript@^3 || ^4":
-  version "4.8.3"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.8.3.tgz#d59344522c4bc464a65a730ac695007fdb66dd88"
-  integrity sha512-goMHfm00nWPa8UvR/CPSvykqf6dVV8x/dp0c5mFTMTIu0u0FlGWRioyy7Nn0PGAdHxpJZnuO/ut+PpQ8UiHAig==
+typescript@4.8.4, "typescript@^3 || ^4":
+  version "4.8.4"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.8.4.tgz#c464abca159669597be5f96b8943500b238e60e6"
+  integrity sha512-QCh+85mCy+h0IGff8r5XWzOVSbBO+KfeYrMQh7NJ58QujwcE22u+NUSmUxqF+un70P9GXKxa2HCNiTTMJknyjQ==
 
 typestyle@^2.0.4:
   version "2.1.0"
