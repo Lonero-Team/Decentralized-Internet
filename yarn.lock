@@ -12504,9 +12504,9 @@ minimist-options@4.1.0:
     kind-of "^6.0.3"
 
 minimist@*, minimist@^1.1.1, minimist@^1.2.0, minimist@^1.2.5, minimist@^1.2.6, minimist@~1.2.0:
-  version "1.2.6"
-  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.6.tgz#8637a5b759ea0d6e98702cfb3a9283323c93af44"
-  integrity sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==
+  version "1.2.7"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.7.tgz#daa1c4d91f507390437c6a8bc01078e7000c4d18"
+  integrity sha512-bzfL1YUZsP41gmu/qjrEk0Q6i2ix/cVeAhbCbqH9u3zYutS1cLg00qhrD0M2MVdCcx4Sc0UpP2eBWo9rotpq6g==
 
 minimist@^0.2.1:
   version "0.2.1"
@@ -15786,10 +15786,10 @@ snapdragon@^0.8.1:
     source-map-resolve "^0.5.0"
     use "^3.1.0"
 
-snyk@1.1025.0:
-  version "1.1025.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.1025.0.tgz#52dede46b77a7918ab5867fdeed3d5987108a9b7"
-  integrity sha512-IfEl2BbNjEHEtOImDa3xqKetUwjqSpRcRIsdAKD8cjnk0z2nbn8K6h6qlvnGuci68t2q62Zj3IHZt4S6A4k+gw==
+snyk@1.1026.0:
+  version "1.1026.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.1026.0.tgz#05ef9cf0301dfc6eccdc22b6d35b8c197f59fc16"
+  integrity sha512-sijn2PlTw8hJb41KxZxJO+/eFAAZPnr1VQ8AAjwH7QeGJsC3qVJCu3gtqr/11cM7JACWfs3pa7D++KDnFVd9oQ==
 
 socket.io-adapter@~2.3.3:
   version "2.3.3"
