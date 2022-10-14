@@ -7393,10 +7393,10 @@ elliptic@^6.5.2:
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.0"
 
-ember-auto-import@2.4.2, ember-auto-import@^2.4.1, ember-auto-import@^2.4.2:
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/ember-auto-import/-/ember-auto-import-2.4.2.tgz#d4d3bc6885a11cf124f606f5c37169bdf76e37ae"
-  integrity sha512-REh+1aJWpTkvN42a/ga41OuRpUsSW7UQfPr2wPtYx56o/xoSNhVBXejy7yV9ObrkN7gogz6fs2xZwih5cOwpYg==
+ember-auto-import@2.4.3, ember-auto-import@^2.4.1, ember-auto-import@^2.4.2:
+  version "2.4.3"
+  resolved "https://registry.yarnpkg.com/ember-auto-import/-/ember-auto-import-2.4.3.tgz#0ff8ebe37a2016dbad2ccc10c0ef2dfbd0289b55"
+  integrity sha512-yqtXDixgtBgaNIiz3DIIjJgpPoV5/UWBnsYIR/IxwDYpsGswyRWQ4D+IamkCDtaGDkZ7dNE9QZDBOrJCAG6KNA==
   dependencies:
     "@babel/core" "^7.16.7"
     "@babel/plugin-proposal-class-properties" "^7.16.7"
@@ -7826,10 +7826,10 @@ ember-source-channel-url@3.0.0, ember-source-channel-url@^3.0.0:
   dependencies:
     node-fetch "^2.6.0"
 
-ember-source@4.7.0:
-  version "4.7.0"
-  resolved "https://registry.yarnpkg.com/ember-source/-/ember-source-4.7.0.tgz#acccdd8d9963e6ee42c081b859d89f8f51624902"
-  integrity sha512-k4R5mH7LOTXXlhxpNH3bVLhqgTfLlC5uyqVMDZxMMXmttWpRq5cOh4fL+s3/gqV9YIAK8tSyfnUAjvNK+QglQQ==
+ember-source@4.7.1:
+  version "4.7.1"
+  resolved "https://registry.yarnpkg.com/ember-source/-/ember-source-4.7.1.tgz#ca5fd36c8ee4a959c31a10273e5d2d9867c7748f"
+  integrity sha512-EO52EnG81UaYl7OSkA0KBTFAQY7MZyaaNkj84LMoUhwSb2KGYRfzDUOFm3bHUFa3zzoILaYTf5I6hlzi1UTLXg==
   dependencies:
     "@babel/helper-module-imports" "^7.16.7"
     "@babel/plugin-transform-block-scoping" "^7.16.0"
@@ -9776,19 +9776,7 @@ gud@^1.0.0:
   resolved "https://registry.yarnpkg.com/gud/-/gud-1.0.0.tgz#a489581b17e6a70beca9abe3ae57de7a499852c0"
   integrity sha512-zGEOVKFM5sVPPrYs7J5/hYEw2Pof8KCyOwyhG8sAF26mCAeUFAcYPu1mwB7hhpIP29zOIBaDqwuHdLp0jvZXjw==
 
-handlebars@^4.0.4, handlebars@^4.3.1, handlebars@^4.7.3, handlebars@^4.7.4:
-  version "4.7.6"
-  resolved "https://registry.yarnpkg.com/handlebars/-/handlebars-4.7.6.tgz#d4c05c1baf90e9945f77aa68a7a219aa4a7df74e"
-  integrity sha512-1f2BACcBfiwAfStCKZNrUCgqNZkGsAT7UM3kkYtXuLo0KnaVfjKOyf7PRzB6++aK9STyT1Pd2ZCPe3EGOXleXA==
-  dependencies:
-    minimist "^1.2.5"
-    neo-async "^2.6.0"
-    source-map "^0.6.1"
-    wordwrap "^1.0.0"
-  optionalDependencies:
-    uglify-js "^3.1.4"
-
-handlebars@^4.7.7:
+handlebars@^4.0.4, handlebars@^4.3.1, handlebars@^4.7.3, handlebars@^4.7.4, handlebars@^4.7.7:
   version "4.7.7"
   resolved "https://registry.yarnpkg.com/handlebars/-/handlebars-4.7.7.tgz#9ce33416aad02dbd6c8fafa8240d5d98004945a1"
   integrity sha512-aAcXm5OAfE/8IXkcZvCepKU3VzW1/39Fb5ZuqMtgI/hT8X2YgoMvBY5dLhq/cpOvw7Lk1nK/UF71aLG/ZnVYRA==
