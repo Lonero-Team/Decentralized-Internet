@@ -58,8 +58,8 @@
     }
   },
   "devDependencies": {
-    "minify": "*",
-    "minimist": "*",
+    "minify": "9.1.0",
+    "minimist": "1.2.7",
     "grunt": "1.5.3",
     "husky": "8.0.1",
     "lerna": "6.0.1",
