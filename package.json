@@ -48,7 +48,7 @@
     "ember-cli-babel": "7.26.11",
     "bitcoin-protocol": "^4.0.1",
     "ember-cli-htmlbars": "6.1.1",
-    "@jupyterlab/notebook": "3.4.8",
+    "@jupyterlab/notebook": "3.5.0",
     "snyk": "1.1040.0"
   },
   "husky": {
