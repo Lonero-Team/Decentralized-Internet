@@ -7905,10 +7905,10 @@ ember-source-channel-url@3.0.0, ember-source-channel-url@^3.0.0:
   dependencies:
     node-fetch "^2.6.0"
 
-ember-source@4.8.0:
-  version "4.8.0"
-  resolved "https://registry.yarnpkg.com/ember-source/-/ember-source-4.8.0.tgz#1a00280d4e4c8b2d85c5d6f143488b3fddb63075"
-  integrity sha512-YvVJNia7gDgzKntRWoMz7hdme32GozXnZDYW5kyZLoGq0O5M2hL8D9KHAcEeqCC1UfFjMjtMw4RgA65yPCDx5Q==
+ember-source@4.8.1:
+  version "4.8.1"
+  resolved "https://registry.yarnpkg.com/ember-source/-/ember-source-4.8.1.tgz#b0c3ecc9cacaac299815e821d4fb4d002473370f"
+  integrity sha512-w9I8XeddoEq7ms6PTvzUJt9izSyBtVB2HMWGRmZPEACNxDVxZl945X6Fq4f6pqVhcHOZrWdBOn1WCm10MFKrmw==
   dependencies:
     "@babel/helper-module-imports" "^7.16.7"
     "@babel/plugin-transform-block-scoping" "^7.16.0"
@@ -15916,10 +15916,10 @@ snapdragon@^0.8.1:
     source-map-resolve "^0.5.0"
     use "^3.1.0"
 
-snyk@1.1041.0:
-  version "1.1041.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.1041.0.tgz#19d2d28fccf7318e5b598ff7096c64e4cc0535b2"
-  integrity sha512-rIKDbppZV0uRa3sbdcSoN+anbbl7RvzDrsV+/n8Yi5zEtbYAR0aCq07k4hD/QjBQ/EavZ05/ok29dLYqmJqbMQ==
+snyk@1.1047.0:
+  version "1.1047.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.1047.0.tgz#bcc3f2629dc4d38ee42d1e3a0d896638b0e0d1f9"
+  integrity sha512-UTkBzSzG4w4X4XUZPgOFbM2s3pEeA6GmCZEOPSMljyYQ8C5Bp6Z0K4vp/LpAYAR9TRBc3P2Txe1PX34ALZ6cXQ==
 
 socket.io-adapter@~2.3.3:
   version "2.3.3"
