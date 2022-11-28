@@ -34,7 +34,7 @@
     "core-js": "3.x"
   },
   "dependencies": {
-    "eventemitter3": "^4.0.0",
+    "eventemitter3": "^5.0.0",
     "decentralized-internet": "^5.0.0",
     "@snyk/protect": "latest"
   },
