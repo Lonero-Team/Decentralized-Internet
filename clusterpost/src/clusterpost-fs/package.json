@@ -17,7 +17,7 @@
   "dependencies": {
     "boom": "^7.0.0",
     "underscore": "^1.12.1",
-    "snyk": "^1.996.0"
+    "snyk": "^1.1064.0"
   },
   "snyk": true
 }
