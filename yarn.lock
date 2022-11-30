@@ -1729,7 +1729,7 @@
     resolve "^1.20.0"
     semver "^7.3.2"
 
-"@embroider/shared-internals@1.0.0", "@embroider/shared-internals@^1.0.0":
+"@embroider/shared-internals@1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@embroider/shared-internals/-/shared-internals-1.0.0.tgz#b081708ac79e4582f17ba0f3e3796e6612a8976c"
   integrity sha512-Vx3dmejJxI5MG/qC7or3EUZY0AZBSBNOAR50PYotX3LxUSb4lAm5wISPnFbwEY4bbo2VhL/6XtWjMv8ZMcaP+g==
@@ -1737,6 +1737,20 @@
     babel-import-util "^1.1.0"
     ember-rfc176-data "^0.3.17"
     fs-extra "^9.1.0"
+    lodash "^4.17.21"
+    resolve-package-path "^4.0.1"
+    semver "^7.3.5"
+    typescript-memoize "^1.0.1"
+
+"@embroider/shared-internals@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@embroider/shared-internals/-/shared-internals-2.0.0.tgz#d8205ec6944362aeecfbb51143db352430ced316"
+  integrity sha512-qZ2/xky9mWm5YC6noOa6AiAwgISEQ78YTZNv4SNu2PFgEK/H+Ha/3ddngzGSsnXkVnIHZyxIBzhxETonQYHY9g==
+  dependencies:
+    babel-import-util "^1.1.0"
+    ember-rfc176-data "^0.3.17"
+    fs-extra "^9.1.0"
+    js-string-escape "^1.0.1"
     lodash "^4.17.21"
     resolve-package-path "^4.0.1"
     semver "^7.3.5"
@@ -7472,17 +7486,17 @@ elliptic@^6.5.2:
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.0"
 
-ember-auto-import@2.4.3, ember-auto-import@^2.4.1, ember-auto-import@^2.4.2:
-  version "2.4.3"
-  resolved "https://registry.yarnpkg.com/ember-auto-import/-/ember-auto-import-2.4.3.tgz#0ff8ebe37a2016dbad2ccc10c0ef2dfbd0289b55"
-  integrity sha512-yqtXDixgtBgaNIiz3DIIjJgpPoV5/UWBnsYIR/IxwDYpsGswyRWQ4D+IamkCDtaGDkZ7dNE9QZDBOrJCAG6KNA==
+ember-auto-import@2.5.0, ember-auto-import@^2.4.1, ember-auto-import@^2.4.2:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/ember-auto-import/-/ember-auto-import-2.5.0.tgz#627607648e87d154f75cd3f70c435355ef7cced9"
+  integrity sha512-fKERUmpZLn4RJiCwTjS7D5zJxgnbF4E6GiSp1GYh53K96S+5UBs06r7ScDI52rq34z0+qdSrA6qiDJ3i/lWqKg==
   dependencies:
     "@babel/core" "^7.16.7"
     "@babel/plugin-proposal-class-properties" "^7.16.7"
     "@babel/plugin-proposal-decorators" "^7.16.7"
     "@babel/preset-env" "^7.16.7"
     "@embroider/macros" "^1.0.0"
-    "@embroider/shared-internals" "^1.0.0"
+    "@embroider/shared-internals" "^2.0.0"
     babel-loader "^8.0.6"
     babel-plugin-ember-modules-api-polyfill "^3.5.0"
     babel-plugin-htmlbars-inline-precompile "^5.2.1"
@@ -15916,10 +15930,10 @@ snapdragon@^0.8.1:
     source-map-resolve "^0.5.0"
     use "^3.1.0"
 
-snyk@1.1058.0:
-  version "1.1058.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.1058.0.tgz#fb227c21c9d9268d9b734db95f9a7a3dba49ad8a"
-  integrity sha512-B3Uiph9uS50B6xJ7QlQaat6jfqGGnZPHG5SbnBDZeIW/sokIUgywc0cgN/nBoNQX2RUHQXDmca9qlT8UI04dDg==
+snyk@1.1063.0:
+  version "1.1063.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.1063.0.tgz#ba6eeb157195cb72585f942d8013a2b4745af663"
+  integrity sha512-vaRygspOXFByjjowYpZ2gi2394WAj1faXoUVqfI8WZUo72JygzH0y45LOozh87dto07VZ+svEwpURD62yZ6O/A==
 
 socket.io-adapter@~2.3.3:
   version "2.3.3"
