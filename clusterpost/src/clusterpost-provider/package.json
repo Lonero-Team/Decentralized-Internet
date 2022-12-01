@@ -28,7 +28,7 @@
     "node-targz": "^0.2.0",
     "request": "^2.88.0",
     "underscore": "^1.12.1",
-    "snyk": "^1.996.0"
+    "snyk": "^1.1064.0"
   },
   "repository": {
     "type": "git",
