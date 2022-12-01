@@ -73,7 +73,7 @@
     "wiki-security-friends": "^0.2.2",
     "wiki-security-passportjs": "^0.6.0",
     "wiki-server": "^0.21.0",
-    "snyk": "^1.996.0"
+    "snyk": "^1.1064.0"
   },
   "devDependencies": {
     "grunt": "1.5.3",
