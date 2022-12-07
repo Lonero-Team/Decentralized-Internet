@@ -28,7 +28,7 @@
     "clusterpost-lib": "file:../clusterpost-lib",
     "minimist": "^1.2.6",
     "underscore": "^1.12.1",
-    "snyk": "^1.996.0"
+    "snyk": "^1.1064.0"
   },
   "snyk": true
 }
