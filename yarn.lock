@@ -7507,7 +7507,7 @@ elliptic@^6.5.2:
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.0"
 
-ember-auto-import@2.5.0, ember-auto-import@^2.4.1, ember-auto-import@^2.4.2:
+ember-auto-import@2.5.0, ember-auto-import@^2.4.1, ember-auto-import@^2.4.3:
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/ember-auto-import/-/ember-auto-import-2.5.0.tgz#627607648e87d154f75cd3f70c435355ef7cced9"
   integrity sha512-fKERUmpZLn4RJiCwTjS7D5zJxgnbF4E6GiSp1GYh53K96S+5UBs06r7ScDI52rq34z0+qdSrA6qiDJ3i/lWqKg==
@@ -7894,32 +7894,27 @@ ember-maybe-import-regenerator@1.0.0:
     ember-cli-babel "^7.26.6"
     regenerator-runtime "^0.13.2"
 
-ember-qunit@6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/ember-qunit/-/ember-qunit-6.0.0.tgz#cea4766c297a25d58a3e886ccd4eb726167ea47c"
-  integrity sha512-idNWh9Ap2HN9e3Xozh5Jrciu5tDhn0okM/bgwDjdks3dwuMhEox45iiRTx469FWQ9+ixjZ40AsXsRTDkfCmvmw==
+ember-qunit@6.1.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/ember-qunit/-/ember-qunit-6.1.0.tgz#8362763ea6b4f84b9bbef1efac5afad08a89e607"
+  integrity sha512-9moBSA6GUnrIYDGulokzSF3Nlue5OUV78jdiZzXF9mok5ZMPGoDEGrHMnlxoB7OuTfjVGoukfpJx89gW/tl0Qw==
   dependencies:
     broccoli-funnel "^3.0.8"
     broccoli-merge-trees "^3.0.2"
     common-tags "^1.8.0"
-    ember-auto-import "^2.4.2"
-    ember-cli-babel "^7.26.6"
+    ember-auto-import "^2.4.3"
+    ember-cli-babel "^7.26.11"
     ember-cli-test-loader "^3.0.0"
     resolve-package-path "^4.0.3"
     silent-error "^1.1.1"
     validate-peer-dependencies "^2.1.0"
 
-ember-resolver@8.0.3:
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/ember-resolver/-/ember-resolver-8.0.3.tgz#40f243aa58281bf195c695fe84a6b291e204690a"
-  integrity sha512-fA53fxfG821BRqNiB9mQDuzZpzSRcSAYZTYBlRQOHsJwoYdjyE7idz4YcytbSsa409G5J2kP6B+PiKOBh0odlw==
+ember-resolver@9.0.0:
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/ember-resolver/-/ember-resolver-9.0.0.tgz#8438d94f26a127b76f38bccc8ac01eecc92d8b38"
+  integrity sha512-oC8HzL6XyfnLFZfyMgc1gDif5s1IOKLCGesvRO57tZoA92QzXW8eD8WNVMT9reoJPKRhymTFlWnwBmq7iQE3wg==
   dependencies:
-    babel-plugin-debug-macros "^0.3.4"
-    broccoli-funnel "^3.0.8"
-    broccoli-merge-trees "^4.2.0"
-    ember-cli-babel "^7.26.6"
-    ember-cli-version-checker "^5.1.2"
-    resolve "^1.20.0"
+    ember-cli-babel "^7.26.11"
 
 ember-rfc176-data@^0.3.15, ember-rfc176-data@^0.3.17:
   version "0.3.17"
@@ -16002,10 +15997,10 @@ snapdragon@^0.8.1:
     source-map-resolve "^0.5.0"
     use "^3.1.0"
 
-snyk@1.1069.0:
-  version "1.1069.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.1069.0.tgz#8d229aba5994e2dcca0ce14c7a90f6dae0d0e543"
-  integrity sha512-WPgp8oh9tHMGIKwmPh6BbNZZyhDdCN4Tbv3eqdYJfTTY347xYXsIiIqUiRAAgAS0Oo5UABNGhdGV6fsxFWSUhg==
+snyk@1.1071.0:
+  version "1.1071.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.1071.0.tgz#b72472e845886d24d3df66c0620f0ecf7e88f43a"
+  integrity sha512-SAJbLaREe/PE2VrOhv4s9KBFMki7oLU/phu0LgB3E3YjgkpJGPExSmeqqSGhKIl2Wj9e2+OLtXPnJye8uyuMIA==
 
 socket.io-adapter@~2.3.3:
   version "2.3.3"
