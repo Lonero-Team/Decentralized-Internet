@@ -21,7 +21,7 @@
     "couch-provider": "3.0.1",
     "couch-update-views": "1.0.10",
     "hapi-jwt-couch": "^4.0.0",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "lout": "^11.2.3",
     "node-crontab": "0.0.8",
     "nodemailer": "^6.6.1",
