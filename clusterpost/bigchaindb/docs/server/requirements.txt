@@ -5,5 +5,5 @@ sphinxcontrib-napoleon==0.7
 sphinxcontrib-httpdomain==1.8.1
 pyyaml==6.0
 aafigure==0.6
-packaging==22.0
+packaging==23.0
 pygments==2.14.0 # not directly required, pinned by Snyk to avoid a vulnerability
