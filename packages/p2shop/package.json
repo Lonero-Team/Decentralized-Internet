@@ -46,7 +46,7 @@
     "@ecomplus/utils": "1.4.1",
     "babel-loader": "9.1.2",
     "core-js": "3.27.1",
-    "docdash": "2.0.0",
+    "docdash": "2.0.1",
     "husky": "8.0.3",
     "jsdoc": "4.0.0",
     "standard": "17.0.0",
