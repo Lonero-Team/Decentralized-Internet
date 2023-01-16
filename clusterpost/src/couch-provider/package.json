@@ -7,7 +7,7 @@
     "@hapi/joi": "^17.0.0",
     "bluebird": "^3.5.0",
     "concat-stream": "^2.0.0",
-    "mkdirp": "^1.0.0",
+    "mkdirp": "^2.0.0",
     "request": "^2.88.0",
     "underscore": "^1.12.1"
   },
