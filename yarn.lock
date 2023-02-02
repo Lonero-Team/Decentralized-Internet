@@ -8025,10 +8025,10 @@ ember-source@4.10.0:
     semver "^7.3.7"
     silent-error "^1.1.1"
 
-ember-template-imports@^3.1.1:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/ember-template-imports/-/ember-template-imports-3.3.1.tgz#2814474dcaae0202c1b21f9c60ef62c3354afe63"
-  integrity sha512-OeOaEhKL6fz40O3OgKff8czu0d9ppX3tLV7ohvaQL0eM1Pv+Fl4bi/zvEdiCCAn+5Nu7/DFCaMElFuRhurlPJA==
+ember-template-imports@^3.4.1:
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/ember-template-imports/-/ember-template-imports-3.4.1.tgz#bd400ddda2c2cad35ded53b35da1c0972452cde8"
+  integrity sha512-KXnBFTAVxCfXnSCUgd/iuic9ajWbmFkRUBEeorJAMqxvougsPoK22s5ygE9O3GnzYdPpMwn+8v+/NAGy8HRBGA==
   dependencies:
     babel-import-util "^0.2.0"
     broccoli-stew "^3.0.0"
@@ -8391,16 +8391,16 @@ escodegen@^1.8.1:
   optionalDependencies:
     source-map "~0.6.1"
 
-eslint-plugin-ember@11.4.5:
-  version "11.4.5"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-ember/-/eslint-plugin-ember-11.4.5.tgz#f566ca2b874ac36fb439bb50ba853dc0eb6cd84d"
-  integrity sha512-LOM9A5cLJJ1I6EnS0GxFI9/kypjbbIEvuoU3udVMAiEhjflHwjZfPAqS52MCNqyKqaTVqFOKdPiN+IiBxzGpTQ==
+eslint-plugin-ember@11.4.6:
+  version "11.4.6"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-ember/-/eslint-plugin-ember-11.4.6.tgz#75d4ba801c9e12c69cb3bbc32c6670f48c152ad0"
+  integrity sha512-ak+gDkZrOQUjpLYiDWJA1D2jWJy0MYTf409Ki6du06+vYNifuMJIFpJhH9oKsD1FPU1sQylzhHcOeiHfbQTWmA==
   dependencies:
     "@ember-data/rfc395-data" "^0.0.4"
     "@glimmer/syntax" "^0.84.2"
     css-tree "^2.0.4"
     ember-rfc176-data "^0.3.15"
-    ember-template-imports "^3.1.1"
+    ember-template-imports "^3.4.1"
     eslint-utils "^3.0.0"
     estraverse "^5.2.0"
     lodash.camelcase "^4.1.1"
@@ -16074,10 +16074,10 @@ snapdragon@^0.8.1:
     source-map-resolve "^0.5.0"
     use "^3.1.0"
 
-snyk@1.1092.0:
-  version "1.1092.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.1092.0.tgz#a291d485d40b9d846aa210dbbf79e550fe59ba8e"
-  integrity sha512-UwkCAkqFmGXdHmlygPqgLoGyn2FXPhIMN/htk9QmzqPUSlVz2z6aZDbKrCoWdVs6OHsCTm9mccdnEGxc3OSNMA==
+snyk@1.1093.0:
+  version "1.1093.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.1093.0.tgz#9cbd020850505150154a464f81383d460670313b"
+  integrity sha512-Z8rXtpRZ+UypiEs3469otWX8OlFgIairT4X8eSNxGY/9iDiKf6fuYfILwu5q6di24e7P63E4JlxGxiByM2PMRA==
 
 socket.io-adapter@~2.3.3:
   version "2.3.3"
