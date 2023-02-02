@@ -10270,9 +10270,9 @@ htmlparser2@^6.0.0:
     entities "^2.0.0"
 
 http-cache-semantics@^4.0.0, http-cache-semantics@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/http-cache-semantics/-/http-cache-semantics-4.1.0.tgz#49e91c5cbf36c9b94bcfcd71c23d5249ec74e390"
-  integrity sha512-carPklcUh7ROWRK7Cv27RPtdhYhUsela/ue5/jKzjegVvXDqM2ILE9Q2BGn9JZJh1g87cp56su/FgQSzcWS8cQ==
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/http-cache-semantics/-/http-cache-semantics-4.1.1.tgz#abe02fcb2985460bf0323be664436ec3476a6d5a"
+  integrity sha512-er295DKPVsV82j5kw1Gjt+ADA/XYHsajl82cGNQG2eyoPkvgUhX+nDIyelzhIWbbsXP39EHcI6l5tYs2FYqYXQ==
 
 http-errors@1.7.3:
   version "1.7.3"
@@ -16074,10 +16074,10 @@ snapdragon@^0.8.1:
     source-map-resolve "^0.5.0"
     use "^3.1.0"
 
-snyk@1.1092.0:
-  version "1.1092.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.1092.0.tgz#a291d485d40b9d846aa210dbbf79e550fe59ba8e"
-  integrity sha512-UwkCAkqFmGXdHmlygPqgLoGyn2FXPhIMN/htk9QmzqPUSlVz2z6aZDbKrCoWdVs6OHsCTm9mccdnEGxc3OSNMA==
+snyk@1.1093.0:
+  version "1.1093.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.1093.0.tgz#9cbd020850505150154a464f81383d460670313b"
+  integrity sha512-Z8rXtpRZ+UypiEs3469otWX8OlFgIairT4X8eSNxGY/9iDiKf6fuYfILwu5q6di24e7P63E4JlxGxiByM2PMRA==
 
 socket.io-adapter@~2.3.3:
   version "2.3.3"
