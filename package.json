@@ -74,7 +74,7 @@
     "easy-bigchain": "1.0.1",
     "ember-cli-sri": "2.1.1",
     "babel-eslint": "10.1.0",
-    "ember-source": "4.10.0",
+    "ember-source": "4.11.0",
     "ember-resolver": "10.0.0",
     "ember-cli-eslint": "5.1.0",
     "ember-cli-uglify": "3.0.0",
