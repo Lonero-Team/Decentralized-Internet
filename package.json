@@ -49,7 +49,7 @@
     "bitcoin-protocol": "^4.0.1",
     "ember-cli-htmlbars": "6.2.0",
     "@jupyterlab/notebook": "3.6.1",
-    "snyk": "1.1108.0"
+    "snyk": "1.1109.0"
   },
   "husky": {
     "hooks": {
