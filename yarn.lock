@@ -6875,7 +6875,7 @@ elliptic@^6.5.2:
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.0"
 
-ember-auto-import@2.6.1, ember-auto-import@^2.4.3, ember-auto-import@^2.5.0:
+ember-auto-import@2.6.1, ember-auto-import@^2.5.0, ember-auto-import@^2.6.0:
   version "2.6.1"
   resolved "https://registry.yarnpkg.com/ember-auto-import/-/ember-auto-import-2.6.1.tgz#bd8d434143bd411b99f4a8f32d8b58414d7da4f3"
   integrity sha512-3bCRi/pXp4QslmuCXGlSz9xwR7DF5oDx3zZO5OXKzNZihtkqAM1xvGuRIdQSl46pvbAXOkp8Odl5fOen1i0dRw==
@@ -7262,20 +7262,20 @@ ember-maybe-import-regenerator@1.0.0:
     ember-cli-babel "^7.26.6"
     regenerator-runtime "^0.13.2"
 
-ember-qunit@6.1.1:
-  version "6.1.1"
-  resolved "https://registry.yarnpkg.com/ember-qunit/-/ember-qunit-6.1.1.tgz#9e2b7835239e7ffd176e08e536975f66e59f75e5"
-  integrity sha512-3/jCpoecltFV6vm7GCtSDNRxBzWx96nP+QrbereJAnioSaGeLe+slKL3l80mGzMYDTvn7ESobZ+Ba+OQ1vMMKQ==
+ember-qunit@6.2.0:
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/ember-qunit/-/ember-qunit-6.2.0.tgz#4d492951035d1df5c7802c4ae6cf299c8f41d75b"
+  integrity sha512-mC+0bp8DwWzJLn8SW3GS8KDZIkl4yLsNYwMi5Dw6+aFllq7FM2crd/dfY4MuOIHK7GKdjtmWJTMGnjSpeSayaw==
   dependencies:
     broccoli-funnel "^3.0.8"
     broccoli-merge-trees "^3.0.2"
     common-tags "^1.8.0"
-    ember-auto-import "^2.4.3"
+    ember-auto-import "^2.6.0"
     ember-cli-babel "^7.26.11"
     ember-cli-test-loader "^3.0.0"
     resolve-package-path "^4.0.3"
     silent-error "^1.1.1"
-    validate-peer-dependencies "^2.1.0"
+    validate-peer-dependencies "^2.2.0"
 
 ember-resolver@10.0.0:
   version "10.0.0"
@@ -7703,10 +7703,10 @@ escodegen@^1.8.1:
   optionalDependencies:
     source-map "~0.6.1"
 
-eslint-plugin-ember@11.4.6:
-  version "11.4.6"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-ember/-/eslint-plugin-ember-11.4.6.tgz#75d4ba801c9e12c69cb3bbc32c6670f48c152ad0"
-  integrity sha512-ak+gDkZrOQUjpLYiDWJA1D2jWJy0MYTf409Ki6du06+vYNifuMJIFpJhH9oKsD1FPU1sQylzhHcOeiHfbQTWmA==
+eslint-plugin-ember@11.4.7:
+  version "11.4.7"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-ember/-/eslint-plugin-ember-11.4.7.tgz#122fa8ed5705b4801fb5812752d4b4f43e36198e"
+  integrity sha512-9owpi2uCBBl8XXg0V5oW6nnQf4soqmRI8xs1Srf/kg9Om109CyxpY41i+ZSjRNFaTuWufXHSs5NCraFcrThoDg==
   dependencies:
     "@ember-data/rfc395-data" "^0.0.4"
     "@glimmer/syntax" "^0.84.2"
@@ -7717,7 +7717,7 @@ eslint-plugin-ember@11.4.6:
     estraverse "^5.2.0"
     lodash.camelcase "^4.1.1"
     lodash.kebabcase "^4.1.1"
-    magic-string "^0.27.0"
+    magic-string "^0.30.0"
     requireindex "^1.2.0"
     snake-case "^3.0.3"
 
@@ -11653,10 +11653,10 @@ magic-string@^0.25.7:
   dependencies:
     sourcemap-codec "^1.4.4"
 
-magic-string@^0.27.0:
-  version "0.27.0"
-  resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-0.27.0.tgz#e4a3413b4bab6d98d2becffd48b4a257effdbbf3"
-  integrity sha512-8UnnX2PeRAPZuN12svgR9j7M1uWMovg/CEnIwIG0LFkXSJJe4PdfUGiTGl8V9bsBHFUtfVINcSyYxd7q+kx9fA==
+magic-string@^0.30.0:
+  version "0.30.0"
+  resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-0.30.0.tgz#fd58a4748c5c4547338a424e90fa5dd17f4de529"
+  integrity sha512-LA+31JYDJLs82r2ScLrlz1GjSgu66ZV518eyWT+S8VhyQn/JL0u9MeBOvQMGYiPk1DBiSN9DDMOcXvigJZaViQ==
   dependencies:
     "@jridgewell/sourcemap-codec" "^1.4.13"
 
@@ -14761,7 +14761,7 @@ resolve-package-path@^3.1.0:
     path-root "^0.1.1"
     resolve "^1.17.0"
 
-resolve-package-path@^4.0.0, resolve-package-path@^4.0.1, resolve-package-path@^4.0.3:
+resolve-package-path@^4.0.1, resolve-package-path@^4.0.3:
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/resolve-package-path/-/resolve-package-path-4.0.3.tgz#31dab6897236ea6613c72b83658d88898a9040aa"
   integrity sha512-SRpNAPW4kewOaNUt8VPqhJ0UMxawMwzJD8V7m1cJfdSTK9ieZwS6K7Dabsm4bmLFM96Z5Y/UznrpG5kt1im8yA==
@@ -15082,6 +15082,13 @@ semver@^7.0.0, semver@^7.1.1, semver@^7.2, semver@^7.3.2, semver@^7.3.4, semver@
   dependencies:
     lru-cache "^6.0.0"
 
+semver@^7.3.8:
+  version "7.3.8"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-7.3.8.tgz#07a78feafb3f7b32347d725e33de7e2a2df67798"
+  integrity sha512-NB1ctGL5rlHrPJtFDVIVzTyQylMLu9N9VICA6HSFJo8MCGVTMW6gfpicwKmmK/dAjTOrqu5l63JJOpDSrAis3A==
+  dependencies:
+    lru-cache "^6.0.0"
+
 semver@~7.2.0:
   version "7.2.3"
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.2.3.tgz#3641217233c6382173c76bf2c7ecd1e1c16b0d8a"
@@ -15329,10 +15336,10 @@ snapdragon@^0.8.1:
     source-map-resolve "^0.5.0"
     use "^3.1.0"
 
-snyk@1.1108.0:
-  version "1.1108.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.1108.0.tgz#3dc6327c8060cf8d8e66eb41da87e0cc73bb8011"
-  integrity sha512-HThKYgmcZgNG9ONuGUtJ/JuUaDzyqRHbPljJc50dtU9nEBmUc915jtPfrKKITdn6K+Ap9Rs8eVqnXWq0MGW0hA==
+snyk@1.1110.0:
+  version "1.1110.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.1110.0.tgz#7ae0204a3f370247a59eb309083a26068ff557a4"
+  integrity sha512-rmyaxtEesqEPQOLeWcX7R9duOxNUKfP1ypX6/XaXxQRduvj7S+P6qXCIpZuJIcR3fnnN/jNbvY6WR+sdc2uqxA==
 
 socket.io-adapter@~2.3.3:
   version "2.3.3"
@@ -16909,13 +16916,13 @@ validate-peer-dependencies@^1.1.0:
     resolve-package-path "^3.1.0"
     semver "^7.3.2"
 
-validate-peer-dependencies@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/validate-peer-dependencies/-/validate-peer-dependencies-2.1.0.tgz#1ad8218b1b168aeb500165f9de2a3f53269ece56"
-  integrity sha512-x+M+mp16g4N+jDQJO6a+AKnMHAViov9mRzYfgMYR6Bq+UTwewf8aTQsP+e1QH0oZrADqP7fuI/bEbl3CzRFhOQ==
+validate-peer-dependencies@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/validate-peer-dependencies/-/validate-peer-dependencies-2.2.0.tgz#47b8ff008f66a66fc5d8699123844522c1d874f4"
+  integrity sha512-8X1OWlERjiUY6P6tdeU9E0EwO8RA3bahoOVG7ulOZT5MqgNDUO/BQoVjYiHPcNe+v8glsboZRIw9iToMAA2zAA==
   dependencies:
-    resolve-package-path "^4.0.0"
-    semver "^7.3.2"
+    resolve-package-path "^4.0.3"
+    semver "^7.3.8"
 
 validate.io-array@^1.0.3:
   version "1.0.6"
