@@ -85,7 +85,7 @@
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-ember": "11.4.8",
     "grunt-contrib-jshint": "3.2.0",
-    "grunt-contrib-nodeunit": "4.0.0",
+    "grunt-contrib-nodeunit": "5.0.0",
     "ember-load-initializers": "2.1.2",
     "ember-cli-template-lint": "2.0.2",
     "ember-source-channel-url": "3.0.0",
