@@ -18,7 +18,7 @@
   "author": "juanprietob@gmail.com",
   "license": "Apache-2.0",
   "dependencies": {
-    "@hapi/joi": "^17.0.0",
+    "@hapi/joi": "^15.1.1",
     "bluebird": "^3.7.2",
     "clusterpost-lib": "^2.0.0",
     "clusterpost-model": "^1.8.1",
