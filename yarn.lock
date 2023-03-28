@@ -7502,10 +7502,10 @@ ember-source@4.11.0:
     semver "^7.3.7"
     silent-error "^1.1.1"
 
-ember-template-imports@^3.4.1:
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/ember-template-imports/-/ember-template-imports-3.4.1.tgz#bd400ddda2c2cad35ded53b35da1c0972452cde8"
-  integrity sha512-KXnBFTAVxCfXnSCUgd/iuic9ajWbmFkRUBEeorJAMqxvougsPoK22s5ygE9O3GnzYdPpMwn+8v+/NAGy8HRBGA==
+ember-template-imports@^3.4.2:
+  version "3.4.2"
+  resolved "https://registry.yarnpkg.com/ember-template-imports/-/ember-template-imports-3.4.2.tgz#6cf7de7d4b8348a0fddf3aaec4947aa1211289e6"
+  integrity sha512-OS8TUVG2kQYYwP3netunLVfeijPoOKIs1SvPQRTNOQX4Pu8xGGBEZmrv0U1YTnQn12Eg+p6w/0UdGbUnITjyzw==
   dependencies:
     babel-import-util "^0.2.0"
     broccoli-stew "^3.0.0"
@@ -7868,16 +7868,16 @@ escodegen@^1.8.1:
   optionalDependencies:
     source-map "~0.6.1"
 
-eslint-plugin-ember@11.4.8:
-  version "11.4.8"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-ember/-/eslint-plugin-ember-11.4.8.tgz#96e243746bde961a5620533c79ae7f4c827dadb6"
-  integrity sha512-ytHEMDNkXbkBAfw2loR62pLozOiMp+Y7BJaupSQK25lCsfrhVMsfog2uTvicoCwDDPgcOJrivdUmMbfErOGOdQ==
+eslint-plugin-ember@11.4.9:
+  version "11.4.9"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-ember/-/eslint-plugin-ember-11.4.9.tgz#f22918e09cdb1d5bb8c280c15a5075127c7a16d8"
+  integrity sha512-1nAgMSwAJrntfvsiyIyHtYY+AvAPZ1wxcoa+gsui/VviQqULCtZLF8+1UAOTAGJ5bEjhe3f8TTcyRGHXRPHzeQ==
   dependencies:
     "@ember-data/rfc395-data" "^0.0.4"
     "@glimmer/syntax" "^0.84.2"
     css-tree "^2.0.4"
     ember-rfc176-data "^0.3.15"
-    ember-template-imports "^3.4.1"
+    ember-template-imports "^3.4.2"
     eslint-utils "^3.0.0"
     estraverse "^5.2.0"
     lodash.camelcase "^4.1.1"
@@ -15729,10 +15729,10 @@ snapdragon@^0.8.1:
     source-map-resolve "^0.5.0"
     use "^3.1.0"
 
-snyk@1.1126.0:
-  version "1.1126.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.1126.0.tgz#4b91ba62870809df3dce1c0db18eb59dcdf4b2c8"
-  integrity sha512-y/H9tJ2TLfNnWuEWenRG1SpFGh1TUM7B77Ly+Zj1jBGCso3RxVArMz1uVeXmOClXASSZ9OV9PUY1VdJEC00GLw==
+snyk@1.1128.0:
+  version "1.1128.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.1128.0.tgz#0278a61382eaf2837abaababf23be867d55ac54d"
+  integrity sha512-SLOmPLrP5Z5A0FfkrqGZTwFw+0zb6cZ42YPQtUa0EMrDec4FsrPBU7jf8KSnMubWskN3UVqgWP2YSBUuDlNAVg==
   dependencies:
     "@sentry/node" "^7.36.0"
     global-agent "^3.0.0"
