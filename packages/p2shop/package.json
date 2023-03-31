@@ -40,7 +40,7 @@
   },
   "devDependencies": {
     "@babel/core": "7.21.3",
-    "@babel/preset-env": "7.20.2",
+    "@babel/preset-env": "7.21.4",
     "@commitlint/cli": "17.5.1",
     "@commitlint/config-conventional": "17.4.4",
     "@ecomplus/utils": "1.4.1",
