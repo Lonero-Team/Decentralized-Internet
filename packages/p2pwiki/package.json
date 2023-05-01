@@ -61,7 +61,7 @@
     "wiki-plugin-pushpin": "^0.3.1",
     "wiki-plugin-radar": "^0.3.1",
     "wiki-plugin-recycler": "^0.2.2",
-    "wiki-plugin-reduce": "^0.2.3",
+    "wiki-plugin-reduce": "^0.3.0",
     "wiki-plugin-reference": "^0.2.4",
     "wiki-plugin-report": "^0.2.3",
     "wiki-plugin-rollup": "^0.3.0",
