@@ -72,7 +72,7 @@
     "wiki-plugin-video": "^0.2.9",
     "wiki-security-friends": "^0.2.2",
     "wiki-security-passportjs": "^0.6.0",
-    "wiki-server": "^0.21.0",
+    "wiki-server": "^0.22.0",
     "snyk": "^1.1064.0"
   },
   "devDependencies": {
