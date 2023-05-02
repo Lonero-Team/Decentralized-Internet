@@ -36,7 +36,7 @@
     "wiki-plugin-bytebeat": "^0.2.5",
     "wiki-plugin-calculator": "^0.2.4",
     "wiki-plugin-calendar": "^0.2.6",
-    "wiki-plugin-changes": "^0.3.2",
+    "wiki-plugin-changes": "^0.4.0",
     "wiki-plugin-chart": "^0.4.0",
     "wiki-plugin-code": "^0.2.3",
     "wiki-plugin-data": "^0.2.3",
