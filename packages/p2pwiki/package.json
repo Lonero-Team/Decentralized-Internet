@@ -38,7 +38,7 @@
     "wiki-plugin-calendar": "^0.2.6",
     "wiki-plugin-changes": "^0.3.2",
     "wiki-plugin-chart": "^0.4.0",
-    "wiki-plugin-code": "^0.2.3",
+    "wiki-plugin-code": "^0.3.0",
     "wiki-plugin-data": "^0.2.3",
     "wiki-plugin-factory": "^0.2.5",
     "wiki-plugin-favicon": "^0.2.3",
