@@ -69,7 +69,7 @@
     "wiki-plugin-scatter": "^0.4.0",
     "wiki-plugin-search": "^0.1.7",
     "wiki-plugin-transport": "^0.2.0",
-    "wiki-plugin-video": "^0.2.9",
+    "wiki-plugin-video": "^0.3.0",
     "wiki-security-friends": "^0.2.2",
     "wiki-security-passportjs": "^0.7.0",
     "wiki-server": "^0.22.0",
