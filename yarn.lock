@@ -93,10 +93,10 @@
     json5 "^2.2.2"
     semver "^6.3.0"
 
-"@babel/eslint-parser@7.21.3":
-  version "7.21.3"
-  resolved "https://registry.yarnpkg.com/@babel/eslint-parser/-/eslint-parser-7.21.3.tgz#d79e822050f2de65d7f368a076846e7184234af7"
-  integrity sha512-kfhmPimwo6k4P8zxNs8+T7yR44q1LdpsZdE1NkCsVlfiuTPRfnGgjaF8Qgug9q9Pou17u6wneYF0lDCZJATMFg==
+"@babel/eslint-parser@7.21.8":
+  version "7.21.8"
+  resolved "https://registry.yarnpkg.com/@babel/eslint-parser/-/eslint-parser-7.21.8.tgz#59fb6fc4f3b017ab86987c076226ceef7b2b2ef2"
+  integrity sha512-HLhI+2q+BP3sf78mFUZNCGc10KEmoUqtUT1OCdMZsN+qr4qFeLUod62/zAnF3jNQstwyasDkZnVXwfK2Bml7MQ==
   dependencies:
     "@nicolo-ribaudo/eslint-scope-5-internals" "5.1.1-v1"
     eslint-visitor-keys "^2.1.0"
@@ -7489,10 +7489,10 @@ ember-qunit@6.2.0:
     silent-error "^1.1.1"
     validate-peer-dependencies "^2.2.0"
 
-ember-resolver@10.0.0:
-  version "10.0.0"
-  resolved "https://registry.yarnpkg.com/ember-resolver/-/ember-resolver-10.0.0.tgz#98ac26f6f622fb12d7eb8f924a32dd94580781a3"
-  integrity sha512-e99wFJ4ZpleJ6JMEcIk4WEYP4s3nc+9/iNSXtwBHXC8ADJHJTeN3HjnT/eEbFbswdui4FYxIYuK+UCdP09811Q==
+ember-resolver@10.1.0:
+  version "10.1.0"
+  resolved "https://registry.yarnpkg.com/ember-resolver/-/ember-resolver-10.1.0.tgz#0ac7bb0105f8bd1d5a93603d4ccb5ef0a4205d9f"
+  integrity sha512-Ju/ORUUbGnR83AgC3qV6fIVuM5tyi/nPRf9ggTM2+kdeGPLNTSkNZ0zSbjWEm0kerDezMjj/RoGuLvZl/L758w==
   dependencies:
     ember-cli-babel "^7.26.11"
 
@@ -15764,10 +15764,10 @@ snapdragon@^0.8.1:
     source-map-resolve "^0.5.0"
     use "^3.1.0"
 
-snyk@1.1143.0:
-  version "1.1143.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.1143.0.tgz#62d86861ecda800491f0e3730930de5afd2dcebd"
-  integrity sha512-NxPv6281FUUDZuqHEWLgXtYsRg47WfNc98ojjQrxDx6aQ//oMdyXnsF0Q2eDyhDiIQNSCIwCFQ8U64YocxXVGw==
+snyk@1.1150.0:
+  version "1.1150.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.1150.0.tgz#0f56e8a3d9a15fff89390f9613acfde6a50822f1"
+  integrity sha512-jwDKDoR2wEko/NXN8FHsJi+w03R3vK/npImnpYc78SX3eGWSc4WCCvIGM2TsYHbXVvU8HsOr5m2lvAwF3v8rbw==
   dependencies:
     "@sentry/node" "^7.36.0"
     global-agent "^3.0.0"
