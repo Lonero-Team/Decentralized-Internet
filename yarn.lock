@@ -7921,15 +7921,7 @@ css-loader@^5.2.0:
     schema-utils "^3.0.0"
     semver "^7.3.5"
 
-css-tree@^2.0.4:
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/css-tree/-/css-tree-2.0.4.tgz#be44314f17e9ac85fe894a5888941782e1123c29"
-  integrity sha512-b4IS9ZUMtGBiNjzYbcj9JhYbyei99R3ai2CSxlu8GQDnoPA/P+NU85hAm0eKDc/Zp660rpK6tFJQ2OSdacMHVg==
-  dependencies:
-    mdn-data "2.0.23"
-    source-map-js "^1.0.1"
-
-css-tree@^2.3.1:
+css-tree@^2.0.4, css-tree@^2.3.1:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/css-tree/-/css-tree-2.3.1.tgz#10264ce1e5442e8572fc82fbe490644ff54b5c20"
   integrity sha512-6Fv1DV/TYw//QF5IzQdqsNDjx/wc8TrMBZsqjL9eW01tWb7R7k/mq+/VXfJCl7SoD5emsJop9cOByJZfs8hYIw==
@@ -9419,10 +9411,10 @@ escodegen@^1.8.1:
   optionalDependencies:
     source-map "~0.6.1"
 
-eslint-plugin-ember@11.5.2:
-  version "11.5.2"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-ember/-/eslint-plugin-ember-11.5.2.tgz#0e30ce343c94f67c6366ff99f3dc4e2f717bb351"
-  integrity sha512-OFlBkV0VSemGtq3cZDWOm/kwOipiswvPIVL6VDJjpEv85BDtbGdqoyvaF9d6/MY7u5aDCh62oOgKQFw9JQGadA==
+eslint-plugin-ember@11.6.0:
+  version "11.6.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-ember/-/eslint-plugin-ember-11.6.0.tgz#839c9b556fe33d2a016670741807efabb9feb2e4"
+  integrity sha512-M/M63t/Y5yr/yuWUbtUZ/tE5B5A8/+6LOR6fJlXpLZR4XMtN3KueYsuEIDGP6AInmq5tjDPmBXX0wV+FkjQmvA==
   dependencies:
     "@ember-data/rfc395-data" "^0.0.4"
     "@glimmer/syntax" "^0.84.2"
@@ -13880,11 +13872,6 @@ mdast-util-to-string@^3.0.0, mdast-util-to-string@^3.1.0:
   integrity sha512-V4Zn/ncyN1QNSqSBxTrMOLpjr+IKdHl2v3KVLoWmDPscP4r9GcCi71gjgvUV1SFSKh92AjAG4peFuBl2/YgCJg==
   dependencies:
     "@types/mdast" "^3.0.0"
-
-mdn-data@2.0.23:
-  version "2.0.23"
-  resolved "https://registry.yarnpkg.com/mdn-data/-/mdn-data-2.0.23.tgz#dfb6c41e50a0edb808cf340973ab29321b70808e"
-  integrity sha512-IonVb7pfla2U4zW8rc7XGrtgq11BvYeCxWN8HS+KFBnLDE7XDK9AAMVhRuG6fj9BBsjc69Fqsp6WEActEdNTDQ==
 
 mdn-data@2.0.30:
   version "2.0.30"
