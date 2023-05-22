@@ -9411,10 +9411,10 @@ escodegen@^1.8.1:
   optionalDependencies:
     source-map "~0.6.1"
 
-eslint-plugin-ember@11.7.0:
-  version "11.7.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-ember/-/eslint-plugin-ember-11.7.0.tgz#dc97b688e95f41bf7d71dc829b37e0f141a00766"
-  integrity sha512-LZvdGam1/R1suDwjFBcEmzQmd34aKqOD91X1JnJHymdiKUiHEeveW30O/ZTvM0CrTjuibZSh0lLLXH2+4/GdgA==
+eslint-plugin-ember@11.7.1:
+  version "11.7.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-ember/-/eslint-plugin-ember-11.7.1.tgz#fc1a999021f9e591eb4b1d8c0cdf0dba1aa1c928"
+  integrity sha512-+IxjcPMFbXF+q8xrlXIgsFxDR9hggNPCOT6QDGmjaKhRgyJ4uQCqVAU0/XVmV7dKVcnFWH9ImZ9eroH3oHwRKg==
   dependencies:
     "@ember-data/rfc395-data" "^0.0.4"
     "@glimmer/syntax" "^0.84.2"
