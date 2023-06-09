@@ -53,7 +53,7 @@
     "standard-version": "9.5.0",
     "webpack": "5.85.1",
     "webpack-cli": "5.1.4",
-    "webpack-dev-server": "4.13.3"
+    "webpack-dev-server": "4.15.1"
   },
   "husky": {
     "hooks": {
