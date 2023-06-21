@@ -51,7 +51,7 @@
     "jsdoc": "4.0.2",
     "standard": "17.1.0",
     "standard-version": "9.5.0",
-    "webpack": "5.87.0",
+    "webpack": "5.88.0",
     "webpack-cli": "5.1.4",
     "webpack-dev-server": "4.15.1"
   },
