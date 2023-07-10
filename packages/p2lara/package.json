@@ -46,7 +46,7 @@
     "@types/node": "20.4.1",
     "concurrently": "8.2.0",
     "mocha": "10.2.0",
-    "nodemon": "3.0.0",
+    "nodemon": "3.0.1",
     "ts-mocha": "10.0.0",
     "ts-node": "10.9.1",
     "tslint": "6.1.3",
