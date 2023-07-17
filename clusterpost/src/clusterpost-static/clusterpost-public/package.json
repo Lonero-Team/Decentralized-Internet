@@ -12,7 +12,7 @@
     "react-feather": "2.0.10",
     "react-jwt-auth": "file:../../react-jwt-auth",
     "react-redux": "8.1.1",
-    "react-router-dom": "6.14.1",
+    "react-router-dom": "6.14.2",
     "react-scripts": "5.0.1",
     "redux": "4.2.1",
     "@snyk/protect": "latest"
