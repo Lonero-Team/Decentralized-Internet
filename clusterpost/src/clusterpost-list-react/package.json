@@ -42,7 +42,7 @@
     "eslint-plugin-import": "2.27.5",
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-promise": "6.1.1",
-    "eslint-plugin-react": "7.33.0",
+    "eslint-plugin-react": "7.33.1",
     "eslint-plugin-standard": "5.0.0",
     "gh-pages": "5.0.0",
     "react": "18.2.0",
