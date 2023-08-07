@@ -73,7 +73,7 @@
     "ember-qunit": "7.0.0",
     "easy-bigchain": "1.0.1",
     "ember-cli-sri": "2.1.1",
-    "@babel/eslint-parser": "7.22.9",
+    "@babel/eslint-parser": "7.22.10",
     "ember-source": "5.2.0",
     "ember-resolver": "11.0.0",
     "ember-cli-eslint": "5.1.0",
