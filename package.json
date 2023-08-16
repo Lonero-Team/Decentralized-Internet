@@ -63,7 +63,7 @@
     "grunt": "1.6.1",
     "husky": "8.0.3",
     "lerna": "7.1.5",
-    "bcrypt": "5.1.0",
+    "bcrypt": "5.1.1",
     "hash.js": "1.1.7",
     "loader.js": "4.7.0",
     "qunit-dom": "2.0.0",
