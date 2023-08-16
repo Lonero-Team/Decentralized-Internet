@@ -67,7 +67,7 @@
     "hash.js": "1.1.7",
     "loader.js": "4.7.0",
     "qunit-dom": "2.0.0",
-    "ember-try": "2.0.0",
+    "ember-try": "3.0.0",
     "ember-cli": "5.1.0",
     "typescript": "5.1.6",
     "ember-qunit": "7.0.0",
