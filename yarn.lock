@@ -9419,10 +9419,10 @@ escodegen@^1.8.1:
   optionalDependencies:
     source-map "~0.6.1"
 
-eslint-plugin-ember@11.10.0:
-  version "11.10.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-ember/-/eslint-plugin-ember-11.10.0.tgz#46a696ebabcfefcf8212eb0eb2b11d61360c70fc"
-  integrity sha512-/5VanfpfzIdmWgXWyQ6ylAJWITu8mXivRce06h0uoifVpUoGaBdAkwuto/PLGfDxWdi43xWUFLb5Tpkhx2MoFg==
+eslint-plugin-ember@11.11.1:
+  version "11.11.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-ember/-/eslint-plugin-ember-11.11.1.tgz#bc49d76ed8ec43e646d222f15181f4d18c3c3218"
+  integrity sha512-dvsDa4LkDkGqCE2bzBIguRMi1g40JVwRWMSHmn8S7toRDxSOU3M7yromgi5eSAJX2O2vEvJZ9QnR15YDbvNfVQ==
   dependencies:
     "@ember-data/rfc395-data" "^0.0.4"
     "@glimmer/syntax" "^0.84.2"
@@ -18091,10 +18091,10 @@ snapdragon@^0.8.1:
     source-map-resolve "^0.5.0"
     use "^3.1.0"
 
-snyk@1.1202.0:
-  version "1.1202.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.1202.0.tgz#09ef1c45d5f19b4640ea523c3ca39a991930792b"
-  integrity sha512-n300P0nfksjt7tHZgclOdVRowYz5FZJs1SVV4XOeJUQiMg728D9aqWO5pl0EHeyygtUWcki77QWAiYXXI5X0hQ==
+snyk@1.1203.0:
+  version "1.1203.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.1203.0.tgz#619b4926d513643c8897b3001178bced23404c1e"
+  integrity sha512-ohhSq1F5C97CVxmoPgTRMOM8LZ/QIFlATaeTfc05pSyrdup5TovwfzYTbPTm+lUFbTqsCEYzlEbq+dJajkLLvQ==
   dependencies:
     "@sentry/node" "^7.36.0"
     global-agent "^3.0.0"
