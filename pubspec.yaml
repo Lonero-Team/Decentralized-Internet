@@ -6,4 +6,4 @@ description: >-
 homepage: https://www.starkdrones.org/home/os
 documentation: https://lonero.readthedocs.io
 environment:
-  sdk: '>=2.0.0 <3.0.0'
+  sdk: '<4.0.0'
