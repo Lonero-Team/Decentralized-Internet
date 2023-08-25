@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.14.1
+version: v1.25.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -852,3 +852,21 @@ patch:
         patched: '2020-05-22T10:28:24.458Z'
     - mosca > ascoltatori > ioredis > lodash:
         patched: '2020-05-22T10:28:24.458Z'
+    - decentralized-internet > ember-cli-babel > @babel/preset-env > @babel/preset-modules > @babel/types > lodash:
+        patched: '2023-08-16T03:39:41.264Z'
+        id: SNYK-JS-LODASH-450202
+        path: >-
+          decentralized-internet > ember-cli-babel > @babel/preset-env >
+          @babel/preset-modules > @babel/types > lodash
+    - decentralized-internet > ember-cli-htmlbars > broccoli-persistent-filter > async-promise-queue > async > lodash:
+        patched: '2023-08-16T03:39:41.264Z'
+        id: SNYK-JS-LODASH-450202
+        path: >-
+          decentralized-internet > ember-cli-htmlbars >
+          broccoli-persistent-filter > async-promise-queue > async > lodash
+    - decentralized-internet > ember-cli-babel > broccoli-babel-transpiler > broccoli-persistent-filter > async-promise-queue > async > lodash:
+        patched: '2023-08-16T03:39:41.264Z'
+        id: SNYK-JS-LODASH-450202
+        path: >-
+          decentralized-internet > ember-cli-babel > broccoli-babel-transpiler >
+          broccoli-persistent-filter > async-promise-queue > async > lodash

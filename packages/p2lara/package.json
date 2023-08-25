@@ -14,7 +14,7 @@
     "start": "npm run dev",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "snyk-protect": "snyk protect",
+    "snyk-protect": "snyk-protect",
     "prepare": "npm run snyk-protect"
   },
   "keywords": [
@@ -37,7 +37,7 @@
     "mosca": "^2.8.3",
     "mqtt": "^5.0.0",
     "ttn": "^2.3.2",
-    "snyk": "^1.1064.0"
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@types/expect": "24.3.0",
