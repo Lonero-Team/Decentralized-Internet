@@ -1,4 +1,4 @@
-FROM python:3.11.4
+FROM python:3.11.5
 
 RUN mkdir -p /src
 RUN pip install --upgrade \
