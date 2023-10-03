@@ -1,4 +1,4 @@
-FROM python:3.11
+FROM python:3.12
 LABEL maintainer "devs@bigchaindb.com"
 RUN mkdir -p /usr/src/app
 COPY . /usr/src/app/
