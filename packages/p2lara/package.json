@@ -41,7 +41,7 @@
   },
   "devDependencies": {
     "@types/expect": "24.3.0",
-    "@types/express": "4.17.18",
+    "@types/express": "4.17.19",
     "@types/mocha": "10.0.2",
     "@types/node": "20.8.3",
     "concurrently": "8.2.1",
