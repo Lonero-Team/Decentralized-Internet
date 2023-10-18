@@ -5211,7 +5211,7 @@ broccoli-funnel@^2.0.0, broccoli-funnel@^2.0.1, broccoli-funnel@^2.0.2:
     symlink-or-copy "^1.0.0"
     walk-sync "^0.3.1"
 
-broccoli-funnel@^3.0.3, broccoli-funnel@^3.0.8:
+broccoli-funnel@^3.0.8:
   version "3.0.8"
   resolved "https://registry.yarnpkg.com/broccoli-funnel/-/broccoli-funnel-3.0.8.tgz#f5b62e2763c3918026a15a3c833edc889971279b"
   integrity sha512-ng4eIhPYiXqMw6SyGoxPHR3YAwEd2lr9FgBI1CyTbspl4txZovOsmzFkMkGAlu88xyvYXJqHiM2crfLa65T1BQ==
@@ -14625,15 +14625,10 @@ quick-temp@^0.1.2, quick-temp@^0.1.3, quick-temp@^0.1.5, quick-temp@^0.1.8:
     rimraf "^2.5.4"
     underscore.string "~3.3.4"
 
-qunit-dom@2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/qunit-dom/-/qunit-dom-2.0.0.tgz#c4d7f7676dbb57f54151b72f8366d862134cd1c0"
-  integrity sha512-mElzLN99wYPOGekahqRA+mq7NcThXY9c+/tDkgJmT7W5LeZAFNyITr2rFKNnCbWLIhuLdFw88kCBMrJSfyBYpA==
-  dependencies:
-    broccoli-funnel "^3.0.3"
-    broccoli-merge-trees "^4.2.0"
-    ember-cli-babel "^7.23.0"
-    ember-cli-version-checker "^5.1.1"
+qunit-dom@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/qunit-dom/-/qunit-dom-3.0.0.tgz#326e83e4ce8d492bdff91a8cb4d5b54a20917fcc"
+  integrity sha512-rqGZ9ZgOvtOY+Ph2ElCJ4pRIHouMZmI3DWK35Xr3x3c17/gIwOHHyKAQk6XetqhqepS6p+oXvK6Bx1uZu5jJuw==
 
 randombytes@^2.0.1, randombytes@^2.0.3, randombytes@^2.0.5:
   version "2.1.0"
@@ -15826,10 +15821,10 @@ snapdragon@^0.8.1:
     source-map-resolve "^0.5.0"
     use "^3.1.0"
 
-snyk@1.1233.0:
-  version "1.1233.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.1233.0.tgz#fa402e944253302e00e9f175ddbe677bfc2c7597"
-  integrity sha512-LbmXa/bHI231pc3fP6jASbXyaoxwER8aw9SCG16ahMt2gX51LUlUTxZYChxuWiJok1QRUqYvQD/vjFJaZNP8eA==
+snyk@1.1234.0:
+  version "1.1234.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.1234.0.tgz#faed198c2ee2be9723b3d791e4f2c5046e54d083"
+  integrity sha512-L1OwTF+2lPDnAfxnc7dmmoBE11Qf++0Np7imSK5zrVoMqchKtdmmweAuWe5q98lbBuekpET/ioaERQraef8jYw==
   dependencies:
     "@sentry/node" "^7.36.0"
     global-agent "^3.0.0"
