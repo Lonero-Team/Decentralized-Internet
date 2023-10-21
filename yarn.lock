@@ -14633,9 +14633,9 @@ rc@^1.2.8:
     strip-json-comments "~2.0.1"
 
 react-devtools-core@^4.19.1:
-  version "4.27.2"
-  resolved "https://registry.yarnpkg.com/react-devtools-core/-/react-devtools-core-4.27.2.tgz#d20fc57e258c656eedabafc2c851d38b33583148"
-  integrity sha512-8SzmIkpO87alD7Xr6gWIEa1jHkMjawOZ+6egjazlnjB4UUcbnzGDf/vBJ4BzGuWWEM+pzrxuzsPpcMqlQkYK2g==
+  version "4.28.4"
+  resolved "https://registry.yarnpkg.com/react-devtools-core/-/react-devtools-core-4.28.4.tgz#fb8183eada77093f4c2f9830e664bf22255abe27"
+  integrity sha512-IUZKLv3CimeM07G3vX4H4loxVpByrzq3HvfTX7v9migalwvLs9ZY5D3S3pKR33U+GguYfBBdMMZyToFhsSE/iQ==
   dependencies:
     shell-quote "^1.6.1"
     ws "^7"
@@ -15773,10 +15773,10 @@ snapdragon@^0.8.1:
     source-map-resolve "^0.5.0"
     use "^3.1.0"
 
-snyk@1.1234.0:
-  version "1.1234.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.1234.0.tgz#faed198c2ee2be9723b3d791e4f2c5046e54d083"
-  integrity sha512-L1OwTF+2lPDnAfxnc7dmmoBE11Qf++0Np7imSK5zrVoMqchKtdmmweAuWe5q98lbBuekpET/ioaERQraef8jYw==
+snyk@1.1236.0:
+  version "1.1236.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.1236.0.tgz#a517f0317667a127acb4fd57bfb4fc521481db43"
+  integrity sha512-sjYRb2n5wKP2UphvBa/4PDVSY4UebA2FBd2GzySnI0k1FJefLn37d7oyihFKhtGte0P5XBC9ybJ9oGZo0YVwag==
   dependencies:
     "@sentry/node" "^7.36.0"
     global-agent "^3.0.0"
