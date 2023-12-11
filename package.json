@@ -58,7 +58,7 @@
     }
   },
   "devDependencies": {
-    "minify": "10.5.2",
+    "minify": "11.0.0",
     "minimist": "1.2.8",
     "grunt": "1.6.1",
     "husky": "8.0.3",
