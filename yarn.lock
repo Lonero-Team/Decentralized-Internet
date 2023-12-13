@@ -84,22 +84,22 @@
     eslint-visitor-keys "^2.1.0"
     semver "^6.3.1"
 
+"@babel/generator@7.23.0", "@babel/generator@^7.23.0":
+  version "7.23.0"
+  resolved "https://registry.yarnpkg.com/@babel/generator/-/generator-7.23.0.tgz#df5c386e2218be505b34837acbcb874d7a983420"
+  integrity sha512-lN85QRR+5IbYrMWM6Y4pE/noaQtg4pNiqeNGX60eqOfo6gtEj6uw/JagelB8vVztSd7R6M5n1+PQkDbHbBRU4g==
+  dependencies:
+    "@babel/types" "^7.23.0"
+    "@jridgewell/gen-mapping" "^0.3.2"
+    "@jridgewell/trace-mapping" "^0.3.17"
+    jsesc "^2.5.1"
+
 "@babel/generator@^7.22.15":
   version "7.22.15"
   resolved "https://registry.yarnpkg.com/@babel/generator/-/generator-7.22.15.tgz#1564189c7ec94cb8f77b5e8a90c4d200d21b2339"
   integrity sha512-Zu9oWARBqeVOW0dZOjXc3JObrzuqothQ3y/n1kUtrjCoCPLkXUwMvOo/F/TCfoHMbWIFlWwpZtkZVb9ga4U2pA==
   dependencies:
     "@babel/types" "^7.22.15"
-    "@jridgewell/gen-mapping" "^0.3.2"
-    "@jridgewell/trace-mapping" "^0.3.17"
-    jsesc "^2.5.1"
-
-"@babel/generator@^7.23.0":
-  version "7.23.0"
-  resolved "https://registry.yarnpkg.com/@babel/generator/-/generator-7.23.0.tgz#df5c386e2218be505b34837acbcb874d7a983420"
-  integrity sha512-lN85QRR+5IbYrMWM6Y4pE/noaQtg4pNiqeNGX60eqOfo6gtEj6uw/JagelB8vVztSd7R6M5n1+PQkDbHbBRU4g==
-  dependencies:
-    "@babel/types" "^7.23.0"
     "@jridgewell/gen-mapping" "^0.3.2"
     "@jridgewell/trace-mapping" "^0.3.17"
     jsesc "^2.5.1"
@@ -1464,6 +1464,22 @@
     "@babel/parser" "^7.22.5"
     "@babel/types" "^7.22.5"
 
+"@babel/traverse@7.23.0":
+  version "7.23.0"
+  resolved "https://registry.yarnpkg.com/@babel/traverse/-/traverse-7.23.0.tgz#18196ddfbcf4ccea324b7f6d3ada00d8c5a99c53"
+  integrity sha512-t/QaEvyIoIkwzpiZ7aoSKK8kObQYeF7T2v+dazAYCb8SXtp58zEVkWW7zAnju8FNKNdr4ScAOEDmMItbyOmEYw==
+  dependencies:
+    "@babel/code-frame" "^7.22.13"
+    "@babel/generator" "^7.23.0"
+    "@babel/helper-environment-visitor" "^7.22.20"
+    "@babel/helper-function-name" "^7.23.0"
+    "@babel/helper-hoist-variables" "^7.22.5"
+    "@babel/helper-split-export-declaration" "^7.22.6"
+    "@babel/parser" "^7.23.0"
+    "@babel/types" "^7.23.0"
+    debug "^4.1.0"
+    globals "^11.1.0"
+
 "@babel/traverse@^7.13.0", "@babel/traverse@^7.16.7", "@babel/traverse@^7.22.15", "@babel/traverse@^7.22.20", "@babel/traverse@^7.22.5", "@babel/traverse@^7.4.5":
   version "7.23.2"
   resolved "https://registry.yarnpkg.com/@babel/traverse/-/traverse-7.23.2.tgz#329c7a06735e144a506bdb2cad0268b7f46f4ad8"
@@ -1479,6 +1495,15 @@
     "@babel/types" "^7.23.0"
     debug "^4.1.0"
     globals "^11.1.0"
+
+"@babel/types@7.23.0", "@babel/types@^7.23.0":
+  version "7.23.0"
+  resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.23.0.tgz#8c1f020c9df0e737e4e247c0619f58c68458aaeb"
+  integrity sha512-0oIyUfKoI3mSqMvsxBdclDwxXKXAUA8v/apZbc+iSyARYou1o8ZGDxbUYyLFoW2arqS2jDGqJuZvv1d/io1axg==
+  dependencies:
+    "@babel/helper-string-parser" "^7.22.5"
+    "@babel/helper-validator-identifier" "^7.22.20"
+    to-fast-properties "^2.0.0"
 
 "@babel/types@^7.12.13", "@babel/types@^7.13.12", "@babel/types@^7.16.7", "@babel/types@^7.4.4", "@babel/types@^7.7.2":
   version "7.17.0"
@@ -1513,15 +1538,6 @@
   dependencies:
     "@babel/helper-string-parser" "^7.22.5"
     "@babel/helper-validator-identifier" "^7.22.5"
-    to-fast-properties "^2.0.0"
-
-"@babel/types@^7.23.0":
-  version "7.23.0"
-  resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.23.0.tgz#8c1f020c9df0e737e4e247c0619f58c68458aaeb"
-  integrity sha512-0oIyUfKoI3mSqMvsxBdclDwxXKXAUA8v/apZbc+iSyARYou1o8ZGDxbUYyLFoW2arqS2jDGqJuZvv1d/io1axg==
-  dependencies:
-    "@babel/helper-string-parser" "^7.22.5"
-    "@babel/helper-validator-identifier" "^7.22.20"
     to-fast-properties "^2.0.0"
 
 "@cnakazawa/watch@^1.0.3":
@@ -4626,10 +4642,10 @@ backbone@^1.1.2:
   dependencies:
     underscore ">=1.8.3"
 
-backburner.js@^2.7.0:
-  version "2.7.0"
-  resolved "https://registry.yarnpkg.com/backburner.js/-/backburner.js-2.7.0.tgz#36a5b8a8bfceb7efc8ad56e006a238924acfd67e"
-  integrity sha512-eBZC6r7wT+YYAOKeru8IqgzOimz3VgyspXiZ1k6MI8i10zUdU8cnNII56rlnItQ89cHgQO3C/nPuFW3V9di+zg==
+backburner.js@^2.8.0:
+  version "2.8.0"
+  resolved "https://registry.yarnpkg.com/backburner.js/-/backburner.js-2.8.0.tgz#72f8c7455ff664ff8e79a32415977e10a18e03c7"
+  integrity sha512-zYXY0KvpD7/CWeOLF576mV8S+bQsaIoj/GNLXXB+Eb8SJcQy5lqSjkRrZ0MZhdKUs9QoqmGNIEIe3NQfGiiscQ==
 
 balanced-match@^1.0.0:
   version "1.0.2"
@@ -7605,10 +7621,10 @@ ember-cli-version-checker@^5.0.1, ember-cli-version-checker@^5.1.1, ember-cli-ve
     semver "^7.3.4"
     silent-error "^1.1.1"
 
-ember-cli@5.4.1:
-  version "5.4.1"
-  resolved "https://registry.yarnpkg.com/ember-cli/-/ember-cli-5.4.1.tgz#248205ac0abdb970a7f578a729af99567c5e48fc"
-  integrity sha512-+jwp63OPT0zkUnXP563DkIwb1GiI6kGYHg6DyzJKY48BCdevqcgxsMFn8/RENXoF7krg18A5B9cSa8Y1v15tIw==
+ember-cli@5.5.0:
+  version "5.5.0"
+  resolved "https://registry.yarnpkg.com/ember-cli/-/ember-cli-5.5.0.tgz#ebfa383a82f437dfb30b421cf4f6e52eb3581ddd"
+  integrity sha512-D3Q+mq5yOpZB1pJu4aOnVj5+LTwXmd5sJhXqZxc9Y0JFRYinl4h0HHGUMUvtV7obo811gf13ObDAaUmSfVPQbQ==
   dependencies:
     "@pnpm/find-workspace-dir" "^6.0.2"
     broccoli "^3.5.2"
@@ -7640,6 +7656,7 @@ ember-cli@5.4.1:
     ember-cli-normalize-entity-name "^1.0.0"
     ember-cli-preprocess-registry "^5.0.1"
     ember-cli-string-utils "^1.1.0"
+    ember-template-tag "^2.3.8"
     ensure-posix-path "^1.1.1"
     execa "^5.1.1"
     exit "^0.1.2"
@@ -7770,10 +7787,10 @@ ember-source-channel-url@3.0.0, ember-source-channel-url@^3.0.0:
   dependencies:
     node-fetch "^2.6.0"
 
-ember-source@5.4.0:
-  version "5.4.0"
-  resolved "https://registry.yarnpkg.com/ember-source/-/ember-source-5.4.0.tgz#c18df972074aad8b891c289f4657af63844a242c"
-  integrity sha512-y2fPd7DJ8D9IBjHSf6CPwU8TqNpqytpMgFyzf+9tPvu/u2Wdd45jEd2W1weKE3URQwPTcA0vK8Q1w6uzLOx/EA==
+ember-source@5.5.0:
+  version "5.5.0"
+  resolved "https://registry.yarnpkg.com/ember-source/-/ember-source-5.5.0.tgz#62f4f439d6642b7b70dd0cd53786be5058eab40b"
+  integrity sha512-OTJ9kt76wyvEkdSdjmonoLUTTqYg5OaFxicSiwKsjX9gJ9bVzuCu3uInhBKEfTdC5lSBMEcVuGk8f9LUF3pxJQ==
   dependencies:
     "@babel/helper-module-imports" "^7.16.7"
     "@babel/plugin-transform-block-scoping" "^7.22.5"
@@ -7798,7 +7815,7 @@ ember-source@5.4.0:
     "@simple-dom/interface" "^1.4.0"
     babel-plugin-debug-macros "^0.3.4"
     babel-plugin-filter-imports "^4.0.0"
-    backburner.js "^2.7.0"
+    backburner.js "^2.8.0"
     broccoli-concat "^4.2.5"
     broccoli-debug "^0.6.4"
     broccoli-file-creator "^2.1.1"
@@ -7816,11 +7833,11 @@ ember-source@5.4.0:
     ember-cli-version-checker "^5.1.2"
     ember-router-generator "^2.0.0"
     inflection "^2.0.1"
-    resolve "^1.22.2"
     route-recognizer "^0.3.4"
     router_js "^8.0.3"
     semver "^7.5.2"
     silent-error "^1.1.1"
+    simple-html-tokenizer "^0.5.11"
 
 ember-template-imports@^3.4.2:
   version "3.4.2"
@@ -7883,6 +7900,16 @@ ember-template-recast@^6.1.4:
     slash "^3.0.0"
     tmp "^0.2.1"
     workerpool "^6.4.0"
+
+ember-template-tag@^2.3.8:
+  version "2.3.15"
+  resolved "https://registry.yarnpkg.com/ember-template-tag/-/ember-template-tag-2.3.15.tgz#8d04d976ff3978b62806142ed0d2a18b246bac53"
+  integrity sha512-uvFt+eIE4788Yr3X1wYLrh+PYYmasmREh2IoShIrZvOW2dOfC+elSZeqeEacNhbKJUX3tT9XUKlbpYFVwvSvyA==
+  dependencies:
+    "@babel/generator" "7.23.0"
+    "@babel/traverse" "7.23.0"
+    "@babel/types" "7.23.0"
+    "@glimmer/syntax" "^0.84.3"
 
 ember-try-config@^4.0.0:
   version "4.0.0"
@@ -15122,7 +15149,7 @@ resolve-url@^0.2.1:
   resolved "https://registry.yarnpkg.com/resolve-url/-/resolve-url-0.2.1.tgz#2c637fe77c893afd2a663fe21aa9080068e2052a"
   integrity sha1-LGN/53yJOv0qZj/iGqkIAGjiBSo=
 
-resolve@^1.10.0, resolve@^1.10.1, resolve@^1.11.1, resolve@^1.12.0, resolve@^1.13.1, resolve@^1.14.2, resolve@^1.17.0, resolve@^1.19.0, resolve@^1.20.0, resolve@^1.22.0, resolve@^1.22.1, resolve@^1.22.2, resolve@^1.4.0, resolve@^1.5.0, resolve@^1.9.0:
+resolve@^1.10.0, resolve@^1.10.1, resolve@^1.11.1, resolve@^1.12.0, resolve@^1.13.1, resolve@^1.14.2, resolve@^1.17.0, resolve@^1.19.0, resolve@^1.20.0, resolve@^1.22.0, resolve@^1.22.1, resolve@^1.4.0, resolve@^1.5.0, resolve@^1.9.0:
   version "1.22.6"
   resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.22.6.tgz#dd209739eca3aef739c626fea1b4f3c506195362"
   integrity sha512-njhxM7mV12JfufShqGy3Rz8j11RPdLy4xi15UurGJeoHLfJpVXKdh3ueuOqbYUcDZnffr6X739JBo5LzyahEsw==
