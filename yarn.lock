@@ -12439,10 +12439,10 @@ mini-css-extract-plugin@^2.5.2:
   dependencies:
     schema-utils "^4.0.0"
 
-minify@11.0.0:
-  version "11.0.0"
-  resolved "https://registry.yarnpkg.com/minify/-/minify-11.0.0.tgz#fa8074cb78909efe30a76a94bcb373658f6ec149"
-  integrity sha512-7DDQtq1B+ZEeXz7m+OK+EVQwWHaErAD4w0/sAbhn6cfriO5uaNOVucRJDSCMpMCq+GVm33vQijAWjNqQhI2mcA==
+minify@11.0.1:
+  version "11.0.1"
+  resolved "https://registry.yarnpkg.com/minify/-/minify-11.0.1.tgz#058743d36ab9abc1748326d0cd942afb70a789e2"
+  integrity sha512-J2C0fR+1DE4zPKMpIuxnBkqIPrcEUADZK9sDaXnruOj268hilhbgQenfuGh9gGJ0rI3irZNPwgjWcBBBCYMXqA==
   dependencies:
     "@putout/minify" "^3.0.0"
     clean-css "^5.0.1"
