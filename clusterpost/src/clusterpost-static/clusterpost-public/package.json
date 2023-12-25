@@ -14,7 +14,7 @@
     "react-redux": "9.0.4",
     "react-router-dom": "6.21.0",
     "react-scripts": "5.0.1",
-    "redux": "5.0.0",
+    "redux": "5.0.1",
     "@snyk/protect": "latest"
   },
   "scripts": {
