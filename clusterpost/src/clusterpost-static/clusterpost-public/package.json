@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "axios": "1.6.5",
+    "axios": "1.6.7",
     "bootstrap": "5.3.2",
     "clusterpost-list-react": "file:../../clusterpost-list-react",
     "react": "18.2.0",
