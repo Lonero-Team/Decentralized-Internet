@@ -45,7 +45,7 @@
     "@types/mocha": "10.0.6",
     "@types/node": "20.10.6",
     "concurrently": "8.2.2",
-    "mocha": "10.2.0",
+    "mocha": "10.3.0",
     "nodemon": "3.0.3",
     "ts-mocha": "10.0.0",
     "ts-node": "10.9.2",
