@@ -61,7 +61,7 @@ tests_require = [
     'coverage',
     'pep8',
     'flake8',
-    'flake8-quotes==3.3.2',
+    'flake8-quotes==3.4.0',
     'hypothesis~=6.98.15',
     'hypothesis-regex',
     # Removed pylint because its GPL license isn't Apache2-compatible
