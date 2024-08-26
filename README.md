@@ -31,7 +31,7 @@ Also special thanks to:
 Papers worth checking out:
 [Lonero Whitepaper (Original)](https://www.academia.edu/37041064/Lonero_Whitepaper_v1)  | [CrowdCoin Scientific Whitepaper](https://www.academia.edu/37832290/CrowdCoin_Scientific_Whitepaper)
 
-This NPM library/package is being mantained by the folks [here](starkdrones.org/home/os)
+This NPM library/package is being maintained by the folks [here](starkdrones.org/home/os)
 
 This project was created in order to support a new internet. One that is more open, free, and censorship-resistant in comparison to the old internet. An internet that eventually wouldn't need to rely on telecom towers, an outdated grid, or all these other "old school" forms of tech. We believe P2P compatibility is an important part of the future of the net. Grid Computing also plays a role in having a better means of transferring information in a speedy, more cost-efficient and reliable manner.
 
