@@ -32,7 +32,7 @@
   "dependencies": {
     "decentralized-internet": "^5.0.0",
     "@types/mosca": "^2.8.1",
-    "express": "^4.19.2",
+    "express": "^4.21.0",
     "influx": "^5.0.7",
     "mosca": "^2.8.3",
     "mqtt": "^5.3.5",
