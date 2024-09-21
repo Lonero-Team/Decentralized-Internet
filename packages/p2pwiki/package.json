@@ -26,7 +26,7 @@
     "glob": "^10.0.0",
     "lodash": "^4.17.21",
     "optimist": "0.6",
-    "socket.io": "^4.0.0",
+    "socket.io": "^4.8.0",
     "wiki-client": "^0.29.0",
     "decentralized-internet": "^5.0.0",
     "wiki-plugin-activity": "^0.5.0",
