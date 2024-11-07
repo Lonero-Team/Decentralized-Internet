@@ -40,7 +40,7 @@
     "@snyk/protect": "latest"
   },
   "devDependencies": {
-    "@types/expect": "24.3.0",
+    "@types/expect": "24.3.2",
     "@types/express": "4.17.21",
     "@types/mocha": "10.0.6",
     "@types/node": "20.12.12",
