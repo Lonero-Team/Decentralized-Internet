@@ -35,7 +35,7 @@
     "express": "^4.19.2",
     "influx": "^5.0.7",
     "mosca": "^2.8.3",
-    "mqtt": "^5.3.5",
+    "mqtt": "^5.7.2",
     "ttn": "^2.3.2",
     "@snyk/protect": "latest"
   },
