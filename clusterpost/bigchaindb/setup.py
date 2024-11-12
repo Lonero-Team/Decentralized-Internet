@@ -91,7 +91,7 @@ install_requires = [
     'aiohttp~=3.0',
     'bigchaindb-abci==1.0.7',
     'setproctitle~=1.3.0',
-    'packaging~=23.0',
+    'packaging~=24.2',
 ]
 
 if sys.version_info < (3, 6):
