@@ -48,7 +48,7 @@ dev_require = [
 ]
 
 docs_require = [
-    'Sphinx~=7.4.7',
+    'Sphinx~=8.1.3',
     'recommonmark>=0.4.0',
     'sphinx-rtd-theme>=0.1.9',
     'sphinxcontrib-httpdomain>=1.5.0',
