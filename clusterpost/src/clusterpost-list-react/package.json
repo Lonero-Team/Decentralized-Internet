@@ -24,8 +24,8 @@
   },
   "peerDependencies": {
     "prop-types": "^15.5.4",
-    "react": "^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0",
-    "react-dom": "^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0"
+    "react": "^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+    "react-dom": "^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
   },
   "devDependencies": {
     "@svgr/rollup": "8.1.0",
@@ -45,8 +45,8 @@
     "eslint-plugin-react": "7.37.2",
     "eslint-plugin-standard": "5.0.0",
     "gh-pages": "6.2.0",
-    "react": "18.3.1",
-    "react-dom": "18.3.1",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
     "react-scripts": "5.0.1",
     "rollup": "4.28.0",
     "@rollup/plugin-babel": "6.0.4",
