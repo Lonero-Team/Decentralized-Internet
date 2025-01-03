@@ -46,7 +46,7 @@
     "eslint-plugin-promise": "7.2.1",
     "eslint-plugin-react": "7.37.3",
     "eslint-plugin-standard": "5.0.0",
-    "gh-pages": "6.2.0",
+    "gh-pages": "6.3.0",
     "react-scripts": "5.0.1",
     "rollup": "4.29.1",
     "@rollup/plugin-babel": "6.0.4",
