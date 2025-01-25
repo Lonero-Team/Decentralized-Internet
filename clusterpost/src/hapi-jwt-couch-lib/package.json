@@ -28,7 +28,7 @@
     "lab": "18.0.2"
   },
   "dependencies": {
-    "@hapi/joi": "^17.0.0",
+    "joi": "17.1.1",
     "bluebird": "^3.5.1",
     "jsonwebtoken": "^9.0.0",
     "prompt": "^1.1.0",
