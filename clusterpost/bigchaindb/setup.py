@@ -77,7 +77,7 @@ tests_require = [
 
 install_requires = [
     # TODO Consider not installing the db drivers, or putting them in extras.
-    'pymongo~=4.0',
+    'pymongo~=10.10',
     'cryptoconditions==0.8.1',
     'python-rapidjson~=1.5',
     'logstats~=0.3.0',
