@@ -1,4 +1,5 @@
 ##### Hello, welcome to the packages/samples repository.  
+![OpenAI_Banner](https://raw.githubusercontent.com/Mentors4EDU/Images/refs/heads/master/NFT_Drop_banner_large.png)
 
 > This will eventually make the base for the OpenPeer AI standard by Riemann Computing Inc.
 
