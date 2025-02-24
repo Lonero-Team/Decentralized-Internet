@@ -1,5 +1,5 @@
 ##### Hello, welcome to the packages/samples repository.  
-[![OpenAI_Banner](https://raw.githubusercontent.com/Mentors4EDU/Images/refs/heads/master/NFT_Drop_banner_large.png)](https://bitbadges.io/collections/32)
+[![OpenAI_Banner](https://raw.githubusercontent.com/Mentors4EDU/Images/refs/heads/master/D-1.jpg)](https://bitbadges.io/collections/32)
 
 > This will eventually make the base for the OpenPeer AI standard by Riemann Computing Inc.
 
