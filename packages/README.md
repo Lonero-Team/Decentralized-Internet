@@ -1,5 +1,5 @@
 ##### Hello, welcome to the packages/samples repository.  
-[![OpenAI_Banner](https://raw.githubusercontent.com/Mentors4EDU/Images/refs/heads/master/D-1.jpg)](https://bitbadges.io/collections/32)
+[![OpenAI_Banner](https://raw.githubusercontent.com/Mentors4EDU/Images/refs/heads/master/D-2.jpg)](https://bitbadges.io/collections/32)
 
 > This will eventually make the base for the OpenPeer AI standard by Riemann Computing Inc.
 
@@ -15,4 +15,4 @@ Packages:
 `npm install dstack`  
 `npm install p2shop`  
 `npm install p2pwiki`  
-> Updated as of 02/18/2025
+> Updated as of 02/24/2025
