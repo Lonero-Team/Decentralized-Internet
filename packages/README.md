@@ -4,7 +4,6 @@
 > This will eventually make the base for the OpenPeer AI standard by Riemann Computing Inc.
 
 Currently this is under construction as we just started using [Lerna](https://lerna.js.org/) to manage this directory  
-![N|Gif](https://media2.giphy.com/media/YA6dmVW0gfIw8/giphy.gif?cid=ecf05e475b6510cc9083a280b87db98c89af22dc23c7ab65&rid=giphy.gif)  
 
 Packages:  
 `npm install aicar`  
