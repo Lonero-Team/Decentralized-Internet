@@ -8131,10 +8131,10 @@ ember-cli-version-checker@^5.0.1, ember-cli-version-checker@^5.1.2:
     semver "^7.3.4"
     silent-error "^1.1.1"
 
-ember-cli@6.2.2:
-  version "6.2.2"
-  resolved "https://registry.yarnpkg.com/ember-cli/-/ember-cli-6.2.2.tgz#04113eca95ed3741e70d5c174df9067628d814f3"
-  integrity sha512-PJNJ3Ib1IP85NJlw/AdzX76ZIDcyAAFJfDz/wFJQ+hqTFNWsjVjXl20X3ePQkKfZZlF421EC5nsLBOwbHqsh9g==
+ember-cli@6.2.3:
+  version "6.2.3"
+  resolved "https://registry.yarnpkg.com/ember-cli/-/ember-cli-6.2.3.tgz#42451f3b27469b5455ed7c922086007debd1aa9f"
+  integrity sha512-bZhbSDOCwSV7m0DjtDTap3S3C5f5lYt73Bwpdc+Wi0Y/ILas/NMB5ywpSlH2fiPfeGtzvi/fv8ua8eXQqkvVSQ==
   dependencies:
     "@pnpm/find-workspace-dir" "^7.0.2"
     babel-remove-types "^1.0.0"
