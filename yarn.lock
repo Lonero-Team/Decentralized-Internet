@@ -1905,7 +1905,7 @@
     mkdirp "^1.0.4"
     silent-error "^1.1.1"
 
-"@embroider/addon-shim@^1.8.6", "@embroider/addon-shim@^1.9.0":
+"@embroider/addon-shim@^1.9.0":
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/@embroider/addon-shim/-/addon-shim-1.9.0.tgz#f729cfaf0f2d5f3c178808a546251743335c62f4"
   integrity sha512-fMzayl/licUL8VRAy4qXROKcYvHwUbV8aTh4m97L5/MRuVpxbcAy92DGGTqx5OBKCSQN3gMg+sUKeE6AviefpQ==
@@ -1915,12 +1915,12 @@
     common-ancestor-path "^1.0.1"
     semver "^7.3.8"
 
-"@embroider/macros@^1.0.0", "@embroider/macros@^1.13.1":
-  version "1.13.1"
-  resolved "https://registry.yarnpkg.com/@embroider/macros/-/macros-1.13.1.tgz#aee17e5af0e0086bd36873bdb4e49ea346bab3fa"
-  integrity sha512-4htraP/rNIht8uCxXoc59Bw2EsBFfc4YUQD9XSpzJ4xUr1V0GQf9wL/noeSuYSxIhwRfZOErnJhsdyf1hH+I/A==
+"@embroider/macros@^1.0.0", "@embroider/macros@^1.16.12":
+  version "1.16.12"
+  resolved "https://registry.yarnpkg.com/@embroider/macros/-/macros-1.16.12.tgz#f9695c960df74a8e056fa84db31af7c71b6e8c7a"
+  integrity sha512-cgaEbzCvUOZF7Xs9FNMGknSCTgE01A1cXkkEhSTuaPbf6F/2z9pZAdQpVrBbTvo1Sg8CwMsm+piahjy43KoGuA==
   dependencies:
-    "@embroider/shared-internals" "2.4.0"
+    "@embroider/shared-internals" "2.9.0"
     assert-never "^1.2.1"
     babel-import-util "^2.0.0"
     ember-cli-babel "^7.26.6"
@@ -1929,7 +1929,25 @@
     resolve "^1.20.0"
     semver "^7.3.2"
 
-"@embroider/shared-internals@2.4.0", "@embroider/shared-internals@^2.0.0":
+"@embroider/shared-internals@2.9.0":
+  version "2.9.0"
+  resolved "https://registry.yarnpkg.com/@embroider/shared-internals/-/shared-internals-2.9.0.tgz#5d945b92e08db163de60d82f7c388e2b7260f0cc"
+  integrity sha512-8untWEvGy6av/oYibqZWMz/yB+LHsKxEOoUZiLvcpFwWj2Sipc0DcXeTJQZQZ++otNkLCWyDrDhOLrOkgjOPSg==
+  dependencies:
+    babel-import-util "^2.0.0"
+    debug "^4.3.2"
+    ember-rfc176-data "^0.3.17"
+    fs-extra "^9.1.0"
+    is-subdir "^1.2.0"
+    js-string-escape "^1.0.1"
+    lodash "^4.17.21"
+    minimatch "^3.0.4"
+    pkg-entry-points "^1.1.0"
+    resolve-package-path "^4.0.1"
+    semver "^7.3.5"
+    typescript-memoize "^1.0.1"
+
+"@embroider/shared-internals@^2.0.0":
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/@embroider/shared-internals/-/shared-internals-2.4.0.tgz#0e9fdb0b2df9bad45fab8c54cbb70d8a2cbf01fc"
   integrity sha512-pFE05ebenWMC9XAPRjadYCXXb6VmqjkhYN5uqkhPo+VUmMHnx7sZYYxqGjxfVuhC/ghS/BNlOffOCXDOoE7k7g==
@@ -8224,13 +8242,13 @@ ember-maybe-import-regenerator@1.0.0:
     ember-cli-babel "^7.26.6"
     regenerator-runtime "^0.13.2"
 
-ember-qunit@9.0.1:
-  version "9.0.1"
-  resolved "https://registry.yarnpkg.com/ember-qunit/-/ember-qunit-9.0.1.tgz#3ca2c8d7e43ec67e6ef0c554573c2a7cfb352ddc"
-  integrity sha512-9DgjczFG7ZjINmwWFYDtUF8McbYqQir82hyFp/ZbMOLkpFvHCKPw1mtKcpcdLnLAAYJpwR2/MCyPNiEMkR11aA==
+ember-qunit@9.0.2:
+  version "9.0.2"
+  resolved "https://registry.yarnpkg.com/ember-qunit/-/ember-qunit-9.0.2.tgz#4aa1857b6633d244de644ecaa7af441d42b7ac37"
+  integrity sha512-vAuumvTYgfFpP0LgK1uw2vBEnD7bv1JYh0JUwkFfBiAkCGV7HkjVWNcgQ2agwarfzxLgEaC0hWlOn9adwJmlNg==
   dependencies:
-    "@embroider/addon-shim" "^1.8.6"
-    "@embroider/macros" "^1.13.1"
+    "@embroider/addon-shim" "^1.9.0"
+    "@embroider/macros" "^1.16.12"
     qunit-theme-ember "^1.0.0"
 
 ember-resolver@13.1.0:
