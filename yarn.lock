@@ -8134,10 +8134,10 @@ ember-cli-version-checker@^5.0.1, ember-cli-version-checker@^5.1.2:
     semver "^7.3.4"
     silent-error "^1.1.1"
 
-ember-cli@6.3.0:
-  version "6.3.0"
-  resolved "https://registry.yarnpkg.com/ember-cli/-/ember-cli-6.3.0.tgz#609363f4b93eedf01a4f1b4cf27dda01d36ea8d2"
-  integrity sha512-eTj96ngnVfUFbz9ctJXTgy8MJ9f6xkEx//7mDpfnnK5tyVJEqhrbttYZEqtpXZQM8UsCAv5vRURO8ZIsXfKRgQ==
+ember-cli@6.3.1:
+  version "6.3.1"
+  resolved "https://registry.yarnpkg.com/ember-cli/-/ember-cli-6.3.1.tgz#5d084b64d28c187e904c56d9038d94dbf7844725"
+  integrity sha512-RtQ78/zl8qUbqaBNIY3+wzcoxVxPkr0zwfU/JycY6Wd4JRviBL9bAkWrfSQqy+xTxou5fV7BPxjekDvoBaB1yw==
   dependencies:
     "@pnpm/find-workspace-dir" "^7.0.2"
     babel-remove-types "^1.0.1"
@@ -17641,7 +17641,12 @@ typescript-memoize@^1.0.0-alpha.3, typescript-memoize@^1.0.1:
   resolved "https://registry.yarnpkg.com/typescript-memoize/-/typescript-memoize-1.1.0.tgz#4a8f512d06fc995167c703a3592219901db8bc79"
   integrity sha512-LQPKVXK8QrBBkL/zclE6YgSWn0I8ew5m0Lf+XL00IwMhlotqRLlzHV+BRrljVQIc+NohUAuQP7mg4HQwrx5Xbg==
 
-typescript@5.8.2, "typescript@>=3 < 6", typescript@^5.1.6:
+typescript@5.8.3:
+  version "5.8.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.8.3.tgz#92f8a3e5e3cf497356f4178c34cd65a7f5e8440e"
+  integrity sha512-p1diW6TqL9L07nNxvRMM7hMMw4c5XOo/1ibL4aAIGmSAt9slTE1Xgw5KWuof2uTOvCg9BY7ZRi+GaF+7sfgPeQ==
+
+"typescript@>=3 < 6", typescript@^5.1.6:
   version "5.8.2"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.8.2.tgz#8170b3702f74b79db2e5a96207c15e65807999e4"
   integrity sha512-aJn6wq13/afZp/jT9QZmwEjDqqvSGp1VT5GVg+f/t6/oVyrgXM6BY1h9BRh/O5p3PlUPAe+WuiEZOmb/49RqoQ==
