@@ -29,7 +29,7 @@
     "socket.io": "^4.0.0",
     "wiki-client": "^0.30.0",
     "decentralized-internet": "^5.0.0",
-    "wiki-plugin-activity": "^0.6.0",
+    "wiki-plugin-activity": "^0.7.0",
     "wiki-plugin-assets": "^0.5.1",
     "wiki-plugin-audio": "^0.2.0",
     "wiki-plugin-bars": "^0.6.0",
