@@ -47,7 +47,7 @@
     "wiki-plugin-future": "^0.4.0",
     "wiki-plugin-graphviz": "^0.11.0",
     "wiki-plugin-grep": "^1.0.2",
-    "wiki-plugin-html": "^0.5.0",
+    "wiki-plugin-html": "^0.6.0",
     "wiki-plugin-image": "^0.5.0",
     "wiki-plugin-line": "^0.5.0",
     "wiki-plugin-map": "^0.8.0",
