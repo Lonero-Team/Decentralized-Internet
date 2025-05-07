@@ -42,7 +42,7 @@
     "wiki-plugin-data": "^0.4.0",
     "wiki-plugin-factory": "^0.4.0",
     "wiki-plugin-favicon": "^0.3.0",
-    "wiki-plugin-flagmatic": "^0.2.0",
+    "wiki-plugin-flagmatic": "^0.3.0",
     "wiki-plugin-force": "^0.6.0",
     "wiki-plugin-future": "^0.4.0",
     "wiki-plugin-graphviz": "^0.11.0",
