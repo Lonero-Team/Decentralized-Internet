@@ -50,7 +50,7 @@
     "wiki-plugin-html": "^0.6.0",
     "wiki-plugin-image": "^0.6.0",
     "wiki-plugin-line": "^0.6.0",
-    "wiki-plugin-map": "^0.8.0",
+    "wiki-plugin-map": "^0.9.0",
     "wiki-plugin-markdown": "^0.5.0",
     "wiki-plugin-mathjax": "^0.2.5",
     "wiki-plugin-metabolism": "^0.4.0",
