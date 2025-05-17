@@ -38,7 +38,7 @@
   },
   "bundleDependencies": false,
   "dependencies": {
-    "pm2": "6.0.5",
+    "pm2": "6.0.6",
     "async": "3.2.6",
     "coins": "^4.5.0",
     "lotion": "^0.4.26",
