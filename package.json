@@ -70,7 +70,7 @@
     "ember-try": "4.0.0",
     "ember-cli": "6.4.0",
     "typescript": "5.8.3",
-    "ember-qunit": "9.0.2",
+    "ember-qunit": "9.0.3",
     "easy-bigchain": "1.0.1",
     "ember-cli-sri": "2.1.1",
     "@babel/eslint-parser": "7.27.1",
