@@ -4763,6 +4763,11 @@ ansicolors@~0.3.2:
   resolved "https://registry.yarnpkg.com/ansicolors/-/ansicolors-0.3.2.tgz#665597de86a9ffe3aa9bfbe6cae5c6ea426b4979"
   integrity sha1-ZlWX3oap/+Oqm/vmyuXG6kJrSXk=
 
+ansis@4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/ansis/-/ansis-4.0.0.tgz#0adef09876871c7c4d01af4c87faa4112d8d39e1"
+  integrity sha512-P8nrHI1EyW9OfBt1X7hMSwGN2vwRuqHSKJAT1gbLWZRzDa24oHjYwGHvEgHeBepupzk878yS/HBZ0NMPYtbolw==
+
 anymatch@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/anymatch/-/anymatch-2.0.0.tgz#bcb24b4f37934d9aa7ac17b4adaf89e7c76ef2eb"
@@ -8258,10 +8263,10 @@ ember-maybe-import-regenerator@1.0.0:
     ember-cli-babel "^7.26.6"
     regenerator-runtime "^0.13.2"
 
-ember-qunit@9.0.2:
-  version "9.0.2"
-  resolved "https://registry.yarnpkg.com/ember-qunit/-/ember-qunit-9.0.2.tgz#4aa1857b6633d244de644ecaa7af441d42b7ac37"
-  integrity sha512-vAuumvTYgfFpP0LgK1uw2vBEnD7bv1JYh0JUwkFfBiAkCGV7HkjVWNcgQ2agwarfzxLgEaC0hWlOn9adwJmlNg==
+ember-qunit@9.0.3:
+  version "9.0.3"
+  resolved "https://registry.yarnpkg.com/ember-qunit/-/ember-qunit-9.0.3.tgz#ce1d3bd03a4adb3ee4a460dfd238d64c5557bdf9"
+  integrity sha512-t+FD5/EWAR3WvGVj1etblFJJ6CaJqddDxusNcYYFZmW7zrQpCnQ9ziwpXM5/sw1sWabkhJZgYPXCn8bDRRhOfg==
   dependencies:
     "@embroider/addon-shim" "^1.9.0"
     "@embroider/macros" "^1.16.12"
@@ -14814,18 +14819,18 @@ pm2-sysmonit@^1.2.8:
     systeminformation "^5.7"
     tx2 "~1.0.4"
 
-pm2@6.0.5:
-  version "6.0.5"
-  resolved "https://registry.yarnpkg.com/pm2/-/pm2-6.0.5.tgz#a6eeedeb7d3bf59c145b2c00fb57ce1fbf1fa7db"
-  integrity sha512-+O43WPaEiwYbm6/XSpAOO1Rtya/Uof0n7x8hJZGfwIuepesNTIVArpZh4KqFfze0cvvqZMr0maTW3ifhvmyeMQ==
+pm2@6.0.6:
+  version "6.0.6"
+  resolved "https://registry.yarnpkg.com/pm2/-/pm2-6.0.6.tgz#d23e0d1e14c6d9b31a67a6ffe1c944963011538c"
+  integrity sha512-6t+I+Gc232dKe0OjwFYlU59JoY8MWBqsBmcZMSfKollByL4q8APUFwWOt7OtPH4lGO4Sb6GiFAqu7xT42QeRBA==
   dependencies:
     "@pm2/agent" "~2.1.1"
     "@pm2/io" "~6.1.0"
     "@pm2/js-api" "~0.8.0"
     "@pm2/pm2-version-check" latest
+    ansis "4.0.0"
     async "~3.2.6"
     blessed "0.1.81"
-    chalk "3.0.0"
     chokidar "^3.5.3"
     cli-tableau "^2.0.0"
     commander "2.15.1"
