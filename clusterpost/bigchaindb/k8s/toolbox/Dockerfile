@@ -3,7 +3,7 @@
 # docker run -it --rm --entrypoint sh bigchaindb/toolbox
 # kubectl run -it toolbox --image bigchaindb/toolbox --restart=Never --rm
 
-FROM alpine:3.21
+FROM alpine:3.22
 LABEL maintainer "devs@bigchaindb.com"
 WORKDIR /
 RUN apk add --no-cache --update curl bind-tools python3-dev g++ \
