@@ -4802,10 +4802,10 @@ ansicolors@~0.3.2:
   resolved "https://registry.yarnpkg.com/ansicolors/-/ansicolors-0.3.2.tgz#665597de86a9ffe3aa9bfbe6cae5c6ea426b4979"
   integrity sha1-ZlWX3oap/+Oqm/vmyuXG6kJrSXk=
 
-ansis@4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/ansis/-/ansis-4.0.0.tgz#0adef09876871c7c4d01af4c87faa4112d8d39e1"
-  integrity sha512-P8nrHI1EyW9OfBt1X7hMSwGN2vwRuqHSKJAT1gbLWZRzDa24oHjYwGHvEgHeBepupzk878yS/HBZ0NMPYtbolw==
+ansis@4.0.0-node10:
+  version "4.0.0-node10"
+  resolved "https://registry.yarnpkg.com/ansis/-/ansis-4.0.0-node10.tgz#bbddd48b549d3fe2a4caa5ba33602ef240b492aa"
+  integrity sha512-BRrU0Bo1X9dFGw6KgGz6hWrqQuOlVEDOzkb0QSLZY9sXHqA7pNj7yHPVJRz7y/rj4EOJ3d/D5uxH+ee9leYgsg==
 
 anymatch@^2.0.0:
   version "2.0.0"
@@ -14858,16 +14858,16 @@ pm2-sysmonit@^1.2.8:
     systeminformation "^5.7"
     tx2 "~1.0.4"
 
-pm2@6.0.6:
-  version "6.0.6"
-  resolved "https://registry.yarnpkg.com/pm2/-/pm2-6.0.6.tgz#d23e0d1e14c6d9b31a67a6ffe1c944963011538c"
-  integrity sha512-6t+I+Gc232dKe0OjwFYlU59JoY8MWBqsBmcZMSfKollByL4q8APUFwWOt7OtPH4lGO4Sb6GiFAqu7xT42QeRBA==
+pm2@6.0.8:
+  version "6.0.8"
+  resolved "https://registry.yarnpkg.com/pm2/-/pm2-6.0.8.tgz#4b84e9a683eff46f4b9cbb164692cb3f9f4d475a"
+  integrity sha512-y7sO+UuGjfESK/ChRN+efJKAsHrBd95GY2p1GQfjVTtOfFtUfiW0NOuUhP5dN5QTF2F0EWcepgkLqbF32j90Iw==
   dependencies:
     "@pm2/agent" "~2.1.1"
     "@pm2/io" "~6.1.0"
     "@pm2/js-api" "~0.8.0"
     "@pm2/pm2-version-check" latest
-    ansis "4.0.0"
+    ansis "4.0.0-node10"
     async "~3.2.6"
     blessed "0.1.81"
     chokidar "^3.5.3"
