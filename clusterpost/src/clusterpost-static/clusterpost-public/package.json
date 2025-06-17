@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "axios": "1.10.0",
-    "bootstrap": "5.3.6",
+    "bootstrap": "5.3.7",
     "clusterpost-list-react": "file:../../clusterpost-list-react",
     "react": "19.1.0",
     "react-bootstrap": "2.10.10",
