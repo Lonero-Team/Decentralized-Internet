@@ -39,7 +39,7 @@
     "@snyk/protect": "latest"
   },
   "devDependencies": {
-    "@babel/core": "7.27.7",
+    "@babel/core": "7.28.0",
     "@babel/preset-env": "7.27.2",
     "@commitlint/cli": "19.8.1",
     "@commitlint/config-conventional": "19.8.1",
