@@ -21,7 +21,7 @@
     "clusterpost-model": "^1.10.0",
     "couch-provider": "^3.0.0",
     "couch-update-views": "^1.0.8",
-    "find-process": "^1.4.5",
+    "find-process": "^2.0.0",
     "joi": "^17.0.0",
     "linkedlist": "^1.0.1",
     "node-crontab": "0.0.8",
