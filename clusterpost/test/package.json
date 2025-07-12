@@ -10,7 +10,7 @@
     "lab": "^18.0.2",
     "request": "^2.88.2",
     "underscore": "^1.12.1",
-    "snyk": "^1.1064.0"
+    "snyk": "^1.1297.3"
   },
   "scripts": {
     "test": "lab -v -m 120000 test.js",
