@@ -29,7 +29,7 @@
   "homepage": "https://github.com/juanprietob/clusterpost#readme",
   "dependencies": {
     "bluebird": "^3.5.0",
-    "joi": "^17.0.0",
+    "joi": "^18.0.0",
     "lab": "^18.0.0",
     "request": "^2.88.0",
     "@snyk/protect": "latest"

@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "@hapi/boom": "^10.0.0",
-    "joi": "17.13.3",
+    "joi": "18.0.0",
     "bcrypt": "^6.0.0",
     "couch-provider": "^3.0.0",
     "couch-update-views": "^1.0.7",

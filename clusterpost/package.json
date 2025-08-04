@@ -35,7 +35,7 @@
   "dependencies": {
     "clusterpost-server": "file:src/clusterpost-server",
     "couch-update-views": "file:src/couch-update-views",
-    "joi": "^17.0.0",
+    "joi": "^18.0.0",
     "@snyk/protect": "latest"
   },
   "snyk": true
