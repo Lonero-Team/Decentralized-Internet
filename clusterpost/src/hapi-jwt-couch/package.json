@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/juanprietob/clusterpost#readme",
   "devDependencies": {
-    "@hapi/hapi": "21.4.0",
+    "@hapi/hapi": "21.4.2",
     "lab": "18.0.2",
     "nodemailer-stub-transport": "1.1.0"
   },
