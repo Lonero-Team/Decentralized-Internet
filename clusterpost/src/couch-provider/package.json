@@ -4,7 +4,7 @@
   "description": "Provide the implementation for different request methos to couchdb server. It implements, POST, GET, DELETE, PUT methods for documents and views",
   "main": "index.js",
   "dependencies": {
-    "joi": "18.0.0",
+    "joi": "18.0.1",
     "bluebird": "^3.5.0",
     "concat-stream": "^2.0.0",
     "mkdirp": "^3.0.0",

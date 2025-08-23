@@ -28,7 +28,7 @@
     "lab": "18.0.2"
   },
   "dependencies": {
-    "joi": "18.0.0",
+    "joi": "18.0.1",
     "bluebird": "^3.5.1",
     "jsonwebtoken": "^9.0.0",
     "prompt": "^1.1.0",
