@@ -99,19 +99,10 @@
     json5 "^2.2.3"
     semver "^6.3.1"
 
-"@babel/eslint-parser@7.28.0":
-  version "7.28.0"
-  resolved "https://registry.yarnpkg.com/@babel/eslint-parser/-/eslint-parser-7.28.0.tgz#c1b3fbba070f5bac32e3d02f244201add4afdd6e"
-  integrity sha512-N4ntErOlKvcbTt01rr5wj3y55xnIdx1ymrfIr8C2WnM1Y9glFgWaGDEULJIazOX3XM9NRzhfJ6zZnQ1sBNWU+w==
-  dependencies:
-    "@nicolo-ribaudo/eslint-scope-5-internals" "5.1.1-v1"
-    eslint-visitor-keys "^2.1.0"
-    semver "^6.3.1"
-
-"@babel/eslint-parser@^7.23.10":
-  version "7.27.1"
-  resolved "https://registry.yarnpkg.com/@babel/eslint-parser/-/eslint-parser-7.27.1.tgz#e146fb2facef62c6c5d1a6fd07cfd79ee9f7b0f1"
-  integrity sha512-q8rjOuadH0V6Zo4XLMkJ3RMQ9MSBqwaDByyYB0izsYdaIWGNLmEblbCOf1vyFHICcg16CD7Fsi51vcQnYxmt6Q==
+"@babel/eslint-parser@7.28.4", "@babel/eslint-parser@^7.23.10":
+  version "7.28.4"
+  resolved "https://registry.yarnpkg.com/@babel/eslint-parser/-/eslint-parser-7.28.4.tgz#80dd86e0aeaae9704411a044db60e1ae6477d93f"
+  integrity sha512-Aa+yDiH87980jR6zvRfFuCR1+dLb00vBydhTL+zI992Rz/wQhSvuxjmOOuJOgO3XmakO6RykRGD2S1mq1AtgHA==
   dependencies:
     "@nicolo-ribaudo/eslint-scope-5-internals" "5.1.1-v1"
     eslint-visitor-keys "^2.1.0"
@@ -8509,10 +8500,10 @@ ember-source-channel-url@3.0.0, ember-source-channel-url@^3.0.0:
   dependencies:
     node-fetch "^2.6.0"
 
-ember-source@6.6.0:
-  version "6.6.0"
-  resolved "https://registry.yarnpkg.com/ember-source/-/ember-source-6.6.0.tgz#32271bc0716553c2547d6e763ab36a92ddc4a95c"
-  integrity sha512-Tmwt18cqDesjAmmvfshyrF4OZWBRhpRTUk5bpOuflh3qOWPJcASTMcktAx96lbqaL14TNpHGMaD5q3hur6Wj+A==
+ember-source@6.7.0:
+  version "6.7.0"
+  resolved "https://registry.yarnpkg.com/ember-source/-/ember-source-6.7.0.tgz#6a1af1f0372b669d03e2c46493988915ffc96354"
+  integrity sha512-/vsO5kvquMWcmIkAqkLmDrmeH0JnoN03Fqua+QuzUIeUueIi5ZW8qqQCBWWQ78+EZOUoekXGlP9NUTMBQM9hKg==
   dependencies:
     "@babel/core" "^7.24.4"
     "@ember/edition-utils" "^1.2.0"
@@ -15189,10 +15180,10 @@ pm2-sysmonit@^1.2.8:
     systeminformation "^5.7"
     tx2 "~1.0.4"
 
-pm2@6.0.8:
-  version "6.0.8"
-  resolved "https://registry.yarnpkg.com/pm2/-/pm2-6.0.8.tgz#4b84e9a683eff46f4b9cbb164692cb3f9f4d475a"
-  integrity sha512-y7sO+UuGjfESK/ChRN+efJKAsHrBd95GY2p1GQfjVTtOfFtUfiW0NOuUhP5dN5QTF2F0EWcepgkLqbF32j90Iw==
+pm2@6.0.10:
+  version "6.0.10"
+  resolved "https://registry.yarnpkg.com/pm2/-/pm2-6.0.10.tgz#e1d97e526d29c79b2cee13d9498a15adf0cd0d4d"
+  integrity sha512-sbk4HsnhtJMx1wJlhFQhYfDRzHtVK+cvdrIezbjM9WjSyc7kLtQ4nZ5K7JLOdLe3AevytmRcTiOa3VvAQrve2A==
   dependencies:
     "@pm2/agent" "~2.1.1"
     "@pm2/io" "~6.1.0"
@@ -16845,10 +16836,10 @@ snapdragon@^0.8.1:
     source-map-resolve "^0.5.0"
     use "^3.1.0"
 
-snyk@1.1298.3:
-  version "1.1298.3"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.1298.3.tgz#cac6e7cf5bea6d96ffd17d6eae13b72aa0d55acf"
-  integrity sha512-f9cpSgLlVn36zAACEJllXxNNTKiJiSjgNpZVnPvNCz4GPRf+i12xnfcxmHi9Sjwh7Jjdn6lWVht+o2WmdxalDw==
+snyk@1.1299.0:
+  version "1.1299.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.1299.0.tgz#1ed11d75b5c61eb57335f05b383fb20105bc5cd5"
+  integrity sha512-kBq4sW80A8BSFzm+71SnDoD47S/1Hh/jKvKE4XbPuLnSjrJthBIT3I3I+Yi/kb29W9f6+I8MilMReoRvYCDxHQ==
   dependencies:
     "@sentry/node" "^7.36.0"
     global-agent "^3.0.0"
