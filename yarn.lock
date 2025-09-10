@@ -1903,6 +1903,48 @@
   resolved "https://registry.yarnpkg.com/@ember-data/rfc395-data/-/rfc395-data-0.0.4.tgz#ecb86efdf5d7733a76ff14ea651a1b0ed1f8a843"
   integrity sha512-tGRdvgC9/QMQSuSuJV45xoyhI0Pzjm7A9o/MVVA3HakXIImJbbzx/k/6dO9CUEQXIyS2y0fW6C1XaYOG7rY0FQ==
 
+"@ember-tooling/blueprint-blueprint@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@ember-tooling/blueprint-blueprint/-/blueprint-blueprint-0.0.2.tgz#3ee84eba36cceadc3e0cb107473bc734399b888c"
+  integrity sha512-W0Ulvny2PT+80qy2X9wSlNTobgfobI3cNfxoDgIlEr1f5ifyUg6rydyErl9RUupPxfsvuya6ss9TV6y86+qOjA==
+
+"@ember-tooling/blueprint-model@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@ember-tooling/blueprint-model/-/blueprint-model-0.0.2.tgz#a1d855c8af648ee698a17a95563262f67bd1ab50"
+  integrity sha512-mZ6GZQE3zNfldN0qpZ8qAwCKH2fog60af72yppQueraYqRgL1SSd46An7sxRb1ur60+xlCMZAlj3086Fk1cKuQ==
+  dependencies:
+    chalk "^4.1.2"
+    diff "^7.0.0"
+    isbinaryfile "^5.0.4"
+    lodash "^4.17.21"
+    promise.hash.helper "^1.0.8"
+    quick-temp "^0.1.8"
+    silent-error "^1.1.1"
+
+"@ember-tooling/classic-build-addon-blueprint@6.7.0":
+  version "6.7.0"
+  resolved "https://registry.yarnpkg.com/@ember-tooling/classic-build-addon-blueprint/-/classic-build-addon-blueprint-6.7.0.tgz#83edb493b3dbba008418e92c6f6485bc93802da3"
+  integrity sha512-wNWXdVWy6N9jNtN7dKeZe9IClOWoqJzuPjZSW6+7GTi1JSN8kMmKUQzhvJEAeBne5KStGUyVGlc3073kI7d3Cw==
+  dependencies:
+    "@ember-tooling/blueprint-model" "^0.0.2"
+    chalk "^4.1.2"
+    ember-cli-normalize-entity-name "^1.0.0"
+    ember-cli-string-utils "^1.1.0"
+    fs-extra "^11.3.0"
+    lodash "^4.17.21"
+    silent-error "^1.1.1"
+    sort-package-json "^2.12.0"
+    walk-sync "^3.0.0"
+
+"@ember-tooling/classic-build-app-blueprint@6.7.0":
+  version "6.7.0"
+  resolved "https://registry.yarnpkg.com/@ember-tooling/classic-build-app-blueprint/-/classic-build-app-blueprint-6.7.0.tgz#587ec89eadbe58929da131992a3fab701833edd2"
+  integrity sha512-Y6vaSlLOOfZtLBHUISZ0LWhiUyEpYaZLe8LHA7m5K7mJ0kkA3GO/YN1VGjrtlEd6yL2aWU4CYYT0tZjDH/UiAw==
+  dependencies:
+    "@ember-tooling/blueprint-model" "^0.0.2"
+    chalk "^4.1.2"
+    ember-cli-string-utils "^1.1.0"
+
 "@ember/edition-utils@^1.2.0":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@ember/edition-utils/-/edition-utils-1.2.0.tgz#a039f542dc14c8e8299c81cd5abba95e2459cfa6"
@@ -8337,11 +8379,15 @@ ember-cli-version-checker@^5.0.1, ember-cli-version-checker@^5.1.2:
     semver "^7.3.4"
     silent-error "^1.1.1"
 
-ember-cli@6.6.0:
-  version "6.6.0"
-  resolved "https://registry.yarnpkg.com/ember-cli/-/ember-cli-6.6.0.tgz#ec5234c637116557eed2359ee61bd58eeb1c30b0"
-  integrity sha512-YwiOuzB/qlTGsiSjsfPATi9YUm3j4SqOK7h9POw9tgLeFu34g7UPVver5MUIRQV8eQGVJ3TbgqRg8iXyNClgZQ==
+ember-cli@6.7.0:
+  version "6.7.0"
+  resolved "https://registry.yarnpkg.com/ember-cli/-/ember-cli-6.7.0.tgz#44ea2bb429ccc37a8a6e623d26d2520d42e536d1"
+  integrity sha512-E+8WK/BMzSoJmE8FIokFiTuayCs5CgusZuhk+Mpha8zcoTh9s7+tahuSnaypifSR0/NiJh7oixxZXzPmw9iuEg==
   dependencies:
+    "@ember-tooling/blueprint-blueprint" "^0.0.2"
+    "@ember-tooling/blueprint-model" "^0.0.2"
+    "@ember-tooling/classic-build-addon-blueprint" "6.7.0"
+    "@ember-tooling/classic-build-app-blueprint" "6.7.0"
     "@pnpm/find-workspace-dir" "^1000.1.0"
     babel-remove-types "^1.0.1"
     broccoli "^3.5.2"
@@ -8386,7 +8432,7 @@ ember-cli@6.6.0:
     git-repo-info "^2.1.1"
     glob "^8.1.0"
     heimdalljs "^0.2.6"
-    heimdalljs-fs-monitor "^1.1.1"
+    heimdalljs-fs-monitor "^1.1.2"
     heimdalljs-graph "^1.0.0"
     heimdalljs-logger "^0.1.10"
     http-proxy "^1.18.1"
@@ -10784,10 +10830,10 @@ header-case@^2.0.4:
     capital-case "^1.0.4"
     tslib "^2.0.3"
 
-heimdalljs-fs-monitor@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/heimdalljs-fs-monitor/-/heimdalljs-fs-monitor-1.1.1.tgz#bb4021007e88484202402cdf594e3962d70dc4f4"
-  integrity sha512-BHB8oOXLRlrIaON0MqJSEjGVPDyqt2Y6gu+w2PaEZjrCxeVtZG7etEZp7M4ZQ80HNvnr66KIQ2lot2qdeG8HgQ==
+heimdalljs-fs-monitor@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/heimdalljs-fs-monitor/-/heimdalljs-fs-monitor-1.1.2.tgz#bdd7273dca3a57139ac49664f4718437bc00fda8"
+  integrity sha512-M7OPf3Tu+ybhAXdiC07O1vUYFyhCgfew4L3vaG2nn4Be05xzNvtBcU6IKMTfHJ9AxWFa3w9rrmiJovkxHhpopw==
   dependencies:
     callsites "^3.1.0"
     clean-stack "^2.2.0"
