@@ -15226,10 +15226,10 @@ pm2-sysmonit@^1.2.8:
     systeminformation "^5.7"
     tx2 "~1.0.4"
 
-pm2@6.0.10:
-  version "6.0.10"
-  resolved "https://registry.yarnpkg.com/pm2/-/pm2-6.0.10.tgz#e1d97e526d29c79b2cee13d9498a15adf0cd0d4d"
-  integrity sha512-sbk4HsnhtJMx1wJlhFQhYfDRzHtVK+cvdrIezbjM9WjSyc7kLtQ4nZ5K7JLOdLe3AevytmRcTiOa3VvAQrve2A==
+pm2@6.0.11:
+  version "6.0.11"
+  resolved "https://registry.yarnpkg.com/pm2/-/pm2-6.0.11.tgz#50c802c0ac5275580971c39289012b15a68b5a39"
+  integrity sha512-vD6uYdLLxs6xT6jKvLSJx3V+IhViHac8zEsvZm+0QDjR2dUyZtvem+sDLteZRnQ21tsp2oF7P03vCTDtOWD2HQ==
   dependencies:
     "@pm2/agent" "~2.1.1"
     "@pm2/io" "~6.1.0"
