@@ -82,7 +82,7 @@
     "bigchaindb-driver": "4.3.0",
     "broccoli-asset-rev": "3.0.0",
     "grunt-contrib-clean": "2.0.1",
-    "eslint-plugin-n": "17.23.0",
+    "eslint-plugin-n": "17.23.1",
     "eslint-plugin-ember": "12.7.4",
     "grunt-contrib-jshint": "3.2.0",
     "grunt-contrib-nodeunit": "5.0.0",
