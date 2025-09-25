@@ -42,7 +42,7 @@
     "@babel/core": "7.28.4",
     "@babel/preset-env": "7.28.3",
     "@commitlint/cli": "19.8.1",
-    "@commitlint/config-conventional": "19.8.1",
+    "@commitlint/config-conventional": "20.0.0",
     "@ecomplus/utils": "1.4.1",
     "babel-loader": "10.0.0",
     "core-js": "3.45.1",
