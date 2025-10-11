@@ -1921,10 +1921,10 @@
     quick-temp "^0.1.8"
     silent-error "^1.1.1"
 
-"@ember-tooling/classic-build-addon-blueprint@6.7.0":
-  version "6.7.0"
-  resolved "https://registry.yarnpkg.com/@ember-tooling/classic-build-addon-blueprint/-/classic-build-addon-blueprint-6.7.0.tgz#83edb493b3dbba008418e92c6f6485bc93802da3"
-  integrity sha512-wNWXdVWy6N9jNtN7dKeZe9IClOWoqJzuPjZSW6+7GTi1JSN8kMmKUQzhvJEAeBne5KStGUyVGlc3073kI7d3Cw==
+"@ember-tooling/classic-build-addon-blueprint@6.7.1":
+  version "6.7.1"
+  resolved "https://registry.yarnpkg.com/@ember-tooling/classic-build-addon-blueprint/-/classic-build-addon-blueprint-6.7.1.tgz#85317a0e3d37e5b83209c3625557980d24e1fbdb"
+  integrity sha512-WICdxgfmazYtDE+vak7jgJ04saxlUcpYPN6i7fXP8UpN+VEx4hQ4nFgm1Mw+EPVdQkkm1dziX4eKlCBqAaxxcQ==
   dependencies:
     "@ember-tooling/blueprint-model" "^0.0.2"
     chalk "^4.1.2"
@@ -1936,10 +1936,10 @@
     sort-package-json "^2.12.0"
     walk-sync "^3.0.0"
 
-"@ember-tooling/classic-build-app-blueprint@6.7.0":
-  version "6.7.0"
-  resolved "https://registry.yarnpkg.com/@ember-tooling/classic-build-app-blueprint/-/classic-build-app-blueprint-6.7.0.tgz#587ec89eadbe58929da131992a3fab701833edd2"
-  integrity sha512-Y6vaSlLOOfZtLBHUISZ0LWhiUyEpYaZLe8LHA7m5K7mJ0kkA3GO/YN1VGjrtlEd6yL2aWU4CYYT0tZjDH/UiAw==
+"@ember-tooling/classic-build-app-blueprint@6.7.2":
+  version "6.7.2"
+  resolved "https://registry.yarnpkg.com/@ember-tooling/classic-build-app-blueprint/-/classic-build-app-blueprint-6.7.2.tgz#61baec4e8daa04c3d294ea7c872d14f867e724f6"
+  integrity sha512-VLyBxd7aMkKqLFFhEmAgw/3l+McRWOlLnWUYDZjdxwrF8AAwOyLHgiP9AoGydPHGbKF5L40DkJDjWe+1T+5VWQ==
   dependencies:
     "@ember-tooling/blueprint-model" "^0.0.2"
     chalk "^4.1.2"
@@ -8568,15 +8568,15 @@ ember-cli-version-checker@^5.0.1, ember-cli-version-checker@^5.1.2:
     semver "^7.3.4"
     silent-error "^1.1.1"
 
-ember-cli@6.7.0:
-  version "6.7.0"
-  resolved "https://registry.yarnpkg.com/ember-cli/-/ember-cli-6.7.0.tgz#44ea2bb429ccc37a8a6e623d26d2520d42e536d1"
-  integrity sha512-E+8WK/BMzSoJmE8FIokFiTuayCs5CgusZuhk+Mpha8zcoTh9s7+tahuSnaypifSR0/NiJh7oixxZXzPmw9iuEg==
+ember-cli@6.7.2:
+  version "6.7.2"
+  resolved "https://registry.yarnpkg.com/ember-cli/-/ember-cli-6.7.2.tgz#fb95e8ded03dba75dbbcff41a6698055e3b89e2f"
+  integrity sha512-e5TpmLPApKcNaYiJ6bUyLO2D4eDY0yDV0gydTHPWVxm/Y03HdVoAtdlP6a0gHeVB8TrVVYISetNf/WB8k8aKOQ==
   dependencies:
     "@ember-tooling/blueprint-blueprint" "^0.0.2"
     "@ember-tooling/blueprint-model" "^0.0.2"
-    "@ember-tooling/classic-build-addon-blueprint" "6.7.0"
-    "@ember-tooling/classic-build-app-blueprint" "6.7.0"
+    "@ember-tooling/classic-build-addon-blueprint" "6.7.1"
+    "@ember-tooling/classic-build-app-blueprint" "6.7.2"
     "@pnpm/find-workspace-dir" "^1000.1.0"
     babel-remove-types "^1.0.1"
     broccoli "^3.5.2"
