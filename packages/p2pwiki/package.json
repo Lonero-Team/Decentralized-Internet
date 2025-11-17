@@ -23,7 +23,7 @@
     "chokidar": "^4.0.0",
     "coffeescript": "^2.5.1",
     "config-chain": "^1.1.12",
-    "glob": "^11.0.3",
+    "glob": "^12.0.0",
     "lodash": "^4.17.21",
     "optimist": "0.6",
     "socket.io": "^4.0.0",
