@@ -45,7 +45,7 @@
     "@commitlint/config-conventional": "20.0.0",
     "@ecomplus/utils": "1.4.1",
     "babel-loader": "10.0.0",
-    "core-js": "3.46.0",
+    "core-js": "3.47.0",
     "docdash": "2.0.2",
     "husky": "9.1.7",
     "jsdoc": "4.0.5",
