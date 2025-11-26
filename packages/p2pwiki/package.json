@@ -20,7 +20,7 @@
   "author": "The Lonero Foundation",
   "license": "MIT",
   "dependencies": {
-    "chokidar": "^4.0.0",
+    "chokidar": "^5.0.0",
     "coffeescript": "^2.5.1",
     "config-chain": "^1.1.12",
     "glob": "^13.0.0",
