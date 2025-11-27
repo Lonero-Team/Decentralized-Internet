@@ -4283,12 +4283,12 @@
     extrareqp2 "^1.0.0"
     ws "^7.0.0"
 
-"@pm2/pm2-version-check@latest":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@pm2/pm2-version-check/-/pm2-version-check-1.0.3.tgz#4ec5abaeee45c98dce3640f13861058c29f312c5"
-  integrity sha512-SBuYsh+o35knItbRW97vl5/5nEc5c5DYP7PxjyPLOfmm9bMaDsVeATXjXMBy6+KLlyrYWHZxGbfXe003NnHClg==
+"@pm2/pm2-version-check@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@pm2/pm2-version-check/-/pm2-version-check-1.0.4.tgz#cf97fbb14b0eca95430ca05eedccbd2683806e43"
+  integrity sha512-SXsM27SGH3yTWKc2fKR4SYNxsmnvuBQ9dd6QHtEWmiZ/VqaOYPAIlS8+vMcn27YLtAEBGvNRSh3TPNvtjZgfqA==
   dependencies:
-    debug "^4.1.1"
+    debug "^4.3.1"
 
 "@pnpm/constants@1001.1.0":
   version "1001.1.0"
@@ -12892,10 +12892,17 @@ js-string-escape@^1.0.1:
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
   integrity sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==
 
-js-yaml@4.1.0, js-yaml@^4.1.0:
+js-yaml@4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-4.1.0.tgz#c1fb65f8f5017901cdd2c951864ba18458a10602"
   integrity sha512-wpxZs9NoxZaJESJGIZTyDEaYpl0FKSA+FB9aJiyemKhMwkxQg63h4T1KJgUGHpTqPDNRcmmYLugrRjJlBtWvRA==
+  dependencies:
+    argparse "^2.0.1"
+
+js-yaml@4.1.1, js-yaml@^4.1.0:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-4.1.1.tgz#854c292467705b699476e1a2decc0c8a3458806b"
+  integrity sha512-qQKT4zQxXl8lLwBtHMWwaTcGfFOZviOJet3Oy/xmGk2gZH677CJM9EvtfdSkgWcATZhj/55JZ0rmy3myCT5lsA==
   dependencies:
     argparse "^2.0.1"
 
@@ -16220,16 +16227,16 @@ pm2-sysmonit@^1.2.8:
     systeminformation "^5.7"
     tx2 "~1.0.4"
 
-pm2@6.0.13:
-  version "6.0.13"
-  resolved "https://registry.yarnpkg.com/pm2/-/pm2-6.0.13.tgz#0ef1da610cdd513e186f4edf7378d2cd732c1df1"
-  integrity sha512-1hS/adMgKoDpX4S1ichJW8SiGpex+oBSZK31dP1FSYOOGtaeuemXzhXPOCefmddgIY4K6v7uu+7xNPnmEnK3ag==
+pm2@6.0.14:
+  version "6.0.14"
+  resolved "https://registry.yarnpkg.com/pm2/-/pm2-6.0.14.tgz#c606444e2d3259b25643527f4c75136f6c003ac7"
+  integrity sha512-wX1FiFkzuT2H/UUEA8QNXDAA9MMHDsK/3UHj6Dkd5U7kxyigKDA5gyDw78ycTQZAuGCLWyUX5FiXEuVQWafukA==
   dependencies:
     "@pm2/agent" "~2.1.1"
     "@pm2/blessed" "0.1.81"
     "@pm2/io" "~6.1.0"
     "@pm2/js-api" "~0.8.0"
-    "@pm2/pm2-version-check" latest
+    "@pm2/pm2-version-check" "^1.0.4"
     ansis "4.0.0-node10"
     async "3.2.6"
     chokidar "3.6.0"
@@ -16241,7 +16248,7 @@ pm2@6.0.13:
     enquirer "2.3.6"
     eventemitter2 "5.0.1"
     fclone "1.0.11"
-    js-yaml "4.1.0"
+    js-yaml "4.1.1"
     mkdirp "1.0.4"
     needle "2.4.0"
     pidusage "3.0.2"
