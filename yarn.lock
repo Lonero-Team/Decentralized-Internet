@@ -3428,10 +3428,10 @@
     react-dom "^18.2.0"
     typestyle "^2.0.4"
 
-"@lerna/create@9.0.1":
-  version "9.0.1"
-  resolved "https://registry.yarnpkg.com/@lerna/create/-/create-9.0.1.tgz#41446915ae312003e22cd981d71ef297fa51b944"
-  integrity sha512-xkZhQ+d7IsLzL5+1G+rKtH3b9aKRyBQ9yaz1VwPTfkD2nUAyaco97BRN9YRJgJrSHY/SI265RaD1D2rt00Jjkg==
+"@lerna/create@9.0.3":
+  version "9.0.3"
+  resolved "https://registry.yarnpkg.com/@lerna/create/-/create-9.0.3.tgz#3cbc02adc6a1d7d289764d9814825b105a3f7c79"
+  integrity sha512-hUTEWrR8zH+/Z3bp/R1aLm6DW8vB/BB7KH7Yeg4fMfrvSwxegiLVW9uJFAzWkK4mzEagmj/Dti85Yg9MN13t0g==
   dependencies:
     "@npmcli/arborist" "9.1.6"
     "@npmcli/package-json" "7.0.2"
@@ -3461,7 +3461,7 @@
     inquirer "12.9.6"
     is-ci "3.0.1"
     is-stream "2.0.0"
-    js-yaml "4.1.0"
+    js-yaml "4.1.1"
     libnpmpublish "11.1.2"
     load-json-file "6.2.0"
     make-dir "4.0.0"
@@ -9856,10 +9856,10 @@ eslint-compat-utils@^0.5.1:
   dependencies:
     semver "^7.5.4"
 
-eslint-plugin-ember@12.7.4:
-  version "12.7.4"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-ember/-/eslint-plugin-ember-12.7.4.tgz#b7a0c8054946ce1f3e4fbe771c97d13a538762de"
-  integrity sha512-0q6C9VEnHe9hbgs6TgFWHVyEZRrPwOdkqkiLFh7HkxQH0Y/RhCLCLiU695sfTacIk8ofzLcQSp9Fhd1WIZY9eA==
+eslint-plugin-ember@12.7.5:
+  version "12.7.5"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-ember/-/eslint-plugin-ember-12.7.5.tgz#000a4a1b3b01beecd8dbcf43be2d025260050ffa"
+  integrity sha512-2zLEpu3xcKjykgsKkj8sU2GwdxADFTH5XPBvuIrNBP253JxHSz2P21isUuRB50kGoR2KL+eUHNgV0j7IPCav1w==
   dependencies:
     "@ember-data/rfc395-data" "^0.0.4"
     css-tree "^3.0.1"
@@ -12892,13 +12892,6 @@ js-string-escape@^1.0.1:
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
   integrity sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==
 
-js-yaml@4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-4.1.0.tgz#c1fb65f8f5017901cdd2c951864ba18458a10602"
-  integrity sha512-wpxZs9NoxZaJESJGIZTyDEaYpl0FKSA+FB9aJiyemKhMwkxQg63h4T1KJgUGHpTqPDNRcmmYLugrRjJlBtWvRA==
-  dependencies:
-    argparse "^2.0.1"
-
 js-yaml@4.1.1, js-yaml@^4.1.0:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-4.1.1.tgz#854c292467705b699476e1a2decc0c8a3458806b"
@@ -13253,12 +13246,12 @@ lcid@^3.0.0:
   dependencies:
     invert-kv "^3.0.0"
 
-lerna@9.0.1:
-  version "9.0.1"
-  resolved "https://registry.yarnpkg.com/lerna/-/lerna-9.0.1.tgz#2a57edab330411a684e135d108abe28d32e099c9"
-  integrity sha512-sPfufYbSLisgi3mghbfOPxNL0Jhs4p6yCexXEdwgXITV5oKq6mdj2w5NQ32i6wMfSlEZFzIIV17ozdYsHavNhg==
+lerna@9.0.3:
+  version "9.0.3"
+  resolved "https://registry.yarnpkg.com/lerna/-/lerna-9.0.3.tgz#6913f4306071953026f9660760c6d947a38f4c17"
+  integrity sha512-wCsJWKX8FaGJoWX2K5gL5q7ReqQNxNsS92AW5glBe/JzWEtoM/jgXXGrEzQzORMb8rTXYFjUjpn60et+i8XugA==
   dependencies:
-    "@lerna/create" "9.0.1"
+    "@lerna/create" "9.0.3"
     "@npmcli/arborist" "9.1.6"
     "@npmcli/package-json" "7.0.2"
     "@npmcli/run-script" "10.0.2"
@@ -13292,7 +13285,7 @@ lerna@9.0.1:
     is-ci "3.0.1"
     is-stream "2.0.0"
     jest-diff ">=30.0.0 < 31"
-    js-yaml "4.1.0"
+    js-yaml "4.1.1"
     libnpmaccess "10.0.3"
     libnpmpublish "11.1.2"
     load-json-file "6.2.0"
