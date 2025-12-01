@@ -1,4 +1,4 @@
-Sphinx==9.0.0
+Sphinx==9.0.1
 recommonmark==0.7.1
 sphinx-rtd-theme==3.0.2
 sphinxcontrib-napoleon==0.7
