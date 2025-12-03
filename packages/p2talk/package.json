@@ -7,7 +7,7 @@
     "body-parser": "2.2.1",
     "defekt": "9.3.1",
     "eventemitter2": "6.4.9",
-    "express": "5.1.0",
+    "express": "5.2.0",
     "decentralized-internet": "^5.0.0",
     "flaschenpost": "5.1.1",
     "lodash": "4.17.21",
