@@ -9256,10 +9256,10 @@ ember-cli-version-checker@^5.0.1, ember-cli-version-checker@^5.1.2:
     semver "^7.3.4"
     silent-error "^1.1.1"
 
-ember-cli@6.8.0:
-  version "6.8.0"
-  resolved "https://registry.yarnpkg.com/ember-cli/-/ember-cli-6.8.0.tgz#280a80a130cde74a49d1eae23bdf70e28627f896"
-  integrity sha512-qUMfPDvyMUWjK+na34YHv/8AQGn5WJTcCL5qaMwa5MLi2hnKBzvCBwd99nORJdLG9GpCxYzxFQ+txyEkfmvk7g==
+ember-cli@6.8.1:
+  version "6.8.1"
+  resolved "https://registry.yarnpkg.com/ember-cli/-/ember-cli-6.8.1.tgz#fac0cc96128ea2892161b4eb3f6d8e93b084f317"
+  integrity sha512-lA/eW8ESZyYIuyyIkicxkEfsV3pZzDLaJJsEEAV09Bfw9x9yPxPn/6yJcX5xTmj+cYWfkeQlOWj4ZKvXNIzwiA==
   dependencies:
     "@ember-tooling/blueprint-blueprint" "^0.2.1"
     "@ember-tooling/blueprint-model" "^0.4.1"
