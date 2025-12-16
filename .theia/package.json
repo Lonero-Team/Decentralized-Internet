@@ -38,7 +38,7 @@
     "@theia/vsx-registry": "1.47.0",
     "@theia/workspace": "1.47.0",
     "@theia/git": "1.47.0",
-    "@theia/debug": "1.47.0",
+    "@theia/debug": "1.67.0",
     "@theia/task": "1.47.0"
   },
   "devDependencies": {
