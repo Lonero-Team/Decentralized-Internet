@@ -1,0 +1,40 @@
+{
+  "name": "decentralized-internet-extension",
+  "version": "1.0.0",
+  "description": "Theia extension for Decentralized Internet SDK",
+  "main": "lib/node/decentralized-internet-backend-module.js",
+  "browser": "lib/browser/decentralized-internet-frontend-module.js",
+  "license": "MIT",
+  "keywords": [
+    "theia-extension"
+  ],
+  "dependencies": {
+    "@theia/core": "1.47.0",
+    "@theia/editor": "1.47.0",
+    "@theia/filesystem": "1.47.0",
+    "@theia/workspace": "1.47.0",
+    "@theia/terminal": "1.47.0",
+    "@theia/monaco": "1.47.0",
+    "socket.io-client": "^4.7.2"
+  },
+  "devDependencies": {
+    "rimraf": "^5.0.5",
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "prepare": "yarn run clean && yarn run build",
+    "clean": "rimraf lib",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "files": [
+    "lib",
+    "src"
+  ],
+  "theiaExtensions": [
+    {
+      "frontend": "lib/browser/decentralized-internet-frontend-module",
+      "backend": "lib/node/decentralized-internet-backend-module"
+    }
+  ]
+}

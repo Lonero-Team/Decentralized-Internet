@@ -1,0 +1,42 @@
+{
+  "name": "decentg-hybrid-mesh",
+  "version": "1.0.0",
+  "description": "Hybrid mesh network for open peering based on Decentralized-Internet SDK with Open5gs and Free5gc integration",
+  "main": "index.js",
+  "author": "Decentralized Internet Team",
+  "license": "MIT",
+  "keywords": [
+    "5G",
+    "Open5gs",
+    "Free5gc",
+    "Mesh Network",
+    "P2P",
+    "Decentralized",
+    "Private Network",
+    "Open Peering",
+    "Hybrid Network"
+  ],
+  "dependencies": {
+    "decentralized-internet": "^5.3.5",
+    "async": "^3.2.6",
+    "express": "^5.2.1",
+    "websocket-stream": "^5.5.2",
+    "eventemitter2": "^6.4.9",
+    "lodash": "^4.17.21",
+    "uuidv4": "^6.2.13",
+    "body-parser": "^2.2.1",
+    "request": "^2.88.2",
+    "pm2": "^6.0.14",
+    "node-fetch": "^2.6.7",
+    "dgram": "^1.0.1"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "NODE_ENV=development node index.js",
+    "prod": "NODE_ENV=production pm2 start index.js --name decentg-mesh",
+    "test": "node test/mesh-test.js"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

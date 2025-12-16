@@ -1,0 +1,89 @@
+{
+  "name": "decentralized-internet-ide",
+  "version": "1.0.0",
+  "description": "Custom Theia IDE for Decentralized Internet SDK Development",
+  "private": true,
+  "license": "MIT",
+  "author": "Lonero Team",
+  "keywords": [
+    "theia-extension",
+    "decentralized-internet",
+    "p2p",
+    "mesh-network",
+    "5g-core"
+  ],
+  "dependencies": {
+    "@theia/core": "1.47.0",
+    "@theia/editor": "1.47.0",
+    "@theia/editor-preview": "1.47.0",
+    "@theia/file-search": "1.47.0",
+    "@theia/filesystem": "1.47.0",
+    "@theia/getting-started": "1.47.0",
+    "@theia/markers": "1.47.0",
+    "@theia/messages": "1.47.0",
+    "@theia/mini-browser": "1.47.0",
+    "@theia/monaco": "1.47.0",
+    "@theia/navigator": "1.47.0",
+    "@theia/outline-view": "1.47.0",
+    "@theia/output": "1.47.0",
+    "@theia/plugin-ext": "1.47.0",
+    "@theia/plugin-ext-vscode": "1.47.0",
+    "@theia/preferences": "1.47.0",
+    "@theia/process": "1.47.0",
+    "@theia/scm": "1.47.0",
+    "@theia/search-in-workspace": "1.47.0",
+    "@theia/terminal": "1.47.0",
+    "@theia/toolbar": "1.47.0",
+    "@theia/variable-resolver": "1.47.0",
+    "@theia/vsx-registry": "1.47.0",
+    "@theia/workspace": "1.47.0",
+    "@theia/git": "1.47.0",
+    "@theia/debug": "1.47.0",
+    "@theia/task": "1.47.0"
+  },
+  "devDependencies": {
+    "@theia/cli": "1.47.0",
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "prepare": "yarn run clean && yarn build && yarn run download:plugins",
+    "clean": "theia clean",
+    "build": "theia build --mode development",
+    "start": "theia start --hostname=0.0.0.0 --port=3000 ../",
+    "start:watch": "concurrently -n watch,run \"yarn watch\" \"yarn start\"",
+    "watch": "theia build --watch --mode development",
+    "download:plugins": "theia download:plugins",
+    "package": "theia build --mode production && yarn theia download:plugins"
+  },
+  "theiaPluginsDir": "plugins",
+  "theiaPlugins": {
+    "vscode-builtin-json": "https://open-vsx.org/api/vscode/json/1.85.0/file/vscode.json-1.85.0.vsix",
+    "vscode-builtin-javascript": "https://open-vsx.org/api/vscode/javascript/1.85.0/file/vscode.javascript-1.85.0.vsix",
+    "vscode-builtin-typescript": "https://open-vsx.org/api/vscode/typescript-language-features/1.85.0/file/vscode.typescript-language-features-1.85.0.vsix",
+    "vscode-builtin-markdown": "https://open-vsx.org/api/vscode/markdown-language-features/1.85.0/file/vscode.markdown-language-features-1.85.0.vsix",
+    "vscode-eslint": "https://open-vsx.org/api/dbaeumer/vscode-eslint/2.4.4/file/dbaeumer.vscode-eslint-2.4.4.vsix"
+  },
+  "theia": {
+    "frontend": {
+      "config": {
+        "applicationName": "Decentralized Internet IDE",
+        "preferences": {
+          "files.enableTrash": false,
+          "editor.fontSize": 14,
+          "editor.tabSize": 2,
+          "editor.autoSave": "afterDelay",
+          "editor.autoSaveDelay": 1000,
+          "workbench.colorTheme": "dark",
+          "terminal.integrated.shell.linux": "/bin/bash",
+          "terminal.integrated.shell.windows": "powershell.exe"
+        }
+      }
+    },
+    "backend": {
+      "config": {
+        "startupTimeout": -1,
+        "resolveSystemPlugins": false
+      }
+    }
+  }
+}

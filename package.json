@@ -1,7 +1,7 @@
 {
   "name": "decentralized-internet",
-  "version": "5.3.5",
-  "author": "Andrew Magdy Kamal, The Lonero Dev Team",
+  "version": "5.3.6",
+  "author": "Andrew Magdy Kamal, The Lonero Dev Team, Riemann Computing Inc.",
   "license": "zlib or MIT",
   "homepage": "http://bit.ly/lonero_os",
   "description": "An NPM library of programs to create decentralized web and distributed computing projects",

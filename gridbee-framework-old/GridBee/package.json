@@ -1,0 +1,33 @@
+{
+  "name": "gridbee-framework",
+  "version": "2.0.0",
+  "description": "GridBee Web Computing Framework - Distributed computing for browsers with Haxe 4.3.3",
+  "main": "bin/gridbee-framework.js",
+  "scripts": {
+    "build": "haxe build.hxml",
+    "build:prod": "haxe build.prod.hxml",
+    "watch": "haxe build.hxml --wait 6000",
+    "clean": "rimraf bin/*.js bin/*.map",
+    "test": "haxe test.hxml && node bin/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lonero-Team/Decentralized-Internet.git"
+  },
+  "keywords": [
+    "gridbee",
+    "distributed-computing",
+    "boinc",
+    "web-computing",
+    "haxe",
+    "grid-computing"
+  ],
+  "author": "Lonero Team",
+  "license": "LGPL-3.0",
+  "devDependencies": {
+    "rimraf": "^5.0.5"
+  },
+  "engines": {
+    "haxe": ">=4.3.0"
+  }
+}

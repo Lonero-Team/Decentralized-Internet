@@ -1,0 +1,19 @@
+# GridBee Framework - Haxe 4.3.3 Upgrade
+
+## Build Configuration
+
+-main gridbee.Main
+-js bin/gridbee-framework.js
+-cp src
+-cp ../henkolib
+
+# Haxe 4.x compatibility flags
+-D js-es=6
+-D js-unflatten
+
+# Source map for debugging
+-debug
+--source-map
+
+# Optimization (remove -debug for production)
+# -dce full

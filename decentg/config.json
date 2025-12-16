@@ -1,0 +1,54 @@
+{
+  "network": {
+    "meshPort": 8000,
+    "apiPort": 3000,
+    "networkId": "decentg-mesh-001",
+    "host": "0.0.0.0"
+  },
+  "open5gs": {
+    "enabled": true,
+    "amfHost": "127.0.0.1",
+    "amfPort": 38412,
+    "smfHost": "127.0.0.1",
+    "smfPort": 7777,
+    "upfHost": "127.0.0.1",
+    "upfPort": 2152,
+    "nrfHost": "127.0.0.1",
+    "nrfPort": 7777,
+    "sbiScheme": "http"
+  },
+  "free5gc": {
+    "enabled": false,
+    "amfHost": "127.0.0.1",
+    "amfPort": 38412,
+    "smfHost": "127.0.0.1",
+    "nrfHost": "127.0.0.1",
+    "nrfPort": 29510,
+    "sbiScheme": "http"
+  },
+  "mesh": {
+    "maxPeers": 50,
+    "peerTimeout": 30000,
+    "discoveryInterval": 10000,
+    "autoConnect": true,
+    "heartbeatInterval": 5000,
+    "reconnectDelay": 3000,
+    "maxReconnectAttempts": 5
+  },
+  "routing": {
+    "algorithm": "dijkstra",
+    "updateInterval": 15000,
+    "hopLimit": 10,
+    "metricType": "latency"
+  },
+  "security": {
+    "enableEncryption": true,
+    "tlsEnabled": false,
+    "certPath": "",
+    "keyPath": ""
+  },
+  "logging": {
+    "level": "info",
+    "file": "./logs/decentg.log"
+  }
+}

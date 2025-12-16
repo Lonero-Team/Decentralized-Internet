@@ -1,0 +1,77 @@
+[
+  {
+    "command": "meshNetwork.visualize",
+    "key": "ctrl+alt+m",
+    "when": "editorTextFocus"
+  },
+  {
+    "command": "5gCore.monitor",
+    "key": "ctrl+alt+5",
+    "when": "editorTextFocus"
+  },
+  {
+    "command": "blockchain.explorer",
+    "key": "ctrl+alt+b",
+    "when": "editorTextFocus"
+  },
+  {
+    "command": "clusterPost.dashboard",
+    "key": "ctrl+alt+c",
+    "when": "editorTextFocus"
+  },
+  {
+    "command": "decentralizedInternet.startComponent",
+    "key": "ctrl+alt+s",
+    "when": "editorTextFocus"
+  },
+  {
+    "command": "decentralizedInternet.stopComponent",
+    "key": "ctrl+alt+x",
+    "when": "editorTextFocus"
+  },
+  {
+    "command": "decentralizedInternet.terminal",
+    "key": "ctrl+alt+t",
+    "when": "editorTextFocus"
+  },
+  {
+    "command": "decentralizedInternet.newTemplate",
+    "key": "ctrl+alt+n",
+    "when": "editorTextFocus"
+  },
+  {
+    "command": "gridBee.workerMonitor",
+    "key": "ctrl+alt+g",
+    "when": "editorTextFocus"
+  },
+  {
+    "command": "workbench.action.terminal.new",
+    "key": "ctrl+shift+`"
+  },
+  {
+    "command": "workbench.action.quickOpen",
+    "key": "ctrl+p"
+  },
+  {
+    "command": "workbench.action.showCommands",
+    "key": "ctrl+shift+p"
+  },
+  {
+    "command": "workbench.action.files.save",
+    "key": "ctrl+s"
+  },
+  {
+    "command": "workbench.action.files.saveAll",
+    "key": "ctrl+k s"
+  },
+  {
+    "command": "editor.action.formatDocument",
+    "key": "shift+alt+f",
+    "when": "editorTextFocus"
+  },
+  {
+    "command": "editor.action.commentLine",
+    "key": "ctrl+/",
+    "when": "editorTextFocus"
+  }
+]

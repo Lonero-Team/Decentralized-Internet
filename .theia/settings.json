@@ -1,3 +1,174 @@
 {
-    "editor.autoSave": "on"
+  "// Decentralized Internet SDK Settings": "",
+  "decentralizedInternet.sdkPath": "../",
+  "decentralizedInternet.version": "5.3.5",
+  "decentralizedInternet.autoStart": [],
+  "decentralizedInternet.componentPaths": {
+    "decentg": "../decentg",
+    "clusterpost": "../clusterpost",
+    "gridbee": "../gridbee-framework-old",
+    "lnrchain": "../LNRChain",
+    "p2talk": "../packages/p2talk",
+    "bigchaindb": "../clusterpost/bigchaindb"
+  },
+
+  "// Mesh Network Settings": "",
+  "meshNetwork.enabled": true,
+  "meshNetwork.defaultPort": 8765,
+  "meshNetwork.discoveryProtocol": "udp",
+  "meshNetwork.discoveryPort": 8766,
+  "meshNetwork.maxPeers": 50,
+  "meshNetwork.connectionTimeout": 30000,
+  "meshNetwork.heartbeatInterval": 5000,
+  "meshNetwork.visualizer.autoRefresh": true,
+  "meshNetwork.visualizer.refreshInterval": 2000,
+
+  "// 5G Core Settings": "",
+  "5gCore.enabled": true,
+  "5gCore.preferredCore": "open5gs",
+  "5gCore.open5gs.amfAddress": "127.0.0.1:38412",
+  "5gCore.open5gs.smfAddress": "127.0.0.1:7777",
+  "5gCore.open5gs.upfAddress": "127.0.0.1:2152",
+  "5gCore.open5gs.nrfAddress": "127.0.0.1:7777",
+  "5gCore.free5gc.amfAddress": "127.0.0.1:38412",
+  "5gCore.free5gc.smfAddress": "127.0.0.1:8805",
+  "5gCore.free5gc.upfAddress": "127.0.0.1:8805",
+  "5gCore.free5gc.nrfAddress": "127.0.0.1:8000",
+  "5gCore.ueSimulator.enabled": true,
+  "5gCore.monitor.autoStart": false,
+
+  "// Blockchain Settings": "",
+  "blockchain.enabled": true,
+  "blockchain.defaultChain": "lnrchain",
+  "blockchain.lnrchain.port": 3000,
+  "blockchain.lnrchain.miningDifficulty": 4,
+  "blockchain.explorer.enabled": true,
+  "blockchain.explorer.autoOpen": false,
+
+  "// ClusterPost Settings": "",
+  "clusterPost.enabled": true,
+  "clusterPost.serverUrl": "http://localhost:8180",
+  "clusterPost.authToken": "",
+  "clusterPost.autoConnect": false,
+  "clusterPost.jobMonitor.enabled": true,
+  "clusterPost.jobMonitor.refreshInterval": 5000,
+
+  "// GridBee Settings": "",
+  "gridBee.enabled": true,
+  "gridBee.haxeVersion": "4.3.3",
+  "gridBee.port": 8080,
+  "gridBee.workerMonitor.enabled": true,
+  "gridBee.workerMonitor.refreshInterval": 3000,
+
+  "// Editor Settings": "",
+  "editor.fontSize": 14,
+  "editor.fontFamily": "'Fira Code', 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.autoSave": "afterDelay",
+  "editor.autoSaveDelay": 1000,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.minimap.enabled": true,
+  "editor.renderWhitespace": "selection",
+  "editor.suggestSelection": "first",
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": true
+  },
+
+  "// Workbench Settings": "",
+  "workbench.colorTheme": "Dark+ (default dark)",
+  "workbench.iconTheme": "vs-seti",
+  "workbench.startupEditor": "welcomePage",
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.closeOnFileDelete": true,
+
+  "// Terminal Settings": "",
+  "terminal.integrated.fontSize": 13,
+  "terminal.integrated.fontFamily": "'Cascadia Code', 'Courier New', monospace",
+  "terminal.integrated.shell.linux": "/bin/bash",
+  "terminal.integrated.shell.windows": "powershell.exe",
+  "terminal.integrated.shellArgs.windows": ["-NoLogo"],
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorBlinking": true,
+
+  "// Files Settings": "",
+  "files.enableTrash": true,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/*.pyc": true,
+    "**/__pycache__": true
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/bower_components/**": true
+  },
+
+  "// Search Settings": "",
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/*.code-search": true,
+    "**/dist": true,
+    "**/build": true
+  },
+
+  "// JavaScript/TypeScript Settings": "",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+  "javascript.format.enable": true,
+  "typescript.format.enable": true,
+
+  "// Git Settings": "",
+  "git.enabled": true,
+  "git.autorefresh": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+
+  "// ESLint Settings": "",
+  "eslint.enable": true,
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+
+  "// Debug Settings": "",
+  "debug.console.fontSize": 13,
+  "debug.inlineValues": true,
+  "debug.openDebug": "openOnDebugBreak",
+
+  "// Extension Settings": "",
+  "extensions.autoUpdate": true,
+  "extensions.ignoreRecommendations": false,
+
+  "// Custom SDK Commands": "",
+  "decentralizedInternet.commands": {
+    "startDecentG": "cd decentg && npm start",
+    "startClusterPost": "cd clusterpost && npm start",
+    "startGridBee": "cd gridbee-framework-old && haxe build.hxml",
+    "startLNRChain": "cd LNRChain && node app.js",
+    "startP2Talk": "cd packages/p2talk && npm start",
+    "startBigchainDB": "cd clusterpost/bigchaindb && docker-compose up",
+    "runAllTests": "npm test",
+    "buildAll": "npm run build:all"
+  }
 }

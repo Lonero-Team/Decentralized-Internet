@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Decentralized Internet Control Panel</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.socket.io/4.6.0/socket.io.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script src="https://unpkg.com/vis-network@9.1.9/dist/vis-network.min.js"></script>
+</head>
+<body>
+  <div class="app-container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="logo">
+        <h1>🌐 Decent.SDK</h1>
+        <p class="version">v5.3.5</p>
+      </div>
+      
+      <nav class="nav-menu">
+        <a href="#" class="nav-item active" data-page="dashboard">
+          <span class="icon">📊</span>
+          <span>Dashboard</span>
+        </a>
+        <a href="#" class="nav-item" data-page="components">
+          <span class="icon">🔧</span>
+          <span>Components</span>
+        </a>
+        <a href="#" class="nav-item" data-page="monitoring">
+          <span class="icon">📈</span>
+          <span>Monitoring</span>
+        </a>
+        <a href="#" class="nav-item" data-page="cloud-agents">
+          <span class="icon">🤖</span>
+          <span>Cloud Agents</span>
+        </a>
+        <a href="#" class="nav-item" data-page="network">
+          <span class="icon">🕸️</span>
+          <span>Network Map</span>
+        </a>
+        <a href="#" class="nav-item" data-page="logs">
+          <span class="icon">📝</span>
+          <span>Logs</span>
+        </a>
+        <a href="#" class="nav-item" data-page="settings">
+          <span class="icon">⚙️</span>
+          <span>Settings</span>
+        </a>
+      </nav>
+      
+      <div class="sidebar-footer">
+        <button id="startAllBtn" class="btn btn-primary btn-block">▶️ Start All</button>
+        <button id="stopAllBtn" class="btn btn-danger btn-block">⏹️ Stop All</button>
+      </div>
+    </aside>
+    
+    <!-- Main Content -->
+    <main class="main-content">
+      <header class="header">
+        <h2 id="pageTitle">Dashboard</h2>
+        <div class="header-actions">
+          <div class="status-indicator">
+            <span class="status-dot" id="connectionStatus"></span>
+            <span id="connectionText">Connected</span>
+          </div>
+          <button class="btn btn-icon" id="refreshBtn">🔄</button>
+          <button class="btn btn-icon" id="ideBtn" title="Open IDE">💻</button>
+        </div>
+      </header>
+      
+      <div class="content-area">
+        <!-- Dashboard Page -->
+        <div id="dashboardPage" class="page active">
+          <div class="stats-grid">
+            <div class="stat-card">
+              <div class="stat-icon">💻</div>
+              <div class="stat-info">
+                <h3>CPU Usage</h3>
+                <p class="stat-value" id="cpuUsage">0%</p>
+              </div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon">💾</div>
+              <div class="stat-info">
+                <h3>Memory Usage</h3>
+                <p class="stat-value" id="memoryUsage">0%</p>
+              </div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon">🌐</div>
+              <div class="stat-info">
+                <h3>Active Peers</h3>
+                <p class="stat-value" id="activePeers">0</p>
+              </div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon">🔗</div>
+              <div class="stat-info">
+                <h3>Active Routes</h3>
+                <p class="stat-value" id="activeRoutes">0</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="chart-grid">
+            <div class="chart-card">
+              <h3>System Performance</h3>
+              <canvas id="performanceChart"></canvas>
+            </div>
+            <div class="chart-card">
+              <h3>Network Activity</h3>
+              <canvas id="networkChart"></canvas>
+            </div>
+          </div>
+          
+          <div class="components-overview">
+            <h3>Component Status</h3>
+            <div id="componentsList" class="components-list"></div>
+          </div>
+        </div>
+        
+        <!-- Components Page -->
+        <div id="componentsPage" class="page">
+          <div class="component-cards" id="componentCards"></div>
+        </div>
+        
+        <!-- Monitoring Page -->
+        <div id="monitoringPage" class="page">
+          <div class="monitoring-grid">
+            <div class="monitor-card">
+              <h3>Real-Time Metrics</h3>
+              <canvas id="realtimeMetrics"></canvas>
+            </div>
+            <div class="monitor-card">
+              <h3>Network Health</h3>
+              <div id="networkHealth"></div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Cloud Agents Page -->
+        <div id="cloudAgentsPage" class="page">
+          <div class="agents-header">
+            <h3>OpenPeerAI Cloud Agents</h3>
+            <button class="btn btn-primary" id="newTaskBtn">+ New Task</button>
+          </div>
+          
+          <div class="task-types">
+            <button class="task-btn" data-task="network-optimization">🔧 Network Optimization</button>
+            <button class="task-btn" data-task="peer-discovery">🔍 Peer Discovery</button>
+            <button class="task-btn" data-task="route-analysis">📊 Route Analysis</button>
+            <button class="task-btn" data-task="deployment-automation">🚀 Deployment Automation</button>
+            <button class="task-btn" data-task="resource-allocation">💼 Resource Allocation</button>
+            <button class="task-btn" data-task="ai-inference">🤖 AI Inference</button>
+          </div>
+          
+          <div id="taskHistory" class="task-history">
+            <h3>Task History</h3>
+            <div id="taskList"></div>
+          </div>
+        </div>
+        
+        <!-- Network Map Page -->
+        <div id="networkPage" class="page">
+          <div class="network-controls">
+            <button class="btn" id="refreshNetworkBtn">🔄 Refresh</button>
+            <button class="btn" id="layoutBtn">🗺️ Auto Layout</button>
+          </div>
+          <div id="networkGraph" class="network-graph"></div>
+        </div>
+        
+        <!-- Logs Page -->
+        <div id="logsPage" class="page">
+          <div class="logs-controls">
+            <select id="logComponent" class="select">
+              <option value="">All Components</option>
+            </select>
+            <button class="btn" id="clearLogsBtn">Clear</button>
+          </div>
+          <div id="logsContainer" class="logs-container"></div>
+        </div>
+        
+        <!-- Settings Page -->
+        <div id="settingsPage" class="page">
+          <div class="settings-content">
+            <h3>Application Settings</h3>
+            <div class="settings-group">
+              <label>Backend Port</label>
+              <input type="number" value="9000" class="input" />
+            </div>
+            <div class="settings-group">
+              <label>Auto-start Components</label>
+              <input type="checkbox" />
+            </div>
+            <div class="settings-group">
+              <label>Theme</label>
+              <select class="select">
+                <option>Dark</option>
+                <option>Light</option>
+              </select>
+            </div>
+            <button class="btn btn-primary">Save Settings</button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  
+  <!-- Modal for tasks -->
+  <div id="taskModal" class="modal">
+    <div class="modal-content">
+      <span class="modal-close">&times;</span>
+      <h2 id="modalTitle">New Task</h2>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+  
+  <script src="app.js"></script>
+</body>
+</html>

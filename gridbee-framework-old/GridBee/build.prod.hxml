@@ -1,0 +1,18 @@
+# Production build configuration
+-main gridbee.Main
+-js bin/gridbee-framework.min.js
+-cp src
+-cp ../henkolib
+
+# Haxe 4.x compatibility
+-D js-es=6
+-D js-unflatten
+
+# Production optimizations
+-dce full
+--no-traces
+-D production
+
+# Minification
+-D js-modern
+--minify
