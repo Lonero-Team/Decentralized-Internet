@@ -15,7 +15,7 @@
   "dependencies": {
     "@theia/core": "1.47.0",
     "@theia/editor": "1.47.0",
-    "@theia/editor-preview": "1.47.0",
+    "@theia/editor-preview": "1.67.0",
     "@theia/file-search": "1.47.0",
     "@theia/filesystem": "1.47.0",
     "@theia/getting-started": "1.47.0",
