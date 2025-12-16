@@ -32,15 +32,9 @@ The Decentralized Internet Software Development Kit (SDK) is a comprehensive, mo
 
 # Statement of Need
 
-Modern internet infrastructure suffers from several critical limitations: (1) centralization of control by large technology corporations, (2) dependency on legacy telecommunications infrastructure, (3) vulnerability to censorship and single points of failure, and (4) limited scalability due to traditional client-server architectures [@Baran1964; @Ratnasamy2001]. While various solutions have been proposed for specific aspects of centralization—such as peer-to-peer networking [@Maymounkov2002], blockchain technologies [@Nakamoto2008], and distributed computing [@Anderson2004]—there has been a lack of integrated frameworks that combine these technologies into a cohesive development platform.
+Modern internet infrastructure suffers from several critical limitations: (1) centralization of control by large technology corporations, (2) dependency on legacy telecommunications infrastructure, (3) vulnerability to censorship and single points of failure, and (4) limited scalability due to traditional client-server architectures [@Baran1964; @Ratnasamy2001]. While various solutions have been proposed for specific aspects of centralization, such as peer-to-peer networking [@Maymounkov2002], blockchain technologies [@Nakamoto2008], and distributed computing [@Anderson2004], there has been a lack of integrated frameworks that combine these technologies into a cohesive development platform.
 
-Researchers and developers working on decentralized systems face significant barriers to entry, including the need to integrate multiple disparate libraries, understand complex networking protocols, and manage the operational complexity of distributed systems. Existing tools often focus on a single aspect of decentralization (e.g., blockchain or P2P networking) without providing the comprehensive infrastructure needed for production applications. The Decentralized Internet SDK fills this gap by providing:
-
-1. A unified API across multiple decentralization technologies
-2. Pre-configured integrations between P2P networking, blockchain, and distributed computing
-3. Production-ready components for 5G mesh networking
-4. AI-powered automation for network optimization
-5. Developer-friendly tools including a graphical dashboard and IDE integration
+Researchers and developers engaged in building decentralized systems encounter substantial barriers to entry, including the need to integrate multiple disparate libraries, master complex networking protocols, and manage the operational complexity inherent in distributed architectures. Current tools frequently address a single facet of decentralization, such as blockchain technology or peer-to-peer networking, without delivering the comprehensive infrastructure required for production-grade applications. The Decentralized Internet SDK addresses this shortfall by offering a unified API that spans multiple decentralization technologies, pre-configured integrations among P2P networking, blockchain, and distributed computing, and even production-ready components for 5G mesh networking. It also provides AI-powered automation for network optimization along with developer-friendly tools, including a graphical dashboard and IDE integration, to streamline development and deployment.
 
 # Architecture and Design
 
@@ -159,4 +153,3 @@ Planned enhancements include:
 We acknowledge contributions from the open-source community, particularly the developers of Lotion, Tendermint, GridBee, ClusterPost, Open5gs, and Free5gc. Special thanks to the Lonero Foundation for project support and Riemann Computing for infrastructure maintenance.
 
 # References
-See paper.bib file. 
