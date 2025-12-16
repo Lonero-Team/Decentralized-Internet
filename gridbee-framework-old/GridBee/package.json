@@ -1,5 +1,5 @@
 {
-  "name": "gridbee-framework",
+  "name": "gridbee-framework-v2",
   "version": "2.0.0",
   "description": "GridBee Web Computing Framework - Distributed computing for browsers with Haxe 4.3.3",
   "main": "bin/gridbee-framework.js",

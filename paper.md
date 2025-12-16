@@ -13,7 +13,7 @@ tags:
   - artificial intelligence
 authors:
   - name: Andrew Magdy Kamal
-    orcid: 0000-0000-0000-0000
+    orcid: 0000-0001-5389-1386
     affiliation: "1, 2"
   - name: Riemann Computing
     affiliation: 2
