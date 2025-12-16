@@ -42,7 +42,7 @@
     "@theia/task": "1.47.0"
   },
   "devDependencies": {
-    "@theia/cli": "1.47.0",
+    "@theia/cli": "1.67.0",
     "typescript": "^5.3.3"
   },
   "scripts": {
