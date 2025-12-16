@@ -48,7 +48,7 @@
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "react-scripts": "5.0.1",
-    "rollup": "4.53.3",
+    "rollup": "4.53.5",
     "@rollup/plugin-babel": "6.1.0",
     "rollup-plugin-commonjs": "10.1.0",
     "rollup-plugin-json": "4.0.0",
