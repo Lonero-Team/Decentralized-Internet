@@ -1,6 +1,5 @@
 name: Draft PDF
 on: [push]
-uses: openjournals/openjournals-draft-action@v1.0
 jobs:
   paper:
     runs-on: ubuntu-latest
