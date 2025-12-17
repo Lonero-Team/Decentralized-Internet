@@ -9,7 +9,7 @@
     "theia-extension"
   ],
   "dependencies": {
-    "@theia/core": "1.47.0",
+    "@theia/core": "1.67.0",
     "@theia/editor": "1.47.0",
     "@theia/filesystem": "1.47.0",
     "@theia/workspace": "1.47.0",
