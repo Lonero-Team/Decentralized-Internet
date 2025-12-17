@@ -15,12 +15,10 @@ authors:
   - name: Andrew Magdy Kamal
     orcid: 0000-0001-5389-1386
     affiliation: "1, 2"
-  - name: Riemann Computing
-    affiliation: 2
 affiliations:
- - name: Independent Researcher
+ - name: Riemann Computing, USA
    index: 1
- - name: Lonero Foundation
+ - name: Lonero Foundation, USA
    index: 2
 date: 16 December 2024
 bibliography: paper.bib
@@ -139,6 +137,26 @@ Since its initial release, the Decentralized Internet SDK has been:
 - Integrated into IoT and edge computing platforms
 
 The project maintains active community channels including Discord, Gitter, and GitHub Discussions, with comprehensive documentation available at [lonero.readthedocs.io](https://lonero.readthedocs.io/).
+
+# Example Usage
+
+- [Cryptographically-Secure Adoption Matching](https://hackernoon.com/an-idea-by-lonero-that-can-change-millions-of-lives-ttr3t7x) — A proposal leveraging blockchain and smart contracts to facilitate ethical, transparent adoption processes that bridge the pro-life and pro-choice divide.
+
+**Infrastructure and Application Development**
+
+- [Decentralized Data Caching](https://hackernoon.com/36-million-websites-went-offline-due-to-a-fire-decentralization-prevents-that-g42b33um) — Ensuring web resilience through distributed infrastructure to prevent large-scale outages.
+- [DAPP Development](https://hackernoon.com/proposal-to-pi-network-use-our-sdk-for-your-dapp-development-platform-h2j337r) — Using the Decentralized-Internet SDK to build decentralized applications that integrate blockchain functionality.
+
+**Scientific and Computational Research**
+
+- [Genetic Optimization](https://engrxiv.org/index.php/engrxiv/preprint/view/1508) — Distributed computing solutions to optimize complex genetic algorithms.
+- [Biostatistical Analysis](https://pdfs.semanticscholar.org/9115/9c383e10dbc1d40f82df7c495c0d20185e06.pdf) — Harnessing decentralized architectures for advanced biomedical data modeling.
+- [Post-Quantum Encryption Schemes](https://eprint.iacr.org/2019/1467.pdf) — Developing next-generation encryption systems resistant to quantum computing threats.
+
+**Adoption and Industry Use**
+
+- [Used by Planet Labs](https://stackshare.io/decentralized-internet) — Demonstrating real-world adoption of distributed computing and decentralized technologies by global satellite imaging networks.
+- [Used by Starkcom Global](https://starkcom.io) - Utilized by Starkcom Global for decentralized mesh networking and for privately accessing the unlicensed 5g spectrum.
 
 # Future Development
 
