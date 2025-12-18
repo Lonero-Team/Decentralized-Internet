@@ -30,7 +30,7 @@
   "author": "The Lonero Foundation",
   "license": "Apache-2.0 or MIT",
   "dependencies": {
-    "decentralized-internet": "^5.0.0",
+    "decentralized-internet": "^5.3.6",
     "@types/mosca": "^2.8.1",
     "express": "^5.0.0",
     "influx": "^5.0.7",
