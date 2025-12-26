@@ -19,7 +19,7 @@
     "@theia/file-search": "1.47.0",
     "@theia/filesystem": "1.67.0",
     "@theia/getting-started": "1.47.0",
-    "@theia/markers": "1.47.0",
+    "@theia/markers": "1.67.0",
     "@theia/messages": "1.47.0",
     "@theia/mini-browser": "1.47.0",
     "@theia/monaco": "1.47.0",
