@@ -28,7 +28,7 @@
     "@theia/output": "1.67.0",
     "@theia/plugin-ext": "1.47.0",
     "@theia/plugin-ext-vscode": "1.47.0",
-    "@theia/preferences": "1.47.0",
+    "@theia/preferences": "1.67.0",
     "@theia/process": "1.47.0",
     "@theia/scm": "1.47.0",
     "@theia/search-in-workspace": "1.47.0",
