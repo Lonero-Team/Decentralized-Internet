@@ -39,7 +39,7 @@
     "@theia/workspace": "1.47.0",
     "@theia/git": "1.60.2",
     "@theia/debug": "1.67.0",
-    "@theia/task": "1.47.0"
+    "@theia/task": "1.67.0"
   },
   "devDependencies": {
     "@theia/cli": "1.67.0",
