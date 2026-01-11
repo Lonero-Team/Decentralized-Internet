@@ -9232,10 +9232,10 @@ ember-source-channel-url@3.0.0, ember-source-channel-url@^3.0.0:
   dependencies:
     node-fetch "^2.6.0"
 
-ember-source@6.9.0:
-  version "6.9.0"
-  resolved "https://registry.yarnpkg.com/ember-source/-/ember-source-6.9.0.tgz#441d022cacfa29d1c956323141100d639b302b6e"
-  integrity sha512-d/P2/z5Y82/EEn95JRkwYy/JckZTCAgfZZC3dhWWzzXt5ZGHbHbAhole0c4wuUyYz42thM6isJa3C97b/1PdcA==
+ember-source@6.10.0:
+  version "6.10.0"
+  resolved "https://registry.yarnpkg.com/ember-source/-/ember-source-6.10.0.tgz#e8d565be711cee5b20861f4a840107682c43f848"
+  integrity sha512-2oCxVajWrOIt2MGZRGLBSBSAO/yM/bHG4+cb1b9DTpbdGKkwHVRqs3XGg8L7HOGseCNMvMdgH4RZW3fqodbgTg==
   dependencies:
     "@babel/core" "^7.24.4"
     "@ember/edition-utils" "^1.2.0"
