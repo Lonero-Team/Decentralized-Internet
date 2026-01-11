@@ -41,8 +41,8 @@
   "devDependencies": {
     "@babel/core": "7.28.5",
     "@babel/preset-env": "7.28.3",
-    "@commitlint/cli": "20.3.0",
-    "@commitlint/config-conventional": "20.3.0",
+    "@commitlint/cli": "20.3.1",
+    "@commitlint/config-conventional": "20.3.1",
     "@ecomplus/utils": "1.4.1",
     "babel-loader": "10.0.0",
     "core-js": "3.47.0",
