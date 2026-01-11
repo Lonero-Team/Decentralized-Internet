@@ -34,6 +34,11 @@ Modern internet infrastructure suffers from several critical limitations: (1) ce
 
 Researchers and developers engaged in building decentralized systems encounter substantial barriers to entry, including the need to integrate multiple disparate libraries, master complex networking protocols, and manage the operational complexity inherent in distributed architectures. Current tools frequently address a single facet of decentralization, such as blockchain technology or peer-to-peer networking, without delivering the comprehensive infrastructure required for production-grade applications. The Decentralized Internet SDK addresses this shortfall by offering a unified API that spans multiple decentralization technologies, pre-configured integrations among P2P networking, blockchain, and distributed computing, and even production-ready components for 5G mesh networking. It also provides AI-powered automation for network optimization along with developer-friendly tools, including a graphical dashboard and IDE integration, to streamline development and deployment.
 
+# Software Design
+The design separates core networking, cryptographic, and coordination primitives from higher-level abstractions, allowing developers to plug in different transports, consensus approaches, or storage backends without rewriting the entire stack. This modularity trades some simplicity and initial learning curve for long-term extensibility and the ability to evolve components independently as new protocols and hardware targets emerge.
+
+The project favors a lightweight SDK and library model rather than a heavy, opinionated platform, which can mean fewer “batteries-included” features compared to some larger frameworks, but grants tighter control over performance, resource usage, and deployment footprint. When evaluating whether to build or contribute, existing tools like IPFS, libp2p, and other distributed computing frameworks were considered, but many focus narrowly on content addressing, generic P2P networking, or specific blockchain ecosystems rather than providing an end-to-end SDK tailored for decentralized web and distributed compute pipelines as envisioned here. Creating new software made it possible to experiment with a distinct architecture aimed at offloading computation, clustering, and HPC-style workloads, while still remaining interoperable where useful. This matters because it offers developers a focused, customizable foundation for building next-generation decentralized applications and compute grids that do not need to conform to the assumptions of existing ecosystems.
+
 # Architecture and Design
 
 The Decentralized Internet SDK follows a modular architecture consisting of several interconnected components:
@@ -66,6 +71,11 @@ The SDK integrates OpenPeer AI Cloud-Agents [@cloudagents] to create a machine l
 - Predictive resource allocation
 - Automated anomaly detection
 - Route analysis and optimization
+
+### AI Usage Disclosure
+This project uses automation and AI in a limited, carefully controlled way, and this disclosure explains that usage. Designated “bot” contributors in the repository are continuous-integration automations focused on security and maintenance tasks such as vulnerability scanning and dependency management in a large monorepo; they are not used for code generation. Generative AI has been applied to less than 5% of the overall codebase, and only for narrow, well-bounded tasks such as interfacing with specific ports, writing regex utilities, and configuring dependencies for the Theia-based development environment. No AI-generated code appears in the first 444 NPM releases or in any core SDK functionality.
+
+Licensing and dependency compliance are managed with specialized tooling (e.g., FOSSA) rather than generative AI, and security quality is further supported by external monitoring and usage-based validation. Generative AI has not been used to implement fundamental architecture, high-performance computing features, or clustering logic. Instead, it has served as a minor aid around peripheral implementation details, with all AI-assisted contributions reviewed and integrated by a human maintainer. This approach is intended to preserve human accountability for design decisions while transparently acknowledging the narrow, supporting role that AI has played in the project’s development.
 
 ## Developer Tools
 
@@ -126,7 +136,12 @@ The SDK has been designed with performance in mind:
 - **Computing Efficiency**: GridBee enables browser-based distributed computing with minimal overhead
 - **Scalability**: Mesh networks scale horizontally without central coordination
 
-# Community and Impact
+# Research Impact Statement 
+The Decentralized Internet SDK has already demonstrated real-world impact, offering significant utility as a development kit and library for building large-scale distributed computing networks. Engineered to help developers design and manage interconnected systems, the SDK supports complex workloads across diverse hardware with a strong emphasis on scalability, resilience, and modular design. Its architecture enables reliable communication, high fault tolerance, and flexible deployment strategies, making it ideal for teams developing robust grids of interconnected nodes.
+
+Beyond its core strengths, this SDK is also accessible through the [Spack](https://spack.io/) Package Manager, simplifying discovery, installation, and integration. This distribution channel allows research institutions, scientific computing facilities, and data centers to seamlessly adopt the SDK for high-performance computing (HPC) environments and advanced clustering applications. With Spack’s flexible, environment-aware packaging, organizations can easily tailor this SDK to match their specific hardware configurations and software requirements—greatly enhancing both experimentation efficiency and production scalability.
+
+## Community and Impact
 
 Since its initial release, the Decentralized Internet SDK has been:
 
@@ -138,7 +153,7 @@ Since its initial release, the Decentralized Internet SDK has been:
 
 The project maintains active community channels including Discord, Gitter, and GitHub Discussions, with comprehensive documentation available at [lonero.readthedocs.io](https://lonero.readthedocs.io/).
 
-# Example Usage
+## Example Usage
 
 - [Cryptographically-Secure Adoption Matching](https://hackernoon.com/an-idea-by-lonero-that-can-change-millions-of-lives-ttr3t7x) — A proposal leveraging blockchain and smart contracts to facilitate ethical, transparent adoption processes that bridge the pro-life and pro-choice divide.
 
@@ -156,9 +171,9 @@ The project maintains active community channels including Discord, Gitter, and G
 **Adoption and Industry Use**
 
 - [Used by Planet Labs](https://stackshare.io/decentralized-internet) — Demonstrating real-world adoption of distributed computing and decentralized technologies by global satellite imaging networks.
-- [Used by Starkcom Global](https://starkcom.io) - Utilized by Starkcom Global for decentralized mesh networking and for privately accessing the unlicensed 5g spectrum.
+- [Used by Starkcom Global](https://starkcom.io) - Utilized by Starkcom Global for decentralized mesh networking and for privately accessing the unlicensed 5g spectrum.​
 
-# Future Development
+## Future Development
 
 Planned enhancements include:
 
@@ -166,7 +181,7 @@ Planned enhancements include:
 2. **WebAssembly Support**: High-performance computation in browsers
 3. **Mobile SDKs**: Native iOS and Android support
 
-# Acknowledgements
+## Acknowledgements
 
 We acknowledge contributions from the open-source community, particularly the developers of Lotion, Tendermint, GridBee, ClusterPost, Open5gs, and Free5gc. Special thanks to the Lonero Foundation for project support and Riemann Computing for infrastructure maintenance.
 
