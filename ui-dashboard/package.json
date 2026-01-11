@@ -30,7 +30,7 @@
   "devDependencies": {
     "electron-builder": "^26.0.0",
     "webpack": "^5.89.0",
-    "webpack-cli": "^5.1.4",
+    "webpack-cli": "^6.0.0",
     "webpack-dev-server": "^4.15.1",
     "cross-env": "^10.0.0",
     "html-webpack-plugin": "^5.6.0",
