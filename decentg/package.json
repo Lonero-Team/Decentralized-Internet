@@ -27,7 +27,7 @@
     "body-parser": "^2.2.1",
     "request": "^2.88.2",
     "pm2": "^6.0.14",
-    "node-fetch": "^2.6.7",
+    "node-fetch": "^3.0.0",
     "dgram": "^1.0.1"
   },
   "scripts": {

@@ -19,7 +19,7 @@
     "socket.io-client": "^4.6.0",
     "axios": "^1.6.2",
     "ps-node": "^0.1.6",
-    "node-fetch": "^2.6.7",
+    "node-fetch": "^3.0.0",
     "ws": "^8.16.0",
     "pm2": "^6.0.14",
     "chart.js": "^4.4.1",
