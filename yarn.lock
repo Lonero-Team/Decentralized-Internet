@@ -14055,10 +14055,10 @@ mini-css-extract-plugin@^2.5.2:
   dependencies:
     schema-utils "^4.0.0"
 
-minify@15.0.0:
-  version "15.0.0"
-  resolved "https://registry.yarnpkg.com/minify/-/minify-15.0.0.tgz#4a11578945f3182aea164a586e9465c02772e142"
-  integrity sha512-Ultmui0hTYhp/zKOsDhFUfCi7+PuSEz3Jd7ER2Oh1IW2U5WIAp16SXqdIGS6VAmFKMoDD6/oC3Sp0kckU9iQUA==
+minify@15.0.1:
+  version "15.0.1"
+  resolved "https://registry.yarnpkg.com/minify/-/minify-15.0.1.tgz#7eaa4aedf5d6ed715e35bac15561eebe1a5644d4"
+  integrity sha512-OT21ZzfjJcQm7ijCpZekdlSJt+eTwo/hLrfOxh405tvq4H6U3vPePU4tIWTPDj9HhpbywK1GXEf43g+OmPuMEQ==
   dependencies:
     "@putout/minify" "^6.0.0"
     "@swc/core" "^1.6.7"
@@ -14071,7 +14071,6 @@ minify@15.0.0:
     lightningcss "^1.28.1"
     montag "^1.2.1"
     readjson "^2.2.2"
-    simport "^1.2.0"
     terser "^5.28.1"
     try-catch "^4.0.7"
     try-to-catch "^4.0.3"
@@ -16447,7 +16446,7 @@ readdirp@~3.6.0:
   dependencies:
     picomatch "^2.2.1"
 
-readjson@^2.2.0, readjson@^2.2.2:
+readjson@^2.2.2:
   version "2.2.2"
   resolved "https://registry.yarnpkg.com/readjson/-/readjson-2.2.2.tgz#ed940ebdd72b88b383e02db7117402f980158959"
   integrity sha512-PdeC9tsmLWBiL8vMhJvocq+OezQ3HhsH2HrN7YkhfYcTjQSa/iraB15A7Qvt7Xpr0Yd2rDNt6GbFwVQDg3HcAw==
@@ -17318,14 +17317,6 @@ simple-sha1@^2.1.0:
   integrity sha512-TQl9rm4rdKAVmhO++sXAb8TNN0D6JAD5iyI1mqEPNpxUzTRrtm4aOG1pDf/5W/qCFihiaoK6uuL9rvQz1x1VKw==
   dependencies:
     rusha "^0.8.1"
-
-simport@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/simport/-/simport-1.2.0.tgz#7baabdc1787b3dd8d9ef157938442ddff14d6e6b"
-  integrity sha512-85Bm7pKsqiiQ8rmYCaPDdlXZjJvuW6/k/FY8MTtLFMgU7f8S00CgTHfRtWB6KwSb6ek4p9YyG2enG1+yJbl+CA==
-  dependencies:
-    readjson "^2.2.0"
-    try-to-catch "^3.0.0"
 
 slash@3.0.0, slash@^3.0.0:
   version "3.0.0"
@@ -18430,11 +18421,6 @@ try-catch@^4.0.7:
   version "4.0.7"
   resolved "https://registry.yarnpkg.com/try-catch/-/try-catch-4.0.7.tgz#e43b8f9931c33c73cd0e21b2829fa80fe67e1dc0"
   integrity sha512-gkBWUxbiN4T4PsO8KhoQYWzUPN6e0/h12H9H3YhcfPbwaN8b84fy8cFqL4rWTiPh7qHPFaEfklr6OkVxYRW0Gg==
-
-try-to-catch@^3.0.0:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/try-to-catch/-/try-to-catch-3.0.1.tgz#81ccacb2abd9ef0f313a99eae7752fccf1d17c09"
-  integrity sha512-hOY83V84Hx/1sCzDSaJA+Xz2IIQOHRvjxzt+F0OjbQGPZ6yLPLArMA0gw/484MlfUkQbCpKYMLX3VDCAjWKfzQ==
 
 try-to-catch@^4.0.3:
   version "4.0.3"
