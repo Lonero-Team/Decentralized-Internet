@@ -13454,9 +13454,9 @@ lodash.uniq@^4.2.0:
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
 lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.14, lodash@^4.17.19, lodash@^4.17.20, lodash@^4.17.21, lodash@^4.17.4, lodash@~4.17.19, lodash@~4.17.21:
-  version "4.17.21"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
-  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
+  version "4.17.23"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.23.tgz#f113b0378386103be4f6893388c73d0bde7f2c5a"
+  integrity sha512-LgVTMpQtIopCi79SJeDiP0TfWi5CNEc/L/aRdTh3yIvmZXTnheWpKjSZhnvMl8iXbC1tFg9gdHHDMLoV7CnG+w==
 
 log-symbols@^2.2.0:
   version "2.2.0"
@@ -17354,10 +17354,10 @@ snake-case@^3.0.3, snake-case@^3.0.4:
     dot-case "^3.0.4"
     tslib "^2.0.3"
 
-snyk@1.1300.2:
-  version "1.1300.2"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.1300.2.tgz#8372786ee5bf2afeadf5ae741ac6da09566b4596"
-  integrity sha512-wkJ1hTooKFaNZl8cl+G1EE15qhOLB54YCIcT0GsX/sTPUAgK7pTm7902QrBtODdL68+wzqazazyDRlElXC1U2w==
+snyk@1.1302.1:
+  version "1.1302.1"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.1302.1.tgz#bbd8522699291ff605f6450748ca9174e2f5b509"
+  integrity sha512-RT85Pz4N36xma7Mcob0Jno5TXu22VbVoT+7mWHk2TVkBHqsMZ8sKW55X+r+LMaT8GwlC5+cYjzw2iuv1VcPZOg==
   dependencies:
     "@sentry/node" "^7.36.0"
     global-agent "^3.0.0"
