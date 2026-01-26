@@ -62,7 +62,7 @@ tests_require = [
     'pep8',
     'flake8',
     'flake8-quotes==3.4.0',
-    'hypothesis~=6.150.2',
+    'hypothesis~=6.151.2',
     'hypothesis-regex',
     # Removed pylint because its GPL license isn't Apache2-compatible
     'pytest>=3.0.0',
