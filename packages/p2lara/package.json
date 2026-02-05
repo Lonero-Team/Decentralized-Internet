@@ -43,7 +43,7 @@
     "@types/expect": "24.3.2",
     "@types/express": "5.0.6",
     "@types/mocha": "10.0.10",
-    "@types/node": "25.0.10",
+    "@types/node": "25.2.1",
     "concurrently": "9.2.1",
     "mocha": "11.7.5",
     "nodemon": "3.1.11",
