@@ -14,7 +14,7 @@
     "@theia/filesystem": "1.68.2",
     "@theia/workspace": "1.67.0",
     "@theia/terminal": "1.67.0",
-    "@theia/monaco": "1.47.0",
+    "@theia/monaco": "1.68.2",
     "socket.io-client": "^4.7.2"
   },
   "devDependencies": {
