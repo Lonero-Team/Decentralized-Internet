@@ -9205,7 +9205,7 @@ ember-cli-babel@8.3.1, ember-cli-babel@^8.2.0:
     resolve-package-path "^4.0.3"
     semver "^7.3.8"
 
-ember-cli-babel@^7.26.11, ember-cli-babel@^7.26.6:
+ember-cli-babel@^7.26.6:
   version "7.26.11"
   resolved "https://registry.yarnpkg.com/ember-cli-babel/-/ember-cli-babel-7.26.11.tgz#50da0fe4dcd99aada499843940fec75076249a9f"
   integrity sha512-JJYeYjiz/JTn34q7F5DSOjkkZqy8qwFOOxXfE6pe9yEJqWGu4qErKxlz8I22JoVEQ/aBUO+OcKTpmctvykM9YA==
@@ -9525,12 +9525,10 @@ ember-qunit@9.0.4:
     "@embroider/macros" "^1.16.12"
     qunit-theme-ember "^1.0.0"
 
-ember-resolver@13.1.1:
-  version "13.1.1"
-  resolved "https://registry.yarnpkg.com/ember-resolver/-/ember-resolver-13.1.1.tgz#9f26955c1c689dca2279fe69fccb82f5b2e9382e"
-  integrity sha512-rA4RDuTm/F9AzYX2+g7EY3QWU48kyF9+Ck8IE8VQipnlwv2Q42kdRWiw7hfeQbRxx6XoSZCak6nzAG9ePd/+Ug==
-  dependencies:
-    ember-cli-babel "^7.26.11"
+ember-resolver@13.2.0:
+  version "13.2.0"
+  resolved "https://registry.yarnpkg.com/ember-resolver/-/ember-resolver-13.2.0.tgz#6405bcdd9f276800af2bb5c542bdb941ce49456e"
+  integrity sha512-A+BffoSKC0ngiczbgaz/IOY66ovZVRRHHIDDi+d7so5i0By8xuB4nXgZZ6Dv3u/3WwoUyixgUvb0xTUO+MtupA==
 
 ember-rfc176-data@^0.3.17, ember-rfc176-data@^0.3.18:
   version "0.3.18"
