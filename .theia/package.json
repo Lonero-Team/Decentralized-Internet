@@ -24,7 +24,7 @@
     "@theia/mini-browser": "1.68.2",
     "@theia/monaco": "1.68.2",
     "@theia/navigator": "1.68.2",
-    "@theia/outline-view": "1.47.0",
+    "@theia/outline-view": "1.68.2",
     "@theia/output": "1.67.0",
     "@theia/plugin-ext": "1.47.0",
     "@theia/plugin-ext-vscode": "1.67.0",
