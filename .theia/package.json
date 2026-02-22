@@ -30,7 +30,7 @@
     "@theia/plugin-ext-vscode": "1.67.0",
     "@theia/preferences": "1.68.2",
     "@theia/process": "1.67.0",
-    "@theia/scm": "1.67.0",
+    "@theia/scm": "1.68.2",
     "@theia/search-in-workspace": "1.47.0",
     "@theia/terminal": "1.67.0",
     "@theia/toolbar": "1.47.0",
