@@ -9,7 +9,7 @@
     "joi": "^14.3.1",
     "lab": "^18.0.2",
     "request": "^2.88.2",
-    "underscore": "^1.12.1",
+    "underscore": "^1.13.8",
     "snyk": "^1.1297.3"
   },
   "scripts": {
