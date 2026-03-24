@@ -25,13 +25,13 @@
   },
   "homepage": "https://github.com/juanprietob/clusterpost#readme",
   "devDependencies": {
-    "@hapi/hapi": "21.4.6",
+    "@hapi/hapi": "21.4.7",
     "lab": "18.0.2",
     "nodemailer-stub-transport": "1.1.0"
   },
   "dependencies": {
     "@hapi/boom": "^10.0.0",
-    "joi": "18.0.2",
+    "joi": "18.1.1",
     "bcrypt": "^6.0.0",
     "couch-provider": "^3.0.0",
     "couch-update-views": "^1.0.7",
