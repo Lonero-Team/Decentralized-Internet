@@ -9143,10 +9143,10 @@ elliptic@^6.5.7:
     minimalistic-assert "^1.0.1"
     minimalistic-crypto-utils "^1.0.1"
 
-ember-auto-import@2.12.1:
-  version "2.12.1"
-  resolved "https://registry.yarnpkg.com/ember-auto-import/-/ember-auto-import-2.12.1.tgz#9f8d2b0b91dfa41402ca5c1e64e4f77582e60b0e"
-  integrity sha512-wyvl+aJJKOKbRSLqq6CyMsNrvurmX4SIWHHqZdC5giZ7P8ECGmcn9W9HFoVLpwXkFJoXhNV4L7mqqcU6881t0w==
+ember-auto-import@2.13.0:
+  version "2.13.0"
+  resolved "https://registry.yarnpkg.com/ember-auto-import/-/ember-auto-import-2.13.0.tgz#29d4c2057faea7a6a69bd14eb1be8803b8b58b86"
+  integrity sha512-P6COSWDDC6qpgNdc33PyAubhTHUkKc1gUfP2oR4BZoHhUVoEMHiSOECHISd5a2J8DaNrcpFcZmjgb1vJ2ydkjw==
   dependencies:
     "@babel/core" "^7.16.7"
     "@babel/plugin-proposal-class-properties" "^7.16.7"
