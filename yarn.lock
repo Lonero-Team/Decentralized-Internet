@@ -5417,9 +5417,9 @@
   integrity sha512-S9q47ByT2pPvD65IvrWp7qppVMpk9WGMbVq9wbWZOHg6tnXSD4vyhao6nOSBwwfDdV2p3Kx9evA9vI+XWTfDvw==
 
 "@xmldom/xmldom@^0.8.0":
-  version "0.8.2"
-  resolved "https://registry.yarnpkg.com/@xmldom/xmldom/-/xmldom-0.8.2.tgz#b695ff674e8216efa632a3d36ad51ae9843380c0"
-  integrity sha512-+R0juSseERyoPvnBQ/cZih6bpF7IpCXlWbHRoCRzYzqpz6gWHOgf8o4MOEf6KBVuOyqU+gCNLkCWVIJAro8XyQ==
+  version "0.8.12"
+  resolved "https://registry.yarnpkg.com/@xmldom/xmldom/-/xmldom-0.8.12.tgz#cf488a5435fa06c7374ad1449c69cea0f823624b"
+  integrity sha512-9k/gHF6n/pAi/9tqr3m3aqkuiNosYTurLLUtc7xQ9sxB/wm7WPygCv8GYa6mS0fLJEHhqMC1ATYhz++U/lRHqg==
 
 "@yarnpkg/lockfile@^1.1.0":
   version "1.1.0"
@@ -9143,10 +9143,10 @@ elliptic@^6.5.7:
     minimalistic-assert "^1.0.1"
     minimalistic-crypto-utils "^1.0.1"
 
-ember-auto-import@2.12.1:
-  version "2.12.1"
-  resolved "https://registry.yarnpkg.com/ember-auto-import/-/ember-auto-import-2.12.1.tgz#9f8d2b0b91dfa41402ca5c1e64e4f77582e60b0e"
-  integrity sha512-wyvl+aJJKOKbRSLqq6CyMsNrvurmX4SIWHHqZdC5giZ7P8ECGmcn9W9HFoVLpwXkFJoXhNV4L7mqqcU6881t0w==
+ember-auto-import@2.13.0:
+  version "2.13.0"
+  resolved "https://registry.yarnpkg.com/ember-auto-import/-/ember-auto-import-2.13.0.tgz#29d4c2057faea7a6a69bd14eb1be8803b8b58b86"
+  integrity sha512-P6COSWDDC6qpgNdc33PyAubhTHUkKc1gUfP2oR4BZoHhUVoEMHiSOECHISd5a2J8DaNrcpFcZmjgb1vJ2ydkjw==
   dependencies:
     "@babel/core" "^7.16.7"
     "@babel/plugin-proposal-class-properties" "^7.16.7"
