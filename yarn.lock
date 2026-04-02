@@ -9286,10 +9286,10 @@ ember-cli-get-component-path-option@^1.0.0:
   resolved "https://registry.yarnpkg.com/ember-cli-get-component-path-option/-/ember-cli-get-component-path-option-1.0.0.tgz#0d7b595559e2f9050abed804f1d8eff1b08bc771"
   integrity sha1-DXtZVVni+QUKvtgE8djv8bCLx3E=
 
-ember-cli-htmlbars@7.0.0:
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/ember-cli-htmlbars/-/ember-cli-htmlbars-7.0.0.tgz#e02a3ba8b0dc8ec42789b453c1709a8679bc048d"
-  integrity sha512-6BFxD19eZY+K62JLBDIKb8fXV29+QBrcT5QH4iHi8xseERX9SEWnYej9FpqL2QuoGjaTGml6QOvu9QlSTDYdVw==
+ember-cli-htmlbars@7.0.1:
+  version "7.0.1"
+  resolved "https://registry.yarnpkg.com/ember-cli-htmlbars/-/ember-cli-htmlbars-7.0.1.tgz#26a9c86d063eca04fcc58021e802761f2323d53f"
+  integrity sha512-bNVAwTvBOmk7KjGCN0Vq81w8FAWQ1zXwCS1CUUHTeWdcFypRsv0qUEkTtwxho4H3BYaoqMCXPS45Js9WWtEXYw==
   dependencies:
     "@ember/edition-utils" "^1.2.0"
     babel-plugin-ember-template-compilation "^2.0.0"
