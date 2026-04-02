@@ -17,7 +17,7 @@
     "@theia/editor": "1.47.0",
     "@theia/editor-preview": "1.68.2",
     "@theia/file-search": "1.69.0",
-    "@theia/filesystem": "1.68.2",
+    "@theia/filesystem": "1.70.0",
     "@theia/getting-started": "1.47.0",
     "@theia/markers": "1.68.2",
     "@theia/messages": "1.47.0",
