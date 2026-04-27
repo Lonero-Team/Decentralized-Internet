@@ -2100,34 +2100,34 @@
     quick-temp "^0.1.8"
     silent-error "^1.1.1"
 
-"@ember-tooling/classic-build-addon-blueprint@6.11.0":
-  version "6.11.0"
-  resolved "https://registry.yarnpkg.com/@ember-tooling/classic-build-addon-blueprint/-/classic-build-addon-blueprint-6.11.0.tgz#9644861014b1bd613ba3690240d6a130adf39c0f"
-  integrity sha512-YDZlXLg+nzp2wDGEA7eJKTxF7d9d6WEjgALQkoOnardWQCS0Trr3Ce2itVySsadB8CX1Sqrze4qCQjw1XMAjqg==
+"@ember-tooling/classic-build-addon-blueprint@6.12.0":
+  version "6.12.0"
+  resolved "https://registry.yarnpkg.com/@ember-tooling/classic-build-addon-blueprint/-/classic-build-addon-blueprint-6.12.0.tgz#0af05edb8cd6f6314f43661fafac54ebf6e16a85"
+  integrity sha512-2sf34DIJO6RnpzcQy0A4RmGNwukE4vihHv/b9loDZzV4lnFNOTyHua09S5ai4szO7Iv91Q2OPEgOBo09yG+7SQ==
   dependencies:
     "@ember-tooling/blueprint-model" "^0.5.0"
     chalk "^5.6.2"
     ember-cli-normalize-entity-name "^1.0.0"
     ember-cli-string-utils "^1.1.0"
-    fs-extra "^11.3.0"
-    lodash "^4.17.21"
+    fs-extra "^11.3.3"
+    lodash "^4.17.23"
     silent-error "^1.1.1"
-    sort-package-json "^2.12.0"
+    sort-package-json "^2.15.1"
     walk-sync "^3.0.0"
 
-"@ember-tooling/classic-build-app-blueprint@6.11.0":
-  version "6.11.0"
-  resolved "https://registry.yarnpkg.com/@ember-tooling/classic-build-app-blueprint/-/classic-build-app-blueprint-6.11.0.tgz#f330a5ef6bd74ffd6a6beb5ed481c746d2d9dcec"
-  integrity sha512-ZqwAC+3X3HFcBcmbyyBRh0KXkQSuW+L6Rry9Q7vmGFoQ+wQQnDQ9MS+TXz72VqP47+MGfZRJXWfCeqEUTpuSRg==
+"@ember-tooling/classic-build-app-blueprint@6.12.0":
+  version "6.12.0"
+  resolved "https://registry.yarnpkg.com/@ember-tooling/classic-build-app-blueprint/-/classic-build-app-blueprint-6.12.0.tgz#6f507ecca7bf6c50d24ab571b586396158902963"
+  integrity sha512-dU6ig33VN+SA2yrkyJGdCMzJ6hB0fRVXpcSpnmWl2RI7TQCxlQsYR162BkMUdRN6ZWbycalDjWGW0r8KrIxzgA==
   dependencies:
     "@ember-tooling/blueprint-model" "^0.5.0"
     chalk "^5.6.2"
     ember-cli-string-utils "^1.1.0"
 
-"@ember/app-blueprint@~6.11.0":
-  version "6.11.0"
-  resolved "https://registry.yarnpkg.com/@ember/app-blueprint/-/app-blueprint-6.11.0.tgz#7b0f76f83fece5d358b02c6b44e432b76ae35a77"
-  integrity sha512-zsY7HqSktkVH9vRup8g0jC8+lvRk0bvEeQ22zUVej5H1WHRZzN70N9nGH3Oibgo/d4qZIZT7WNqktm1ctxDYYQ==
+"@ember/app-blueprint@~6.12.0":
+  version "6.12.1"
+  resolved "https://registry.yarnpkg.com/@ember/app-blueprint/-/app-blueprint-6.12.1.tgz#524f0cfb15023ba62a1ba13ddb7bc224124309d0"
+  integrity sha512-rjvZ5BRyfWKjh3C5U7Hd/lH0W9ChkPW+3lsZBY2I0fRDuewq1ML4QRXgN0OwKyDTipkDk8GplSoOQWXcwMCSJg==
   dependencies:
     chalk "^4.1.2"
     ejs "^3.1.10"
@@ -9254,16 +9254,16 @@ ember-cli-version-checker@^5.0.1, ember-cli-version-checker@^5.1.2:
     semver "^7.3.4"
     silent-error "^1.1.1"
 
-ember-cli@6.11.0:
-  version "6.11.0"
-  resolved "https://registry.yarnpkg.com/ember-cli/-/ember-cli-6.11.0.tgz#931844067d4671232bea493e15804a780d9f75fa"
-  integrity sha512-c+5m4KgPr1hi7+64+SAfphIeCFZMuKTR+QSM0PPmEJhXibtCJd+8Ag5IrBMJ5urhX4jUtZ3skc0/Zln67CiGjQ==
+ember-cli@6.12.0:
+  version "6.12.0"
+  resolved "https://registry.yarnpkg.com/ember-cli/-/ember-cli-6.12.0.tgz#87e30bcee9c3bd8531da7df3163ee46831b7534d"
+  integrity sha512-DDFTHdDofuRCZnu5FO79patRi1W4ndKFLcgb0MsspC+jyS9hgxDepBBFuV6daIjaTq5RvWdZRf5tjQ141VmcTw==
   dependencies:
     "@ember-tooling/blueprint-blueprint" "^0.2.1"
     "@ember-tooling/blueprint-model" "^0.5.0"
-    "@ember-tooling/classic-build-addon-blueprint" "6.11.0"
-    "@ember-tooling/classic-build-app-blueprint" "6.11.0"
-    "@ember/app-blueprint" "~6.11.0"
+    "@ember-tooling/classic-build-addon-blueprint" "6.12.0"
+    "@ember-tooling/classic-build-app-blueprint" "6.12.0"
+    "@ember/app-blueprint" "~6.12.0"
     "@pnpm/find-workspace-dir" "^1000.1.3"
     babel-remove-types "^1.0.2"
     broccoli "^4.0.0"
@@ -9336,7 +9336,6 @@ ember-cli@6.11.0:
     silent-error "^1.1.1"
     sort-package-json "^3.6.0"
     symlink-or-copy "^1.3.1"
-    temp "0.9.4"
     testem "^3.17.0"
     tiny-lr "^2.0.0"
     tree-sync "^2.1.0"
@@ -10817,7 +10816,7 @@ fs-extra@^10.0.0:
     jsonfile "^6.0.1"
     universalify "^2.0.0"
 
-fs-extra@^11.2.0, fs-extra@^11.3.0, fs-extra@^11.3.3:
+fs-extra@^11.2.0, fs-extra@^11.3.3:
   version "11.3.3"
   resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-11.3.3.tgz#a27da23b72524e81ac6c3815cc0179b8c74c59ee"
   integrity sha512-VWSRii4t0AFm6ixFFmLLx1t7wS1gh+ckoa84aOeapGum0h+EZd1EhEumSB+ZdDLnEPuucsVB9oB7cxJHap6Afg==
@@ -13634,7 +13633,12 @@ lodash.uniq@^4.2.0:
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
-lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.14, lodash@^4.17.19, lodash@^4.17.20, lodash@^4.17.21, lodash@^4.17.4, lodash@~4.17.19, lodash@~4.17.21:
+lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.14, lodash@^4.17.19, lodash@^4.17.20, lodash@^4.17.21, lodash@^4.17.23, lodash@^4.17.4:
+  version "4.18.1"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.18.1.tgz#ff2b66c1f6326d59513de2407bf881439812771c"
+  integrity sha512-dMInicTPVE8d1e5otfwmmjlxkZoUpiVLwyeTdUsi/Caj/gfzzblBcCE5sRHV/AsjuCmxWrte2TNGSYuCeCq+0Q==
+
+lodash@~4.17.19, lodash@~4.17.21:
   version "4.17.23"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.23.tgz#f113b0378386103be4f6893388c73d0bde7f2c5a"
   integrity sha512-LgVTMpQtIopCi79SJeDiP0TfWi5CNEc/L/aRdTh3yIvmZXTnheWpKjSZhnvMl8iXbC1tFg9gdHHDMLoV7CnG+w==
@@ -16916,7 +16920,7 @@ rimraf@2, rimraf@^2.2.8, rimraf@^2.3.4, rimraf@^2.4.3, rimraf@^2.5.3, rimraf@^2.
   dependencies:
     glob "^7.1.3"
 
-rimraf@2.6.3, rimraf@~2.6.2:
+rimraf@2.6.3:
   version "2.6.3"
   resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.6.3.tgz#b2d104fe0d8fb27cf9e0a1cda8262dd3833c6cab"
   integrity sha512-mwqeW5XsA2qAejG46gYdENaxXjx9onRNCfn7L0duuP4hCuTIi/QO7PDK07KJfp1d+izWPrzEJDcSqBa0OZQriA==
@@ -17587,10 +17591,10 @@ sort-object-keys@^2.0.1:
   resolved "https://registry.yarnpkg.com/sort-object-keys/-/sort-object-keys-2.1.0.tgz#af24fbb7b91fcca945399a04fa900a10f9506242"
   integrity sha512-SOiEnthkJKPv2L6ec6HMwhUcN0/lppkeYuN1x63PbyPRrgSPIuBJCiYxYyvWRTtjMlOi14vQUCGUJqS6PLVm8g==
 
-sort-package-json@^2.12.0:
-  version "2.14.0"
-  resolved "https://registry.yarnpkg.com/sort-package-json/-/sort-package-json-2.14.0.tgz#ba0c7420dc6edea4b0eb7e9f502fda63f57586d8"
-  integrity sha512-xBRdmMjFB/KW3l51mP31dhlaiFmqkHLfWTfZAno8prb/wbDxwBPWFpxB16GZbiPbYr3wL41H8Kx22QIDWRe8WQ==
+sort-package-json@^2.15.1:
+  version "2.15.1"
+  resolved "https://registry.yarnpkg.com/sort-package-json/-/sort-package-json-2.15.1.tgz#e5a035fad7da277b1947b9eecc93ea09c1c2526e"
+  integrity sha512-9x9+o8krTT2saA9liI4BljNjwAbvUnWf11Wq+i/iZt8nl2UGYnf3TH5uBydE7VALmP7AGwlfszuEeL8BDyb0YA==
   dependencies:
     detect-indent "^7.0.1"
     detect-newline "^4.0.0"
@@ -18279,14 +18283,6 @@ temp-dir@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/temp-dir/-/temp-dir-2.0.0.tgz#bde92b05bdfeb1516e804c9c00ad45177f31321e"
   integrity sha512-aoBAniQmmwtcKp/7BzsH8Cxzv8OL736p7v1ihGb5e9DJ9kTwGWHrQrVB5+lfVDzfGrdRzXch+ig7LHaY1JTOrg==
-
-temp@0.9.4:
-  version "0.9.4"
-  resolved "https://registry.yarnpkg.com/temp/-/temp-0.9.4.tgz#cd20a8580cb63635d0e4e9d4bd989d44286e7620"
-  integrity sha512-yYrrsWnrXMcdsnu/7YMYAofM1ktpL5By7vZhf15CrXijWWrEYZks5AXBudalfSWJLlnen/QUJUB5aoB0kqZUGA==
-  dependencies:
-    mkdirp "^0.5.1"
-    rimraf "~2.6.2"
 
 tendermint-node@5.1.5:
   version "5.1.5"
