@@ -7,7 +7,7 @@ const os = require('os');
 
 
 var agentoptions = {
-    rejectUnauthorized: false
+    rejectUnauthorized: true
 }
 
 clusterpost.setAgentOptions(agentoptions);
