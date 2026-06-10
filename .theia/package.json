@@ -23,7 +23,7 @@
     "@theia/messages": "1.72.1",
     "@theia/mini-browser": "1.68.2",
     "@theia/monaco": "1.70.2",
-    "@theia/navigator": "1.68.2",
+    "@theia/navigator": "1.72.3",
     "@theia/outline-view": "1.71.1",
     "@theia/output": "1.71.1",
     "@theia/plugin-ext": "1.68.2",
