@@ -27,7 +27,7 @@
     "@theia/outline-view": "1.71.1",
     "@theia/output": "1.71.1",
     "@theia/plugin-ext": "1.68.2",
-    "@theia/plugin-ext-vscode": "1.67.0",
+    "@theia/plugin-ext-vscode": "1.72.3",
     "@theia/preferences": "1.68.2",
     "@theia/process": "1.67.0",
     "@theia/scm": "1.68.2",
