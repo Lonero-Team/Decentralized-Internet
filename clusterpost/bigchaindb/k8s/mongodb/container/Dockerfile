@@ -1,4 +1,4 @@
-FROM mongo:8.3.2
+FROM mongo:8.3.4
 LABEL maintainer "devs@bigchaindb.com"
 WORKDIR /
 RUN apt-get update \
