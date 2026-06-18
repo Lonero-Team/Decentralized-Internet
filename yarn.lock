@@ -2136,7 +2136,7 @@
     silent-error "^1.1.1"
     tinyglobby "^0.2.15"
 
-"@embroider/addon-shim@^1.10.2", "@embroider/addon-shim@^1.9.0":
+"@embroider/addon-shim@^1.10.2":
   version "1.10.2"
   resolved "https://registry.yarnpkg.com/@embroider/addon-shim/-/addon-shim-1.10.2.tgz#5164c65de0fd242422594c2f94b3c5eab4ab8e36"
   integrity sha512-EfI9cJ5/3QSUJtwm7x1MXrx3TEa2p7RNgSHefy7fvGm8/DP1xUFL25nST1NaHbHcqR1UhMlrTtv5iUIDoVzeQQ==
@@ -2146,7 +2146,7 @@
     common-ancestor-path "^1.0.1"
     semver "^7.3.8"
 
-"@embroider/macros@^1.0.0", "@embroider/macros@^1.16.12":
+"@embroider/macros@^1.0.0":
   version "1.16.12"
   resolved "https://registry.yarnpkg.com/@embroider/macros/-/macros-1.16.12.tgz#f9695c960df74a8e056fa84db31af7c71b6e8c7a"
   integrity sha512-cgaEbzCvUOZF7Xs9FNMGknSCTgE01A1cXkkEhSTuaPbf6F/2z9pZAdQpVrBbTvo1Sg8CwMsm+piahjy43KoGuA==
@@ -9383,13 +9383,12 @@ ember-maybe-import-regenerator@1.0.0:
     ember-cli-babel "^7.26.6"
     regenerator-runtime "^0.13.2"
 
-ember-qunit@9.0.4:
-  version "9.0.4"
-  resolved "https://registry.yarnpkg.com/ember-qunit/-/ember-qunit-9.0.4.tgz#3b16131c2b03f657a231b9768b78b57ca18dd9ea"
-  integrity sha512-rv6gKvrdXdPBTdSZC5co82eIcDWWVR7RjafU/c+5TTz290oXhIHPoVuZbcO2F5RiAqkTW0jKzwkCP8y+2tCjFw==
+ember-qunit@9.1.0:
+  version "9.1.0"
+  resolved "https://registry.yarnpkg.com/ember-qunit/-/ember-qunit-9.1.0.tgz#9fae1d821b592cfa20b4652dbe731960e3e3f7a6"
+  integrity sha512-dE32lSODyv4em0ACBS8PDzrAIPKR75hhSpn/au0qFBlzbdmNA/VVsgv2aoFAVRdlQ0zYJ8EiNPFqsBFciIeXVA==
   dependencies:
-    "@embroider/addon-shim" "^1.9.0"
-    "@embroider/macros" "^1.16.12"
+    "@embroider/addon-shim" "^1.10.2"
     qunit-theme-ember "^1.0.0"
 
 ember-resolver@13.2.0:
