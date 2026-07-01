@@ -20,7 +20,7 @@
     "@theia/filesystem": "1.70.0",
     "@theia/getting-started": "1.72.1",
     "@theia/markers": "1.70.0",
-    "@theia/messages": "1.72.1",
+    "@theia/messages": "1.73.1",
     "@theia/mini-browser": "1.72.3",
     "@theia/monaco": "1.70.2",
     "@theia/navigator": "1.72.3",
