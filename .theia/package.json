@@ -13,7 +13,7 @@
     "5g-core"
   ],
   "dependencies": {
-    "@theia/core": "1.71.1",
+    "@theia/core": "1.73.1",
     "@theia/editor": "1.71.1",
     "@theia/editor-preview": "1.71.1",
     "@theia/file-search": "1.71.1",
