@@ -15978,10 +15978,10 @@ quick-temp@^0.1.3, quick-temp@^0.1.5, quick-temp@^0.1.8, quick-temp@^0.1.9:
     rimraf "^5.0.10"
     underscore.string "~3.3.6"
 
-qunit-dom@3.5.1:
-  version "3.5.1"
-  resolved "https://registry.yarnpkg.com/qunit-dom/-/qunit-dom-3.5.1.tgz#2c0337f4db81cf3923c1f82a902a6be850a2e908"
-  integrity sha512-ZnvTADVXASdjLxrUDuS/8NaOzadhxN+fZgafjuQV1EOMFd3dJqLkP0RqsGdAxQBxZ7KzKg57AAJO20dM6/PxkA==
+qunit-dom@3.6.0:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/qunit-dom/-/qunit-dom-3.6.0.tgz#a92946563b68103bbfd52a119f5b8a4c06f51877"
+  integrity sha512-p14dH8Hk+yUhngenPMpzS434z92RsT05CwOVpAin07kwyCMvuhxDdBouJ9j/jim2nNyDSgVPrDzijCsLZ25zRw==
   dependencies:
     dom-element-descriptors "^0.5.1"
 
