@@ -50,7 +50,7 @@
     "husky": "9.1.7",
     "jsdoc": "4.0.5",
     "standard": "17.1.2",
-    "standard-version": "9.5.0",
+    "commit-and-tag-version": "9.5.0",
     "webpack": "5.107.2",
     "webpack-cli": "7.1.0",
     "webpack-dev-server": "6.0.0"
