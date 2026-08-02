@@ -29,6 +29,6 @@ cuv.migrateUp(couchdb, views)
     process.exit(0);
 })
 .catch(function(err){
-    console.log(error);
+    console.log(err);
     process.exit(1);
 });
