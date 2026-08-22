@@ -10024,10 +10024,10 @@ eslint-compat-utils@^0.5.1:
   dependencies:
     semver "^7.5.4"
 
-eslint-plugin-ember@13.4.1:
-  version "13.4.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-ember/-/eslint-plugin-ember-13.4.1.tgz#59409dfc4073e0106298a60cc2577c9920ca1cfd"
-  integrity sha512-KyPKk3SfYQ5ci9U/bvVIA0NFB1UFn6rZAHNNb62AOgcMUNIR1/+0zqzyhrLHPyodo8BmE+kKDj7subsp71NkqA==
+eslint-plugin-ember@13.5.0:
+  version "13.5.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-ember/-/eslint-plugin-ember-13.5.0.tgz#685b30bca11212fdc0c718152a37bb4b6a832a6c"
+  integrity sha512-q1s/irrc2l1KeE1l5S1UiO7ZrvGF5aYm903CMQ7lHFc09F/78/uvgzvA4wPZ9TFMl07r2ttoIINrEOFy05RtGg==
   dependencies:
     "@ember-data/rfc395-data" "^0.0.4"
     aria-query "^5.3.2"
