@@ -60,7 +60,7 @@ cluster is using.
   Currently, we only support a static set of participants in the network.
   Once a BigchainDB network is started with a certain number of validators
   and a genesis file. Users cannot add new validator nodes dynamically.
-  You can track the progress of this funtionality on our
+  You can track the progress of this functionality on our
   `github repository <https://github.com/bigchaindb/bigchaindb/milestones>`_.
 
 
@@ -244,7 +244,7 @@ the ``mongo-node-1-ss.yaml`` and update the corresponding ConfigMapKeyRef.name o
 .. code:: text
 
   ########################################################################
-  # This YAML file desribes a StatefulSet with a service for running and #
+  # This YAML file describes a StatefulSet with a service for running and #
   # exposing a MongoDB instance.                                         #
   # It depends on the configdb and db k8s pvc.                           #
   ########################################################################

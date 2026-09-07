@@ -15,7 +15,7 @@ For more information about the type of computing grids that are supported check 
 
 This package depends on [hapi-jwt-couch](https://www.npmjs.com/package/hapi-jwt-couch), 
 for the route authentication and encryption of tokens. 
-The algorithm section has the parameters to encrypt the tokens that are emmited for the clusterpost-execution.
+The algorithm section has the parameters to encrypt the tokens that are emitted for the clusterpost-execution.
 
 ----
 	var obj_config = {

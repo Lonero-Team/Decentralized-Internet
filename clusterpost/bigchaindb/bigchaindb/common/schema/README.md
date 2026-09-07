@@ -39,7 +39,7 @@ It provides a *more accessible documentation for JSON schema* than the [specs](h
 
 ## If it's supposed to be JSON, why's everything in YAML D:?
 
-YAML is great for its conciseness and friendliness towards human-editing in comparision to JSON.
+YAML is great for its conciseness and friendliness towards human-editing in comparison to JSON.
 
 Although YAML is a superset of JSON, at the end of the day, JSON Schema processors, like
 [json-schema](http://python-jsonschema.readthedocs.io/en/latest/), take in a native object (e.g.

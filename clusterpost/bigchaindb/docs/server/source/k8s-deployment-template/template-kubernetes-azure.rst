@@ -43,7 +43,7 @@ Step 2: Create an SSH Key Pair
 
 You'll want an SSH key pair so you'll be able to SSH
 to the virtual machines that you'll deploy in the next step.
-(If you already have an SSH key pair, you *could* reuse it,
+(If you already have an SSH key pair, you *could* re-use it,
 but it's probably a good idea to make a new SSH key pair
 for your Kubernetes VMs and nothing else.)
 

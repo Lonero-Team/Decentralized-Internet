@@ -37,7 +37,7 @@ The query parameter `mode` will be introduced to [`POST /api/v1/transaction`](ht
 - `sync`
 - `commit`
 
-To preserve compability with the existing behavour of the API, the query parameter `mode` is optional. In this case the default value would be `async`.
+To preserve compatibility with the existing behaviour of the API, the query parameter `mode` is optional. In this case the default value would be `async`.
 
 
 example URI: `/api/v1/transaction?mode=async`

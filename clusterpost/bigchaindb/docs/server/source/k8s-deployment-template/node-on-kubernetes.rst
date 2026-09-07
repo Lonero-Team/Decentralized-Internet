@@ -372,7 +372,7 @@ but it should become "Bound" fairly quickly.
     The default Reclaim Policy for dynamically created persistent volumes is ``Delete``
     which means the PV and its associated Azure storage resource will be automatically
     deleted on deletion of PVC or PV. In order to prevent this from happening do
-    the following steps to change default reclaim policy of dyanmically created PVs
+    the following steps to change default reclaim policy of dynamically created PVs
     from ``Delete`` to ``Retain``
 
     * Run the following command to list existing PVs

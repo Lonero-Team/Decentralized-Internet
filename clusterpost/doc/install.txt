@@ -63,7 +63,7 @@ This email account will be used to send a token to the user to reset the passwor
 
 Check https://github.com/nodemailer/nodemailer[nodemailer] for possible configurations
 
-==== Generate random key for pasword encryption
+==== Generate random key for password encryption
 
 An easy way to generate a random key is done by typing the command
 

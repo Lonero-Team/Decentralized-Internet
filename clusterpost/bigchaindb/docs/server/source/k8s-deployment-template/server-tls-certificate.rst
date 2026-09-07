@@ -38,7 +38,7 @@ and using something like:
 
 .. note::
 
-    Please make sure you are fullfilling the requirements for `MongoDB server/member certificates
+    Please make sure you are fulfilling the requirements for `MongoDB server/member certificates
     <https://docs.mongodb.com/manual/tutorial/configure-x509-member-authentication>`_.
 
 .. code:: bash

@@ -32,7 +32,7 @@ You should see the following output:
     Options:
 	    --migrate    Migrate design documents in couchdb. The 'design views' in couchdb are updated with the contents of the 'viewsDir' folder if they differ.
 	    --update  <design view name>   Update the design view document stored in 'viewsDirs' with the document stored in 'couchDB'    
-	    --viewsDir <path>   Directory with desgin views documents JSON files. (required)
+	    --viewsDir <path>   Directory with design views documents JSON files. (required)
 	    --couchDB  <url>    CouchDB URL. (required)
 ----
 

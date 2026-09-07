@@ -44,7 +44,7 @@ The `ND` module implements two main functions:
 In the next sections we will use `ND` to refer to the Python class, and `network` to refer to an instance of it. For now, `network` will most likely be a singleton, since it will control `docker` in the current host. This **will not** be the final name of the module.
 
 ### Usage example
-The following code is just a suggestion on how the new module shuold be used. It may contain syntax errors or other kind of errors.
+The following code is just a suggestion on how the new module should be used. It may contain syntax errors or other kind of errors.
 
 ```python
 def test_valid_transaction_is_available_in_all_nodes(network):

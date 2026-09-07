@@ -47,7 +47,7 @@ response contains a ``streams`` property:
 Connection Keep-Alive
 ---------------------
 
-The Event Stream API supports Ping/Pong frames as descibed in
+The Event Stream API supports Ping/Pong frames as described in
 `RFC 6455  <https://tools.ietf.org/html/rfc6455#section-5.5.2>`_.
 
 .. note::

@@ -28,7 +28,7 @@ You can modify them to suit your needs.
 Generate All Shared BigchainDB Setup Parameters
 -----------------------------------------------
 
-There are some shared BigchainDB setup paramters that every node operator
+There are some shared BigchainDB setup parameters that every node operator
 in the consortium shares
 because they are properties of the Tendermint network.
 They look like this:
