@@ -24,7 +24,7 @@ As the project is split into a number of repositories/npm packages, we need to b
 
 `npm install` works by installing the package from the repository you are working on. The downside is that you need to run the install each time you rebuild the component. See [npm-install](https://npmjs.org/doc/cli/npm-install.html) man page.
 
-You will need a local copy of the *wiki* package, this can either be from GitHub, or installed from npm (though using git is probably simplier).
+You will need a local copy of the *wiki* package, this can either be from GitHub, or installed from npm (though using git is probably simpler).
 
 If, for example, you were working on the `method` plug-in, you would do something like the following:
 

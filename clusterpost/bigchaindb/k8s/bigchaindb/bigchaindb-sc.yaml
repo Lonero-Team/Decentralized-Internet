@@ -3,7 +3,7 @@
 # Code is Apache-2.0 and docs are CC-BY-4.0
 
 ###################################################################
-# This YAML section desribes a StorageClass for the tendermint db #
+# This YAML section describes a StorageClass for the tendermint db #
 ###################################################################
 kind: StorageClass
 apiVersion: storage.k8s.io/v1beta1

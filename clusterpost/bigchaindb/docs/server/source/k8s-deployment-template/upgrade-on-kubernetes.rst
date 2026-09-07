@@ -56,7 +56,7 @@ to update the OS and Docker.
 .. note::
 
    Once you are in an SSH session with a host,
-   the ``docker info`` command is a handy way to detemine the
+   the ``docker info`` command is a handy way to determine the
    host OS (including version) and the Docker version.
 
 When you want to upgrade the software on a Kubernetes node,

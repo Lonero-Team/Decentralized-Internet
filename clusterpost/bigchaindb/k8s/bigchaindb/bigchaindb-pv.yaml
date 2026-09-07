@@ -3,7 +3,7 @@
 # Code is Apache-2.0 and docs are CC-BY-4.0
 
 #########################################################
-# This YAML section desribes a k8s PV for tendermint db #
+# This YAML section describes a k8s PV for tendermint db #
 #########################################################
 apiVersion: v1
 kind: PersistentVolume

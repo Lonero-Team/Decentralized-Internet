@@ -106,7 +106,7 @@ when following the steps above:
    ``ARM_CLIENT_SECRET``.
 
 #. Note that the URL for the Tectonic console using these settings will be the
-   cluster name set in the configutation file, the datacenter name and
+   cluster name set in the configuration file, the datacenter name and
    ``cloudapp.azure.com``. For example, if you named your cluster as 
    ``test-cluster`` and specified the datacenter as ``westeurope``, the Tectonic
    console will be available at ``test-cluster.westeurope.cloudapp.azure.com``.

@@ -30,7 +30,7 @@ $ git clone https://github.com/bigchaindb/bigchaindb.git
 ## Install dependencies
 - [Ansible](http://docs.ansible.com/ansible/latest/intro_installation.html)
 
-You can also install `ansible` and other dependencies, if any, using the `boostrap.sh` script
+You can also install `ansible` and other dependencies, if any, using the `bootstrap.sh` script
 inside the BigchainDB repository.
 Navigate to `bigchaindb/pkg/scripts` and run the `bootstrap.sh` script to install the dependencies
 for your OS. The script also checks if the OS you are running is compatible with the
