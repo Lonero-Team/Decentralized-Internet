@@ -15,6 +15,8 @@ Cluster post is easy to deploy and will integrate well with existing application
 During the installation, the files 'conf.production.json', 'conf.test.json' and index.js are generated. 
 You must edit conf.production.json and/or conf.test.json with your configuration options.
 
+Before starting the server, set `CLUSTERPOST_JWT_SECRET` to a unique random secret of at least 32 bytes (for example, generate one with `openssl rand -hex 32`), or set `plugins.clusterpost-auth.privateKey` in a private configuration file. The environment variable takes precedence. Keep the secret stable across restarts and share it between instances that verify the same tokens. Replacing the old key invalidates existing tokens.
+
 To run clusterpost in production mode run:
 
 ----
