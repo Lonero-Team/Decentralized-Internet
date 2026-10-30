@@ -22,6 +22,13 @@ const getConfigFile = function () {
 const startServer = async (cluster) => {
 
     var conf = getConfigFile();
+    const auth = conf.plugins && conf.plugins['clusterpost-auth'];
+    const secret = process.env.CLUSTERPOST_JWT_SECRET !== undefined
+        ? process.env.CLUSTERPOST_JWT_SECRET : auth && auth.privateKey;
+    if (!auth || typeof secret !== 'string' || !secret.trim() || Buffer.byteLength(secret, 'utf8') < 32 || secret.trim() === 'someRandomKey') {
+        throw new Error('Set CLUSTERPOST_JWT_SECRET or privateKey to a unique random secret of at least 32 bytes');
+    }
+    auth.privateKey = secret;
 
     var tls;
     if(conf.tls && conf.tls.key && conf.tls.cert){
