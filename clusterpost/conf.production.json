@@ -8,7 +8,7 @@
 		"h2o2": {},
 		"hapi-auth-jwt": {},
 		"clusterpost-auth": {
-			"privateKey": "someRandomKey",
+			"privateKey": "",
 			"saltRounds": 10,
 			"algorithm": { 
 				"algorithm": "HS256"
