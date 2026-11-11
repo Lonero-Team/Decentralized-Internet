@@ -44,7 +44,7 @@
     "@types/express": "5.0.6",
     "@types/mocha": "10.0.10",
     "@types/node": "26.6.5",
-    "concurrently": "10.0.6",
+    "concurrently": "10.0.7",
     "mocha": "11.8.0",
     "nodemon": "3.1.14",
     "ts-mocha": "10.1.0",
