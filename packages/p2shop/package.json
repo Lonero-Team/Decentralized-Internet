@@ -39,8 +39,8 @@
     "@snyk/protect": "latest"
   },
   "devDependencies": {
-    "@babel/core": "8.0.7",
-    "@babel/preset-env": "8.0.7",
+    "@babel/core": "8.1.4",
+    "@babel/preset-env": "8.1.4",
     "@commitlint/cli": "21.2.4",
     "@commitlint/config-conventional": "21.2.4",
     "@ecomplus/utils": "1.4.1",
